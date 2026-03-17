@@ -1,0 +1,19 @@
+# LaTeX artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.log
+*.nav
+*.out
+*.snm
+*.toc
+*.xdv
+*.synctex.gz
+
+# System
+.DS_Store
+.Rhistory
+
+# Claude Code
+.codex_review/
+.codex_tmp/
