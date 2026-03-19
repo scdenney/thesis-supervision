@@ -15,6 +15,7 @@ title: Shared Standards
 <li><a href="#application-of-knowledge">Application of Knowledge</a></li>
 <li><a href="#reaching-conclusions">Reaching Conclusions</a></li>
 <li><a href="#communication">Communication</a></li>
+<li><a href="#learning-skills-process">Learning Skills (Process)</a></li>
 </ul>
 </li>
 <li><a href="#example-thesis-structure">Example Thesis Structure</a></li>
@@ -30,13 +31,13 @@ title: Shared Standards
 
 # Shared Assessment Standards
 
-These standards apply across all programs (BAIS, BAKS, MAAS, MAIR). Each thesis is evaluated using the same four criteria, with expectations calibrated to program level.
+These standards apply across all programs (BAIS, BAKS, MAAS, MAIR). Each thesis is evaluated using the same five criteria, with expectations calibrated to program level.
 
 ---
 
 ## Assessment Criteria
 
-Every thesis is assessed according to four dimensions. Together, these capture the full arc of the research process — from identifying a question to communicating findings.
+Every thesis is assessed according to five dimensions. The first four capture the quality of the thesis itself; the fifth assesses the research process.
 
 ### Knowledge and Insight
 
@@ -72,6 +73,17 @@ Every thesis is assessed according to four dimensions. Together, these capture t
 - Clear and logical structure with effective transitions between sections
 - Proper citations following Chicago Notes-Bibliography style
 - Professional formatting and presentation
+
+### Learning Skills (Process)
+
+**Assessed by:** Supervisor
+
+- Degree of independence throughout the research process
+- Planning and time management
+- Responsiveness to supervisor feedback
+- Participation in thesis group (if applicable)
+
+This criterion is assessed primarily by the supervisor, who observes the research process firsthand.
 
 ---
 
@@ -124,7 +136,7 @@ While the specifics of your thesis will depend on your topic and methodology, th
 
 ## BA vs MA Expectations
 
-All programs share the same four assessment criteria, but the depth and sophistication expected differs by level.
+All programs share the same assessment criteria, but the depth and sophistication expected differs by level.
 
 | Dimension | BA (BAIS, BAKS) | MA (MAAS, MAIR) |
 |-----------|-----------------|-----------------|
@@ -133,7 +145,7 @@ All programs share the same four assessment criteria, but the depth and sophisti
 | **Methodology** | Appropriate and clearly explained | Sophisticated and well-justified; demonstrates methodological awareness |
 | **Analysis** | Sound application of chosen methods | Deeper analytical engagement; nuanced interpretation of findings |
 | **Original contribution** | Shows capacity for independent research | Makes a meaningful, original contribution to the field |
-| **Word count** | 10,000 (±10%) | Up to 15,000 |
+| **Word count** | 10,000 (±10%) | 12,000–15,000 (MAAS) / 15,000 hard max (MAIR) |
 
 In short: a strong BA thesis demonstrates that a student can conduct independent research competently. A strong MA thesis demonstrates the capacity to make an original scholarly contribution.
 

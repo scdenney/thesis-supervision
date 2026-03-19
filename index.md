@@ -35,12 +35,12 @@ All programs share the same evaluative standards — Knowledge & Insight, Applic
   <a class="program-card" href="{{ '/maas/' | relative_url }}">
     <span class="card-level ma">MA</span>
     <h3>MAAS</h3>
-    <p>Asian Studies &mdash; up to 15,000 words</p>
+    <p>Asian Studies &mdash; 12,000&ndash;15,000 words</p>
   </a>
   <a class="program-card" href="{{ '/mair/' | relative_url }}">
     <span class="card-level ma">MA</span>
     <h3>MAIR</h3>
-    <p>International Relations &mdash; up to 15,000 words</p>
+    <p>International Relations &mdash; 15,000 words max</p>
   </a>
 </div>
 
@@ -51,9 +51,9 @@ All programs share the same evaluative standards — Knowledge & Insight, Applic
 | | BAIS | BAKS | MAAS | MAIR |
 |---|---|---|---|---|
 | **Level** | BA | BA | MA | MA |
-| **Word count** | 10,000 (±10%) | 10,000 (±10%) | Up to 15,000 | Up to 15,000 |
+| **Word count** | 10,000 (±10%) | 10,000 (±10%) | 12,000–15,000 | 15,000 max |
 | **Citation style** | Chicago Notes-Bibliography | Chicago Notes-Bibliography | Chicago Notes-Bibliography | Chicago Notes-Bibliography |
-| **Final deadline** | June 23, 2026 | June 1, 2026 | July 1, 2026 | TBD |
+| **Final deadline** | June 23, 2026 | June 1, 2026 | July 1, 2026 | June 5, 2026 |
 
 All dates are for the **2025-2026 academic year**. Always confirm deadlines with your supervisor and program coordinator.
 
