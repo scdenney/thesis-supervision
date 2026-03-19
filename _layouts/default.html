@@ -15,12 +15,17 @@
         <nav class="site-nav">
           <a href="{{ '/' | relative_url }}">Home</a>
           <a href="{{ '/getting-started/' | relative_url }}">Getting Started</a>
-          <a href="{{ '/bais/' | relative_url }}">BAIS</a>
-          <a href="{{ '/baks/' | relative_url }}">BAKS</a>
-          <a href="{{ '/maas/' | relative_url }}">MAAS</a>
-          <a href="{{ '/mair/' | relative_url }}">MAIR</a>
-          <a href="{{ '/ethics/' | relative_url }}">Ethics &amp; Policies</a>
+          <div class="nav-dropdown">
+            <button class="nav-dropdown-toggle">Programs <span class="nav-arrow">&#9662;</span></button>
+            <div class="nav-dropdown-menu">
+              <a href="{{ '/bais/' | relative_url }}">BAIS</a>
+              <a href="{{ '/baks/' | relative_url }}">BAKS</a>
+              <a href="{{ '/maas/' | relative_url }}">MAAS</a>
+              <a href="{{ '/mair/' | relative_url }}">MAIR</a>
+            </div>
+          </div>
           <a href="{{ '/assessment-standards/' | relative_url }}">Assessment Standards</a>
+          <a href="{{ '/ethics/' | relative_url }}">Ethics &amp; Policies</a>
         </nav>
       </div>
     </header>
