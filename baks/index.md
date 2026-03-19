@@ -3,6 +3,30 @@ layout: default
 title: BAKS
 ---
 
+<div class="page-layout">
+<aside class="page-sidebar">
+<div class="page-sidebar-inner">
+<h4 class="page-sidebar-title">Contents</h4>
+<nav class="page-toc">
+<ul>
+<li><a href="#key-requirements">Key Requirements</a></li>
+<li><a href="#key-deadlines">Key Deadlines</a></li>
+<li><a href="#assessment">Assessment</a>
+<ul>
+<li><a href="#seminar-evaluation">Seminar Evaluation</a></li>
+<li><a href="#thesis-assessment">Thesis Assessment</a></li>
+</ul>
+</li>
+<li><a href="#whats-expected-at-ba-level">What's Expected</a></li>
+<li><a href="#documents">Documents</a></li>
+<li><a href="#university-links">University Links</a></li>
+</ul>
+</nav>
+</div>
+</aside>
+
+<div class="page-content" markdown="1">
+
 # BAKS — Korean Studies
 
 <span class="card-level ba">BA</span>
@@ -93,3 +117,6 @@ See [BA vs MA Expectations]({{ '/shared-standards/#ba-vs-ma-expectations' | rela
 - [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) — Library resources
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) — Thesis support and events
 - [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) — Browse past theses
+
+</div>
+</div>
