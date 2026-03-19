@@ -87,7 +87,7 @@ The final thesis is graded separately by a thesis committee (first and second re
 3. **Reaching Conclusions** — Synthesis, contribution, and limitations
 4. **Communication** — Writing, structure, and citations
 
-See the [Shared Assessment Standards]({{ '/shared-standards/' | relative_url }}) page for detailed criteria and grade descriptors.
+See the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for detailed criteria and grade descriptors.
 
 ---
 
@@ -100,7 +100,7 @@ A strong BA thesis demonstrates that you can:
 - Apply a suitable methodology and present your findings clearly
 - Write in competent academic English with proper citations
 
-See [BA vs MA Expectations]({{ '/shared-standards/#ba-vs-ma-expectations' | relative_url }}) for a detailed comparison.
+See [BA vs MA Expectations]({{ '/assessment-standards/#ba-vs-ma-expectations' | relative_url }}) for a detailed comparison.
 
 ---
 

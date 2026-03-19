@@ -122,7 +122,7 @@ Your thesis is assessed by your supervisor (first reader) and a second reader. B
 
 Supervisors and second readers have a maximum of **6 weeks** from the final submission deadline to complete the assessment.
 
-See [Shared Assessment Standards]({{ '/shared-standards/' | relative_url }}) for grade descriptors and the full assessment framework.
+See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for grade descriptors and the full assessment framework.
 
 ---
 

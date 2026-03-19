@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Shared Standards
+title: Assessment Standards
 ---
 
 <div class="page-layout">
@@ -29,15 +29,15 @@ title: Shared Standards
 
 <div class="page-content" markdown="1">
 
-# Shared Assessment Standards
+# Assessment Standards
 
-These standards apply across all programs (BAIS, BAKS, MAAS, MAIR). Each thesis is evaluated using the same five criteria, with expectations calibrated to program level.
+These assessment standards are used across all programs I supervise (BAIS, BAKS, MAAS, MAIR). The core criteria are broadly shared, with expectations calibrated to program level. See your [program page]({{ '/' | relative_url }}) for program-specific details.
 
 ---
 
 ## Assessment Criteria
 
-Every thesis is assessed according to five dimensions. The first four capture the quality of the thesis itself; the fifth assesses the research process.
+Every thesis is assessed according to the following dimensions. The first four criteria capture the quality of the written thesis; the fifth — Learning Skills — assesses the research process and is used primarily in MA programs.
 
 ### Knowledge and Insight
 
@@ -54,7 +54,7 @@ Every thesis is assessed according to five dimensions. The first four capture th
 - Critical analysis of primary and/or secondary sources
 - Selection and effective application of appropriate research methods
 - Clear justification of the chosen methodology and its suitability to the research question
-- Alignment of data, methods, and analysis with FAIR principles (Findable, Accessible, Interoperable, Reusable)
+- Thoughtful management of data, with attention to transparency and reproducibility where applicable
 
 ### Reaching Conclusions
 
@@ -76,14 +76,14 @@ Every thesis is assessed according to five dimensions. The first four capture th
 
 ### Learning Skills (Process)
 
-**Assessed by:** Supervisor
+**Assessed by:** Supervisor — *used primarily in MA programs; BA programs may assess process through seminar participation*
 
 - Degree of independence throughout the research process
 - Planning and time management
 - Responsiveness to supervisor feedback
 - Participation in thesis group (if applicable)
 
-This criterion is assessed primarily by the supervisor, who observes the research process firsthand.
+This criterion is assessed by the supervisor based on their observation of the research process. Check your [program page]({{ '/' | relative_url }}) for how this is weighted in your program.
 
 ---
 
@@ -136,18 +136,18 @@ While the specifics of your thesis will depend on your topic and methodology, th
 
 ## BA vs MA Expectations
 
-All programs share the same assessment criteria, but the depth and sophistication expected differs by level.
+All programs share core assessment criteria, but the depth and sophistication expected differs by level.
 
 | Dimension | BA (BAIS, BAKS) | MA (MAAS, MAIR) |
 |-----------|-----------------|-----------------|
-| **Research question** | Clear and focused; addresses an identifiable gap | Demonstrates advanced understanding of theoretical debates; contributes to the field |
+| **Research question** | Clear and focused; addresses an identifiable gap | Demonstrates advanced understanding of theoretical debates; situates the research within the field |
 | **Literature review** | Engages with key scholarship; identifies a gap | Critically synthesizes a broader body of literature; situates the research within theoretical frameworks |
-| **Methodology** | Appropriate and clearly explained | Sophisticated and well-justified; demonstrates methodological awareness |
+| **Methodology** | Appropriate and clearly explained | More sophisticated and well-justified; demonstrates methodological awareness and reflexivity |
 | **Analysis** | Sound application of chosen methods | Deeper analytical engagement; nuanced interpretation of findings |
-| **Original contribution** | Shows capacity for independent research | Makes a meaningful, original contribution to the field |
+| **Independent contribution** | Shows capacity for independent research | Demonstrates a more advanced level of scholarly engagement and sustained independent inquiry |
 | **Word count** | 10,000 (±10%) | 12,000–15,000 (MAAS) / 15,000 hard max (MAIR) |
 
-In short: a strong BA thesis demonstrates that a student can conduct independent research competently. A strong MA thesis demonstrates the capacity to make an original scholarly contribution.
+In short: a strong BA thesis demonstrates that a student can conduct independent research competently. A strong MA thesis reflects a greater depth of scholarly engagement and the capacity for sustained independent research.
 
 ---
 

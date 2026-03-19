@@ -126,7 +126,7 @@ Both the supervisor and second reader assess the thesis independently. The asses
 
 **Quality standards:** The thesis should include a clearly formulated research question; a critical report on existing academic debates; an original contribution of sufficient quality (with modifications) to be publishable; primary sources where appropriate; application of concepts and research methods; clear structure and proper language. Fraud and plagiarism are knockout criteria.
 
-See [Shared Assessment Standards]({{ '/shared-standards/' | relative_url }}) for the general framework and BA vs MA expectations.
+See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for the general framework and BA vs MA expectations.
 
 ---
 

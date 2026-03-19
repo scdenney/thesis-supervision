@@ -18,7 +18,7 @@ baks/index.md               — BAKS program page (points to thesis seminar site
 maas/index.md               — MAAS program page (sidebar layout)
 mair/index.md               — MAIR program page (sidebar layout)
 ethics/index.md             — Ethics & policies (sidebar layout)
-shared-standards/index.md   — Shared assessment criteria (sidebar layout)
+assessment-standards/index.md — Assessment standards (sidebar layout)
 ```
 
 ## PDF Documents

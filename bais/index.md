@@ -155,7 +155,7 @@ Your thesis is graded on an unweighted average of four criteria. Marks of 9–10
 
 To qualify as **excellent (9)** or **exceptional (10)** for any criterion, the thesis must represent near-publishable content and go far above and beyond the descriptions above.
 
-See [Shared Assessment Standards]({{ '/shared-standards/' | relative_url }}) for grade descriptors and the full assessment framework.
+See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for grade descriptors and the full assessment framework.
 
 ---
 

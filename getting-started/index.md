@@ -441,7 +441,7 @@ Bring these materials to your supervision meetings. Your supervisor will help yo
 
 **Other resources:**
 
-- [Shared Assessment Standards]({{ '/shared-standards/' | relative_url }}) — How your thesis will be evaluated
+- [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) — How your thesis will be evaluated
 - [Ethics & Policies]({{ '/ethics/' | relative_url }}) — Ethics review, GenAI policy, and plagiarism regulations
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) — Additional writing support
 

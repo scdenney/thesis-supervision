@@ -10,9 +10,9 @@ title: Home
 
 ---
 
-Welcome! This site is your central resource for thesis supervision across all programs I supervise. Here you will find program-specific requirements, shared assessment standards, an interactive getting-started guide, ethics and policy information, and links to key university resources.
+Welcome! This site is your central resource for thesis supervision across all programs I supervise. Here you will find program-specific requirements, assessment standards, an interactive getting-started guide, ethics and policy information, and links to key university resources.
 
-All programs share the same evaluative standards — Knowledge & Insight, Application of Knowledge, Reaching Conclusions, and Communication — with expectations scaled to program level (BA or MA). See the [Shared Standards]({{ '/shared-standards/' | relative_url }}) page for details.
+All programs share core evaluative standards — Knowledge & Insight, Application of Knowledge, Reaching Conclusions, and Communication — with expectations calibrated to program level (BA or MA). See the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for details.
 
 <div class="cta-banner" markdown="0">
   <strong>New to thesis writing?</strong><br>
@@ -62,7 +62,7 @@ All dates are for the **2025-2026 academic year**. Always confirm deadlines with
 ## Quick Links
 
 - [Getting Started Guide]({{ '/getting-started/' | relative_url }}) — Step-by-step research and writing guide
-- [Shared Assessment Standards]({{ '/shared-standards/' | relative_url }}) — Criteria, grade descriptors, and expectations
+- [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) — Criteria, grade descriptors, and expectations
 - [Ethics & Policies]({{ '/ethics/' | relative_url }}) — Ethics review, GenAI policy, plagiarism regulations
 - [Leiden University Library: Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis)
 - [Leiden University Library: Citing](https://www.library.universiteitleiden.nl/students/citing)
