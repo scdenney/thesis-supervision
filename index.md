@@ -25,22 +25,22 @@ All programs share core evaluative standards — Knowledge & Insight, Applicatio
   <a class="program-card" href="{{ '/bais/' | relative_url }}">
     <span class="card-level ba">BA</span>
     <h3>BAIS</h3>
-    <p>International Studies &mdash; 10,000 words</p>
+    <p>International Studies</p>
   </a>
   <a class="program-card" href="{{ '/baks/' | relative_url }}">
     <span class="card-level ba">BA</span>
     <h3>BAKS</h3>
-    <p>Korean Studies &mdash; 10,000 words</p>
+    <p>Korean Studies</p>
   </a>
   <a class="program-card" href="{{ '/maas/' | relative_url }}">
     <span class="card-level ma">MA</span>
     <h3>MAAS</h3>
-    <p>Asian Studies &mdash; 12,000&ndash;15,000 words</p>
+    <p>Asian Studies</p>
   </a>
   <a class="program-card" href="{{ '/mair/' | relative_url }}">
     <span class="card-level ma">MA</span>
     <h3>MAIR</h3>
-    <p>International Relations &mdash; 15,000 words max</p>
+    <p>International Relations</p>
   </a>
 </div>
 
