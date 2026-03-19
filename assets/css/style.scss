@@ -8,15 +8,15 @@
 }
 
 :root {
-  --plum: #3B2344;
-  --teal: #0B775E;
-  --gold: #E1BD6D;
-  --terracotta: #C27D38;
-  --cream: #FAF7F2;
+  --plum: #2C3527;
+  --teal: #5E7A2F;
+  --gold: #F4A731;
+  --terracotta: #D6929C;
+  --cream: #FAF6EF;
   --white: #FFFFFF;
-  --footer-bg: #F0EDE8;
-  --text: #1d1d1d;
-  --muted: #5F5647;
+  --footer-bg: #F0EADE;
+  --text: #2A2218;
+  --muted: #6B5D4F;
 }
 
 html, body {
@@ -342,13 +342,13 @@ main p {
 }
 
 .card-level.ba {
-  background: #e8f5e9;
+  background: #eef3e6;
   color: var(--teal);
 }
 
 .card-level.ma {
-  background: #f3e5f5;
-  color: var(--plum);
+  background: #fce8eb;
+  color: #8B4558;
 }
 
 .program-card .card-level {
@@ -445,7 +445,7 @@ summary:hover {
 /* ── Getting-started guide: styled blocks ── */
 
 .step-objectives {
-  background: #f3e5f5;
+  background: #eef3e6;
   border-radius: 8px;
   padding: 1rem 1.25rem;
   margin: 0 0 1.25rem;
@@ -499,7 +499,7 @@ summary:hover {
 }
 
 .exercise-box {
-  background: #e8f5e9;
+  background: #f0f4e8;
   border-left: 4px solid var(--teal);
   border-radius: 0 8px 8px 0;
   padding: 1rem 1.25rem;
