@@ -5,7 +5,7 @@ Jekyll + GitHub Pages site for Dr. Steven Denney's thesis supervision across fou
 
 ## Tech Stack
 - Jekyll with `jekyll-theme-cayman` (custom layout overrides Cayman entirely)
-- Custom SCSS with "Rushmore Academic" color scheme (deep plum, warm teal, burnished gold)
+- Custom SCSS with "Moonrise Kingdom" color scheme (dark forest, olive green, golden amber)
 - No JavaScript — static Markdown pages with HTML/CSS for interactivity (`<details>`/`<summary>`)
 - `kramdown: parse_block_html: true` required in `_config.yml` for markdown inside HTML blocks
 
