@@ -41,6 +41,8 @@ The BA thesis in International Studies is a 10,000-word research paper represent
 
 The content below is adapted from the BAIS thesis seminar guidelines and grading rubric for students. Always confirm details with your supervisor and check Brightspace for the most current information.
 
+**Download:** [BAIS Thesis Guidelines (PDF)]({{ '/bais/BAIS_Thesis_Guidelines.pdf' | relative_url }})
+
 </div>
 
 ---

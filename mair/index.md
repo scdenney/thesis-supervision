@@ -36,6 +36,8 @@ The MA thesis in International Relations is a substantial research project demon
 
 The content below is adapted from the MAIR thesis supervision guidelines for students. Always confirm details with your supervisor and check Brightspace for the most current information.
 
+**Download:** [MAIR Thesis Guidelines (PDF)]({{ '/mair/MAIR_Thesis_Guidelines.pdf' | relative_url }})
+
 </div>
 
 ---

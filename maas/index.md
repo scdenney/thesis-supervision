@@ -34,6 +34,8 @@ The MA thesis in Asian Studies is a substantial research project demonstrating a
 
 The content below is adapted from the MA Asian Studies thesis protocol for students. Always confirm details with your supervisor and check the [MAAS e-guide](https://studiegids.universiteitleiden.nl/en/courses/134994/ma-thesis-asian-studies-60-ec) for the most current information.
 
+**Download:** [MAAS Thesis Protocol (PDF)]({{ '/maas/MAAS_Thesis_Protocol.pdf' | relative_url }})
+
 </div>
 
 ---
