@@ -137,7 +137,7 @@ main h3 {
 }
 
 .page-toc {
-  font-size: 0.95rem;
+  font-size: 1.05rem;
 }
 
 .page-toc ul {
@@ -147,14 +147,19 @@ main h3 {
 }
 
 .page-toc li {
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.5rem;
   line-height: 1.4;
+  font-weight: 600;
 }
 
 .page-toc ul ul {
-  margin-top: 0.25rem;
+  margin-top: 0.3rem;
   padding-left: 0.9rem;
-  font-size: 0.95em;
+  font-size: 0.9em;
+}
+
+.page-toc ul ul li {
+  font-weight: 400;
 }
 
 .page-toc a {
