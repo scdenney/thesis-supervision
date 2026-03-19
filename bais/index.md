@@ -52,7 +52,7 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 | Requirement | Details |
 |-------------|---------|
 | **Word count** | 10,000 words (±10%), excluding bibliography and notes |
-| **Citation style** | Chicago (Notes-Bibliography or Author-Date, as agreed with supervisor) |
+| **Citation style** | Chicago — supervisor determines whether Notes-Bibliography or Author-Date |
 | **Language** | English |
 | **Global perspective** | The thesis must either (a) place a regionally defined topic in a global context, or (b) analyze the topic from at least two disciplinary perspectives |
 | **Final deadline** | June 23, 2026 |

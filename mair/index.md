@@ -47,7 +47,7 @@ The content below is adapted from the MAIR thesis supervision guidelines for stu
 | Requirement | Details |
 |-------------|---------|
 | **Word count** | **15,000 words hard maximum** — includes all elements (notes, bibliography, appendices). No 10% margin. |
-| **Citation style** | One reference style used consistently (Chicago Notes-Bibliography recommended) |
+| **Citation style** | One reference style, used consistently throughout |
 | **Language** | English |
 | **Specialization fit** | Thesis must fit your MAIR specialization track |
 | **Next deadline** | June 5, 2026 |

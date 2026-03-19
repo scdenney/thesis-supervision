@@ -52,7 +52,7 @@ All programs share the same evaluative standards — Knowledge & Insight, Applic
 |---|---|---|---|---|
 | **Level** | BA | BA | MA | MA |
 | **Word count** | 10,000 (±10%) | 10,000 (±10%) | 12,000–15,000 | 15,000 max |
-| **Citation style** | Chicago Notes-Bibliography | Chicago Notes-Bibliography | Chicago Notes-Bibliography | Chicago Notes-Bibliography |
+| **Citation style** | Chicago | Chicago Notes-Bib | Discipline-appropriate | Consistent style |
 | **Final deadline** | June 23, 2026 | June 1, 2026 | July 1, 2026 | June 5, 2026 |
 
 All dates are for the **2025-2026 academic year**. Always confirm deadlines with your supervisor and program coordinator.

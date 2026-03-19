@@ -31,9 +31,10 @@ Each program has a student-facing PDF compiled from LaTeX, with staff-only conte
 To rebuild PDFs: `cd <dir> && pdflatex <file>.tex && pdflatex <file>.tex`
 
 ## Key Details
-- BAIS/BAKS: 10,000 words ±10%, Chicago Notes-Bib
-- MAAS: 12,000–15,000 words (incl. footnotes/refs, excl. appendices)
-- MAIR: 15,000 hard max (incl. ALL elements, no margin)
+- BAIS: 10,000 words ±10%, Chicago (supervisor picks notes-bib or author-date)
+- BAKS: 10,000 words ±10%, Chicago Notes-Bibliography specifically
+- MAAS: 12,000–15,000 words (incl. footnotes/refs, excl. appendices), discipline-appropriate citation style
+- MAIR: 15,000 hard max (incl. ALL elements, no margin), one consistent reference style
 - All programs: 5 assessment criteria (Knowledge, Application, Conclusions, Communication, Learning Skills)
 - BAKS students are directed to the separate thesis seminar site for seminar materials
 

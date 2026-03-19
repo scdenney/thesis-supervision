@@ -45,7 +45,7 @@ The content below is adapted from the MA Asian Studies thesis protocol for stude
 | Requirement | Details |
 |-------------|---------|
 | **Word count** | 12,000–15,000 words, including footnotes and references, excluding appendices |
-| **Citation style** | An established format according to the standards of your discipline, used consistently (Chicago Notes-Bibliography recommended) |
+| **Citation style** | An established format according to the standards of your discipline, used consistently (e.g., *Journal of Asian Studies* for social science, *American Historical Review* for history) |
 | **Language** | English |
 | **Asian-language sources** | Encouraged, and required for some specializations (see below) |
 | **Final deadline** | July 1, 2026 (fall entry) |

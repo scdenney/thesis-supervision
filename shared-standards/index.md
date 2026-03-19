@@ -71,7 +71,7 @@ Every thesis is assessed according to five dimensions. The first four capture th
 
 - Competent academic writing: readability, style, spelling, grammar, and appropriate terminology
 - Clear and logical structure with effective transitions between sections
-- Proper citations following Chicago Notes-Bibliography style
+- Proper citations following a recognized style, used consistently (check your [program page]({{ '/' | relative_url }}) for specific requirements)
 - Professional formatting and presentation
 
 ### Learning Skills (Process)
