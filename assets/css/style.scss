@@ -101,14 +101,11 @@ main {
 }
 
 .nav-dropdown-toggle {
-  background: none;
-  border: none;
   border-bottom: 2px solid transparent;
   color: #ffffff;
-  font: inherit;
   font-weight: 600;
-  cursor: pointer;
-  padding: 0 0 0.1rem;
+  cursor: default;
+  padding-bottom: 0.1rem;
 }
 
 .nav-dropdown-toggle:hover,
@@ -124,15 +121,19 @@ main {
 .nav-dropdown-menu {
   display: none;
   position: absolute;
-  top: calc(100% + 0.5rem);
+  top: 100%;
   left: 0;
+  padding-top: 0.4rem;
+  z-index: 200;
+}
+
+.nav-dropdown-menu-inner {
   background: var(--plum);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 6px;
   padding: 0.4rem 0;
   min-width: 140px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  z-index: 200;
 }
 
 .nav-dropdown-menu a {
@@ -147,7 +148,6 @@ main {
 .nav-dropdown-menu a:hover,
 .nav-dropdown-menu a:focus {
   background: rgba(255, 255, 255, 0.1);
-  border-bottom-color: transparent;
 }
 
 .nav-dropdown:hover .nav-dropdown-menu,
