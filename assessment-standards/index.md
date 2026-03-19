@@ -129,8 +129,11 @@ While the specifics of your thesis will depend on your topic and methodology, th
 | 8–8.9 | Merit | Excellent understanding; independent thought; strong, well-supported argument |
 | 7–7.9 | Merit | Good to very good work; most criteria met convincingly |
 | 6–6.9 | Pass | Satisfactory understanding; reasonable argument; minor shortcomings in some areas |
-| 3–5.9 | Fail | Inadequate understanding; substantial omissions or weaknesses |
-| 0–2.9 | Fail / Ungradable | No significant grasp of the material; irrelevant, incomplete, or plagiarized work |
+| 5.1–5.9 | — | The faculty does not issue grades in this range |
+| 3–5.0 | Fail | Inadequate understanding; substantial omissions or weaknesses |
+| 0–2.9 | Ungradable | No significant grasp of the material; irrelevant, incomplete, or plagiarized work |
+
+> Some programs use additional classifications (e.g., letter grades). See your [program page]({{ '/' | relative_url }}) for details.
 
 ---
 
@@ -156,7 +159,7 @@ In short: a strong BA thesis demonstrates that a student can conduct independent
 All theses in the Faculty of Humanities are graded through the faculty's digital thesis assessment system. Both the first reader (supervisor) and second reader complete independent assessments.
 
 - [Thesis Assessment at the Faculty of Humanities (PDF)](https://www.student.universiteitleiden.nl/binaries/content/assets/geesteswetenschappen/studenten-site/algemeen/202504-thesis-assessment-at-the-faculty-of-humanities.pdf)
-- [Digital Thesis Assessment System (staff page)](https://www.staff.universiteitleiden.nl/vr/humanities/fgw-learning/testing-and-assessment/assessment-of-theses)
+- [Digital Thesis Assessment System](https://www.staff.universiteitleiden.nl/vr/humanities/fgw-learning/testing-and-assessment/assessment-of-theses) (staff access only)
 
 </div>
 </div>

@@ -124,7 +124,7 @@ Both the supervisor and second reader assess the thesis independently. The asses
 
 **Formal Requirements** — Word count (15,000 maximum); formatting; adherence to program-specific requirements.
 
-**Quality standards:** The thesis should include a clearly formulated research question; a critical report on existing academic debates; an original contribution of sufficient quality (with modifications) to be publishable; primary sources where appropriate; application of concepts and research methods; clear structure and proper language. Fraud and plagiarism are knockout criteria.
+**Quality standards:** The thesis should include a clearly formulated research question; a critical report on existing academic debates; an original contribution that demonstrates advanced scholarly engagement; primary sources where appropriate; application of concepts and research methods; clear structure and proper language. Fraud and plagiarism are knockout criteria.
 
 See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for the general framework and BA vs MA expectations.
 
