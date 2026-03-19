@@ -1,3 +1,9 @@
+# Jekyll
+_site/
+.jekyll-cache/
+.sass-cache/
+Gemfile.lock
+
 # LaTeX artifacts
 *.aux
 *.fdb_latexmk
@@ -17,3 +23,6 @@
 # Claude Code
 .codex_review/
 .codex_tmp/
+
+# Private materials
+temp_ignore/

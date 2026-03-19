@@ -1,0 +1,8 @@
+title: Thesis Supervision
+description: "Resources and guidance for thesis students supervised by Dr. Steven Denney"
+theme: jekyll-theme-cayman
+baseurl: /thesis-supervision
+show_downloads: false
+
+kramdown:
+  parse_block_html: true
