@@ -114,7 +114,9 @@ Before you start collecting, write out your search strategy:
 
 <div class="exercise-box" markdown="1">
 
-**Exercise:** Before collecting any texts, draft a one-page corpus construction plan that includes: (1) the types of texts you will collect and why, (2) your selection criteria (sources, time frame, search terms, inclusion/exclusion rules), (3) your target corpus size and rationale, and (4) your search strategy. Bring this to a supervision meeting for feedback before you begin collecting.
+**Exercise**
+
+Before collecting any texts, draft a one-page corpus construction plan that includes: (1) the types of texts you will collect and why, (2) your selection criteria (sources, time frame, search terms, inclusion/exclusion rules), (3) your target corpus size and rationale, and (4) your search strategy. Bring this to a supervision meeting for feedback before you begin collecting.
 
 </div>
 
@@ -308,7 +310,9 @@ Describe how you organized and stored your data. Mention your naming convention,
 
 <div class="reflection-box" markdown="1">
 
-**Ask yourself:** If another researcher read only your methodology chapter, could they reconstruct your corpus? If the answer is no, you need to add more detail about your selection criteria, search strategy, or filtering process.
+**Ask yourself**
+
+If another researcher read only your methodology chapter, could they reconstruct your corpus? If the answer is no, you need to add more detail about your selection criteria, search strategy, or filtering process.
 
 </div>
 

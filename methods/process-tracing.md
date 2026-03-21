@@ -82,7 +82,7 @@ As [Collier (2011)](https://doi.org/10.1017/S1049096511001429) puts it, process 
 
 <div class="reflection-box" markdown="1">
 
-Reflection
+**Ask yourself**
 
 - For your proposed mechanism, which steps could you subject to a hoop test? What evidence would need to exist for each step to remain plausible?
 - Can you think of a smoking gun that would strongly confirm one of your causal steps?
@@ -164,7 +164,7 @@ This step is not optional. One of the most common weaknesses in student theses i
 
 <div class="exercise-box" markdown="1">
 
-Exercise: Draft Your Causal Mechanism
+**Exercise: Draft your causal mechanism**
 
 1. State your research question and the outcome you want to explain.
 2. Write out the proposed causal mechanism as a step-by-step chain (aim for 3-5 steps).
@@ -250,7 +250,7 @@ The conclusion evaluates the overall causal chain. Did the mechanism hold? Which
 
 <div class="reflection-box" markdown="1">
 
-Reflection
+**Ask yourself**
 
 - Read through your findings draft. For each paragraph, can you identify which step of the mechanism it addresses and what type of evidence test it represents? If not, you may be narrating rather than tracing.
 - Have you presented any evidence that contradicts your mechanism? If everything in your findings supports your argument perfectly, consider whether you have been sufficiently self-critical.

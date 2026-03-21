@@ -312,7 +312,9 @@ This chapter is critical and must do three things clearly:
 
 <div class="reflection-box" markdown="1">
 
-**Test your analytical framework.** Before writing the full findings, try applying your framework to one or two texts. Does it generate meaningful insights? Are your analytical categories producing results that address your research question? If the framework feels empty or forced, revisit your categories before analyzing the entire corpus.
+**Test your analytical framework**
+
+Before writing the full findings, try applying your framework to one or two texts. Does it generate meaningful insights? Are your analytical categories producing results that address your research question? If the framework feels empty or forced, revisit your categories before analyzing the entire corpus.
 
 </div>
 
