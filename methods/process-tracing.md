@@ -296,9 +296,11 @@ This example illustrates several features that should appear in your own thesis.
 
 ## Related Methods
 
-**Comparative case study.** Process tracing is a within-case method; [comparative case study]({{ '/methods/comparative-case-study' | relative_url }}) is a cross-case method. They answer different but complementary questions. Comparative design helps you identify *which* variables matter by examining patterns across cases (e.g., using Most Similar or Most Different Systems Design). Process tracing helps you explain *how* those variables operate by tracing the causal mechanism within a single case. Many strong theses combine both: use comparative analysis to establish that a variable is associated with an outcome across cases, then select one or two cases for process tracing to demonstrate the mechanism. If you are considering this combined design, read both method pages and discuss the structure with your supervisor.
+Process tracing is often combined with other methods:
 
-**Building a corpus.** Process tracing often requires assembling a structured body of primary source material — documents, speeches, policy records, media coverage. The [building a corpus]({{ '/methods/building-a-corpus' | relative_url }}) guide covers practical strategies for collecting, organizing, and managing this kind of textual evidence systematically.
+- **[Comparative Case Study]({{ '/methods/comparative-case-study' | relative_url }})** — Process tracing is a within-case method; comparative case study is a cross-case method. They answer different but complementary questions. Comparative design helps you identify *which* variables matter by examining patterns across cases. Process tracing helps you explain *how* those variables operate by tracing the causal mechanism within a single case. Many strong theses combine both.
+
+- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})** — Process tracing often requires assembling a structured body of primary source material — documents, speeches, policy records, media coverage. This guide covers practical strategies for collecting, organizing, and managing textual evidence systematically.
 
 </div>
 </div>

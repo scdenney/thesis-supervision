@@ -358,9 +358,8 @@ These works provide methodological foundations for corpus construction and text-
 
 Corpus construction is a preparatory step for several analytical methods. Once your corpus is built, you will apply one or more of the following:
 
-- [**Framing Analysis**]({{ '/methods/framing-analysis' | relative_url }}) — Analyzing how issues are defined, problems diagnosed, and solutions proposed in textual material.
-- [**Discourse Analysis**]({{ '/methods/discourse-analysis' | relative_url }}) — Examining how language constructs meaning, identity, and power relations within and across texts.
-- **Content Analysis** — Systematic coding and categorization of textual material, either qualitative or quantitative. See Krippendorff (2018) above for the foundational reference.
+- **[Framing Analysis]({{ '/methods/framing-analysis' | relative_url }})** — Analyzing how issues are defined, problems diagnosed, and solutions proposed in textual material.
+- **[Discourse Analysis]({{ '/methods/discourse-analysis' | relative_url }})** — Examining how language constructs meaning, identity, and power relations within and across texts.
 
 </div>
 </div>
