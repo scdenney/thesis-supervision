@@ -296,7 +296,7 @@ Comparative case study design is often combined with other methods to strengthen
 
 - **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})** — If your case analysis draws on a defined body of texts — policy documents, media coverage, parliamentary debates — you will need to construct a corpus for each case. The corpus-building guide covers how to collect, organize, and manage textual data systematically, which is essential for ensuring that your comparison rests on transparent and replicable evidence.
 
-For guidance on how your method choice is assessed, see [Assessment Standards — Application of Knowledge]({{ '/assessment-standards/#application-of-knowledge' | relative_url }}). For ethical considerations in comparative research (especially when working with human participants or sensitive topics across different national contexts), see [Ethics & Policies]({{ '/ethics/' | relative_url }}).
+For guidance on how your method choice is assessed, see [Assessment Standards — Application of Knowledge]({{ '/assessment-standards/#application-of-knowledge' | relative_url }}). For ethical considerations in comparative research (especially when working with human participants or sensitive topics across different national contexts), see [Ethics & AI]({{ '/ethics/' | relative_url }}).
 
 </div>
 </div>

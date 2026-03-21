@@ -184,7 +184,7 @@ If your research question requires texts in more than one language — common in
 
 - Keep original-language texts as your primary data. Store translations separately and clearly label them.
 - In your metadata spreadsheet (see below), include a "Language" column.
-- If you use machine translation as a research aid, note which tool and version you used. This falls under your GenAI disclosure obligations — see the [Ethics & Policies page]({{ '/ethics/#generative-ai-policy' | relative_url }}).
+- If you use machine translation as a research aid, note which tool and version you used. This falls under your GenAI disclosure obligations — see the [Ethics & AI page]({{ '/ethics/#generative-ai-policy' | relative_url }}).
 
 ---
 
@@ -259,7 +259,7 @@ You do not need to be a programmer to use these tools effectively. Describe the 
 
 <div class="info-box" markdown="1">
 
-**GenAI disclosure:** Using AI tools for corpus management tasks (file conversion, cleaning, batch operations) falls under your program's generative AI policy. You must disclose this use in your methodology chapter. See the [Ethics & Policies — Generative AI Policy]({{ '/ethics/#generative-ai-policy' | relative_url }}) for the full policy and disclosure requirements.
+**GenAI disclosure:** Using AI tools for corpus management tasks (file conversion, cleaning, batch operations) falls under your program's generative AI policy. You must disclose this use in your methodology chapter. See the [Ethics & AI — Generative AI Policy]({{ '/ethics/#generative-ai-policy' | relative_url }}) for the full policy and disclosure requirements.
 
 **Important distinction:** Using AI to *manage* your corpus (converting, cleaning, organizing files) is different from using AI to *analyze* your corpus (generating codes, interpreting meaning, producing findings). The former is a practical workflow tool; the latter raises fundamental questions about the integrity of your analysis. Discuss any planned AI use with your supervisor.
 

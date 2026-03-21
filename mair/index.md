@@ -104,7 +104,7 @@ You and your supervisor should discuss any ethical implications of your research
 
 **Particular care should be taken with vulnerable groups**, such as asylum seekers or citizens of authoritarian regimes. The program will not allow research that could endanger the researcher or participants.
 
-See the [Ethics & Policies]({{ '/ethics/' | relative_url }}) page for consent form templates, the Code of Ethics, and university ethics guidelines.
+See the [Ethics & AI]({{ '/ethics/' | relative_url }}) page for consent form templates, the Code of Ethics, and university ethics guidelines.
 
 ---
 
@@ -181,7 +181,7 @@ Note that theses cannot be written in their entirety over the break — see supe
 - [MAIR Thesis & Papers page](https://www.student.universiteitleiden.nl/en/your-study-programme/thesis-and-papers/humanities/international-relations-ma) — Official student portal
 - [Thesis and Methods in International Relations Research — Prospectus](https://studiegids.universiteitleiden.nl/en/courses/135206/thesis-and-methods-in-international-relations-research)
 - [Getting Started Guide]({{ '/getting-started/' | relative_url }}) — Step-by-step research guide
-- [Ethics & Policies]({{ '/ethics/' | relative_url }}) — Ethics review, consent forms, GenAI policy
+- [Ethics & AI]({{ '/ethics/' | relative_url }}) — Ethics review, consent forms, GenAI policy
 - [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) — Library resources
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) — Thesis support and events
 - [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) — Browse past theses

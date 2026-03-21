@@ -153,7 +153,7 @@ Work through all five steps. By the end you will have: a working research questi
 <li>What type of data do you need to answer your research question?</li>
 <li>Is this data available and accessible? Are there language requirements?</li>
 <li>How will you collect or access this data?</li>
-<li>Are there ethical considerations (e.g., human participants, sensitive data)? See the <a href="{{ '/ethics/' | relative_url }}">Ethics &amp; Policies</a> page.</li>
+<li>Are there ethical considerations (e.g., human participants, sensitive data)? See the <a href="{{ '/ethics/' | relative_url }}">Ethics &amp; AI</a> page.</li>
 <li>How will you organize and manage your data throughout the project?</li>
 </ul>
 </div>
@@ -446,7 +446,7 @@ Bring these materials to your supervision meetings. Your supervisor will help yo
 **Other resources:**
 
 - [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) — How your thesis will be evaluated
-- [Ethics & Policies]({{ '/ethics/' | relative_url }}) — Ethics review, GenAI policy, and plagiarism regulations
+- [Ethics & AI]({{ '/ethics/' | relative_url }}) — Ethics review, GenAI policy, and plagiarism regulations
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) — Additional writing support
 
 </div>

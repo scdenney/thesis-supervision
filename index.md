@@ -69,7 +69,7 @@ All dates are for the **2025-2026 academic year**. Always confirm deadlines with
 - [Getting Started Guide]({{ '/getting-started/' | relative_url }}) — Step-by-step research and writing guide
 - [Methods Guide]({{ '/methods/' | relative_url }}) — Comparative case studies, process tracing, framing, discourse analysis, corpus building
 - [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) — Criteria, grade descriptors, and expectations
-- [Ethics & Policies]({{ '/ethics/' | relative_url }}) — Ethics review, GenAI policy, plagiarism regulations
+- [Ethics & AI]({{ '/ethics/' | relative_url }}) — Ethics review, GenAI policy, plagiarism regulations
 - [Leiden University Library: Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis)
 - [Leiden University Library: Citing](https://www.library.universiteitleiden.nl/students/citing)
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab)

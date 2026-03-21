@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ethics & Policies
+title: Ethics & AI
 ---
 
 <div class="page-layout">
@@ -23,7 +23,7 @@ title: Ethics & Policies
 
 <div class="page-content" markdown="1">
 
-# Ethics & Policies
+# Ethics & AI
 
 This page collects the key ethical guidelines, university policies, and regulations relevant to your thesis research.
 
