@@ -23,6 +23,7 @@ title: Framing Analysis
 </li>
 <li><a href="#full-article-vs-headline-framing">Full Article vs. Headline Framing</a></li>
 <li><a href="#structuring-your-thesis">Structuring Your Thesis</a></li>
+<li><a href="#example-from-the-literature">Example from the Literature</a></li>
 <li><a href="#common-pitfalls">Common Pitfalls</a></li>
 <li><a href="#key-readings">Key Readings</a></li>
 <li><a href="#related-methods">Related Methods</a></li>
@@ -116,6 +117,8 @@ If you answered yes to most of these, framing analysis is likely a good fit. If 
 
 </div>
 
+Framing analysis can also be applied to visual media (photographs, political cartoons, infographics) and social media content (tweets, posts, short-form video), though the analytical techniques differ from those used with traditional textual sources. This guide focuses on textual framing of print and online news, policy documents, and similar written materials. If you are working with visual or social media data, discuss the necessary adaptations to your coding approach and analytical framework with your supervisor.
+
 ---
 
 ## How to Apply It
@@ -143,9 +146,9 @@ Your corpus is the collection of texts you will analyze. Corpus construction is 
 - **Source selection.** Which outlets, speakers, or document types? Why these and not others? Justify your selection in terms of your research question (e.g., choosing outlets that represent different editorial positions, or official documents from specific institutions).
 - **Time period.** What period does your analysis cover, and why? Are you analyzing a specific event, a policy cycle, or long-term trends?
 - **Sampling.** Will you analyze all relevant texts in your time period (census approach), or a sample? If sampling, what is your sampling strategy?
-- **Size.** There is no universal minimum, but your corpus must be large enough to support the claims you make. A BA thesis might analyze 50-100 articles; an MA thesis might analyze 100-200 or more, depending on the method.
+- **Size.** There is no universal minimum, but your corpus must be large enough to support the claims you make. A BA thesis might analyze 50-100 articles; an MA thesis might analyze 100-200 or more, depending on the method. See the [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) page for detailed guidance on corpus size, including how to balance analytical depth against volume for different methods.
 
-For detailed guidance, see [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}).
+For detailed guidance on source selection, search strategies, and data management, see [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}).
 
 ### Step 3: Develop a Codebook
 
@@ -297,6 +300,14 @@ In every case, combine quantitative presentation (tables showing frame frequenci
 - In your conclusion, do you move beyond summarizing results to discussing what the framing patterns *mean* for your broader research question?
 
 </div>
+
+---
+
+## Example from the Literature
+
+To see how framing analysis works in practice, consider [Semetko and Valkenburg (2000)](https://doi.org/10.1111/j.1460-2466.2000.tb02843.x), one of the most widely cited studies in the field. They analyzed 2,601 newspaper stories and 1,522 television news stories covering European politics — specifically, the Amsterdam meetings of European heads of state in 1997. Using a deductive approach, they tested for the presence of five generic news frames: conflict, human interest, economic consequences, morality, and responsibility. Each frame was operationalized through a set of yes/no indicator questions (e.g., "Does the story reflect disagreement between parties/individuals/groups/countries?" for the conflict frame), which were applied systematically to every item in the corpus.
+
+The study found that the responsibility and conflict frames were the most prevalent in both press and television coverage, while the morality frame was the least common. It also revealed significant differences across media types: serious newspapers used the responsibility frame more frequently, while sensationalist outlets relied more heavily on the human interest frame. The study demonstrates several features worth emulating — a clearly justified deductive frame set, transparent operationalization through specific indicators, and systematic application across a large corpus that enables meaningful comparison across outlet types.
 
 ---
 

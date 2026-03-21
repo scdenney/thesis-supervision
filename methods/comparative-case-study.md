@@ -87,7 +87,7 @@ Case selection is the most consequential methodological decision in a comparativ
 
 <div class="tip-box" markdown="1">
 
-**For BA students:** A two-case comparison using MSSD is the most manageable design. Focus on selecting cases with a clear shared context and a meaningful difference in outcome. For MA students, three-case designs or combinations of MSSD and MDSD logic are common and can strengthen your analytical leverage — but only if you can handle the added complexity within your word limit.
+**For BA students:** A two-case comparison using MSSD is the most manageable design. Focus on selecting cases with a clear shared context and a meaningful difference in outcome. For MA students, three-case designs or combinations of MSSD and MDSD logic are common and can strengthen your explanatory power — but only if you can handle the added complexity within your word limit.
 
 </div>
 
@@ -98,7 +98,7 @@ Case selection is the most consequential methodological decision in a comparativ
 Comparative case study design is appropriate when:
 
 - Your research question asks **why** outcomes vary across cases, or **what explains** a shared outcome in different contexts
-- You can identify cases that offer meaningful analytical leverage (through similarity or difference)
+- You can identify cases that offer a meaningful basis for causal inference (through similarity or difference)
 - You want to go beyond description to make **causal or explanatory claims**, even if they are tentative
 - Your evidence comes from qualitative sources — documents, interviews, secondary literature, policy records — rather than large-N datasets
 - You want to balance depth of analysis with some degree of cross-case generalizability
@@ -173,7 +173,7 @@ State what your comparison reveals about your research question. Be explicit abo
 
 **Exercise: Case selection justification**
 
-Before your next supervision meeting, prepare a one-page case selection memo that includes: (1) your research question, (2) the design logic you are using (MSSD, MDSD, or other), (3) a case selection table listing the key background conditions and outcome for each case, and (4) a brief explanation of why these cases offer analytical leverage for your question. Bring this to supervision for discussion.
+Before your next supervision meeting, prepare a one-page case selection memo that includes: (1) your research question, (2) the design logic you are using (MSSD, MDSD, or other), (3) a case selection table listing the key background conditions and outcome for each case, and (4) a brief explanation of why these cases provide explanatory traction for your question. Bring this to supervision for discussion.
 
 </div>
 
@@ -239,7 +239,7 @@ Find one published comparative study in your topic area (your supervisor can sug
 ## Common Pitfalls
 
 **1. Selecting cases on the dependent variable without variation.**
-If both of your cases have the same outcome, you cannot explain variation — you can only describe commonalities. Make sure your design has analytical leverage, which usually means variation on either the outcome (MSSD) or the background conditions (MDSD). If you deliberately select cases with the same outcome (as in MDSD), be clear that you are looking for shared causes, not explaining difference.
+If both of your cases have the same outcome, you cannot explain variation — you can only describe commonalities. Make sure your design has inferential power, which usually means variation on either the outcome (MSSD) or the background conditions (MDSD). If you deliberately select cases with the same outcome (as in MDSD), be clear that you are looking for shared causes, not explaining difference.
 
 **2. Writing two separate case studies instead of a comparison.**
 This is the single most common structural problem in comparative theses. If your case chapters do not follow parallel structure, and if you do not have a dedicated cross-case comparison chapter, you have written two case studies side by side — not a comparative analysis. The comparison must be explicit, structured, and systematic.
