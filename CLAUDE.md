@@ -19,6 +19,7 @@ maas/index.md               — MAAS program page (sidebar layout)
 mair/index.md               — MAIR program page (sidebar layout)
 ethics/index.md             — Ethics & policies (sidebar layout)
 assessment-standards/index.md — Assessment standards (sidebar layout)
+methods/index.md            — Methods guide (details/summary dropdowns, sidebar layout)
 ```
 
 ## PDF Documents
@@ -43,4 +44,7 @@ To rebuild PDFs: `cd <dir> && pdflatex <file>.tex && pdflatex <file>.tex`
 - Program pages follow a consistent template; check existing pages before modifying
 - PDF filenames use underscores (no spaces) for clean URLs
 - `temp_ignore/` is gitignored — staging area for private materials
+- `sources/` is gitignored — supervisor-side reference PDFs and markdown conversions (copyrighted)
 - Color variables defined in `:root` in `assets/css/style.scss`
+- Methods page uses `<details>/<summary>` dropdowns with `markdown="0"` (same pattern as Getting Started)
+- Nav has two dropdowns: Methods and Programs (both use `.nav-dropdown` pattern)

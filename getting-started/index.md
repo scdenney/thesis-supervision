@@ -299,6 +299,10 @@ Work through all five steps. By the end you will have: a working research questi
 <p><strong>Mixed methods</strong> combine qualitative and quantitative approaches. This can strengthen your analysis but also increases complexity — discuss with your supervisor whether this is appropriate for your project.</p>
 </div>
 
+<div class="info-box">
+<p><strong>Want more detail?</strong> The <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> provides in-depth guidance on specific methods — including comparative case study design, process tracing, framing analysis, discourse analysis, and building a corpus.</p>
+</div>
+
 <h4>Justifying your choices</h4>
 <p>Your thesis should explicitly explain:</p>
 <ol>

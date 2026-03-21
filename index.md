@@ -19,6 +19,11 @@ All programs share core evaluative standards — Knowledge & Insight, Applicatio
   <a href="{{ '/getting-started/' | relative_url }}">Start here &rarr; A step-by-step guide to getting your thesis underway</a>
 </div>
 
+<div class="cta-banner" markdown="0">
+  <strong>Choosing a method?</strong><br>
+  <a href="{{ '/methods/' | relative_url }}">Methods Guide &rarr; Comparative case studies, process tracing, framing, discourse analysis, and more</a>
+</div>
+
 ## Find Your Program
 
 <div class="program-cards" markdown="0">
@@ -62,6 +67,7 @@ All dates are for the **2025-2026 academic year**. Always confirm deadlines with
 ## Quick Links
 
 - [Getting Started Guide]({{ '/getting-started/' | relative_url }}) — Step-by-step research and writing guide
+- [Methods Guide]({{ '/methods/' | relative_url }}) — Comparative case studies, process tracing, framing, discourse analysis, corpus building
 - [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) — Criteria, grade descriptors, and expectations
 - [Ethics & Policies]({{ '/ethics/' | relative_url }}) — Ethics review, GenAI policy, plagiarism regulations
 - [Leiden University Library: Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis)
