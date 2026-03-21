@@ -86,7 +86,7 @@ Consequences range from a failing grade to referral to the Board of Examiners. A
 As a thesis student, you are expected to uphold the highest standards of academic integrity. This includes:
 
 - Honest reporting of research methods and findings
-- Proper citation of all sources using Chicago Notes-Bibliography style
+- Proper citation of all sources using a recognized style, applied consistently (see your [program page]({{ '/' | relative_url }}) for specific requirements)
 - Transparent disclosure of any limitations, conflicts of interest, or use of AI tools
 - Respect for the intellectual property of others
 

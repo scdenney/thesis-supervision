@@ -132,16 +132,16 @@ See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for th
 
 ## Grade Descriptors
 
-| Grade | Classification | Description |
-|-------|---------------|-------------|
-| 9–10 | A+ Distinction | Outstanding; excellent understanding of issues and methodologies; original, independent thinking; rigorous argument with wide range of sources; at 10, could not be bettered at MA level |
-| 8–8.9 | A Merit | Excellent understanding; independent thought; strong, well-organized argument using wide range of sources |
-| 7–7.9 | B Merit | Good to very good; most but not necessarily all of the above |
-| 6–6.9 | C Pass | Satisfactory understanding; reasonable and reasonably well-organized argument with standard range of sources; some shortcomings but no fundamental errors |
-| 5.1–5.9 | | **The faculty does not issue grades in this range** |
-| 3–5.0 | F Fail | Inadequate understanding; substantial omissions or irrelevant material; poorly conceived |
-| 2–2.9 | F Fail | An attempt to answer, but without significant grasp of material or appropriate skills |
-| 0–1.9 | U Ungradable | No answer; totally irrelevant, fundamentally wrong, or plagiarized |
+| Grade | Level | Description |
+|-------|-------|-------------|
+| 9–10 | Distinction | Outstanding; excellent understanding of issues and methodologies; original, independent thinking; rigorous argument with wide range of sources; at 10, could not be bettered at MA level |
+| 8–8.9 | Merit | Excellent understanding; independent thought; strong, well-organized argument using wide range of sources |
+| 7–7.9 | Merit | Good to very good; most but not necessarily all of the above |
+| 6–6.9 | Pass | Satisfactory understanding; reasonable and reasonably well-organized argument with standard range of sources; some shortcomings but no fundamental errors |
+| 5.1–5.9 | — | **The faculty does not issue grades in this range** |
+| 3–5.0 | Fail | Inadequate understanding; substantial omissions or irrelevant material; poorly conceived |
+| 2–2.9 | Fail | An attempt to answer, but without significant grasp of material or appropriate skills |
+| 0–1.9 | Ungradable | No answer; totally irrelevant, fundamentally wrong, or plagiarized |
 
 ---
 

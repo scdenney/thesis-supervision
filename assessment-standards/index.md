@@ -133,8 +133,6 @@ While the specifics of your thesis will depend on your topic and methodology, th
 | 3–5.0 | Fail | Inadequate understanding; substantial omissions or weaknesses |
 | 0–2.9 | Ungradable | No significant grasp of the material; irrelevant, incomplete, or plagiarized work |
 
-> Some programs use additional classifications (e.g., letter grades). See your [program page]({{ '/' | relative_url }}) for details.
-
 ---
 
 ## BA vs MA Expectations
