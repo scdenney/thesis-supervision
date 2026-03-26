@@ -3,11 +3,10 @@ layout: default
 title: Home
 ---
 
-<div class="github-link" markdown="0">
-  <a href="https://github.com/scdenney/thesis-supervision">View on GitHub</a>
+<div class="title-row" markdown="0">
+  <h1>Thesis Supervision</h1>
+  <a class="github-link" href="https://github.com/scdenney/thesis-supervision">View on GitHub</a>
 </div>
-
-# Thesis Supervision
 
 **Supervisor:** Dr. Steven Denney ([s.c.denney@hum.leidenuniv.nl](mailto:s.c.denney@hum.leidenuniv.nl))<br>
 **Affiliation:** Leiden University, Faculty of Humanities
