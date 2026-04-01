@@ -26,6 +26,7 @@ Gemfile.lock
 
 # Private materials
 temp_ignore/
+_local/
 
 # Academic source PDFs and conversions (copyrighted)
 sources/
