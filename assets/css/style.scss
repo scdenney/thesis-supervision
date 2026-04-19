@@ -749,6 +749,11 @@ main details:not(.nav-dropdown) > summary:hover {
   text-transform: uppercase;
 }
 
+.home-cta-grid .cta-banner strong {
+  font-size: 0.95rem;
+  letter-spacing: 0.11em;
+}
+
 .cta-banner a {
   display: inline-flex;
   align-items: center;
@@ -765,6 +770,53 @@ main details:not(.nav-dropdown) > summary:hover {
 .cta-banner a:hover {
   background: #23301f;
   color: var(--white);
+}
+
+.question-banner {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 1rem 1.25rem;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.82));
+  border: 1px solid rgba(94, 122, 47, 0.35);
+  border-radius: 20px;
+  padding: 1rem 1.2rem;
+  margin: 1.5rem 0;
+  box-shadow: var(--shadow);
+}
+
+.question-banner-copy strong {
+  display: block;
+  margin: 0 0 0.35rem;
+  color: var(--plum);
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.question-banner-copy p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.96rem;
+  line-height: 1.55;
+}
+
+.question-banner a {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  background: rgba(44, 53, 39, 0.08);
+  border: 1px solid rgba(44, 53, 39, 0.12);
+  color: var(--plum);
+  font-weight: 700;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.question-banner a:hover {
+  background: rgba(44, 53, 39, 0.14);
+  color: var(--plum);
 }
 
 /* ── Info box ── */
@@ -1194,7 +1246,8 @@ a.github-link:hover::before {
 @media (max-width: 640px) {
   .site-nav a,
   .site-nav summary,
-  .cta-banner a {
+  .cta-banner a,
+  .question-banner a {
     width: 100%;
     justify-content: center;
   }
@@ -1213,6 +1266,10 @@ a.github-link:hover::before {
 
   .home-cta-grid .cta-banner {
     min-height: auto;
+  }
+
+  .question-banner {
+    grid-template-columns: 1fr;
   }
 
   .cb-mini-wizard form {

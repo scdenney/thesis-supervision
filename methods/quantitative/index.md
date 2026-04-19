@@ -5,14 +5,9 @@ title: Computational & Quantitative Approaches
 
 # Computational & Quantitative Approaches
 
-For work that treats a corpus programmatically — extracting patterns, measuring themes, building numerical representations that scale beyond what a single reader can manage. These methods pair naturally with larger corpora and with the computational tools covered on the [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) page.
+For work that treats a corpus programmatically — extracting patterns, measuring themes, building numerical representations that scale beyond what a single reader can manage. The pages below cover the most common computational approaches I point students to across the BA and MA programs I supervise.
 
 The distinction with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is one of analytical posture, not subject matter. You can do computational work on a small corpus of parliamentary speeches; you can do discourse analysis on tweets. What changes is what the method *measures* and how the researcher's judgement enters the analysis — in computational work, judgement sits largely in design and validation; in qualitative work, it sits in interpretation itself.
-
-<div class="cta-banner" markdown="0">
-  <strong>Building the corpus comes first.</strong><br>
-  <a href="{{ '/methods/building-a-corpus' | relative_url }}">Read Building a Corpus first &rarr;</a>
-</div>
 
 ## Launch the wizard
 
@@ -42,13 +37,18 @@ If you already know you need a computational pipeline — OCR from scans, cleanu
   </a>
 </div>
 
-## The four methods
+## Preparation before analysis
 
 <div class="program-cards" markdown="0">
   <a class="program-card" href="{{ '/methods/quantitative/preprocessing' | relative_url }}">
     <h3>Preprocessing</h3>
     <p>Tokenisation, normalisation, and the cleanup steps that shape every downstream result</p>
   </a>
+</div>
+
+## Three core computational methods
+
+<div class="program-cards" markdown="0">
   <a class="program-card" href="{{ '/methods/quantitative/topic-analysis' | relative_url }}">
     <h3>Topic Analysis</h3>
     <p>Discovering themes across a corpus with LDA, STM, and embedding-based methods</p>
@@ -61,6 +61,14 @@ If you already know you need a computational pipeline — OCR from scans, cleanu
     <h3>Word Embeddings</h3>
     <p>Vector representations of words and documents for similarity, drift, and classification</p>
   </a>
+</div>
+
+<div class="question-banner" markdown="0">
+  <div class="question-banner-copy">
+    <strong>Need to sort out the corpus or pipeline before choosing one of these?</strong>
+    <p>Use the corpus page for planning and organisation, or the wizard above if the issue is workflow, OCR, or compute rather than method choice.</p>
+  </div>
+  <a href="{{ '/methods/building-a-corpus' | relative_url }}">Go to Building a Corpus</a>
 </div>
 
 ---

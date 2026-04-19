@@ -5,16 +5,11 @@ title: Qualitative Approaches
 
 # Qualitative Approaches
 
-For close reading, interpretive work, and methods where human judgement about meaning drives the analysis. These are the four most common in the programs I supervise — each answers a distinct kind of question about texts, cases, or communication. They are often combined with each other, and frequently paired with a computational method for sampling or validation. See the [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}) page for that side of the split.
+For close reading, interpretive work, and methods where human judgement about meaning drives the analysis. The four pages below cover methods that are commonly used across the BA and MA programs I supervise — each answers a different kind of question about texts, cases, or political communication. They are often combined with each other, and frequently paired with a computational method for sampling or validation. See the [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}) page for that side of the split.
 
 Each page below follows the same structure: what the method is, when to use it, how to apply it step by step, how to structure the relevant thesis chapters, and what to read.
 
-<div class="cta-banner" markdown="0">
-  <strong>Building the corpus comes first.</strong><br>
-  <a href="{{ '/methods/building-a-corpus' | relative_url }}">Read Building a Corpus first &rarr;</a>
-</div>
-
-## The four methods
+## Common qualitative methods
 
 <div class="program-cards" markdown="0">
   <a class="program-card" href="{{ '/methods/qualitative/comparative-case-study' | relative_url }}">
@@ -33,6 +28,14 @@ Each page below follows the same structure: what the method is, when to use it, 
     <h3>Discourse Analysis</h3>
     <p>How language constructs meaning, identity, and power relations</p>
   </a>
+</div>
+
+<div class="question-banner" markdown="0">
+  <div class="question-banner-copy">
+    <strong>Still working out the corpus rather than the method?</strong>
+    <p>Go back to the corpus page if your source selection, document set, or file organisation is not settled yet.</p>
+  </div>
+  <a href="{{ '/methods/building-a-corpus' | relative_url }}">Go to Building a Corpus</a>
 </div>
 
 ---
