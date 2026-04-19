@@ -1,10 +1,42 @@
 document.addEventListener("DOMContentLoaded", () => {
+  const navDropdowns = Array.from(document.querySelectorAll(".site-nav .nav-dropdown"));
   const tocLinks = Array.from(document.querySelectorAll(".page-toc a[href^='#']"));
   const headings = tocLinks
     .map((link) => document.querySelector(link.getAttribute("href")))
     .filter(Boolean);
   const sidebar = document.querySelector(".page-sidebar");
   const toc = document.querySelector(".page-toc");
+
+  if (navDropdowns.length) {
+    navDropdowns.forEach((dropdown) => {
+      const summary = dropdown.querySelector("summary");
+      if (!summary) return;
+
+      summary.addEventListener("click", () => {
+        window.requestAnimationFrame(() => {
+          if (!dropdown.open) return;
+
+          navDropdowns.forEach((other) => {
+            if (other !== dropdown) other.open = false;
+          });
+        });
+      });
+    });
+
+    document.addEventListener("click", (event) => {
+      if (event.target.closest(".site-nav")) return;
+      navDropdowns.forEach((dropdown) => {
+        dropdown.open = false;
+      });
+    });
+
+    document.addEventListener("keydown", (event) => {
+      if (event.key !== "Escape") return;
+      navDropdowns.forEach((dropdown) => {
+        dropdown.open = false;
+      });
+    });
+  }
 
   if (sidebar && toc) {
     sidebar.classList.add("is-collapsible");
@@ -45,7 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  if (!tocLinks.length || !headings.length || typeof IntersectionObserver !== "function") {
+  if (!tocLinks.length || !headings.length) {
     return;
   }
 
@@ -61,21 +93,27 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   };
 
-  const observer = new IntersectionObserver(
-    (entries) => {
-      const visible = entries
-        .filter((entry) => entry.isIntersecting)
-        .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+  const syncActiveHeading = () => {
+    const offset = window.matchMedia("(max-width: 900px)").matches ? 108 : 132;
+    let currentId = headings[0].id;
 
-      if (visible.length) {
-        activate(visible[0].target.id);
+    headings.forEach((heading) => {
+      if (heading.getBoundingClientRect().top - offset <= 0) {
+        currentId = heading.id;
       }
-    },
-    {
-      rootMargin: "-20% 0px -65% 0px",
-      threshold: [0, 1],
-    }
-  );
+    });
 
-  headings.forEach((heading) => observer.observe(heading));
+    activate(currentId);
+  };
+
+  tocLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      const targetId = link.getAttribute("href").slice(1);
+      activate(targetId);
+    });
+  });
+
+  syncActiveHeading();
+  window.addEventListener("scroll", syncActiveHeading, { passive: true });
+  window.addEventListener("resize", syncActiveHeading);
 });

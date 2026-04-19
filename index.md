@@ -17,14 +17,16 @@ Welcome! This site is your central resource for thesis supervision across all pr
 
 All programs share core evaluative standards — Knowledge & Insight, Application of Knowledge, Reaching Conclusions, and Communication — with expectations calibrated to program level (BA or MA). See the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for details.
 
-<div class="cta-banner" markdown="0">
-  <strong>New to thesis writing?</strong><br>
-  <a href="{{ '/getting-started/' | relative_url }}">Open the getting-started guide &rarr;</a>
-</div>
+<div class="home-cta-grid" markdown="0">
+  <div class="cta-banner">
+    <strong>New to thesis writing?</strong><br>
+    <a href="{{ '/getting-started/' | relative_url }}">Open the getting-started guide</a>
+  </div>
 
-<div class="cta-banner" markdown="0">
-  <strong>Choosing a method?</strong><br>
-  <a href="{{ '/methods/' | relative_url }}">Browse the methods guide &rarr;</a>
+  <div class="cta-banner">
+    <strong>Choosing a method?</strong><br>
+    <a href="{{ '/methods/' | relative_url }}">Browse the methods guide</a>
+  </div>
 </div>
 
 ## Find Your Program

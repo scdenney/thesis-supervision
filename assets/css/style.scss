@@ -114,7 +114,7 @@ select:focus-visible {
 .site-brand-title {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 700;
   letter-spacing: -0.01em;
 }
@@ -140,6 +140,8 @@ select:focus-visible {
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid transparent;
   line-height: 1;
+  transition: background-color 0.16s ease, border-color 0.16s ease,
+    transform 0.16s ease, box-shadow 0.16s ease;
 }
 
 .site-nav a:hover,
@@ -148,12 +150,19 @@ select:focus-visible {
 .site-nav summary:focus {
   background: rgba(255, 255, 255, 0.12);
   border-color: rgba(255, 255, 255, 0.16);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
+  transform: translateY(-1px);
 }
 
 .site-nav a.is-active,
 .nav-dropdown.is-current > summary {
   background: rgba(244, 167, 49, 0.18);
   border-color: rgba(244, 167, 49, 0.55);
+}
+
+.nav-dropdown[open] > summary {
+  background: rgba(255, 255, 255, 0.14);
+  border-color: rgba(255, 255, 255, 0.18);
 }
 
 /* ── Nav dropdown ── */
@@ -257,7 +266,7 @@ select:focus-visible {
 
 main h1 {
   color: var(--plum);
-  font-size: clamp(2.2rem, 4vw, 3.5rem);
+  font-size: clamp(2rem, 3.6vw, 3rem);
   line-height: 1.02;
   letter-spacing: -0.03em;
   margin-bottom: 0.85rem;
@@ -301,9 +310,14 @@ main h1 + p {
   min-width: 0;
 }
 
-.page-sidebar-inner {
+.page-sidebar {
   position: sticky;
   top: 1.2rem;
+  align-self: start;
+}
+
+.page-sidebar-inner {
+  position: static;
   border: 1px solid var(--line);
   border-radius: 18px;
   padding: 1rem;
@@ -367,6 +381,7 @@ main h1 + p {
   background: rgba(94, 122, 47, 0.15);
   color: var(--plum);
   font-weight: 600;
+  box-shadow: inset 3px 0 0 var(--gold);
 }
 
 .toc-toggle {
@@ -435,10 +450,13 @@ main h1 + p {
   }
 
   .page-sidebar-inner {
-    position: static;
-    top: auto;
     max-height: none;
     padding: 0.95rem;
+  }
+
+  .page-sidebar {
+    position: static;
+    top: auto;
   }
 
   .toc-toggle {
@@ -706,6 +724,22 @@ summary:hover {
   box-shadow: var(--shadow);
 }
 
+.home-cta-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.home-cta-grid .cta-banner {
+  margin: 0;
+  min-height: 10.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.9rem;
+}
+
 .cta-banner strong {
   display: block;
   margin-bottom: 0.55rem;
@@ -718,7 +752,6 @@ summary:hover {
 .cta-banner a {
   display: inline-flex;
   align-items: center;
-  gap: 0.45rem;
   padding: 0.8rem 1.05rem;
   border-radius: 999px;
   background: var(--plum);
@@ -1172,6 +1205,14 @@ a.github-link:hover::before {
 
   main h1 {
     font-size: clamp(2rem, 8vw, 2.8rem);
+  }
+
+  .home-cta-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-cta-grid .cta-banner {
+    min-height: auto;
   }
 
   .cb-mini-wizard form {
