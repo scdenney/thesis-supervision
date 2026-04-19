@@ -657,7 +657,7 @@ main p {
 
 /* ── Details / summary (getting-started guide) ── */
 
-details {
+main details:not(.nav-dropdown) {
   margin: 1rem 0;
   border: 1px solid #ddd;
   border-radius: 8px;
@@ -665,11 +665,11 @@ details {
   overflow: hidden;
 }
 
-details[open] {
+main details:not(.nav-dropdown)[open] {
   border-color: var(--gold);
 }
 
-summary {
+main details:not(.nav-dropdown) > summary {
   padding: 1rem 1.25rem;
   font-weight: 600;
   font-size: 1.1rem;
@@ -679,11 +679,11 @@ summary {
   list-style: none;
 }
 
-summary::-webkit-details-marker {
+main details:not(.nav-dropdown) > summary::-webkit-details-marker {
   display: none;
 }
 
-summary::before {
+main details:not(.nav-dropdown) > summary::before {
   content: "\25B6\FE0E";
   display: inline-block;
   margin-right: 0.5rem;
@@ -691,11 +691,11 @@ summary::before {
   transition: transform 0.2s;
 }
 
-details[open] summary::before {
+main details:not(.nav-dropdown)[open] > summary::before {
   transform: rotate(90deg);
 }
 
-summary:hover {
+main details:not(.nav-dropdown) > summary:hover {
   background: #eae7e2;
 }
 
