@@ -751,9 +751,10 @@ main p {
 
 .featured-program-actions {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 0.7rem;
-  justify-content: flex-end;
+  align-items: stretch;
+  min-width: 15rem;
 }
 
 .featured-program-card h3 {
@@ -771,13 +772,13 @@ main p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  width: 100%;
   padding: 0.8rem 1.05rem;
   border-radius: 999px;
   background: var(--plum);
   color: var(--white);
   font-weight: 700;
   text-decoration: none;
-  white-space: nowrap;
   box-shadow: 0 8px 18px rgba(44, 53, 39, 0.16);
 }
 
