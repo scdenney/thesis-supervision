@@ -395,7 +395,7 @@ Discourse analysis is one of the most frequently misapplied methods in student t
 
 Discourse analysis overlaps with and can be combined with several other methods:
 
-- **[Framing Analysis]({{ '/methods/framing-analysis' | relative_url }})** — Framing analysis examines how issues are presented and structured, often with a more systematic coding procedure than DA. If your question is more about *what frames are used* and *how prevalent they are*, framing analysis may be a better fit. If your question is about *how language constitutes reality and power relations*, discourse analysis goes deeper.
+- **[Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }})** — Framing analysis examines how issues are presented and structured, often with a more systematic coding procedure than DA. If your question is more about *what frames are used* and *how prevalent they are*, framing analysis may be a better fit. If your question is about *how language constitutes reality and power relations*, discourse analysis goes deeper.
 
 - **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})** — Whatever DA approach you choose, you need a well-constructed corpus. This guide covers how to select, collect, organize, and manage your textual data for systematic analysis.
 

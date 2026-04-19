@@ -42,7 +42,7 @@ This page explains the method, walks through how to apply it, and provides guida
 
 <div class="info-box" markdown="1">
 
-**Where does framing analysis fit?** It is one of the most widely used methods in media studies, political communication, and international relations research. If your research question asks how an issue is presented, represented, or constructed in texts, framing analysis is likely a good fit. For related approaches, see [Discourse Analysis]({{ '/methods/discourse-analysis' | relative_url }}).
+**Where does framing analysis fit?** It is one of the most widely used methods in media studies, political communication, and international relations research. If your research question asks how an issue is presented, represented, or constructed in texts, framing analysis is likely a good fit. For related approaches, see [Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}).
 
 </div>
 
@@ -101,7 +101,7 @@ Framing analysis is appropriate when your research question asks **how** an issu
 Framing analysis is **not** the best choice when:
 
 - You want to measure the *effects* of framing on audiences (that requires experimental or survey methods)
-- Your interest is in language structure, power relations, or identity construction at a deep level (consider [discourse analysis]({{ '/methods/discourse-analysis' | relative_url }}) instead)
+- Your interest is in language structure, power relations, or identity construction at a deep level (consider [discourse analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}) instead)
 - You want to count word frequencies or topic occurrence without analyzing how issues are constructed (that is closer to basic content analysis)
 
 <div class="reflection-box" markdown="1">
@@ -365,7 +365,7 @@ These are the essential references for a framing analysis thesis. You do not nee
 
 Framing analysis often overlaps with or complements other methods. Depending on your research question, you may want to explore:
 
-- **[Discourse Analysis]({{ '/methods/discourse-analysis' | relative_url }})** — Goes deeper into how language constructs meaning, identity, and power relations. Where framing analysis asks "how is this issue presented?", discourse analysis asks "how does language constitute social reality?" If your interest is in the ideological or power dimensions of communication, discourse analysis may be more appropriate — or may complement framing analysis.
+- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }})** — Goes deeper into how language constructs meaning, identity, and power relations. Where framing analysis asks "how is this issue presented?", discourse analysis asks "how does language constitute social reality?" If your interest is in the ideological or power dimensions of communication, discourse analysis may be more appropriate — or may complement framing analysis.
 
 - **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})** — Every framing analysis depends on a well-constructed corpus. This guide covers source selection, database access, sampling strategies, and data management. Consult it before finalizing your research design.
 

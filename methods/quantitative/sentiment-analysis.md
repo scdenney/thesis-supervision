@@ -57,7 +57,7 @@ This page draws from the course's sentiment analysis material. Students who take
 
 ## What you need to learn first
 
-- **Preprocessing** — dictionary methods especially depend on tokenisation and lemmatisation. See [Preprocessing]({{ '/methods/preprocessing' | relative_url }}).
+- **Preprocessing** — dictionary methods especially depend on tokenisation and lemmatisation. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
 - **Basic statistics** — agreement metrics, confidence intervals, reliability thinking.
 - **Python or R** — `vaderSentiment`, `nltk`, `transformers` in Python; `sentimentr`, `quanteda.sentiment` in R.
 
@@ -75,9 +75,9 @@ This page draws from the course's sentiment analysis material. Students who take
 
 ## Related methods
 
-- [Preprocessing]({{ '/methods/preprocessing' | relative_url }}) — dictionary methods are especially sensitive to it.
-- [Framing Analysis]({{ '/methods/framing-analysis' | relative_url }}) — sentiment is one of several dimensions framing scholarship measures; the two often appear together.
-- [Topic Analysis]({{ '/methods/topic-analysis' | relative_url }}) — sentiment-within-topic is a common analytical move.
+- [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}) — dictionary methods are especially sensitive to it.
+- [Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}) — sentiment is one of several dimensions framing scholarship measures; the two often appear together.
+- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}) — sentiment-within-topic is a common analytical move.
 
 </div>
 </div>

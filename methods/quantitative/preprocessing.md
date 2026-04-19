@@ -74,9 +74,9 @@ Preprocessing is rarely the final step, but without it the later steps stall. Ty
 ## Related methods
 
 - [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) — the step before preprocessing; decides *which* texts end up in the pipeline.
-- [Topic Analysis]({{ '/methods/topic-analysis' | relative_url }}) — the most common downstream method; preprocessing choices shape topic coherence heavily.
-- [Word Embeddings]({{ '/methods/word-embeddings' | relative_url }}) — embeddings learn from the preprocessed vocabulary, so preprocessing is effectively the schema.
-- [Sentiment Analysis]({{ '/methods/sentiment-analysis' | relative_url }}) — dictionary methods are especially sensitive to tokenisation and lemmatisation choices.
+- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}) — the most common downstream method; preprocessing choices shape topic coherence heavily.
+- [Word Embeddings]({{ '/methods/quantitative/word-embeddings' | relative_url }}) — embeddings learn from the preprocessed vocabulary, so preprocessing is effectively the schema.
+- [Sentiment Analysis]({{ '/methods/quantitative/sentiment-analysis' | relative_url }}) — dictionary methods are especially sensitive to tokenisation and lemmatisation choices.
 
 </div>
 </div>

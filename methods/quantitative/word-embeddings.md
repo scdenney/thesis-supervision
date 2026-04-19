@@ -56,7 +56,7 @@ This page draws from the course's word-embedding material. Students who take it 
 
 ## What you need to learn first
 
-- **Preprocessing** — embeddings learn from the vocabulary you feed them; decisions here propagate into the geometry. See [Preprocessing]({{ '/methods/preprocessing' | relative_url }}).
+- **Preprocessing** — embeddings learn from the vocabulary you feed them; decisions here propagate into the geometry. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
 - **Linear algebra basics** — cosine similarity, vector arithmetic, dimensionality reduction. You don't need to derive it, but you need a mental model.
 - **Python** — essentially all embedding tooling is Python-first (`gensim`, `transformers`, `sentence-transformers`). R bindings exist but lag.
 
@@ -75,9 +75,9 @@ This page draws from the course's word-embedding material. Students who take it 
 
 ## Related methods
 
-- [Preprocessing]({{ '/methods/preprocessing' | relative_url }}) — sets the vocabulary the embedding sees.
-- [Topic Analysis]({{ '/methods/topic-analysis' | relative_url }}) — embedding-based topic methods (BERTopic, Top2Vec) are built directly on contextual embeddings.
-- [Sentiment Analysis]({{ '/methods/sentiment-analysis' | relative_url }}) — modern sentiment classifiers use contextual embeddings as their feature layer.
+- [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}) — sets the vocabulary the embedding sees.
+- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}) — embedding-based topic methods (BERTopic, Top2Vec) are built directly on contextual embeddings.
+- [Sentiment Analysis]({{ '/methods/quantitative/sentiment-analysis' | relative_url }}) — modern sentiment classifiers use contextual embeddings as their feature layer.
 
 </div>
 </div>

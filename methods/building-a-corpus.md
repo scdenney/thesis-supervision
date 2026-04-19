@@ -33,7 +33,7 @@ title: Building a Corpus
 
 # Building a Corpus
 
-This is a practical guide to collecting, organizing, and managing a corpus of textual data for systematic analysis. It is not a method in itself — rather, it is a necessary first step for any method that requires you to work with a defined body of texts. If you are doing [framing analysis]({{ '/methods/framing-analysis' | relative_url }}), [discourse analysis]({{ '/methods/discourse-analysis' | relative_url }}), or content analysis, you need a well-constructed corpus before you can begin your analytical work.
+This is a practical guide to collecting, organizing, and managing a corpus of textual data for systematic analysis. It is not a method in itself — rather, it is a necessary first step for any method that requires you to work with a defined body of texts. If you are doing [framing analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}), [discourse analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}), or content analysis, you need a well-constructed corpus before you can begin your analytical work.
 
 A poorly constructed corpus undermines everything built on top of it. If your selection criteria are unclear, your sampling biased, or your documentation incomplete, no amount of sophisticated analysis will produce credible results. This guide walks you through the process from planning to organization so that you finish with a corpus you can defend in your methodology chapter.
 
@@ -482,8 +482,8 @@ These works provide methodological foundations for corpus construction and text-
 
 Corpus construction is a preparatory step for several analytical methods. Once your corpus is built, you will apply one or more of the following:
 
-- **[Framing Analysis]({{ '/methods/framing-analysis' | relative_url }})** — Analyzing how issues are defined, problems diagnosed, and solutions proposed in textual material.
-- **[Discourse Analysis]({{ '/methods/discourse-analysis' | relative_url }})** — Examining how language constructs meaning, identity, and power relations within and across texts.
+- **[Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }})** — Analyzing how issues are defined, problems diagnosed, and solutions proposed in textual material.
+- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }})** — Examining how language constructs meaning, identity, and power relations within and across texts.
 
 </div>
 </div>
