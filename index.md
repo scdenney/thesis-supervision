@@ -13,9 +13,9 @@ title: Home
 
 ---
 
-Welcome! This site is your central resource for thesis and research supervision across the programs I supervise. Here you will find program-specific requirements, assessment standards, an interactive getting-started guide, ethics and policy information, and links to key university resources.
+This site is the thesis and research supervision hub for the BA and MA programs I teach in at Leiden Humanities. It is primarily for the students I supervise, but anyone at Leiden or elsewhere is welcome to use the program guidelines, assessment standards, getting-started guide, ethics and policy information, and methods material. The methods section in particular, covering corpus building, digital-humanities tools, and the method-specific guides, is written as a broader resource for students and faculty alike.
 
-All programs share core evaluative standards — Knowledge & Insight, Application of Knowledge, Reaching Conclusions, and Communication — with expectations calibrated to program level (BA or MA). See the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for details.
+All programs share four core evaluative standards: Knowledge & Insight, Application of Knowledge, Reaching Conclusions, and Communication. Expectations are calibrated to program level (BA or MA); see the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for details.
 
 <div class="home-cta-grid" markdown="0">
   <a class="cta-banner" href="{{ '/getting-started/' | relative_url }}">
@@ -85,10 +85,10 @@ All dates are for the **2025-2026 academic year**. Always confirm deadlines with
 
 ## Quick Links
 
-- [Getting Started Guide]({{ '/getting-started/' | relative_url }}) — Step-by-step research and writing guide
-- [Methods Guide]({{ '/methods/' | relative_url }}) — Comparative case studies, process tracing, framing, discourse analysis, corpus building
-- [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) — Criteria, grade descriptors, and expectations
-- [Ethics & AI]({{ '/ethics/' | relative_url }}) — Ethics review, GenAI policy, plagiarism regulations
+- [Getting Started Guide]({{ '/getting-started/' | relative_url }}): Step-by-step research and writing guide
+- [Methods Guide]({{ '/methods/' | relative_url }}): Comparative case studies, process tracing, framing, discourse analysis, corpus building, and computational text methods
+- [Assessment Standards]({{ '/assessment-standards/' | relative_url }}): Criteria, grade descriptors, and expectations
+- [Ethics & AI]({{ '/ethics/' | relative_url }}): Ethics review, GenAI policy, plagiarism regulations
 - [Leiden University Library: Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis)
 - [Leiden University Library: Citing](https://www.library.universiteitleiden.nl/students/citing)
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab)
