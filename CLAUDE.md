@@ -1,7 +1,7 @@
-# Thesis Supervision Website
+# Thesis & Research Supervision Website
 
 ## Overview
-Jekyll + GitHub Pages site for Dr. Steven Denney's thesis supervision across four Leiden University programs: BAIS (BA), BAKS (BA), MAAS (MA), MAIR (MA). Live at https://scdenney.github.io/thesis-supervision/
+Jekyll + GitHub Pages site for Dr. Steven Denney's thesis and research supervision across four Leiden University programs: BAIS (BA), BAKS (BA), MAAS (MA), MAIR (MA). Live at https://scdenney.github.io/thesis-supervision/
 
 ## Tech Stack
 - Jekyll with `jekyll-theme-cayman` (custom layout overrides Cayman entirely)

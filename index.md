@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div class="title-row" markdown="0">
-  <h1>Thesis Supervision</h1>
+  <h1>Thesis &amp; Research Supervision</h1>
   <a class="github-link" href="https://github.com/scdenney/thesis-supervision">View on GitHub</a>
 </div>
 
@@ -13,13 +13,13 @@ title: Home
 
 ---
 
-Welcome! This site is your central resource for thesis supervision across all programs I supervise. Here you will find program-specific requirements, assessment standards, an interactive getting-started guide, ethics and policy information, and links to key university resources.
+Welcome! This site is your central resource for thesis and research supervision across the programs I supervise. Here you will find program-specific requirements, assessment standards, an interactive getting-started guide, ethics and policy information, and links to key university resources.
 
 All programs share core evaluative standards — Knowledge & Insight, Application of Knowledge, Reaching Conclusions, and Communication — with expectations calibrated to program level (BA or MA). See the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for details.
 
 <div class="home-cta-grid" markdown="0">
   <div class="cta-banner">
-    <strong>New to thesis writing?</strong><br>
+    <strong>New to thesis or research writing?</strong><br>
     <a href="{{ '/getting-started/' | relative_url }}">Open the getting-started guide</a>
   </div>
 

@@ -1,6 +1,6 @@
-# Thesis Supervision
+# Thesis & Research Supervision
 
-Resources and guidance for thesis students supervised by Dr. Steven Denney at Leiden University, Faculty of Humanities.
+Resources and guidance for thesis and research supervision by Dr. Steven Denney at Leiden University, Faculty of Humanities.
 
 **Live site:** https://scdenney.github.io/thesis-supervision/
 

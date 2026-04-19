@@ -114,9 +114,11 @@ select:focus-visible {
 .site-brand-title {
   color: #ffffff;
   text-decoration: none;
-  font-size: 1.2rem;
+  display: inline-block;
+  font-size: 1.15rem;
   font-weight: 700;
   letter-spacing: -0.01em;
+  line-height: 1.08;
 }
 
 .site-brand-title:hover {
@@ -1325,7 +1327,7 @@ a.github-link:hover::before {
   }
 
   .site-brand-title {
-    font-size: 1.05rem;
+    font-size: 0.98rem;
   }
 
   main h1 {
