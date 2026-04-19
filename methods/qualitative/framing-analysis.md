@@ -93,10 +93,10 @@ Framing analysis differs from content analysis in that it goes beyond counting t
 
 Framing analysis is appropriate when your research question asks **how** an issue is presented, constructed, or represented in communication. It works well for:
 
-- **Media coverage analysis** — How does the press frame a political crisis, policy debate, or social issue? Do frames differ across outlets, countries, or time periods?
-- **Political communication** — How do political actors frame issues to build support? How do competing frames interact in public debate?
-- **Policy discourse** — How are policy problems defined and solutions justified in official documents?
-- **Comparative studies** — How does framing of the same issue differ across countries, media systems, languages, or time periods?
+- **Media coverage analysis**: How does the press frame a political crisis, policy debate, or social issue? Do frames differ across outlets, countries, or time periods?
+- **Political communication**: How do political actors frame issues to build support? How do competing frames interact in public debate?
+- **Policy discourse**: How are policy problems defined and solutions justified in official documents?
+- **Comparative studies**: How does framing of the same issue differ across countries, media systems, languages, or time periods?
 
 Framing analysis is **not** the best choice when:
 
@@ -307,13 +307,13 @@ In every case, combine quantitative presentation (tables showing frame frequenci
 
 To see how framing analysis works in practice, consider [Semetko and Valkenburg (2000)](https://doi.org/10.1111/j.1460-2466.2000.tb02843.x), one of the most widely cited studies in the field. They analyzed 2,601 newspaper stories and 1,522 television news stories covering European politics — specifically, the Amsterdam meetings of European heads of state in 1997. Using a deductive approach, they tested for the presence of five generic news frames: conflict, human interest, economic consequences, morality, and responsibility. Each frame was operationalized through a set of yes/no indicator questions (e.g., "Does the story reflect disagreement between parties/individuals/groups/countries?" for the conflict frame), which were applied systematically to every item in the corpus.
 
-The study found that the responsibility and conflict frames were the most prevalent in both press and television coverage, while the morality frame was the least common. It also revealed significant differences across media types: serious newspapers used the responsibility frame more frequently, while sensationalist outlets relied more heavily on the human interest frame. The study demonstrates several features worth emulating — a clearly justified deductive frame set, transparent operationalization through specific indicators, and systematic application across a large corpus that enables meaningful comparison across outlet types.
+The study found that the responsibility and conflict frames were the most prevalent in both press and television coverage, while the morality frame was the least common. It also revealed significant differences across media types: serious newspapers used the responsibility frame more frequently, while sensationalist outlets relied more heavily on the human interest frame. The study demonstrates three features worth emulating: a justified deductive frame set, operationalization through specific indicators, and systematic application across a large corpus that permits comparison across outlet types.
 
 ---
 
 ## Common Pitfalls
 
-These are the problems that come up most often in student framing analyses. Avoiding them will significantly strengthen your thesis.
+These are the problems that come up most often in student framing analyses. Avoiding them strengthens your thesis.
 
 **1. Confusing frames with topics.** This is the single most common mistake. A frame is not what a text is about — it is how the text presents and constructs the issue. "Climate change" is a topic. "Climate change as economic burden" or "climate change as existential threat" are frames. If your "frames" could serve as subject headings in a library catalogue, they are probably topics, not frames.
 
@@ -365,9 +365,9 @@ These are the essential references for a framing analysis thesis. You do not nee
 
 Framing analysis often overlaps with or complements other methods. Depending on your research question, you may want to explore:
 
-- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }})** — Goes deeper into how language constructs meaning, identity, and power relations. Where framing analysis asks "how is this issue presented?", discourse analysis asks "how does language constitute social reality?" If your interest is in the ideological or power dimensions of communication, discourse analysis may be more appropriate — or may complement framing analysis.
+- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }})**: Goes deeper into how language constructs meaning, identity, and power relations. Where framing analysis asks "how is this issue presented?", discourse analysis asks "how does language constitute social reality?" If your interest is in the ideological or power dimensions of communication, discourse analysis may be more appropriate — or may complement framing analysis.
 
-- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})** — Every framing analysis depends on a well-constructed corpus. This guide covers source selection, database access, sampling strategies, and data management. Consult it before finalizing your research design.
+- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})**: Every framing analysis depends on a well-constructed corpus. This guide covers source selection, database access, sampling strategies, and data management. Consult it before finalizing your research design.
 
 </div>
 </div>

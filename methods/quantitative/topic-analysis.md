@@ -53,9 +53,9 @@ This page draws from the course's topic modelling material. Students who take it
 
 ## What you need to learn first
 
-- **Preprocessing** — topic models are notoriously sensitive to preprocessing. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
-- **Basic statistics and probability** — enough to understand "mixture over distributions" without being intimidated by it.
-- **R or Python** — STM is an R package; LDA and BERTopic have strong Python tooling (`gensim`, `scikit-learn`, `bertopic`).
+- **Preprocessing**: topic models are notoriously sensitive to preprocessing. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
+- **Basic statistics and probability**: enough to understand "mixture over distributions" without being intimidated by it.
+- **R or Python**: STM is an R package; LDA and BERTopic have strong Python tooling (`gensim`, `scikit-learn`, `bertopic`).
 
 ---
 

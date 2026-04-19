@@ -245,7 +245,7 @@ The conclusion evaluates the overall causal chain. Did the mechanism hold? Which
 
 To see how process tracing works in practice, consider the treatment in George and Bennett (2005, ch. 10), which uses the end of the Cold War as an illustrative case. The question is *how* the Cold War ended peacefully — specifically, through what causal mechanism did Soviet foreign policy shift from confrontation to cooperation in the late 1980s? Rather than simply noting that Gorbachev came to power and the Cold War ended (a correlation), process tracing requires unpacking the intervening steps: the diffusion of new ideas among Soviet policy intellectuals, Gorbachev's receptiveness to these ideas, specific policy decisions (such as accepting asymmetric arms reductions), and the feedback effects of Western responses. Each step is specified in advance and evaluated against the documentary and testimonial record. The analysis also considers alternative mechanisms — such as economic decline forcing Soviet concessions regardless of leadership — and shows why the evidence better supports an ideas-driven explanation.
 
-This example illustrates several features that should appear in your own thesis. The mechanism is broken into discrete, testable steps rather than presented as a general narrative. Evidence is marshalled for each step individually, not lumped together. And the analysis explicitly engages with competing explanations rather than treating the preferred mechanism as the only possibility. For a concise overview of this approach, see [Collier (2011)](https://doi.org/10.1017/S1049096511001429), who uses simpler examples to demonstrate the same logic of diagnostic evidence and step-by-step evaluation.
+This example illustrates several features that should appear in your own thesis. The mechanism is broken into discrete, testable steps rather than presented as a general narrative. Evidence is marshalled for each step individually. The analysis engages explicitly with competing explanations. For a concise overview of this approach, see [Collier (2011)](https://doi.org/10.1017/S1049096511001429), who uses simpler examples to demonstrate the same logic of diagnostic evidence and step-by-step evaluation.
 
 ---
 
@@ -304,9 +304,9 @@ This example illustrates several features that should appear in your own thesis.
 
 Process tracing is often combined with other methods:
 
-- **[Comparative Case Study]({{ '/methods/qualitative/comparative-case-study' | relative_url }})** — Process tracing is a within-case method; comparative case study is a cross-case method. They answer different but complementary questions. Comparative design helps you identify *which* variables matter by examining patterns across cases. Process tracing helps you explain *how* those variables operate by tracing the causal mechanism within a single case. Many strong theses combine both.
+- **[Comparative Case Study]({{ '/methods/qualitative/comparative-case-study' | relative_url }})**: Process tracing is a within-case method; comparative case study is a cross-case method. They answer different but complementary questions. Comparative design helps you identify *which* variables matter by examining patterns across cases. Process tracing helps you explain *how* those variables operate by tracing the causal mechanism within a single case. Many strong theses combine both.
 
-- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})** — Process tracing often requires assembling a structured body of primary source material — documents, speeches, policy records, media coverage. This guide covers practical strategies for collecting, organizing, and managing textual evidence systematically.
+- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})**: Process tracing often requires assembling a structured body of primary source material — documents, speeches, policy records, media coverage. This guide covers practical strategies for collecting, organizing, and managing textual evidence systematically.
 
 </div>
 </div>

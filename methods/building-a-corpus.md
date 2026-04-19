@@ -47,7 +47,7 @@ A poorly constructed corpus undermines everything built on top of it. If your se
 
 ## What Is a Corpus?
 
-A **corpus** (plural: *corpora*) is a systematically assembled collection of texts selected according to explicit criteria for the purpose of analysis. The key word is *systematic*. A corpus is not simply "all the articles I found" or "everything on this topic." It is a defined, bounded, documented collection whose composition you can explain and justify.
+A **corpus** (plural: *corpora*) is a systematically assembled collection of texts selected according to explicit criteria for the purpose of analysis. The key word is *systematic*. A corpus is not simply "all the articles I found" or "everything on this topic." It is a defined, bounded collection whose composition you can explain and justify.
 
 Corpora can include virtually any kind of textual material:
 
@@ -157,9 +157,9 @@ For most thesis projects in the social sciences and humanities, commercial datab
 
 **Other useful archives:**
 
-- **Government and institutional websites** — for policy documents, legislation, speeches, press releases. Many governments maintain searchable archives (e.g., the EU's EUR-Lex, the US Federal Register, or the Korean National Archives).
-- **Organizational repositories** — NGOs, think tanks, and international organizations often maintain document libraries (e.g., Human Rights Watch reports, World Bank publications, OECD policy briefs).
-- **Digital newspaper archives** — for historical research, sources like the British Newspaper Archive, Delpher (Dutch-language), or the Korean National Library's digital archive may be relevant.
+- **Government and institutional websites**: for policy documents, legislation, speeches, press releases. Many governments maintain searchable archives (e.g., the EU's EUR-Lex, the US Federal Register, or the Korean National Archives).
+- **Organizational repositories**: NGOs, think tanks, and international organizations often maintain document libraries (e.g., Human Rights Watch reports, World Bank publications, OECD policy briefs).
+- **Digital newspaper archives**: for historical research, sources like the British Newspaper Archive, Delpher (Dutch-language), or the Korean National Library's digital archive may be relevant.
 
 ### Web Sources and APIs
 
@@ -196,7 +196,7 @@ If your research question requires texts in more than one language — common in
 
 ## Organizing Your Corpus
 
-A well-organized corpus saves enormous time during analysis. Set up your system before you start collecting.
+A well-organized corpus saves considerable time during analysis. Set up your system before you start collecting.
 
 ### File management
 
@@ -224,7 +224,7 @@ Create a spreadsheet to track every text in your corpus. At minimum, include:
 | **Search terms used** | "THAAD" AND "South Korea" AND "deployment" |
 | **Notes** | Wire service reprint — check for duplicates |
 
-This spreadsheet is not just for your own organization. It is a research instrument that documents your corpus construction process. You will draw on it directly when writing your methodology chapter.
+This spreadsheet is a research instrument that documents your corpus construction process, not just an organisational aid for your own use. You will draw on it directly when writing your methodology chapter.
 
 <div class="tip-box" markdown="1">
 
@@ -313,10 +313,10 @@ The wizard covers the three realistic execution paths — cloud API for laptops,
 
 Computational tools are for logistics, not for analytical judgment. The following should always be done by you:
 
-- **Deciding what to include and exclude** — selection criteria require human judgment about relevance
-- **Reading and interpreting texts** — the core of qualitative analysis
-- **Coding and categorization** — even if you use software like NVivo or Atlas.ti, the intellectual work of coding is yours
-- **Evaluating quality and relevance** — automated tools cannot assess whether a text is substantively relevant to your argument
+- **Deciding what to include and exclude**: selection criteria require human judgment about relevance
+- **Reading and interpreting texts**: the core of qualitative analysis
+- **Coding and categorization**: even if you use software like NVivo or Atlas.ti, the intellectual work of coding is yours
+- **Evaluating quality and relevance**: automated tools cannot assess whether a text is substantively relevant to your argument
 
 ---
 
@@ -402,8 +402,8 @@ These works provide methodological foundations for corpus construction and text-
 
 Corpus construction is a preparatory step for several analytical methods. Once your corpus is built, you will apply one or more of the following:
 
-- **[Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }})** — Analyzing how issues are defined, problems diagnosed, and solutions proposed in textual material.
-- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }})** — Examining how language constructs meaning, identity, and power relations within and across texts.
+- **[Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }})**: Analyzing how issues are defined, problems diagnosed, and solutions proposed in textual material.
+- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }})**: Examining how language constructs meaning, identity, and power relations within and across texts.
 
 </div>
 </div>

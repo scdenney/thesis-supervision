@@ -53,9 +53,9 @@ This page draws from the course's preprocessing material. Students who take it c
 
 ## What you need to learn first
 
-- **Basic Python or R** — most preprocessing is scripting work. Students usually pick Python with `nltk`, `spaCy`, or `gensim`; R users reach for `tidytext` or `quanteda`.
-- **Unicode basics** — a working mental model for encoding, NFC/NFD normalisation, and why Korean, Arabic, or historical scripts often surface bugs that English text hides.
-- **Your research question** — you can't pick preprocessing steps without knowing what you're going to measure.
+- **Basic Python or R**: most preprocessing is scripting work. Students usually pick Python with `nltk`, `spaCy`, or `gensim`; R users reach for `tidytext` or `quanteda`.
+- **Unicode basics**: a working mental model for encoding, NFC/NFD normalisation, and why Korean, Arabic, or historical scripts often surface bugs that English text hides.
+- **Your research question**: you can't pick preprocessing steps without knowing what you're going to measure.
 
 ---
 

@@ -7,9 +7,9 @@ title: Methods Guide
 
 Choosing and applying an appropriate method is one of the most challenging parts of writing a thesis. This guide organises the methods most commonly used by students I supervise into three entry points:
 
-- **Building a corpus** — the planning and organisation side of text-based work: assembling sources, defining inclusion criteria, and structuring a document set for analysis.
-- **Qualitative approaches** — close reading, interpretive work, cross-case comparison. Four methods grouped together.
-- **Computational & quantitative approaches** — treating a corpus programmatically. Preparation plus three core methods, alongside links to the courses I teach in digital humanities.
+- **Building a corpus**: the planning and organisation side of text-based work: assembling sources, defining inclusion criteria, and structuring a document set for analysis.
+- **Qualitative approaches**: close reading, interpretive work, cross-case comparison. Four methods grouped together.
+- **Computational & quantitative approaches**: treating a corpus programmatically. Preparation plus three core methods, alongside links to the courses I teach in digital humanities.
 
 Each entry-point page explains what's on that side of the split, links to the detailed method pages, and highlights how the two sides combine. The methods are not mutually exclusive — many strong theses combine one of each.
 

@@ -44,10 +44,10 @@ Each page below follows the same structure: what the method is, when to use it, 
 
 Many of the strongest theses combine a qualitative method with a computational one. A few common pairings:
 
-- **Framing analysis + topic analysis** — use a topic model to surface candidate frames in a large corpus, then read closely within each cluster.
-- **Discourse analysis + keyword-in-context tooling** — let the computational side locate passages worth reading; keep the interpretive judgement human.
-- **Comparative case study + descriptive corpus statistics** — report aggregate measures (volume, sentiment, keyword prevalence) alongside your cross-case interpretation.
-- **Process tracing + digital archives** — use computational search to identify the causal-process observations you would otherwise miss.
+- **Framing analysis + topic analysis**: use a topic model to surface candidate frames in a large corpus, then read closely within each cluster.
+- **Discourse analysis + keyword-in-context tooling**: let the computational side locate passages worth reading; keep the interpretive judgement human.
+- **Comparative case study + descriptive corpus statistics**: report aggregate measures (volume, sentiment, keyword prevalence) alongside your cross-case interpretation.
+- **Process tracing + digital archives**: use computational search to identify the causal-process observations you would otherwise miss.
 
 The two sides are complementary, not competing. See the [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}) page for the methods on the other side of the split.
 

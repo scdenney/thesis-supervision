@@ -31,8 +31,8 @@ Numerical representations of words (and documents) that encode semantic relation
 
 **Word embeddings** represent each word (or document) as a vector in a high-dimensional space such that semantically related items land close to each other. Two broad families:
 
-1. **Static embeddings** — one vector per word, learned from co-occurrence patterns in a training corpus. Word2Vec (skip-gram, CBOW), GloVe, and fastText are the classics. Fast to train, easy to inspect, blind to context: "bank" has one vector whether it's a river or a financial institution.
-2. **Contextual embeddings** — a fresh vector per word *in context*, produced by a pre-trained transformer (BERT, RoBERTa, sentence-transformers). Much more accurate for downstream tasks, harder to interpret directly, and computationally heavier.
+1. **Static embeddings**: one vector per word, learned from co-occurrence patterns in a training corpus. Word2Vec (skip-gram, CBOW), GloVe, and fastText are the classics. Fast to train, easy to inspect, blind to context: "bank" has one vector whether it's a river or a financial institution.
+2. **Contextual embeddings**: a fresh vector per word *in context*, produced by a pre-trained transformer (BERT, RoBERTa, sentence-transformers). Much more accurate for downstream tasks, harder to interpret directly, and computationally heavier.
 
 Embeddings aren't an analysis on their own. They're a representation you feed into something else: a similarity search, a classifier, a clustering algorithm, a time-trajectory measurement.
 
@@ -56,9 +56,9 @@ This page draws from the course's word-embedding material. Students who take it 
 
 ## What you need to learn first
 
-- **Preprocessing** — embeddings learn from the vocabulary you feed them; decisions here propagate into the geometry. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
-- **Linear algebra basics** — cosine similarity, vector arithmetic, dimensionality reduction. You don't need to derive it, but you need a mental model.
-- **Python** — essentially all embedding tooling is Python-first (`gensim`, `transformers`, `sentence-transformers`). R bindings exist but lag.
+- **Preprocessing**: embeddings learn from the vocabulary you feed them; decisions here propagate into the geometry. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
+- **Linear algebra basics**: cosine similarity, vector arithmetic, dimensionality reduction. You don't need to derive it, but you need a mental model.
+- **Python**: essentially all embedding tooling is Python-first (`gensim`, `transformers`, `sentence-transformers`). R bindings exist but lag.
 
 ---
 

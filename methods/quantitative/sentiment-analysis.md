@@ -31,9 +31,9 @@ Assigning numerical values that summarise how positive, negative, or emotionally
 
 **Sentiment analysis** covers three broad families, each with different assumptions about what "sentiment" *is* and whom it generalises to:
 
-1. **Dictionary methods** — counting terms from a curated lexicon (LIWC, VADER, NRC, AFINN). Transparent and reproducible; struggles with negation, sarcasm, and domain shift.
-2. **Supervised classifiers** — training a model (logistic regression, SVM, fine-tuned transformer) on human-labelled examples. More accurate in-domain, but requires labelled training data and careful validation.
-3. **LLM-based rating** — prompting a large language model to rate each text. Fast to set up; variable across prompts and model versions; needs rigorous evaluation before trusted for a thesis.
+1. **Dictionary methods**: counting terms from a curated lexicon (LIWC, VADER, NRC, AFINN). Transparent and reproducible; struggles with negation, sarcasm, and domain shift.
+2. **Supervised classifiers**: training a model (logistic regression, SVM, fine-tuned transformer) on human-labelled examples. More accurate in-domain, but requires labelled training data and careful validation.
+3. **LLM-based rating**: prompting a large language model to rate each text. Fast to set up; variable across prompts and model versions; needs rigorous evaluation before trusted for a thesis.
 
 Each family has weaknesses that matter more or less depending on your texts. Sarcasm-heavy social media breaks dictionary methods. Classifiers trained on movie reviews fail on policy documents. LLMs drift across model releases. Choose with the limits in mind.
 
@@ -57,9 +57,9 @@ This page draws from the course's sentiment analysis material. Students who take
 
 ## What you need to learn first
 
-- **Preprocessing** — dictionary methods especially depend on tokenisation and lemmatisation. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
-- **Basic statistics** — agreement metrics, confidence intervals, reliability thinking.
-- **Python or R** — `vaderSentiment`, `nltk`, `transformers` in Python; `sentimentr`, `quanteda.sentiment` in R.
+- **Preprocessing**: dictionary methods especially depend on tokenisation and lemmatisation. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
+- **Basic statistics**: agreement metrics, confidence intervals, reliability thinking.
+- **Python or R**: `vaderSentiment`, `nltk`, `transformers` in Python; `sentimentr`, `quanteda.sentiment` in R.
 
 ---
 
