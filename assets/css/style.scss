@@ -1284,12 +1284,13 @@ a.github-link:hover::before {
 }
 
 .cb-mini-wizard select {
-  padding: 0.55rem 0.65rem;
+  padding: 0.6rem 0.7rem;
   font: inherit;
-  font-size: 0.95rem;
+  font-size: 1rem; /* 16px minimum to prevent iOS form-input auto-zoom */
   border: 1px solid var(--cb-border);
   border-radius: 12px;
   background: #fff;
+  min-height: 2.75rem;
 }
 
 .cb-mini-wizard button {
@@ -1491,6 +1492,7 @@ a.github-link:hover::before {
 
   .featured-program-actions {
     justify-content: flex-start;
+    min-width: 0;
   }
 
   .program-card-cta {
@@ -1508,6 +1510,71 @@ a.github-link:hover::before {
   .cb-term-line {
     white-space: normal;
   }
+}
+
+/* Phone portrait — tighter paddings and type */
+@media (max-width: 480px) {
+  .container {
+    padding: 0 1rem;
+  }
+  main {
+    padding: 1rem 0 3rem;
+  }
+  main p { font-size: 1rem; line-height: 1.7; }
+  main h1 {
+    font-size: clamp(1.75rem, 9vw, 2.2rem);
+    line-height: 1.08;
+  }
+  main h2 {
+    font-size: clamp(1.35rem, 6vw, 1.65rem);
+    margin-top: 2rem;
+  }
+  main h3 { font-size: 1.15rem; }
+
+  .site-brand-title { font-size: 0.95rem; }
+  .site-eyebrow { font-size: 0.7rem; letter-spacing: 0.1em; }
+  .site-nav a,
+  .site-nav summary {
+    padding: 0.55rem 0.85rem;
+    font-size: 0.95rem;
+  }
+
+  .breadcrumbs { font-size: 0.85rem; }
+
+  .program-card { padding: 1.15rem 1.2rem; }
+  .program-card h3 { font-size: 1.1rem; }
+  .home-cta-grid .cta-banner { padding: 1rem 1.1rem; }
+  .home-cta-grid .cta-banner h3 { font-size: 1.25rem; line-height: 1.15; }
+  .featured-program-card { padding: 1.15rem 1.2rem; }
+  .featured-program-card h3 { font-size: 1.2rem; }
+  .featured-program-card p { font-size: 0.95rem; }
+
+  .info-box, .tip-box, .reflection-box, .exercise-box, blockquote {
+    padding: 0.8rem 1rem;
+  }
+
+  .cb-mini-wizard { padding: 1rem 1.05rem; }
+  .cb-mini-wizard h3 { font-size: 1.08rem; }
+
+  .cb-term-body { padding: 0.95rem 1.05rem 1rem; }
+  .cb-term-line { font-size: 0.9rem; }
+  .cb-term-caption { font-size: 0.85rem; }
+
+  .page-sidebar-inner { padding: 0.85rem; }
+  .page-toc a { padding: 0.5rem 0.55rem; }
+
+  table { font-size: 0.88rem; }
+  th, td { padding: 0.55rem 0.7rem; }
+
+  .question-banner { padding: 0.9rem 1rem; }
+  .title-row { gap: 0.6rem; }
+}
+
+/* Prevent long URLs / code tokens from overflowing on narrow viewports */
+main, .container, .page-content, .cta-banner, .program-card,
+.info-box, .tip-box, .reflection-box, .exercise-box, blockquote {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 @media (prefers-reduced-motion: reduce) {
