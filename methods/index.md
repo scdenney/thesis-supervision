@@ -15,17 +15,16 @@ Each entry-point page explains what's on that side of the split, links to the de
 
 For general guidance on selecting a method, see the [Getting Started Guide — Step 4: Building Your Analytical Framework]({{ '/getting-started/#step-4' | relative_url }}). For how your method choice is assessed, see [Assessment Standards — Application of Knowledge]({{ '/assessment-standards/#application-of-knowledge' | relative_url }}).
 
-<div class="cta-banner" markdown="0">
-  <strong>Still sorting out the source material as much as the method?</strong><br>
-  <a href="{{ '/methods/building-a-corpus' | relative_url }}">Read Building a Corpus &rarr;</a>
-</div>
-
 ## Start here
 
-<div class="program-cards" markdown="0">
-  <a class="program-card" href="{{ '/methods/building-a-corpus' | relative_url }}">
-    <h3>Building a Corpus</h3>
-    <p>Foundations: collecting, organising, and managing textual data for systematic analysis</p>
+<div class="program-cards methods-start-grid" markdown="0">
+  <a class="program-card featured-program-card" href="{{ '/methods/building-a-corpus' | relative_url }}">
+    <div class="featured-program-card-copy">
+      <span class="card-level start">Start here</span>
+      <h3>Building a Corpus</h3>
+      <p>If the open question is still what to collect, how to bound it, or how to organise it, begin here before choosing the analytical path.</p>
+    </div>
+    <span class="program-card-cta">Read the corpus guide &rarr;</span>
   </a>
   <a class="program-card" href="{{ '/methods/qualitative/' | relative_url }}">
     <h3>Qualitative Approaches</h3>
