@@ -922,6 +922,42 @@ main details:not(.nav-dropdown) > summary:hover {
   line-height: 1.55;
 }
 
+.cta-banner-reveal {
+  display: grid;
+  gap: 0.35rem;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.22s ease, opacity 0.18s ease, margin-top 0.18s ease;
+}
+
+.cta-banner-reveal span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--teal);
+  font-size: 0.88rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.cta-banner-reveal span::before {
+  content: "";
+  width: 0.42rem;
+  height: 0.42rem;
+  border-radius: 50%;
+  background: var(--gold);
+  flex-shrink: 0;
+}
+
+.home-cta-grid .cta-banner:hover .cta-banner-reveal,
+.home-cta-grid .cta-banner:focus .cta-banner-reveal,
+.home-cta-grid .cta-banner:focus-visible .cta-banner-reveal {
+  max-height: 5rem;
+  opacity: 1;
+  margin-top: 0.15rem;
+}
+
 .cta-banner a,
 .cta-banner-link {
   display: inline-flex;

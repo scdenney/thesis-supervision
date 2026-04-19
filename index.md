@@ -22,6 +22,10 @@ All programs share core evaluative standards — Knowledge & Insight, Applicatio
     <strong>New to thesis or research writing?</strong>
     <h3>Getting Started Guide</h3>
     <p>Five guided steps covering the question, sources, literature review, analytical framework, and writing up findings.</p>
+    <div class="cta-banner-reveal">
+      <span>Research question, sources, literature review</span>
+      <span>Methods framework, findings, writing strategy</span>
+    </div>
     <span class="cta-banner-link">Open the guide</span>
   </a>
 
@@ -29,11 +33,17 @@ All programs share core evaluative standards — Knowledge & Insight, Applicatio
     <strong>Choosing a method?</strong>
     <h3>Browse the Methods Guide</h3>
     <p>Start with corpus planning, then move into qualitative, computational, or AI-supported research workflows.</p>
+    <div class="cta-banner-reveal">
+      <span>Corpus planning, qualitative and computational routes</span>
+      <span>Direct path to the wizard for technical workflows</span>
+    </div>
     <span class="cta-banner-link">Explore methods</span>
   </a>
 </div>
 
-## Find Your Program
+## Leiden Student? Find Your Program
+
+If you are writing within one of the Leiden programs I supervise, start with your program page. If you are here for broader research support or to use the public resources, begin with the guides above.
 
 <div class="program-cards" markdown="0">
   <a class="program-card" href="{{ '/bais/' | relative_url }}">
