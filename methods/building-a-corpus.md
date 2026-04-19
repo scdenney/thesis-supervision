@@ -26,6 +26,12 @@ title: Building a Corpus
 <li><a href="#related-methods">Related Methods</a></li>
 </ul>
 </nav>
+<div class="page-route-card" markdown="0">
+<span class="page-route-eyebrow">Computational route</span>
+<h5>Need OCR, cleanup, metadata, or compute planning?</h5>
+<p>Launch the wizard if you already know this corpus needs a technical pipeline.</p>
+<a class="page-route-link" href="https://scdenney.github.io/corpus-building/">Launch the wizard</a>
+</div>
 </div>
 </aside>
 

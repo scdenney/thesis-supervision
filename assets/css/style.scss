@@ -398,6 +398,58 @@ main h1 + p {
   box-shadow: inset 3px 0 0 var(--gold);
 }
 
+.page-route-card {
+  margin-top: 1rem;
+  padding: 0.95rem;
+  border: 1px solid rgba(13, 96, 96, 0.16);
+  border-radius: 16px;
+  background: linear-gradient(180deg, #ffffff, #f6fbfb);
+  box-shadow: 0 10px 20px rgba(13, 96, 96, 0.08);
+}
+
+.page-route-eyebrow {
+  display: inline-block;
+  margin-bottom: 0.4rem;
+  color: var(--teal);
+  font-size: 0.73rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.page-route-card h5 {
+  margin: 0 0 0.4rem;
+  color: var(--plum);
+  font-size: 1rem;
+  line-height: 1.35;
+}
+
+.page-route-card p {
+  margin: 0 0 0.85rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+.page-route-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 0.7rem 0.9rem;
+  border-radius: 999px;
+  background: var(--teal);
+  color: var(--white);
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 8px 18px rgba(13, 96, 96, 0.16);
+}
+
+.page-route-link:hover {
+  background: #084f4f;
+  color: var(--white);
+}
+
 .toc-toggle {
   display: none;
   width: 100%;
