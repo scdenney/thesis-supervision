@@ -18,14 +18,17 @@ For general guidance on selecting a method, see the [Getting Started Guide — S
 ## Start here
 
 <div class="program-cards methods-start-grid" markdown="0">
-  <a class="program-card featured-program-card" href="{{ '/methods/building-a-corpus' | relative_url }}">
+  <div class="program-card featured-program-card">
     <div class="featured-program-card-copy">
       <span class="card-level start">Start here</span>
       <h3>Building a Corpus</h3>
-      <p>If the open question is still what to collect, how to bound it, or how to organise it, begin here before choosing the analytical path.</p>
+      <p>If the open question is still what to collect, how to bound it, or how to organise it, begin here before choosing the analytical path. If you already know you need the computational route, you can jump straight into the wizard.</p>
     </div>
-    <span class="program-card-cta">Read the corpus guide &rarr;</span>
-  </a>
+    <div class="featured-program-actions">
+      <a class="program-card-cta" href="{{ '/methods/building-a-corpus' | relative_url }}">Read the corpus guide</a>
+      <a class="program-card-cta is-secondary" href="https://scdenney.github.io/corpus-building/">Launch the wizard</a>
+    </div>
+  </div>
   <a class="program-card" href="{{ '/methods/qualitative/' | relative_url }}">
     <h3>Qualitative Approaches</h3>
     <p>Comparative case study, process tracing, framing analysis, discourse analysis</p>

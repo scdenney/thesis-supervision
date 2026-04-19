@@ -687,9 +687,7 @@ main p {
   align-items: center;
   gap: 1rem 1.25rem;
   padding: 1.4rem 1.5rem;
-  background:
-    radial-gradient(circle at top right, rgba(244, 167, 49, 0.2), transparent 28%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.86));
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(255, 255, 255, 0.9));
   border-color: rgba(94, 122, 47, 0.3);
 }
 
@@ -697,6 +695,13 @@ main p {
   display: flex;
   flex-direction: column;
   gap: 0.45rem;
+}
+
+.featured-program-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  justify-content: flex-end;
 }
 
 .featured-program-card h3 {
@@ -724,9 +729,21 @@ main p {
   box-shadow: 0 8px 18px rgba(44, 53, 39, 0.16);
 }
 
-.featured-program-card:hover .program-card-cta {
+.program-card-cta:hover {
   background: #23301f;
   color: var(--white);
+}
+
+.program-card-cta.is-secondary {
+  background: rgba(44, 53, 39, 0.08);
+  border: 1px solid rgba(44, 53, 39, 0.12);
+  color: var(--plum);
+  box-shadow: none;
+}
+
+.program-card-cta.is-secondary:hover {
+  background: rgba(44, 53, 39, 0.14);
+  color: var(--plum);
 }
 
 /* ── Details / summary (getting-started guide) ── */
@@ -807,16 +824,25 @@ main details:not(.nav-dropdown) > summary:hover {
 
 .home-cta-grid .cta-banner {
   margin: 0;
-  min-height: 10.2rem;
+  min-height: 10rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 0.9rem;
+  gap: 0.55rem;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
+}
+
+.home-cta-grid .cta-banner:hover,
+.home-cta-grid .cta-banner:focus {
+  border-color: rgba(94, 122, 47, 0.62);
+  box-shadow: 0 18px 30px rgba(44, 53, 39, 0.1);
+  transform: translateY(-2px);
 }
 
 .cta-banner strong {
   display: block;
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.1rem;
   color: var(--muted);
   font-size: 0.75rem;
   letter-spacing: 0.09em;
@@ -828,9 +854,26 @@ main details:not(.nav-dropdown) > summary:hover {
   letter-spacing: 0.11em;
 }
 
-.cta-banner a {
+.home-cta-grid .cta-banner h3 {
+  margin: 0;
+  color: var(--plum);
+  font-size: 1.5rem;
+  line-height: 1.08;
+}
+
+.home-cta-grid .cta-banner p {
+  margin: 0;
+  max-width: 28rem;
+  color: var(--muted);
+  font-size: 0.96rem;
+  line-height: 1.55;
+}
+
+.cta-banner a,
+.cta-banner-link {
   display: inline-flex;
   align-items: center;
+  justify-content: center;
   padding: 0.8rem 1.05rem;
   border-radius: 999px;
   background: var(--plum);
@@ -839,11 +882,18 @@ main details:not(.nav-dropdown) > summary:hover {
   font-size: 1rem;
   text-decoration: none;
   box-shadow: 0 8px 18px rgba(44, 53, 39, 0.18);
+  width: fit-content;
+  margin-top: auto;
+  transition: background-color 0.16s ease, transform 0.16s ease;
 }
 
-.cta-banner a:hover {
+.cta-banner a:hover,
+.cta-banner-link:hover,
+.home-cta-grid .cta-banner:hover .cta-banner-link,
+.home-cta-grid .cta-banner:focus .cta-banner-link {
   background: #23301f;
   color: var(--white);
+  transform: translateX(2px);
 }
 
 .question-banner {
@@ -1348,6 +1398,10 @@ a.github-link:hover::before {
 
   .featured-program-card {
     grid-template-columns: 1fr;
+  }
+
+  .featured-program-actions {
+    justify-content: flex-start;
   }
 
   .program-card-cta {

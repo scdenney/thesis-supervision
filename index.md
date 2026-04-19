@@ -18,15 +18,19 @@ Welcome! This site is your central resource for thesis and research supervision 
 All programs share core evaluative standards — Knowledge & Insight, Application of Knowledge, Reaching Conclusions, and Communication — with expectations calibrated to program level (BA or MA). See the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for details.
 
 <div class="home-cta-grid" markdown="0">
-  <div class="cta-banner">
-    <strong>New to thesis or research writing?</strong><br>
-    <a href="{{ '/getting-started/' | relative_url }}">Open the getting-started guide</a>
-  </div>
+  <a class="cta-banner" href="{{ '/getting-started/' | relative_url }}">
+    <strong>New to thesis or research writing?</strong>
+    <h3>Getting Started Guide</h3>
+    <p>Five guided steps covering the question, sources, literature review, analytical framework, and writing up findings.</p>
+    <span class="cta-banner-link">Open the guide</span>
+  </a>
 
-  <div class="cta-banner">
-    <strong>Choosing a method?</strong><br>
-    <a href="{{ '/methods/' | relative_url }}">Browse the methods guide</a>
-  </div>
+  <a class="cta-banner" href="{{ '/methods/' | relative_url }}">
+    <strong>Choosing a method?</strong>
+    <h3>Browse the Methods Guide</h3>
+    <p>Start with corpus planning, then move into qualitative, computational, or AI-supported research workflows.</p>
+    <span class="cta-banner-link">Explore methods</span>
+  </a>
 </div>
 
 ## Find Your Program
