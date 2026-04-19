@@ -11,7 +11,7 @@ Choosing and applying an appropriate method is one of the most challenging parts
 - **Qualitative approaches**: close reading, interpretive work, cross-case comparison. Four methods grouped together.
 - **Computational & quantitative approaches**: treating a corpus programmatically. Preparation plus three core methods, alongside links to the courses I teach in digital humanities.
 
-Each entry-point page explains what's on that side of the split, links to the detailed method pages, and highlights how the two sides combine. The methods are not mutually exclusive — many strong theses combine one of each.
+Each entry-point page explains what's on that side of the split, links to the detailed method pages, and highlights how the two sides combine. The methods are not mutually exclusive; many strong theses combine one of each.
 
 For general guidance on selecting a method, see the [Getting Started Guide — Step 4: Building Your Analytical Framework]({{ '/getting-started/#step-4' | relative_url }}). For how your method choice is assessed, see [Assessment Standards — Application of Knowledge]({{ '/assessment-standards/#application-of-knowledge' | relative_url }}).
 
@@ -35,7 +35,7 @@ For general guidance on selecting a method, see the [Getting Started Guide — S
   </a>
   <a class="program-card" href="{{ '/methods/quantitative/' | relative_url }}">
     <h3>Computational &amp; Quantitative</h3>
-    <p>Preparation plus topic analysis, sentiment, and word embeddings — with links to my DH courses</p>
+    <p>Preparation plus topic analysis, sentiment, and word embeddings, with links to my DH courses</p>
   </a>
 </div>
 
