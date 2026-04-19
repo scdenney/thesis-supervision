@@ -108,6 +108,7 @@ select:focus-visible {
   letter-spacing: 0.12em;
   font-size: 0.74rem;
   margin: 0;
+  line-height: 1.3;
   color: rgba(255, 255, 255, 0.68);
 }
 
@@ -135,8 +136,12 @@ select:focus-visible {
 
 .site-nav a,
 .site-nav summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   color: #ffffff;
   text-decoration: none;
+  min-height: 2.7rem;
   padding: 0.55rem 0.9rem;
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.08);
@@ -482,6 +487,14 @@ main h1 + p {
 
   .site-header-inner {
     align-items: flex-start;
+  }
+
+  .site-brand {
+    max-width: 100%;
+  }
+
+  .site-eyebrow {
+    max-width: 32rem;
   }
 
   .site-nav {
@@ -1457,20 +1470,66 @@ a.github-link:hover::before {
 }
 
 @media (max-width: 640px) {
+  .container {
+    padding: 0 1rem;
+  }
+
+  main {
+    padding: 1rem 0 3rem;
+  }
+
+  .site-header {
+    padding: 0.85rem 0 0.95rem;
+  }
+
+  .site-header-inner {
+    gap: 0.85rem;
+  }
+
+  .site-eyebrow {
+    font-size: 0.64rem;
+    letter-spacing: 0.08em;
+    max-width: 24rem;
+  }
+
   .site-nav a,
   .site-nav summary,
   .cta-banner a,
+  .cta-banner-link,
   .question-banner a {
     width: 100%;
     justify-content: center;
   }
 
+  .site-nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.45rem;
+  }
+
+  .nav-dropdown {
+    width: 100%;
+  }
+
+  .nav-dropdown[open] {
+    grid-column: 1 / -1;
+  }
+
   .site-brand-title {
-    font-size: 0.98rem;
+    font-size: 1.02rem;
   }
 
   main h1 {
     font-size: clamp(2rem, 8vw, 2.8rem);
+  }
+
+  .title-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  a.github-link {
+    align-self: flex-start;
   }
 
   .home-cta-grid {
@@ -1479,6 +1538,20 @@ a.github-link:hover::before {
 
   .home-cta-grid .cta-banner {
     min-height: auto;
+  }
+
+  .home-cta-grid .cta-banner h3 {
+    font-size: 1.32rem;
+  }
+
+  .home-cta-grid .cta-banner p {
+    font-size: 0.93rem;
+  }
+
+  .cta-banner-reveal {
+    max-height: 5rem;
+    opacity: 1;
+    margin-top: 0.15rem;
   }
 
   .methods-start-grid {
@@ -1491,6 +1564,8 @@ a.github-link:hover::before {
 
   .featured-program-actions {
     justify-content: flex-start;
+    width: 100%;
+    min-width: 0;
   }
 
   .program-card-cta {
@@ -1499,6 +1574,14 @@ a.github-link:hover::before {
 
   .question-banner {
     grid-template-columns: 1fr;
+  }
+
+  .program-card {
+    padding: 1.25rem;
+  }
+
+  .page-route-card {
+    padding: 0.9rem;
   }
 
   .cb-mini-wizard form {
