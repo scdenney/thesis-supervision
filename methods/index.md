@@ -36,6 +36,17 @@ For general guidance on selecting a method, see the [Getting Started Guide — S
   </a>
 </div>
 
+## AI-Supported Research Workflows
+
+Claude Code and Codex are not methods in themselves, but they can substantially improve how you organise material, document decisions, and run transparent research workflows across both qualitative and computational projects.
+
+<div class="program-cards" markdown="0">
+  <a class="program-card" href="{{ '/methods/claude-code-codex' | relative_url }}">
+    <h3>Claude Code &amp; Codex</h3>
+    <p>What these tools are, how they differ from chatbot interfaces, and how to use them responsibly for corpus building, source organisation, coding, and analysis.</p>
+  </a>
+</div>
+
 ---
 
 ## Other Methods to Explore

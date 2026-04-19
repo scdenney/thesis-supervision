@@ -64,6 +64,7 @@
                 <a href="{{ '/methods/building-a-corpus' | relative_url }}"{% if page.url contains '/methods/building-a-corpus' %} aria-current="page"{% endif %}>Building a Corpus</a>
                 <a href="{{ '/methods/qualitative/' | relative_url }}"{% if page.title == 'Qualitative Approaches' %} aria-current="page"{% endif %}>Qualitative Approaches</a>
                 <a href="{{ '/methods/quantitative/' | relative_url }}"{% if page.title == 'Computational & Quantitative Approaches' %} aria-current="page"{% endif %}>Computational &amp; Quantitative</a>
+                <a href="{{ '/methods/claude-code-codex' | relative_url }}"{% if page.url contains '/methods/claude-code-codex' %} aria-current="page"{% endif %}>Claude Code &amp; Codex</a>
               </div>
             </div>
           </details>
@@ -111,6 +112,11 @@
         {% elsif page.title == 'Methods Guide' %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">Methods</span>
+        {% elsif is_methods %}
+          <span class="crumb-sep">/</span>
+          <a href="{{ '/methods/' | relative_url }}">Methods</a>
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">{{ page.title }}</span>
         {% elsif is_program %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>

@@ -156,8 +156,20 @@ select:focus-visible {
 
 .site-nav a.is-active,
 .nav-dropdown.is-current > summary {
-  background: rgba(244, 167, 49, 0.18);
-  border-color: rgba(244, 167, 49, 0.55);
+  color: var(--plum);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(250, 246, 239, 0.88));
+  border-color: rgba(250, 246, 239, 0.72);
+  box-shadow: 0 10px 18px rgba(0, 0, 0, 0.18);
+}
+
+.site-nav a.is-active:hover,
+.site-nav a.is-active:focus,
+.nav-dropdown.is-current > summary:hover,
+.nav-dropdown.is-current > summary:focus,
+.nav-dropdown.is-current[open] > summary {
+  color: var(--plum);
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(250, 246, 239, 0.92));
+  border-color: rgba(250, 246, 239, 0.78);
 }
 
 .nav-dropdown[open] > summary {

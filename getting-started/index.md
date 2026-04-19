@@ -3,30 +3,6 @@ layout: default
 title: Getting Started
 ---
 
-<div class="page-layout">
-<aside class="page-sidebar">
-<div class="page-sidebar-inner">
-<h4 class="page-sidebar-title">Contents</h4>
-<nav class="page-toc">
-<ul>
-<li><a href="#how-to-use-this-guide">How to Use This Guide</a></li>
-<li><a href="#the-five-steps">The Five Steps</a>
-<ul>
-<li><a href="#step-1">1. Research Question</a></li>
-<li><a href="#step-2">2. Data and Sources</a></li>
-<li><a href="#step-3">3. Literature Review</a></li>
-<li><a href="#step-4">4. Analytical Framework</a></li>
-<li><a href="#step-5">5. Writing and Reporting</a></li>
-</ul>
-</li>
-<li><a href="#next-steps">Next Steps</a></li>
-</ul>
-</nav>
-</div>
-</aside>
-
-<div class="page-content" markdown="1">
-
 # Getting Started
 
 This guide walks you through five key stages of planning and writing a thesis. It applies to all programs (BAIS, BAKS, MAAS, MAIR) and is designed to be worked through in order — though you can revisit any step at any time.
@@ -300,7 +276,7 @@ Work through all five steps. By the end you will have: a working research questi
 </div>
 
 <div class="info-box">
-<p><strong>Want more detail?</strong> The <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> provides in-depth guidance on specific methods — including comparative case study design, process tracing, framing analysis, discourse analysis, and building a corpus.</p>
+<p><strong>Want more detail?</strong> The <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> provides in-depth guidance on specific methods — including comparative case study design, process tracing, framing analysis, discourse analysis, building a corpus, and AI-supported workflows with <a href="{{ '/methods/claude-code-codex' | relative_url }}">Claude Code and Codex</a>.</p>
 </div>
 
 <h4>Justifying your choices</h4>
@@ -448,6 +424,3 @@ Bring these materials to your supervision meetings. Your supervisor will help yo
 - [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) — How your thesis will be evaluated
 - [Ethics & AI]({{ '/ethics/' | relative_url }}) — Ethics review, GenAI policy, and plagiarism regulations
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) — Additional writing support
-
-</div>
-</div>
