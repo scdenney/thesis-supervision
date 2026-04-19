@@ -19,12 +19,12 @@ All programs share core evaluative standards — Knowledge & Insight, Applicatio
 
 <div class="cta-banner" markdown="0">
   <strong>New to thesis writing?</strong><br>
-  <a href="{{ '/getting-started/' | relative_url }}">Start here &rarr; A step-by-step guide to getting your thesis underway</a>
+  <a href="{{ '/getting-started/' | relative_url }}">Open the getting-started guide &rarr;</a>
 </div>
 
 <div class="cta-banner" markdown="0">
   <strong>Choosing a method?</strong><br>
-  <a href="{{ '/methods/' | relative_url }}">Methods Guide &rarr; Comparative case studies, process tracing, framing, discourse analysis, and more</a>
+  <a href="{{ '/methods/' | relative_url }}">Browse the methods guide &rarr;</a>
 </div>
 
 ## Find Your Program

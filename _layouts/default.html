@@ -7,44 +7,100 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><polygon points='32,8 2,24 32,40 62,24' fill='%232C3527'/><polygon points='32,40 2,24 2,28 32,44 62,28 62,24' fill='%23F4A731'/><rect x='29' y='40' width='6' height='14' rx='1' fill='%232C3527'/><rect x='22' y='52' width='20' height='4' rx='2' fill='%23F4A731'/></svg>" />
   </head>
-  <body>
+  {% assign is_home = page.url == '/' or page.url == '/index.html' %}
+  {% assign is_getting_started = page.url contains '/getting-started/' %}
+  {% assign is_methods = page.url contains '/methods/' %}
+  {% assign is_assessment = page.url contains '/assessment-standards/' %}
+  {% assign is_ethics = page.url contains '/ethics/' %}
+  {% assign is_program = page.url contains '/bais/' or page.url contains '/baks/' or page.url contains '/maas/' or page.url contains '/mair/' %}
+  <body class="{% if is_home %}is-home{% endif %}">
+    <a class="skip-link" href="#main-content">Skip to content</a>
     <header class="site-header">
-      <div class="container">
-        <p class="site-eyebrow">Leiden University &middot; Faculty of Humanities</p>
-        <h1 class="site-title">{{ site.title }}</h1>
-        <p class="site-description">{{ site.description }}</p>
-        <nav class="site-nav">
-          <a href="{{ '/' | relative_url }}">Home</a>
-          <a href="{{ '/getting-started/' | relative_url }}">Getting Started</a>
-          <div class="nav-dropdown">
-            <span class="nav-dropdown-toggle">Programs <span class="nav-arrow">&#9662;</span></span>
+      <div class="container site-header-inner">
+        <div class="site-brand">
+          <p class="site-eyebrow">Leiden University &middot; Faculty of Humanities</p>
+          <a class="site-brand-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+        </div>
+        <nav class="site-nav" aria-label="Primary">
+          <a href="{{ '/' | relative_url }}"{% if is_home %} class="is-active" aria-current="page"{% endif %}>Home</a>
+          <a href="{{ '/getting-started/' | relative_url }}"{% if is_getting_started %} class="is-active" aria-current="page"{% endif %}>Getting Started</a>
+          <details class="nav-dropdown{% if is_program %} is-current{% endif %}">
+            <summary>Programs <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
             <div class="nav-dropdown-menu">
               <div class="nav-dropdown-menu-inner">
-                <a href="{{ '/bais/' | relative_url }}">BAIS</a>
-                <a href="{{ '/baks/' | relative_url }}">BAKS</a>
-                <a href="{{ '/maas/' | relative_url }}">MAAS</a>
-                <a href="{{ '/mair/' | relative_url }}">MAIR</a>
+                <a href="{{ '/bais/' | relative_url }}"{% if page.url contains '/bais/' %} aria-current="page"{% endif %}>BAIS</a>
+                <a href="{{ '/baks/' | relative_url }}"{% if page.url contains '/baks/' %} aria-current="page"{% endif %}>BAKS</a>
+                <a href="{{ '/maas/' | relative_url }}"{% if page.url contains '/maas/' %} aria-current="page"{% endif %}>MAAS</a>
+                <a href="{{ '/mair/' | relative_url }}"{% if page.url contains '/mair/' %} aria-current="page"{% endif %}>MAIR</a>
               </div>
             </div>
-          </div>
-          <a href="{{ '/assessment-standards/' | relative_url }}">Assessment Standards</a>
-          <a href="{{ '/ethics/' | relative_url }}">Ethics &amp; AI</a>
-          <div class="nav-dropdown">
-            <span class="nav-dropdown-toggle">Methods <span class="nav-arrow">&#9662;</span></span>
+          </details>
+          <a href="{{ '/assessment-standards/' | relative_url }}"{% if is_assessment %} class="is-active" aria-current="page"{% endif %}>Assessment Standards</a>
+          <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Ethics &amp; AI</a>
+          <details class="nav-dropdown{% if is_methods %} is-current{% endif %}">
+            <summary>Methods <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
             <div class="nav-dropdown-menu">
               <div class="nav-dropdown-menu-inner">
-                <a href="{{ '/methods/' | relative_url }}">Overview</a>
-                <a href="{{ '/methods/building-a-corpus' | relative_url }}">Building a Corpus</a>
-                <a href="{{ '/methods/qualitative/' | relative_url }}">Qualitative Approaches &rsaquo;</a>
-                <a href="{{ '/methods/quantitative/' | relative_url }}">Computational &amp; Quantitative &rsaquo;</a>
+                <a href="{{ '/methods/' | relative_url }}"{% if page.title == 'Methods Guide' %} aria-current="page"{% endif %}>Overview</a>
+                <a href="{{ '/methods/building-a-corpus' | relative_url }}"{% if page.url contains '/methods/building-a-corpus' %} aria-current="page"{% endif %}>Building a Corpus</a>
+                <a href="{{ '/methods/qualitative/' | relative_url }}"{% if page.title == 'Qualitative Approaches' %} aria-current="page"{% endif %}>Qualitative Approaches</a>
+                <a href="{{ '/methods/quantitative/' | relative_url }}"{% if page.title == 'Computational & Quantitative Approaches' %} aria-current="page"{% endif %}>Computational &amp; Quantitative</a>
               </div>
             </div>
-          </div>
+          </details>
         </nav>
       </div>
     </header>
 
-    <main class="container">
+    <main id="main-content" class="container">
+      {% unless is_home %}
+      <nav class="breadcrumbs" aria-label="Breadcrumb">
+        <a href="{{ '/' | relative_url }}">Home</a>
+
+        {% if is_getting_started %}
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">{{ page.title }}</span>
+        {% elsif is_assessment %}
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">{{ page.title }}</span>
+        {% elsif is_ethics %}
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">{{ page.title }}</span>
+        {% elsif page.url contains '/methods/building-a-corpus' %}
+          <span class="crumb-sep">/</span>
+          <a href="{{ '/methods/' | relative_url }}">Methods</a>
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">{{ page.title }}</span>
+        {% elsif page.url contains '/methods/qualitative/' %}
+          <span class="crumb-sep">/</span>
+          <a href="{{ '/methods/' | relative_url }}">Methods</a>
+          {% if page.title != 'Qualitative Approaches' %}
+          <span class="crumb-sep">/</span>
+          <a href="{{ '/methods/qualitative/' | relative_url }}">Qualitative Approaches</a>
+          {% endif %}
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">{{ page.title }}</span>
+        {% elsif page.url contains '/methods/quantitative/' %}
+          <span class="crumb-sep">/</span>
+          <a href="{{ '/methods/' | relative_url }}">Methods</a>
+          {% if page.title != 'Computational & Quantitative Approaches' %}
+          <span class="crumb-sep">/</span>
+          <a href="{{ '/methods/quantitative/' | relative_url }}">Computational &amp; Quantitative</a>
+          {% endif %}
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">{{ page.title }}</span>
+        {% elsif page.title == 'Methods Guide' %}
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">Methods</span>
+        {% elsif is_program %}
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">{{ page.title }}</span>
+        {% else %}
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">{{ page.title }}</span>
+        {% endif %}
+      </nav>
+      {% endunless %}
       {{ content }}
     </main>
 
@@ -53,5 +109,6 @@
         <p>&copy; Dr. Steven Denney &middot; Leiden University &middot; Faculty of Humanities &middot; Licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a></p>
       </div>
     </footer>
+    <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
   </body>
 </html>

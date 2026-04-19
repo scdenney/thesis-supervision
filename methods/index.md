@@ -17,7 +17,7 @@ For general guidance on selecting a method, see the [Getting Started Guide — S
 
 <div class="cta-banner" markdown="0">
   <strong>Not sure which path fits your research question?</strong><br>
-  Start with the <a href="{{ '/methods/building-a-corpus' | relative_url }}">Building a Corpus</a> page — it's the step before any method — or discuss options with your supervisor.
+  <a href="{{ '/methods/building-a-corpus' | relative_url }}">Start with Building a Corpus &rarr;</a>
 </div>
 
 ## Start here

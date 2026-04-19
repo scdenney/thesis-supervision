@@ -267,7 +267,7 @@ You do not need to be a programmer to use these tools effectively. Describe the 
 
 ### An agent-guided pipeline
 
-If your project needs a full computational pipeline — OCR from scanned PDFs, rule-based cleanup, metadata assembly, outputs formatted for a specific analysis tool — I maintain a standalone [Corpus Building Wizard](https://scdenney.github.io/corpus-building/){:target="_blank"}. It asks six questions about your project and hands you a starter kit for [Claude Code](https://claude.ai/code){:target="_blank"} or [OpenAI Codex](https://developers.openai.com/codex/){:target="_blank"}: which skills to read, which templates to copy, and a one-line terminal command that launches an agent session already primed with your specifics.
+If your project needs a full computational pipeline — OCR from scanned PDFs, rule-based cleanup, metadata assembly, outputs formatted for a specific analysis tool — I maintain a standalone [Corpus Building Wizard](https://scdenney.github.io/corpus-building/). It asks six questions about your project and hands you a starter kit for [Claude Code](https://claude.ai/code){:target="_blank"} or [OpenAI Codex](https://developers.openai.com/codex/){:target="_blank"}: which skills to read, which templates to copy, and a one-line terminal command that launches an agent session already primed with your specifics.
 
 The wizard covers the three realistic execution paths — cloud API for laptops, ALICE / LUCDH for HPC work, and a local consumer GPU for students who'd rather run things at home. The broader methodological decisions (scope, selection, ethics, documentation) stay on this page, where they belong.
 
@@ -275,11 +275,11 @@ The wizard covers the three realistic execution paths — cloud API for laptops,
   <span class="cb-mini-eyebrow">Quick route</span>
   <h3>Which corpus-building path fits your project?</h3>
   <p>Two questions. The full wizard opens with your answers already loaded.</p>
-  <form method="get" action="https://scdenney.github.io/corpus-building/" target="_blank" rel="noopener">
+  <form method="get" action="https://scdenney.github.io/corpus-building/">
     <label>
       <span>How many pages?</span>
       <select name="pages" required>
-        <option value="">—</option>
+        <option value="">&mdash;</option>
         <option value="lt100">Less than 100</option>
         <option value="101_500">101–500</option>
         <option value="501_1k">501–1,000</option>
@@ -291,7 +291,7 @@ The wizard covers the three realistic execution paths — cloud API for laptops,
     <label>
       <span>What compute?</span>
       <select name="compute" required>
-        <option value="">—</option>
+        <option value="">&mdash;</option>
         <option value="alice">ALICE account</option>
         <option value="lucdh">LUCDH workstation</option>
         <option value="gpu_big">Local GPU, 16 GB or more</option>
@@ -299,95 +299,9 @@ The wizard covers the three realistic execution paths — cloud API for laptops,
         <option value="none">Laptop only</option>
       </select>
     </label>
-    <button type="submit">Launch the full wizard →</button>
+    <button type="submit">Open the full wizard &rarr;</button>
   </form>
 </aside>
-
-<style>
-  .cb-mini-wizard {
-    --cb-plum: #2C3527;
-    --cb-teal: #5E7A2F;
-    --cb-cream: #FAF6EF;
-    --cb-border: #D8D3C7;
-    --cb-muted: #6B5D4F;
-
-    background: var(--cb-cream);
-    border: 1px solid var(--cb-border);
-    border-left: 3px solid var(--cb-teal);
-    border-radius: 6px;
-    padding: 1.1rem 1.25rem 1.2rem;
-    margin: 1.5rem 0;
-    max-width: 560px;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-                 Helvetica, Arial, sans-serif;
-    color: #2A2218;
-    line-height: 1.55;
-  }
-  .cb-mini-wizard .cb-mini-eyebrow {
-    font-size: 0.72rem;
-    font-weight: 700;
-    color: var(--cb-plum);
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
-  }
-  .cb-mini-wizard h3 {
-    margin: 0.25rem 0 0.3rem;
-    color: var(--cb-plum);
-    font-size: 1.1rem;
-    font-weight: 600;
-  }
-  .cb-mini-wizard > p {
-    margin: 0 0 0.9rem;
-    color: var(--cb-muted);
-    font-size: 0.92rem;
-  }
-  .cb-mini-wizard form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.65rem 0.85rem;
-  }
-  .cb-mini-wizard label {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-  }
-  .cb-mini-wizard label span {
-    font-size: 0.82rem;
-    font-weight: 600;
-    color: var(--cb-plum);
-  }
-  .cb-mini-wizard select {
-    padding: 0.42rem 0.55rem;
-    font: inherit;
-    font-size: 0.92rem;
-    border: 1px solid var(--cb-border);
-    border-radius: 4px;
-    background: white;
-    cursor: pointer;
-  }
-  .cb-mini-wizard select:focus {
-    outline: 2px solid var(--cb-teal);
-    outline-offset: 1px;
-  }
-  .cb-mini-wizard button {
-    grid-column: 1 / -1;
-    justify-self: start;
-    padding: 0.55rem 1.2rem;
-    font: inherit;
-    font-weight: 600;
-    background: var(--cb-teal);
-    color: white;
-    border: 0;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 0.35rem;
-    transition: background 0.12s;
-  }
-  .cb-mini-wizard button:hover { background: var(--cb-plum); }
-  @media (max-width: 480px) {
-    .cb-mini-wizard form { grid-template-columns: 1fr; }
-  }
-</style>
 
 ### What not to automate
 

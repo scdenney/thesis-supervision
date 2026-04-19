@@ -11,7 +11,7 @@ Each page below follows the same structure: what the method is, when to use it, 
 
 <div class="cta-banner" markdown="0">
   <strong>Building the corpus comes first.</strong><br>
-  All four methods rest on a well-constructed set of texts. Start with the <a href="{{ '/methods/building-a-corpus' | relative_url }}">Building a Corpus</a> page before you commit to a method.
+  <a href="{{ '/methods/building-a-corpus' | relative_url }}">Read Building a Corpus first &rarr;</a>
 </div>
 
 ## The four methods
