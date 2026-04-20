@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", () => {
+  document.documentElement.classList.add("has-js");
+
+  const siteHeader = document.querySelector(".site-header");
+  const siteNav = document.querySelector(".site-nav");
+  const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
   const navDropdowns = Array.from(document.querySelectorAll(".site-nav .nav-dropdown"));
   const tocLinks = Array.from(document.querySelectorAll(".page-toc a[href^='#']"));
   const headings = tocLinks
@@ -6,6 +11,42 @@ document.addEventListener("DOMContentLoaded", () => {
     .filter(Boolean);
   const sidebar = document.querySelector(".page-sidebar");
   const toc = document.querySelector(".page-toc");
+  const mobileNavMedia = window.matchMedia("(max-width: 760px)");
+
+  const setMobileNavOpen = (isOpen) => {
+    if (!siteHeader || !mobileNavToggle) return;
+
+    siteHeader.classList.toggle("is-nav-open", isOpen);
+    mobileNavToggle.setAttribute("aria-expanded", String(isOpen));
+
+    if (!isOpen) {
+      navDropdowns.forEach((dropdown) => {
+        dropdown.open = false;
+      });
+    }
+  };
+
+  if (mobileNavToggle && siteHeader && siteNav) {
+    mobileNavToggle.addEventListener("click", () => {
+      const willOpen = !siteHeader.classList.contains("is-nav-open");
+      setMobileNavOpen(willOpen);
+    });
+
+    siteNav.querySelectorAll("a").forEach((link) => {
+      link.addEventListener("click", () => {
+        if (mobileNavMedia.matches) setMobileNavOpen(false);
+      });
+    });
+
+    const syncMobileNav = () => {
+      if (!mobileNavMedia.matches) {
+        setMobileNavOpen(false);
+      }
+    };
+
+    window.addEventListener("resize", syncMobileNav);
+    syncMobileNav();
+  }
 
   if (navDropdowns.length) {
     navDropdowns.forEach((dropdown) => {
@@ -24,10 +65,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     document.addEventListener("click", (event) => {
-      if (event.target.closest(".site-nav")) return;
+      if (event.target.closest(".site-nav") || event.target.closest(".mobile-nav-toggle")) return;
       navDropdowns.forEach((dropdown) => {
         dropdown.open = false;
       });
+      if (mobileNavMedia.matches && !event.target.closest(".site-header")) {
+        setMobileNavOpen(false);
+      }
     });
 
     document.addEventListener("keydown", (event) => {
@@ -35,6 +79,7 @@ document.addEventListener("DOMContentLoaded", () => {
       navDropdowns.forEach((dropdown) => {
         dropdown.open = false;
       });
+      setMobileNavOpen(false);
     });
   }
 

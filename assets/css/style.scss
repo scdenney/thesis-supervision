@@ -103,6 +103,12 @@ select:focus-visible {
   gap: 0.25rem;
 }
 
+.site-nav-wrap {
+  display: flex;
+  flex: 1 1 auto;
+  justify-content: flex-end;
+}
+
 .site-eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.12em;
@@ -124,6 +130,10 @@ select:focus-visible {
 
 .site-brand-title:hover {
   color: #ffffff;
+}
+
+.mobile-nav-toggle {
+  display: none;
 }
 
 .site-nav {
@@ -491,6 +501,11 @@ main h1 + p {
 
   .site-brand {
     max-width: 100%;
+  }
+
+  .site-nav-wrap {
+    width: 100%;
+    justify-content: flex-start;
   }
 
   .site-eyebrow {
@@ -1457,19 +1472,144 @@ a.github-link:hover::before {
 }
 
 @media (max-width: 760px) {
+  body {
+    font-size: 16px;
+  }
+
+  main p,
+  main li {
+    font-size: 0.98rem;
+    line-height: 1.68;
+  }
+
+  main h1 + p {
+    font-size: 1rem;
+  }
+
   table {
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
+    font-size: 0.9rem;
   }
 
   th,
   td {
-    min-width: 8rem;
+    min-width: 6.6rem;
+    padding: 0.65rem 0.8rem;
   }
-}
 
-@media (max-width: 640px) {
+  .breadcrumbs {
+    margin-bottom: 1rem;
+    font-size: 0.82rem;
+  }
+
+  .site-header {
+    padding: 0.8rem 0 0.9rem;
+  }
+
+  .site-header-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: start;
+    gap: 0.75rem 0.8rem;
+  }
+
+  .site-brand {
+    min-width: 0;
+  }
+
+  .site-nav-wrap {
+    display: block;
+    grid-column: 1 / -1;
+  }
+
+  .has-js .mobile-nav-toggle {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    min-height: 2.85rem;
+    padding: 0.78rem 0.95rem;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    font: inherit;
+    font-weight: 700;
+    letter-spacing: 0.01em;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  }
+
+  .mobile-nav-toggle::after {
+    content: "☰";
+    font-size: 1rem;
+    line-height: 1;
+  }
+
+  .site-header.is-nav-open .mobile-nav-toggle::after {
+    content: "✕";
+  }
+
+  .site-nav {
+    margin-top: 0.75rem;
+    width: 100%;
+    gap: 0.55rem;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: 0 18px 34px rgba(0, 0, 0, 0.18);
+  }
+
+  .has-js .site-nav {
+    display: none;
+  }
+
+  .has-js .site-header.is-nav-open .site-nav {
+    display: flex;
+  }
+
+  .site-nav a,
+  .site-nav summary {
+    width: 100%;
+    justify-content: space-between;
+    min-height: auto;
+    padding: 0.9rem 1rem;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.06);
+    box-shadow: none;
+    text-align: left;
+  }
+
+  .site-nav a.is-active,
+  .nav-dropdown.is-current > summary {
+    box-shadow: none;
+  }
+
+  .nav-dropdown {
+    width: 100%;
+  }
+
+  .nav-dropdown-menu {
+    margin-top: 0.35rem;
+  }
+
+  .nav-dropdown-menu-inner {
+    border-radius: 16px;
+    padding: 0.35rem;
+    background: rgba(0, 0, 0, 0.12);
+    box-shadow: none;
+  }
+
+  .nav-dropdown-menu a {
+    padding: 0.78rem 0.85rem;
+    border-radius: 12px;
+  }
+
   .container {
     padding: 0 1rem;
   }
@@ -1478,22 +1618,12 @@ a.github-link:hover::before {
     padding: 1rem 0 3rem;
   }
 
-  .site-header {
-    padding: 0.85rem 0 0.95rem;
-  }
-
-  .site-header-inner {
-    gap: 0.85rem;
-  }
-
   .site-eyebrow {
     font-size: 0.64rem;
     letter-spacing: 0.08em;
     max-width: 24rem;
   }
 
-  .site-nav a,
-  .site-nav summary,
   .cta-banner a,
   .cta-banner-link,
   .question-banner a {
@@ -1501,26 +1631,13 @@ a.github-link:hover::before {
     justify-content: center;
   }
 
-  .site-nav {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 0.45rem;
-  }
-
-  .nav-dropdown {
-    width: 100%;
-  }
-
-  .nav-dropdown[open] {
-    grid-column: 1 / -1;
-  }
-
   .site-brand-title {
-    font-size: 1.02rem;
+    font-size: 1rem;
   }
 
   main h1 {
-    font-size: clamp(2rem, 8vw, 2.8rem);
+    font-size: clamp(2rem, 9vw, 2.6rem);
+    line-height: 1.03;
   }
 
   .title-row {
@@ -1534,24 +1651,51 @@ a.github-link:hover::before {
 
   .home-cta-grid {
     grid-template-columns: 1fr;
+    gap: 0.85rem;
   }
 
   .home-cta-grid .cta-banner {
     min-height: auto;
+    padding: 1rem 1rem 1.05rem;
+    gap: 0.4rem;
   }
 
   .home-cta-grid .cta-banner h3 {
-    font-size: 1.32rem;
+    font-size: 1.25rem;
   }
 
   .home-cta-grid .cta-banner p {
-    font-size: 0.93rem;
+    font-size: 0.92rem;
+    line-height: 1.55;
   }
 
   .cta-banner-reveal {
-    max-height: 5rem;
+    max-height: 6rem;
     opacity: 1;
     margin-top: 0.15rem;
+  }
+
+  .cta-banner-link {
+    margin-top: 0.4rem;
+  }
+
+  .program-cards {
+    gap: 0.9rem;
+  }
+
+  main details:not(.nav-dropdown) > summary {
+    padding: 0.9rem 1rem;
+    font-size: 1rem;
+  }
+
+  .details-content,
+  .info-box,
+  .reflection-box,
+  .exercise-box,
+  .tip-box,
+  .step-objectives,
+  blockquote {
+    padding: 0.95rem 1rem;
   }
 
   .methods-start-grid {
@@ -1580,6 +1724,66 @@ a.github-link:hover::before {
     padding: 1.25rem;
   }
 
+  .program-facts-table {
+    display: none;
+  }
+
+  .program-facts-mobile {
+    display: grid;
+    gap: 0.85rem;
+    margin: 1.2rem 0 1.4rem;
+  }
+
+  .program-fact-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    padding: 1rem 1rem 0.95rem;
+    box-shadow: 0 10px 22px rgba(44, 53, 39, 0.05);
+  }
+
+  .program-fact-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    margin-bottom: 0.8rem;
+  }
+
+  .program-fact-card h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    line-height: 1.1;
+  }
+
+  .program-fact-card dl {
+    margin: 0;
+    display: grid;
+    gap: 0.65rem;
+  }
+
+  .program-fact-card dl div {
+    display: grid;
+    gap: 0.1rem;
+    padding-top: 0.65rem;
+    border-top: 1px solid rgba(42, 34, 24, 0.08);
+  }
+
+  .program-fact-card dt {
+    font-size: 0.74rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+  }
+
+  .program-fact-card dd {
+    margin: 0;
+    font-size: 0.95rem;
+    line-height: 1.45;
+    color: var(--text);
+  }
+
   .page-route-card {
     padding: 0.9rem;
   }
@@ -1590,6 +1794,12 @@ a.github-link:hover::before {
 
   .cb-term-line {
     white-space: normal;
+  }
+}
+
+@media (min-width: 761px) {
+  .program-facts-mobile {
+    display: none;
   }
 }
 

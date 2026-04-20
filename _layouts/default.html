@@ -40,36 +40,41 @@
           <p class="site-eyebrow">Leiden University &middot; Faculty of Humanities</p>
           <a class="site-brand-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
         </div>
-        <nav class="site-nav" aria-label="Primary">
-          <a href="{{ '/' | relative_url }}"{% if is_home %} class="is-active" aria-current="page"{% endif %}>Home</a>
-          <a href="{{ '/getting-started/' | relative_url }}"{% if is_getting_started %} class="is-active" aria-current="page"{% endif %}>Getting Started</a>
-          <details class="nav-dropdown{% if is_program %} is-current{% endif %}">
-            <summary>Programs <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
-            <div class="nav-dropdown-menu">
-              <div class="nav-dropdown-menu-inner">
-                <a href="{{ '/bais/' | relative_url }}"{% if page.url contains '/bais/' %} aria-current="page"{% endif %}>BAIS</a>
-                <a href="{{ '/baks/' | relative_url }}"{% if page.url contains '/baks/' %} aria-current="page"{% endif %}>BAKS</a>
-                <a href="{{ '/maas/' | relative_url }}"{% if page.url contains '/maas/' %} aria-current="page"{% endif %}>MAAS</a>
-                <a href="{{ '/mair/' | relative_url }}"{% if page.url contains '/mair/' %} aria-current="page"{% endif %}>MAIR</a>
+        <div class="site-nav-wrap">
+          <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+            <span>Browse site</span>
+          </button>
+          <nav class="site-nav" id="site-nav" aria-label="Primary">
+            <a href="{{ '/' | relative_url }}"{% if is_home %} class="is-active" aria-current="page"{% endif %}>Home</a>
+            <a href="{{ '/getting-started/' | relative_url }}"{% if is_getting_started %} class="is-active" aria-current="page"{% endif %}>Getting Started</a>
+            <details class="nav-dropdown{% if is_program %} is-current{% endif %}">
+              <summary>Programs <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
+              <div class="nav-dropdown-menu">
+                <div class="nav-dropdown-menu-inner">
+                  <a href="{{ '/bais/' | relative_url }}"{% if page.url contains '/bais/' %} aria-current="page"{% endif %}>BAIS</a>
+                  <a href="{{ '/baks/' | relative_url }}"{% if page.url contains '/baks/' %} aria-current="page"{% endif %}>BAKS</a>
+                  <a href="{{ '/maas/' | relative_url }}"{% if page.url contains '/maas/' %} aria-current="page"{% endif %}>MAAS</a>
+                  <a href="{{ '/mair/' | relative_url }}"{% if page.url contains '/mair/' %} aria-current="page"{% endif %}>MAIR</a>
+                </div>
               </div>
-            </div>
-          </details>
-          <a href="{{ '/assessment-standards/' | relative_url }}"{% if is_assessment %} class="is-active" aria-current="page"{% endif %}>Assessment Standards</a>
-          <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Ethics &amp; AI</a>
-          <details class="nav-dropdown{% if is_methods %} is-current{% endif %}">
-            <summary>Methods <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
-            <div class="nav-dropdown-menu">
-              <div class="nav-dropdown-menu-inner">
-                <a href="{{ '/methods/' | relative_url }}"{% if page.title == 'Methods Guide' %} aria-current="page"{% endif %}>Overview</a>
-                <a href="{{ '/methods/building-a-corpus' | relative_url }}"{% if page.url contains '/methods/building-a-corpus' %} aria-current="page"{% endif %}>Building a Corpus</a>
-                <a href="https://scdenney.github.io/corpus-building/">Corpus Building Wizard</a>
-                <a href="{{ '/methods/qualitative/' | relative_url }}"{% if page.title == 'Qualitative Approaches' %} aria-current="page"{% endif %}>Qualitative Approaches</a>
-                <a href="{{ '/methods/quantitative/' | relative_url }}"{% if page.title == 'Computational & Quantitative Approaches' %} aria-current="page"{% endif %}>Computational &amp; Quantitative</a>
-                <a href="{{ '/methods/claude-code-codex' | relative_url }}"{% if page.url contains '/methods/claude-code-codex' %} aria-current="page"{% endif %}>Claude Code &amp; Codex</a>
+            </details>
+            <a href="{{ '/assessment-standards/' | relative_url }}"{% if is_assessment %} class="is-active" aria-current="page"{% endif %}>Assessment Standards</a>
+            <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Ethics &amp; AI</a>
+            <details class="nav-dropdown{% if is_methods %} is-current{% endif %}">
+              <summary>Methods <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
+              <div class="nav-dropdown-menu">
+                <div class="nav-dropdown-menu-inner">
+                  <a href="{{ '/methods/' | relative_url }}"{% if page.title == 'Methods Guide' %} aria-current="page"{% endif %}>Overview</a>
+                  <a href="{{ '/methods/building-a-corpus' | relative_url }}"{% if page.url contains '/methods/building-a-corpus' %} aria-current="page"{% endif %}>Building a Corpus</a>
+                  <a href="https://scdenney.github.io/corpus-building/">Corpus Building Wizard</a>
+                  <a href="{{ '/methods/qualitative/' | relative_url }}"{% if page.title == 'Qualitative Approaches' %} aria-current="page"{% endif %}>Qualitative Approaches</a>
+                  <a href="{{ '/methods/quantitative/' | relative_url }}"{% if page.title == 'Computational & Quantitative Approaches' %} aria-current="page"{% endif %}>Computational &amp; Quantitative</a>
+                  <a href="{{ '/methods/claude-code-codex' | relative_url }}"{% if page.url contains '/methods/claude-code-codex' %} aria-current="page"{% endif %}>Claude Code &amp; Codex</a>
+                </div>
               </div>
-            </div>
-          </details>
-        </nav>
+            </details>
+          </nav>
+        </div>
       </div>
     </header>
 

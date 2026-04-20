@@ -72,12 +72,102 @@ If you are writing within one of the Leiden programs I supervise, start with you
 
 ## At a Glance
 
+<div class="program-facts-table" markdown="1">
+
 | | BAIS | BAKS | MAAS | MAIR |
 |---|---|---|---|---|
 | **Level** | BA | BA | MA | MA |
 | **Word count** | 10,000 (±10%) | 10,000 (±10%) | 12,000–15,000 | 15,000 max |
 | **Citation style** | Chicago | Chicago Notes-Bib | Consistent, recognized style | Consistent, recognized style |
 | **Final deadline** | June 23, 2026 | June 1, 2026 | July 1, 2026 | June 5, 2026 |
+
+</div>
+
+<div class="program-facts-mobile" markdown="0">
+  <article class="program-fact-card">
+    <div class="program-fact-card-header">
+      <h3>BAIS</h3>
+      <span class="card-level ba">BA</span>
+    </div>
+    <dl>
+      <div>
+        <dt>Word count</dt>
+        <dd>10,000 (±10%)</dd>
+      </div>
+      <div>
+        <dt>Citation style</dt>
+        <dd>Chicago</dd>
+      </div>
+      <div>
+        <dt>Final deadline</dt>
+        <dd>June 23, 2026</dd>
+      </div>
+    </dl>
+  </article>
+
+  <article class="program-fact-card">
+    <div class="program-fact-card-header">
+      <h3>BAKS</h3>
+      <span class="card-level ba">BA</span>
+    </div>
+    <dl>
+      <div>
+        <dt>Word count</dt>
+        <dd>10,000 (±10%)</dd>
+      </div>
+      <div>
+        <dt>Citation style</dt>
+        <dd>Chicago Notes-Bib</dd>
+      </div>
+      <div>
+        <dt>Final deadline</dt>
+        <dd>June 1, 2026</dd>
+      </div>
+    </dl>
+  </article>
+
+  <article class="program-fact-card">
+    <div class="program-fact-card-header">
+      <h3>MAAS</h3>
+      <span class="card-level ma">MA</span>
+    </div>
+    <dl>
+      <div>
+        <dt>Word count</dt>
+        <dd>12,000–15,000</dd>
+      </div>
+      <div>
+        <dt>Citation style</dt>
+        <dd>Consistent, recognized style</dd>
+      </div>
+      <div>
+        <dt>Final deadline</dt>
+        <dd>July 1, 2026</dd>
+      </div>
+    </dl>
+  </article>
+
+  <article class="program-fact-card">
+    <div class="program-fact-card-header">
+      <h3>MAIR</h3>
+      <span class="card-level ma">MA</span>
+    </div>
+    <dl>
+      <div>
+        <dt>Word count</dt>
+        <dd>15,000 max</dd>
+      </div>
+      <div>
+        <dt>Citation style</dt>
+        <dd>Consistent, recognized style</dd>
+      </div>
+      <div>
+        <dt>Final deadline</dt>
+        <dd>June 5, 2026</dd>
+      </div>
+    </dl>
+  </article>
+</div>
 
 All dates are for the **2025-2026 academic year**. Always confirm deadlines with your supervisor and program coordinator.
 
