@@ -11,6 +11,12 @@ title: Home
 **Supervisor:** Dr. Steven Denney ([s.c.denney@hum.leidenuniv.nl](mailto:s.c.denney@hum.leidenuniv.nl))<br>
 **Affiliation:** Leiden University, Faculty of Humanities
 
+<div class="home-mobile-start" markdown="0">
+  <a href="{{ '/getting-started/' | relative_url }}">Getting Started</a>
+  <a href="{{ '/methods/' | relative_url }}">Methods Guide</a>
+  <a class="is-secondary" href="#find-your-program">Find Your Program</a>
+</div>
+
 ---
 
 This site is the thesis and research supervision hub for the BA and MA programs I teach in at Leiden Humanities. It is primarily for the students I supervise, but anyone at Leiden or elsewhere is welcome to use the program guidelines, assessment standards, getting-started guide, ethics and policy information, and methods material. The methods section in particular, covering corpus building, digital-humanities tools, and the method-specific guides, is written as a broader resource for students and faculty alike.
@@ -40,6 +46,8 @@ All programs share four core evaluative standards: Knowledge & Insight, Applicat
     <span class="cta-banner-link">Explore methods</span>
   </a>
 </div>
+
+<div id="find-your-program"></div>
 
 ## Leiden Student? Find Your Program
 

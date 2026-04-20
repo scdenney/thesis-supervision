@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const sidebar = document.querySelector(".page-sidebar");
   const toc = document.querySelector(".page-toc");
   const mobileNavMedia = window.matchMedia("(max-width: 760px)");
+  let tocToggle = null;
 
   const setMobileNavOpen = (isOpen) => {
     if (!siteHeader || !mobileNavToggle) return;
@@ -79,6 +80,11 @@ document.addEventListener("DOMContentLoaded", () => {
       navDropdowns.forEach((dropdown) => {
         dropdown.open = false;
       });
+      if (sidebar) {
+        sidebar.classList.remove("is-open");
+        document.body.classList.remove("toc-open");
+        if (tocToggle) tocToggle.setAttribute("aria-expanded", "false");
+      }
       setMobileNavOpen(false);
     });
   }
@@ -87,22 +93,34 @@ document.addEventListener("DOMContentLoaded", () => {
     sidebar.classList.add("is-collapsible");
 
     const title = sidebar.querySelector(".page-sidebar-title");
+    const layout = sidebar.closest(".page-layout");
     if (title) {
-      const button = document.createElement("button");
-      button.type = "button";
-      button.className = "toc-toggle";
-      button.setAttribute("aria-expanded", "false");
-      button.textContent = "Browse sections";
-      title.insertAdjacentElement("afterend", button);
+      tocToggle = document.createElement("button");
+      tocToggle.type = "button";
+      tocToggle.className = "toc-toggle";
+      tocToggle.setAttribute("aria-expanded", "false");
+      tocToggle.textContent = "Browse sections";
+
+      if (layout) {
+        layout.insertAdjacentElement("beforebegin", tocToggle);
+      } else {
+        title.insertAdjacentElement("afterend", tocToggle);
+      }
 
       const syncTOCState = () => {
         const isDesktop = window.matchMedia("(min-width: 901px)").matches;
-        const isOpen = isDesktop || sidebar.classList.contains("is-open");
-        sidebar.classList.toggle("is-open", isOpen);
-        button.setAttribute("aria-expanded", String(isOpen));
+        if (isDesktop) {
+          sidebar.classList.remove("is-open");
+          document.body.classList.remove("toc-open");
+          tocToggle.setAttribute("aria-expanded", "false");
+          return;
+        }
+
+        document.body.classList.toggle("toc-open", sidebar.classList.contains("is-open"));
+        tocToggle.setAttribute("aria-expanded", String(sidebar.classList.contains("is-open")));
       };
 
-      button.addEventListener("click", () => {
+      tocToggle.addEventListener("click", () => {
         sidebar.classList.toggle("is-open");
         syncTOCState();
       });
@@ -111,12 +129,20 @@ document.addEventListener("DOMContentLoaded", () => {
       syncTOCState();
     }
 
+    sidebar.addEventListener("click", (event) => {
+      if (!window.matchMedia("(max-width: 900px)").matches) return;
+      if (event.target !== sidebar) return;
+      sidebar.classList.remove("is-open");
+      document.body.classList.remove("toc-open");
+      if (tocToggle) tocToggle.setAttribute("aria-expanded", "false");
+    });
+
     tocLinks.forEach((link) => {
       link.addEventListener("click", () => {
         if (window.matchMedia("(max-width: 900px)").matches) {
           sidebar.classList.remove("is-open");
-          const toggle = sidebar.querySelector(".toc-toggle");
-          if (toggle) toggle.setAttribute("aria-expanded", "false");
+          document.body.classList.remove("toc-open");
+          if (tocToggle) tocToggle.setAttribute("aria-expanded", "false");
         }
       });
     });

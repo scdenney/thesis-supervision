@@ -41,6 +41,10 @@ body {
   flex-direction: column;
 }
 
+body.toc-open {
+  overflow: hidden;
+}
+
 main { flex: 1; padding: 1.5rem 0 4rem; }
 
 .container {
@@ -470,7 +474,7 @@ main h1 + p {
   width: 100%;
   justify-content: space-between;
   align-items: center;
-  margin: 0.6rem 0 0;
+  margin: 0 0 1rem;
   padding: 0.75rem 0.9rem;
   border: 1px solid var(--line);
   border-radius: 999px;
@@ -486,7 +490,7 @@ main h1 + p {
   font-size: 0.85rem;
 }
 
-.page-sidebar.is-open .toc-toggle::after {
+.toc-toggle[aria-expanded="true"]::after {
   content: "↑";
 }
 
@@ -539,18 +543,34 @@ main h1 + p {
   }
 
   .page-layout {
-    grid-template-columns: 1fr;
-    gap: 1.1rem;
+    display: block;
   }
 
   .page-sidebar-inner {
+    width: min(100%, 34rem);
+    margin: 0 auto;
     max-height: none;
-    padding: 0.95rem;
+    padding: 1rem;
+    border-radius: 22px;
   }
 
   .page-sidebar {
-    position: static;
-    top: auto;
+    position: fixed;
+    inset: 0;
+    z-index: 220;
+    display: none;
+    padding: 5rem 1rem 1rem;
+    background: rgba(42, 34, 24, 0.34);
+    backdrop-filter: blur(4px);
+  }
+
+  .page-sidebar.is-open {
+    display: block;
+  }
+
+  .page-sidebar.is-collapsible .page-sidebar-inner {
+    max-height: calc(100vh - 6rem);
+    overflow-y: auto;
   }
 
   .toc-toggle {
@@ -558,14 +578,10 @@ main h1 + p {
   }
 
   .page-sidebar.is-collapsible .page-toc {
-    display: none;
-    margin-top: 0.8rem;
-    max-height: 16rem;
-    overflow-y: auto;
-  }
-
-  .page-sidebar.is-open .page-toc {
     display: block;
+    margin-top: 0;
+    max-height: none;
+    overflow: visible;
   }
 }
 
@@ -827,6 +843,43 @@ main p {
   color: var(--plum);
 }
 
+.methods-alt-mobile {
+  display: none;
+}
+
+.method-summary-card {
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 1rem 1.05rem;
+  box-shadow: 0 10px 22px rgba(44, 53, 39, 0.05);
+}
+
+.method-summary-card + .method-summary-card {
+  margin-top: 0.85rem;
+}
+
+.method-summary-card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.08rem;
+  line-height: 1.2;
+}
+
+.method-summary-card strong {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.method-summary-card p {
+  margin: 0;
+  font-size: 0.96rem;
+  line-height: 1.55;
+}
+
 /* ── Details / summary (getting-started guide) ── */
 
 main details:not(.nav-dropdown) {
@@ -885,6 +938,10 @@ main details:not(.nav-dropdown) > summary:hover {
 }
 
 /* ── CTA banner ── */
+
+.home-mobile-start {
+  display: none;
+}
 
 .cta-banner {
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.82));
@@ -1640,6 +1697,35 @@ a.github-link:hover::before {
     line-height: 1.03;
   }
 
+  .home-mobile-start {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.65rem;
+    margin: 1rem 0 1.2rem;
+  }
+
+  .home-mobile-start a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2.95rem;
+    padding: 0.8rem 0.95rem;
+    border-radius: 16px;
+    background: var(--plum);
+    color: var(--white);
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 10px 18px rgba(44, 53, 39, 0.12);
+  }
+
+  .home-mobile-start a.is-secondary {
+    grid-column: 1 / -1;
+    background: rgba(44, 53, 39, 0.08);
+    border: 1px solid rgba(44, 53, 39, 0.12);
+    color: var(--plum);
+    box-shadow: none;
+  }
+
   .title-row {
     flex-direction: column;
     align-items: flex-start;
@@ -1784,6 +1870,15 @@ a.github-link:hover::before {
     color: var(--text);
   }
 
+  .methods-alt-table {
+    display: none;
+  }
+
+  .methods-alt-mobile {
+    display: block;
+    margin: 1rem 0 1.2rem;
+  }
+
   .page-route-card {
     padding: 0.9rem;
   }
@@ -1799,6 +1894,10 @@ a.github-link:hover::before {
 
 @media (min-width: 761px) {
   .program-facts-mobile {
+    display: none;
+  }
+
+  .methods-alt-mobile {
     display: none;
   }
 }

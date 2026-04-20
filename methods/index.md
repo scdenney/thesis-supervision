@@ -56,11 +56,45 @@ Claude Code and Codex are not methods in themselves, but they can substantially 
 
 The methods above are covered in depth because they are especially common in the programs I supervise. But they are far from the only options. Depending on your research question, you may also want to consider:
 
+<div class="methods-alt-table" markdown="1">
+
 | Method | Brief description | Common in |
 |--------|-------------------|-----------|
 | **Qualitative interviewing + thematic analysis** | Semi-structured interviews analyzed for recurring themes and patterns | All programs, especially fieldwork-based theses |
 | **Content analysis** | Systematic coding and categorization of textual material; can be quantitative or qualitative | IR, media-adjacent topics |
 | **Survey methods / quantitative analysis** | Statistical analysis of original or secondary survey data | MAIR especially, BAIS with quantitative focus |
 | **Archival research** | Systematic analysis of historical documents, government records, correspondence | Korean Studies, history-focused MAAS theses |
+
+</div>
+
+<div class="methods-alt-mobile" markdown="0">
+  <article class="method-summary-card">
+    <h3>Qualitative interviewing + thematic analysis</h3>
+    <p>Semi-structured interviews analyzed for recurring themes and patterns.</p>
+    <strong>Common in</strong>
+    <p>All programs, especially fieldwork-based theses.</p>
+  </article>
+
+  <article class="method-summary-card">
+    <h3>Content analysis</h3>
+    <p>Systematic coding and categorization of textual material; can be quantitative or qualitative.</p>
+    <strong>Common in</strong>
+    <p>IR, media-adjacent topics.</p>
+  </article>
+
+  <article class="method-summary-card">
+    <h3>Survey methods / quantitative analysis</h3>
+    <p>Statistical analysis of original or secondary survey data.</p>
+    <strong>Common in</strong>
+    <p>MAIR especially, BAIS with quantitative focus.</p>
+  </article>
+
+  <article class="method-summary-card">
+    <h3>Archival research</h3>
+    <p>Systematic analysis of historical documents, government records, correspondence.</p>
+    <strong>Common in</strong>
+    <p>Korean Studies, history-focused MAAS theses.</p>
+  </article>
+</div>
 
 Discuss your methodological choices with your supervisor early. The [Getting Started Guide — Step 4]({{ '/getting-started/#step-4' | relative_url }}) covers method selection in general terms.
