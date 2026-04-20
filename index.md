@@ -24,27 +24,19 @@ This site is the thesis and research supervision hub for the BA and MA programs 
 All programs share four core evaluative standards: Knowledge & Insight, Application of Knowledge, Reaching Conclusions, and Communication. Expectations are calibrated to program level (BA or MA); see the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for details.
 
 <div class="home-cta-grid" markdown="0">
-  <a class="cta-banner" href="{{ '/getting-started/' | relative_url }}">
+  <div class="cta-banner">
     <strong>New to thesis or research writing?</strong>
     <h3>Getting Started Guide</h3>
     <p>Five guided steps covering the question, sources, literature review, analytical framework, and writing up findings.</p>
-    <div class="cta-banner-reveal">
-      <span>Research question, sources, literature review</span>
-      <span>Methods framework, findings, writing strategy</span>
-    </div>
-    <span class="cta-banner-link">Open the guide</span>
-  </a>
+    <a class="cta-banner-link" href="{{ '/getting-started/' | relative_url }}">Open the guide</a>
+  </div>
 
-  <a class="cta-banner" href="{{ '/methods/' | relative_url }}">
+  <div class="cta-banner">
     <strong>Choosing a method?</strong>
     <h3>Browse the Methods Guide</h3>
     <p>Start with corpus planning, then move into qualitative, computational, or AI-supported research workflows.</p>
-    <div class="cta-banner-reveal">
-      <span>Corpus planning, qualitative and computational routes</span>
-      <span>Direct path to the wizard for technical workflows</span>
-    </div>
-    <span class="cta-banner-link">Explore methods</span>
-  </a>
+    <a class="cta-banner-link" href="{{ '/methods/' | relative_url }}">Explore methods</a>
+  </div>
 </div>
 
 <div id="find-your-program"></div>

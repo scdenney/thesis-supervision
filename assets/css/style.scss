@@ -966,16 +966,7 @@ main details:not(.nav-dropdown) > summary:hover {
   display: flex;
   flex-direction: column;
   gap: 0.55rem;
-  text-decoration: none;
   color: inherit;
-  transition: border-color 0.18s ease, box-shadow 0.18s ease, transform 0.18s ease;
-}
-
-.home-cta-grid .cta-banner:hover,
-.home-cta-grid .cta-banner:focus {
-  border-color: rgba(94, 122, 47, 0.62);
-  box-shadow: 0 18px 30px rgba(44, 53, 39, 0.1);
-  transform: translateY(-2px);
 }
 
 .cta-banner strong {
@@ -1007,42 +998,6 @@ main details:not(.nav-dropdown) > summary:hover {
   line-height: 1.55;
 }
 
-.cta-banner-reveal {
-  display: grid;
-  gap: 0.35rem;
-  max-height: 0;
-  opacity: 0;
-  overflow: hidden;
-  transition: max-height 0.22s ease, opacity 0.18s ease, margin-top 0.18s ease;
-}
-
-.cta-banner-reveal span {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  color: var(--teal);
-  font-size: 0.88rem;
-  font-weight: 600;
-  line-height: 1.45;
-}
-
-.cta-banner-reveal span::before {
-  content: "";
-  width: 0.42rem;
-  height: 0.42rem;
-  border-radius: 50%;
-  background: var(--gold);
-  flex-shrink: 0;
-}
-
-.home-cta-grid .cta-banner:hover .cta-banner-reveal,
-.home-cta-grid .cta-banner:focus .cta-banner-reveal,
-.home-cta-grid .cta-banner:focus-visible .cta-banner-reveal {
-  max-height: 5rem;
-  opacity: 1;
-  margin-top: 0.15rem;
-}
-
 .cta-banner a,
 .cta-banner-link {
   display: inline-flex;
@@ -1058,16 +1013,42 @@ main details:not(.nav-dropdown) > summary:hover {
   box-shadow: 0 8px 18px rgba(44, 53, 39, 0.18);
   width: fit-content;
   margin-top: auto;
-  transition: background-color 0.16s ease, transform 0.16s ease;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.16s ease, transform 0.16s ease,
+    box-shadow 0.16s ease, filter 0.16s ease;
+}
+
+.cta-banner a::before,
+.cta-banner-link::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(120deg, transparent 0%, rgba(255, 255, 255, 0.14) 45%, transparent 100%);
+  opacity: 0;
+  transform: translateX(-120%);
+  transition: transform 0.26s ease, opacity 0.16s ease;
 }
 
 .cta-banner a:hover,
 .cta-banner-link:hover,
-.home-cta-grid .cta-banner:hover .cta-banner-link,
-.home-cta-grid .cta-banner:focus .cta-banner-link {
+.cta-banner a:focus,
+.cta-banner-link:focus,
+.cta-banner a:focus-visible,
+.cta-banner-link:focus-visible {
   background: #23301f;
   color: var(--white);
-  transform: translateX(2px);
+  box-shadow: 0 14px 24px rgba(44, 53, 39, 0.24);
+  filter: brightness(1.04);
+  transform: translateY(-1px);
+}
+
+.cta-banner a:hover::before,
+.cta-banner-link:hover::before,
+.cta-banner a:focus-visible::before,
+.cta-banner-link:focus-visible::before {
+  opacity: 1;
+  transform: translateX(120%);
 }
 
 .question-banner {
@@ -1753,12 +1734,6 @@ a.github-link:hover::before {
   .home-cta-grid .cta-banner p {
     font-size: 0.92rem;
     line-height: 1.55;
-  }
-
-  .cta-banner-reveal {
-    max-height: 6rem;
-    opacity: 1;
-    margin-top: 0.15rem;
   }
 
   .cta-banner-link {
