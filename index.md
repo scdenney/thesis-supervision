@@ -19,7 +19,7 @@ title: Home
 
 ---
 
-This site is the thesis and research supervision hub for the BA and MA programs I teach in at Leiden Humanities. It is primarily for the students I supervise, but anyone at Leiden or elsewhere is welcome to use the program guidelines, assessment standards, getting-started guide, ethics and policy information, and methods material. The methods section in particular, covering corpus building, digital-humanities tools, and the method-specific guides, is written as a broader resource for students and faculty alike.
+This site supports thesis and research supervision in the BA and MA programs I teach in the Faculty of Humanities at Leiden University. It is primarily designed for the students I supervise, but many of the program guidelines, assessment standards, getting-started materials, ethics guidance, and methods resources are also useful to other students, researchers, and faculty at Leiden and beyond. The methods section in particular, covering corpus building, digital-humanities tools, and the method-specific guides, is intended as a broader resource for students and faculty alike.
 
 All programs share four core evaluative standards: Knowledge & Insight, Application of Knowledge, Reaching Conclusions, and Communication. Expectations are calibrated to program level (BA or MA); see the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for details.
 
