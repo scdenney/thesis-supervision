@@ -37,7 +37,7 @@ Topic analysis does not "find the truth" of a corpus — it finds statistical re
 
 ## What you learn in the DH course
 
-This page draws from the course's topic modelling material. Students who take it come away with:
+This page draws from the course's topic modeling material. Students who take it come away with:
 
 - How LDA works conceptually (mixed-membership over topics; topics as word distributions)
 - Reading STM as LDA plus covariates that shift topic prevalence and content
@@ -64,7 +64,7 @@ This page draws from the course's topic modelling material. Students who take it
 - Track how themes in a news corpus shift across a political crisis (prevalence by month)
 - Compare how two political parties frame the same issue (prevalence by source)
 - Identify latent genres in a literary corpus that weren't defined a priori
-- Surface candidate themes for subsequent close reading — topic modelling as a "where to look" tool rather than a final answer
+- Surface candidate themes for subsequent close reading — topic modeling as a "where to look" tool rather than a final answer
 - Produce descriptive scaffolding for a larger corpus that would otherwise be impossible to read end-to-end
 
 ---

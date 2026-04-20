@@ -5,9 +5,9 @@ title: Methods Guide
 
 # Methods Guide
 
-Choosing and applying an appropriate method is one of the most challenging parts of writing a thesis. This guide organises the methods most commonly used by students I supervise into three entry points:
+Choosing and applying an appropriate method is one of the most challenging parts of writing a thesis. This guide organizes the methods most commonly used by students I supervise into three entry points:
 
-- **Building a corpus**: the planning and organisation side of text-based work: assembling sources, defining inclusion criteria, and structuring a document set for analysis.
+- **Building a corpus**: the planning and organization side of text-based work: assembling sources, defining inclusion criteria, and structuring a document set for analysis.
 - **Qualitative approaches**: close reading, interpretive work, cross-case comparison. Four methods grouped together.
 - **Computational & quantitative approaches**: treating a corpus programmatically. Preparation plus three core methods, alongside links to the courses I teach in digital humanities.
 
@@ -22,7 +22,7 @@ For general guidance on selecting a method, see the [Getting Started Guide — S
     <div class="featured-program-card-copy">
       <span class="card-level start">Start here</span>
       <h3>Building a Corpus</h3>
-      <p>If the open question is still what to collect, how to bound it, or how to organise it, begin here before choosing the analytical path. If you already know you need the computational route, you can jump straight into the wizard.</p>
+      <p>If the open question is still what to collect, how to bound it, or how to organize it, begin here before choosing the analytical path. If you already know you need the computational route, you can jump straight into the wizard.</p>
     </div>
     <div class="featured-program-actions">
       <a class="program-card-cta" href="{{ '/methods/building-a-corpus' | relative_url }}">Read the corpus guide</a>
@@ -41,12 +41,12 @@ For general guidance on selecting a method, see the [Getting Started Guide — S
 
 ## AI-Supported Research Workflows
 
-Claude Code and Codex are not methods in themselves, but they can substantially improve how you organise material, document decisions, and run transparent research workflows across both qualitative and computational projects.
+Claude Code and Codex are not methods in themselves, but they can substantially improve how you organize material, document decisions, and run transparent research workflows across both qualitative and computational projects.
 
 <div class="program-cards" markdown="0">
   <a class="program-card" href="{{ '/methods/claude-code-codex' | relative_url }}">
     <h3>Claude Code &amp; Codex</h3>
-    <p>What these tools are, how they differ from chatbot interfaces, and how to use them responsibly for corpus building, source organisation, coding, and analysis.</p>
+    <p>What these tools are, how they differ from chatbot interfaces, and how to use them responsibly for corpus building, source organization, coding, and analysis.</p>
   </a>
 </div>
 

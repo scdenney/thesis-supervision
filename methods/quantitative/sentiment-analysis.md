@@ -23,13 +23,13 @@ title: Sentiment Analysis
 
 # Sentiment Analysis
 
-Assigning numerical values that summarise how positive, negative, or emotionally charged a text is — useful when you need a scalar measure of tone across a large corpus.
+Assigning numerical values that summarize how positive, negative, or emotionally charged a text is — useful when you need a scalar measure of tone across a large corpus.
 
 ---
 
 ## What it is
 
-**Sentiment analysis** covers three broad families, each with different assumptions about what "sentiment" *is* and whom it generalises to:
+**Sentiment analysis** covers three broad families, each with different assumptions about what "sentiment" *is* and whom it generalizes to:
 
 1. **Dictionary methods**: counting terms from a curated lexicon (LIWC, VADER, NRC, AFINN). Transparent and reproducible; struggles with negation, sarcasm, and domain shift.
 2. **Supervised classifiers**: training a model (logistic regression, SVM, fine-tuned transformer) on human-labelled examples. More accurate in-domain, but requires labelled training data and careful validation.
@@ -48,7 +48,7 @@ This page draws from the course's sentiment analysis material. Students who take
 - LLM-based sentiment rating: prompt design, reproducibility, version pinning
 - Handling negation, intensifiers, and contextual modifiers
 - Inter-annotator agreement (Cohen's kappa, Krippendorff's alpha) for labelled data
-- Validating sentiment scores against human judgement
+- Validating sentiment scores against human judgment
 - Reporting sentiment methods in a methodology chapter — limitations are mandatory
 
 <!-- TODO: refine this list against the DH course's current syllabus. -->
@@ -57,7 +57,7 @@ This page draws from the course's sentiment analysis material. Students who take
 
 ## What you need to learn first
 
-- **Preprocessing**: dictionary methods especially depend on tokenisation and lemmatisation. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
+- **Preprocessing**: dictionary methods especially depend on tokenization and lemmatization. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
 - **Basic statistics**: agreement metrics, confidence intervals, reliability thinking.
 - **Python or R**: `vaderSentiment`, `nltk`, `transformers` in Python; `sentimentr`, `quanteda.sentiment` in R.
 

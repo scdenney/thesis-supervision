@@ -5,7 +5,7 @@ title: Qualitative Approaches
 
 # Qualitative Approaches
 
-For close reading, interpretive work, and methods where human judgement about meaning drives the analysis. The four pages below cover methods that are commonly used across the BA and MA programs I supervise — each answers a different kind of question about texts, cases, or political communication. They are often combined with each other, and frequently paired with a computational method for sampling or validation. See the [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}) page for that side of the split.
+For close reading, interpretive work, and methods where human judgment about meaning drives the analysis. The four pages below cover methods that are commonly used across the BA and MA programs I supervise — each answers a different kind of question about texts, cases, or political communication. They are often combined with each other, and frequently paired with a computational method for sampling or validation. See the [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}) page for that side of the split.
 
 Each page below follows the same structure: what the method is, when to use it, how to apply it step by step, how to structure the relevant thesis chapters, and what to read.
 
@@ -33,7 +33,7 @@ Each page below follows the same structure: what the method is, when to use it, 
 <div class="question-banner" markdown="0">
   <div class="question-banner-copy">
     <strong>Still working out the corpus rather than the method?</strong>
-    <p>Go back to the corpus page if your source selection, document set, or file organisation is not settled yet.</p>
+    <p>Go back to the corpus page if your source selection, document set, or file organization is not settled yet.</p>
   </div>
   <a href="{{ '/methods/building-a-corpus' | relative_url }}">Go to Building a Corpus</a>
 </div>
@@ -45,7 +45,7 @@ Each page below follows the same structure: what the method is, when to use it, 
 Many of the strongest theses combine a qualitative method with a computational one. A few common pairings:
 
 - **Framing analysis + topic analysis**: use a topic model to surface candidate frames in a large corpus, then read closely within each cluster.
-- **Discourse analysis + keyword-in-context tooling**: let the computational side locate passages worth reading; keep the interpretive judgement human.
+- **Discourse analysis + keyword-in-context tooling**: let the computational side locate passages worth reading; keep the interpretive judgment human.
 - **Comparative case study + descriptive corpus statistics**: report aggregate measures (volume, sentiment, keyword prevalence) alongside your cross-case interpretation.
 - **Process tracing + digital archives**: use computational search to identify the causal-process observations you would otherwise miss.
 

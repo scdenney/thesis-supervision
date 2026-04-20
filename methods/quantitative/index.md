@@ -7,7 +7,7 @@ title: Computational & Quantitative Approaches
 
 For work that treats a corpus programmatically — extracting patterns, measuring themes, building numerical representations that scale beyond what a single reader can manage. The pages below cover the most common computational approaches I point students to across the BA and MA programs I supervise.
 
-The distinction with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is one of analytical posture, not subject matter. You can do computational work on a small corpus of parliamentary speeches; you can do discourse analysis on tweets. What changes is what the method *measures* and how the researcher's judgement enters the analysis — in computational work, judgement sits largely in design and validation; in qualitative work, it sits in interpretation itself.
+The distinction with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is one of analytical posture, not subject matter. You can do computational work on a small corpus of parliamentary speeches; you can do discourse analysis on tweets. What changes is what the method *measures* and how the researcher's judgment enters the analysis — in computational work, judgment sits largely in design and validation; in qualitative work, it sits in interpretation itself.
 
 ## Launch the wizard
 
@@ -66,7 +66,7 @@ If you already know you need a computational pipeline — OCR from scans, cleanu
 <div class="question-banner" markdown="0">
   <div class="question-banner-copy">
     <strong>Need to sort out the corpus or pipeline before choosing one of these?</strong>
-    <p>Use the corpus page for planning and organisation, or the wizard above if the issue is workflow, OCR, or compute rather than method choice.</p>
+    <p>Use the corpus page for planning and organization, or the wizard above if the issue is workflow, OCR, or compute rather than method choice.</p>
   </div>
   <a href="{{ '/methods/building-a-corpus' | relative_url }}">Go to Building a Corpus</a>
 </div>
@@ -81,12 +81,12 @@ These methods are also taught in two of my courses at Leiden. If you're a studen
   <a class="program-card" href="https://scdenney.github.io/ba2_digital-korea/" target="_blank" rel="noopener">
     <span class="card-level ba">BA2</span>
     <h3>Digital Korea</h3>
-    <p>12-session course in computational text analysis with Orange Data Mining and R, primarily for Korean Studies. Covers the full preprocessing → classification → topic modelling pipeline.</p>
+    <p>12-session course in computational text analysis with Orange Data Mining and R, primarily for Korean Studies. Covers the full preprocessing → classification → topic modeling pipeline.</p>
   </a>
   <a class="program-card" href="https://scdenney.github.io/ba3_text_as_data/" target="_blank" rel="noopener">
     <span class="card-level ba">BA3</span>
     <h3>Text as Data (DH strand)</h3>
-    <p>Six-seminar digital-humanities strand of the BA3 <em>Contemporary Korea and Digital Humanities</em> course. No programming required; introduces descriptive, clustering, classification, and topic-modelling methods on pre-prepared Korean corpora.</p>
+    <p>Six-seminar digital-humanities strand of the BA3 <em>Contemporary Korea and Digital Humanities</em> course. No programming required; introduces descriptive, clustering, classification, and topic-modeling methods on pre-prepared Korean corpora.</p>
   </a>
 </div>
 

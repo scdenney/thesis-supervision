@@ -315,7 +315,7 @@ The study found that the responsibility and conflict frames were the most preval
 
 These are the problems that come up most often in student framing analyses. Avoiding them strengthens your thesis.
 
-**1. Confusing frames with topics.** This is the single most common mistake. A frame is not what a text is about — it is how the text presents and constructs the issue. "Climate change" is a topic. "Climate change as economic burden" or "climate change as existential threat" are frames. If your "frames" could serve as subject headings in a library catalogue, they are probably topics, not frames.
+**1. Confusing frames with topics.** This is the single most common mistake. A frame is not what a text is about — it is how the text presents and constructs the issue. "Climate change" is a topic. "Climate change as economic burden" or "climate change as existential threat" are frames. If your "frames" could serve as subject headings in a library catalog, they are probably topics, not frames.
 
 **2. Defining frames too vaguely.** If a frame definition is so broad that almost any text could be coded under it, it is not analytically useful. Each frame should have a clear definition and specific indicators. Test this: Could someone unfamiliar with your research apply your codebook and reach similar coding decisions?
 

@@ -8,7 +8,7 @@ title: Claude Code & Codex
 Claude Code and Codex are not the same thing as the standard ChatGPT interface or the regular Claude web chatbot. They are agentic research and coding assistants that can work across files, folders, prompts, notes, scripts, and outputs in a more structured way. That makes them especially useful for thesis work, where the challenge is rarely just answering one question. The real work is building a workflow you can defend, repeat, and explain.
 
 <div class="info-box" markdown="1">
-**Short version:** use chatbots for brainstorming or quick explanation; use Claude Code and Codex when you need help inspecting files, organising research material, transforming data, writing or checking code, and documenting a process from start to finish.
+**Short version:** use chatbots for brainstorming or quick explanation; use Claude Code and Codex when you need help inspecting files, organizing research material, transforming data, writing or checking code, and documenting a process from start to finish.
 </div>
 
 ## How they differ from chatbot interfaces
@@ -23,7 +23,7 @@ Claude Code and Codex are not the same thing as the standard ChatGPT interface o
 
 ## Why they are powerful for thesis research
 
-They can help you build a more organised and higher-quality workflow because they operate on the actual moving parts of a project rather than only on pasted text. In practice, that means they can:
+They can help you build a more organized and higher-quality workflow because they operate on the actual moving parts of a project rather than only on pasted text. In practice, that means they can:
 
 - help structure folders, filenames, and metadata consistently
 - turn a messy document collection into a clean and documented corpus
@@ -38,7 +38,7 @@ The gain is not that they "do the thesis for you." The gain is that they can red
 
 These tools are especially valuable for computational projects, but they are not limited to them. In qualitative or mixed-methods work they can still help you:
 
-- organise archives, interview transcripts, policy documents, or media texts
+- organize archives, interview transcripts, policy documents, or media texts
 - build coding frameworks or structured note-taking templates
 - prepare documents for close reading or comparative analysis
 - extract quotations, track themes, and maintain consistent evidence logs
@@ -79,14 +79,14 @@ Used well, these tools support better research. Used badly, they obscure what yo
 </ul>
 </div>
 
-## A good division of labour
+## A good division of labor
 
-Let the tool help with workflow, structure, cleanup, transformation, and iteration. Keep the human researcher responsible for judgement, interpretation, and argument.
+Let the tool help with workflow, structure, cleanup, transformation, and iteration. Keep the human researcher responsible for judgment, interpretation, and argument.
 
 That usually means:
 
 - **Human decides** the research question, corpus boundaries, theory, method, and interpretation.
-- **Tool assists** with preparation, organisation, scripting, checking, and documentation.
+- **Tool assists** with preparation, organization, scripting, checking, and documentation.
 - **Human verifies** that the evidence and claims still hold.
 
 ## Where to go next
@@ -94,7 +94,7 @@ That usually means:
 <div class="program-cards" markdown="0">
   <a class="program-card" href="{{ '/methods/building-a-corpus' | relative_url }}">
     <h3>Building a Corpus</h3>
-    <p>Start here if the challenge is selecting, bounding, and organising your source material.</p>
+    <p>Start here if the challenge is selecting, bounding, and organizing your source material.</p>
   </a>
   <a class="program-card" href="{{ '/methods/quantitative/' | relative_url }}">
     <h3>Computational &amp; Quantitative Approaches</h3>

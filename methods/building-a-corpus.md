@@ -224,7 +224,7 @@ Create a spreadsheet to track every text in your corpus. At minimum, include:
 | **Search terms used** | "THAAD" AND "South Korea" AND "deployment" |
 | **Notes** | Wire service reprint — check for duplicates |
 
-This spreadsheet is a research instrument that documents your corpus construction process, not just an organisational aid for your own use. You will draw on it directly when writing your methodology chapter.
+This spreadsheet is a research instrument that documents your corpus construction process, not just an organizational aid for your own use. You will draw on it directly when writing your methodology chapter.
 
 <div class="tip-box" markdown="1">
 

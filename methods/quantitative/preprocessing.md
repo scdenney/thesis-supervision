@@ -29,7 +29,7 @@ A foundation skill for every computational approach in this section. The choices
 
 ## What it is
 
-**Preprocessing** is the cleanup work you do on a raw corpus before any analysis runs — turning heterogeneous, messy text into a uniform form that a model or algorithm can reason over. Typical decisions include tokenisation (how to split text into units), case handling, stop-word and punctuation treatment, stemming or lemmatisation, n-gram extraction, and vocabulary filtering.
+**Preprocessing** is the cleanup work you do on a raw corpus before any analysis runs — turning heterogeneous, messy text into a uniform form that a model or algorithm can reason over. Typical decisions include tokenization (how to split text into units), case handling, stop-word and punctuation treatment, stemming or lemmatization, n-gram extraction, and vocabulary filtering.
 
 These aren't neutral technical choices. Stripping stop words before a discourse analysis removes discourse markers; aggressive stemming collapses distinctions that might matter for your research question. Preprocessing decisions belong in your methodology chapter, not buried in a footnote.
 
@@ -42,7 +42,7 @@ This page draws from the course's preprocessing material. Students who take it c
 - Tokenisation strategies: word, subword, sentence, character-level
 - Unicode normalisation and diacritic handling for multilingual corpora
 - Stop-word lists — when to use language-specific, domain-specific, or none
-- Stemming vs. lemmatisation and their tradeoffs
+- Stemming vs. lemmatization and their tradeoffs
 - N-gram extraction and why bigrams / trigrams matter for framing-style analyses
 - Vocabulary filtering: document-frequency cutoffs, rare-term handling, out-of-vocabulary strategies
 - Documenting preprocessing choices so they can be reported and reproduced
@@ -76,7 +76,7 @@ Preprocessing is rarely the final step, but without it the later steps stall. Ty
 - [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) — the step before preprocessing; decides *which* texts end up in the pipeline.
 - [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}) — the most common downstream method; preprocessing choices shape topic coherence heavily.
 - [Word Embeddings]({{ '/methods/quantitative/word-embeddings' | relative_url }}) — embeddings learn from the preprocessed vocabulary, so preprocessing is effectively the schema.
-- [Sentiment Analysis]({{ '/methods/quantitative/sentiment-analysis' | relative_url }}) — dictionary methods are especially sensitive to tokenisation and lemmatisation choices.
+- [Sentiment Analysis]({{ '/methods/quantitative/sentiment-analysis' | relative_url }}) — dictionary methods are especially sensitive to tokenization and lemmatization choices.
 
 </div>
 </div>
