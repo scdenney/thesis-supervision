@@ -6,9 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const mobileNavToggle = document.querySelector(".mobile-nav-toggle");
   const navDropdowns = Array.from(document.querySelectorAll(".site-nav .nav-dropdown"));
   const tocLinks = Array.from(document.querySelectorAll(".page-toc a[href^='#']"));
-  const headings = tocLinks
-    .map((link) => document.querySelector(link.getAttribute("href")))
-    .filter(Boolean);
   const sidebar = document.querySelector(".page-sidebar");
   const toc = document.querySelector(".page-toc");
   const mobileNavMedia = window.matchMedia("(max-width: 760px)");
@@ -241,43 +238,4 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 
-  if (!tocLinks.length || !headings.length) {
-    return;
-  }
-
-  const activate = (id) => {
-    tocLinks.forEach((link) => {
-      const isActive = link.getAttribute("href") === `#${id}`;
-      link.classList.toggle("is-active", isActive);
-      if (isActive) {
-        link.setAttribute("aria-current", "location");
-      } else {
-        link.removeAttribute("aria-current");
-      }
-    });
-  };
-
-  const syncActiveHeading = () => {
-    const offset = window.matchMedia("(max-width: 900px)").matches ? 108 : 132;
-    let currentId = headings[0].id;
-
-    headings.forEach((heading) => {
-      if (heading.getBoundingClientRect().top - offset <= 0) {
-        currentId = heading.id;
-      }
-    });
-
-    activate(currentId);
-  };
-
-  tocLinks.forEach((link) => {
-    link.addEventListener("click", () => {
-      const targetId = link.getAttribute("href").slice(1);
-      activate(targetId);
-    });
-  });
-
-  syncActiveHeading();
-  window.addEventListener("scroll", syncActiveHeading, { passive: true });
-  window.addEventListener("resize", syncActiveHeading);
 });

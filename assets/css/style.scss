@@ -90,7 +90,7 @@ select:focus-visible {
 .site-header {
   background: var(--plum);
   color: #ffffff;
-  padding: 0.72rem 0;
+  padding: 0.92rem 0;
   border-bottom: 3px solid var(--gold);
   position: relative;
   z-index: 100;
@@ -121,7 +121,7 @@ select:focus-visible {
 .site-eyebrow {
   text-transform: uppercase;
   letter-spacing: 0;
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   margin: 0;
   line-height: 1.3;
   color: rgba(255, 255, 255, 0.62);
@@ -131,7 +131,7 @@ select:focus-visible {
   color: #ffffff;
   text-decoration: none;
   display: inline-block;
-  font-size: 1.02rem;
+  font-size: 1.08rem;
   font-weight: 700;
   line-height: 1.15;
 }
@@ -147,10 +147,10 @@ select:focus-visible {
 .site-nav {
   display: flex;
   flex-wrap: nowrap;
-  gap: 0.14rem;
+  gap: 0.18rem;
   font-weight: 600;
   align-items: center;
-  font-size: 0.93rem;
+  font-size: 1rem;
 }
 
 .site-nav a,
@@ -160,8 +160,8 @@ select:focus-visible {
   justify-content: center;
   color: #ffffff;
   text-decoration: none;
-  min-height: 2.1rem;
-  padding: 0.42rem 0.62rem;
+  min-height: 2.35rem;
+  padding: 0.48rem 0.7rem;
   border-radius: 8px;
   background: transparent;
   border: 1px solid transparent;
@@ -420,13 +420,6 @@ main h1 + p {
   color: var(--plum);
 }
 
-.page-toc a.is-active {
-  background: rgba(94, 122, 47, 0.15);
-  color: var(--plum);
-  font-weight: 600;
-  box-shadow: inset 3px 0 0 var(--gold);
-}
-
 .page-route-card {
   margin-top: 1rem;
   padding: 0.95rem;
@@ -506,7 +499,7 @@ main h1 + p {
 
 @media (max-width: 900px) {
   .site-header {
-    padding: 0.72rem 0;
+    padding: 0.85rem 0;
   }
 
   .site-header-inner {
@@ -1844,7 +1837,7 @@ a.github-link:hover::before {
   }
 
   .site-header {
-    padding: 0.72rem 0 0.78rem;
+    padding: 0.82rem 0 0.9rem;
   }
 
   .site-header-inner {
