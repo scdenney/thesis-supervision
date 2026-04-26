@@ -19,29 +19,33 @@ Claude Code, Codex, and similar agentic coding tools are most useful when thesis
 ## Choose a Workflow
 
 <div class="workflow-grid" markdown="0">
-  <article class="workflow-card">
+  <button class="workflow-card workflow-action" type="button" data-workflow-target="prompt-folder">
     <span class="method-type">No code required</span>
     <h3>Organize sources</h3>
     <p>Create a folder structure, naming convention, metadata sheet, and evidence log before analysis begins.</p>
-  </article>
+    <span class="workflow-action-label">Jump to prompt</span>
+  </button>
 
-  <article class="workflow-card">
+  <button class="workflow-card workflow-action" type="button" data-workflow-target="prompt-corpus">
     <span class="method-type">Corpus pipeline</span>
     <h3>Convert and clean files</h3>
     <p>Use scripts for repetitive work: OCR checks, PDF-to-text conversion, header removal, deduplication, and word counts.</p>
-  </article>
+    <span class="workflow-action-label">Jump to prompt</span>
+  </button>
 
-  <article class="workflow-card">
+  <button class="workflow-card workflow-action" type="button" data-workflow-target="prompt-script">
     <span class="method-type">Code support</span>
     <h3>Build or debug scripts</h3>
     <p>Ask the tool to inspect errors, add tests, explain a script, or make a pipeline easier to rerun.</p>
-  </article>
+    <span class="workflow-action-label">Jump to prompt</span>
+  </button>
 
-  <article class="workflow-card">
+  <button class="workflow-card workflow-action" type="button" data-workflow-target="prompt-disclosure">
     <span class="method-type">Methods documentation</span>
     <h3>Audit the process</h3>
     <p>Check whether prompts, scripts, outputs, exclusions, and transformations are documented well enough for a methods chapter.</p>
-  </article>
+    <span class="workflow-action-label">Jump to prompt</span>
+  </button>
 </div>
 
 ## Starter Prompts

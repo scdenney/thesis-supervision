@@ -64,15 +64,45 @@
                 </div>
               </div>
             </details>
-            <details class="nav-dropdown{% if is_methods %} is-current{% endif %}">
+            <details class="nav-dropdown nav-dropdown-mega{% if is_methods %} is-current{% endif %}">
               <summary>Methods <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
-              <div class="nav-dropdown-menu">
-                <div class="nav-dropdown-menu-inner">
-                  <a href="{{ '/methods/' | relative_url }}"{% if page.title == 'Methods Guide' %} aria-current="page"{% endif %}>Overview</a>
-                  <a href="{{ '/methods/building-a-corpus' | relative_url }}"{% if page.url contains '/methods/building-a-corpus' %} aria-current="page"{% endif %}>Building a Corpus</a>
-                  <a href="https://scdenney.github.io/corpus-building/">Corpus Building Wizard</a>
-                  <a href="{{ '/methods/qualitative/' | relative_url }}"{% if page.title == 'Qualitative Approaches' %} aria-current="page"{% endif %}>Qualitative Approaches</a>
-                  <a href="{{ '/methods/quantitative/' | relative_url }}"{% if page.title == 'Computational & Quantitative Approaches' %} aria-current="page"{% endif %}>Computational &amp; Quantitative</a>
+              <div class="nav-dropdown-menu methods-mega-menu">
+                <div class="nav-dropdown-menu-inner methods-menu-inner">
+                  <div class="methods-menu-feature-grid">
+                    <a class="methods-menu-feature" href="{{ '/methods/' | relative_url }}"{% if page.title == 'Methods Guide' %} aria-current="page"{% endif %}>
+                      <span class="nav-card-icon" data-method-visual="chooser" aria-hidden="true"></span>
+                      <strong>Methods Guide</strong>
+                      <em>Use the chooser and browse all method cards.</em>
+                    </a>
+                    <a class="methods-menu-feature" href="https://scdenney.github.io/corpus-building/">
+                      <span class="nav-card-icon" data-method-visual="corpus" aria-hidden="true"></span>
+                      <strong>Corpus Wizard</strong>
+                      <em>Route OCR, cleanup, metadata, and compute work.</em>
+                    </a>
+                    <a class="methods-menu-feature" href="{{ '/methods/claude-code-codex' | relative_url }}"{% if page.url contains '/methods/claude-code-codex' %} aria-current="page"{% endif %}>
+                      <span class="nav-card-icon" data-method-visual="ai" aria-hidden="true"></span>
+                      <strong>Claude Code &amp; Codex</strong>
+                      <em>Use AI for folders, scripts, checks, and documentation.</em>
+                    </a>
+                  </div>
+
+                  <div class="methods-menu-columns">
+                    <div class="methods-menu-group">
+                      <p>Qualitative</p>
+                      <a href="{{ '/methods/qualitative/comparative-case-study' | relative_url }}"{% if page.url contains '/methods/qualitative/comparative-case-study' %} aria-current="page"{% endif %}>Comparative Case Study</a>
+                      <a href="{{ '/methods/qualitative/process-tracing' | relative_url }}"{% if page.url contains '/methods/qualitative/process-tracing' %} aria-current="page"{% endif %}>Process Tracing</a>
+                      <a href="{{ '/methods/qualitative/framing-analysis' | relative_url }}"{% if page.url contains '/methods/qualitative/framing-analysis' %} aria-current="page"{% endif %}>Framing Analysis</a>
+                      <a href="{{ '/methods/qualitative/discourse-analysis' | relative_url }}"{% if page.url contains '/methods/qualitative/discourse-analysis' %} aria-current="page"{% endif %}>Discourse Analysis</a>
+                    </div>
+                    <div class="methods-menu-group">
+                      <p>Computational</p>
+                      <a href="{{ '/methods/building-a-corpus' | relative_url }}"{% if page.url contains '/methods/building-a-corpus' %} aria-current="page"{% endif %}>Building a Corpus</a>
+                      <a href="{{ '/methods/quantitative/preprocessing' | relative_url }}"{% if page.url contains '/methods/quantitative/preprocessing' %} aria-current="page"{% endif %}>Preprocessing</a>
+                      <a href="{{ '/methods/quantitative/topic-analysis' | relative_url }}"{% if page.url contains '/methods/quantitative/topic-analysis' %} aria-current="page"{% endif %}>Topic Analysis</a>
+                      <a href="{{ '/methods/quantitative/sentiment-analysis' | relative_url }}"{% if page.url contains '/methods/quantitative/sentiment-analysis' %} aria-current="page"{% endif %}>Sentiment Analysis</a>
+                      <a href="{{ '/methods/quantitative/word-embeddings' | relative_url }}"{% if page.url contains '/methods/quantitative/word-embeddings' %} aria-current="page"{% endif %}>Word Embeddings</a>
+                    </div>
+                  </div>
                 </div>
               </div>
             </details>
