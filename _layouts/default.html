@@ -10,6 +10,7 @@
   {% assign is_home = false %}
   {% assign is_getting_started = false %}
   {% assign is_methods = false %}
+  {% assign is_ai = false %}
   {% assign is_assessment = false %}
   {% assign is_ethics = false %}
   {% assign is_program = false %}
@@ -20,8 +21,13 @@
   {% if page.url contains '/getting-started/' %}
     {% assign is_getting_started = true %}
   {% endif %}
+  {% if page.url contains '/methods/claude-code-codex' %}
+    {% assign is_ai = true %}
+  {% endif %}
   {% if page.url contains '/methods/' %}
-    {% assign is_methods = true %}
+    {% unless is_ai %}
+      {% assign is_methods = true %}
+    {% endunless %}
   {% endif %}
   {% if page.url contains '/assessment-standards/' %}
     {% assign is_assessment = true %}
@@ -42,11 +48,11 @@
         </div>
         <div class="site-nav-wrap">
           <button class="mobile-nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
-            <span>Browse site</span>
+            <span>Menu</span>
           </button>
           <nav class="site-nav" id="site-nav" aria-label="Primary">
-            <a href="{{ '/' | relative_url }}"{% if is_home %} class="is-active" aria-current="page"{% endif %}>Home</a>
-            <a href="{{ '/getting-started/' | relative_url }}"{% if is_getting_started %} class="is-active" aria-current="page"{% endif %}>Getting Started</a>
+            <a href="{{ '/' | relative_url }}"{% if is_home %} class="is-active" aria-current="page"{% endif %}>Start</a>
+            <a href="{{ '/getting-started/' | relative_url }}"{% if is_getting_started %} class="is-active" aria-current="page"{% endif %}>Thesis Guide</a>
             <details class="nav-dropdown{% if is_program %} is-current{% endif %}">
               <summary>Programs <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
               <div class="nav-dropdown-menu">
@@ -58,8 +64,6 @@
                 </div>
               </div>
             </details>
-            <a href="{{ '/assessment-standards/' | relative_url }}"{% if is_assessment %} class="is-active" aria-current="page"{% endif %}>Assessment Standards</a>
-            <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Ethics &amp; AI</a>
             <details class="nav-dropdown{% if is_methods %} is-current{% endif %}">
               <summary>Methods <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
               <div class="nav-dropdown-menu">
@@ -69,10 +73,12 @@
                   <a href="https://scdenney.github.io/corpus-building/">Corpus Building Wizard</a>
                   <a href="{{ '/methods/qualitative/' | relative_url }}"{% if page.title == 'Qualitative Approaches' %} aria-current="page"{% endif %}>Qualitative Approaches</a>
                   <a href="{{ '/methods/quantitative/' | relative_url }}"{% if page.title == 'Computational & Quantitative Approaches' %} aria-current="page"{% endif %}>Computational &amp; Quantitative</a>
-                  <a href="{{ '/methods/claude-code-codex' | relative_url }}"{% if page.url contains '/methods/claude-code-codex' %} aria-current="page"{% endif %}>Claude Code &amp; Codex</a>
                 </div>
               </div>
             </details>
+            <a href="{{ '/methods/claude-code-codex' | relative_url }}"{% if is_ai %} class="is-active" aria-current="page"{% endif %}>AI &amp; Code</a>
+            <a href="{{ '/assessment-standards/' | relative_url }}"{% if is_assessment %} class="is-active" aria-current="page"{% endif %}>Assessment</a>
+            <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Policies</a>
           </nav>
         </div>
       </div>
@@ -86,6 +92,11 @@
         {% if is_getting_started %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>
+        {% elsif is_ai %}
+          <span class="crumb-sep">/</span>
+          <a href="{{ '/methods/' | relative_url }}">Methods</a>
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">AI &amp; Code</span>
         {% elsif is_assessment %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>

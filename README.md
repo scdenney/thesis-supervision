@@ -15,7 +15,7 @@ Resources and guidance for thesis and research supervision by Dr. Steven Denney 
 
 ## Built with
 
-Jekyll + GitHub Pages. No JavaScript — static Markdown pages with HTML/CSS for interactivity.
+Jekyll + GitHub Pages. Markdown pages with custom HTML/CSS and small progressive JavaScript enhancements for navigation, table-of-contents behavior, method routing, and prompt copying.
 
 ## Reuse
 

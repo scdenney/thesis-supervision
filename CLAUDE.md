@@ -6,7 +6,7 @@ Jekyll + GitHub Pages site for Dr. Steven Denney's thesis and research supervisi
 ## Tech Stack
 - Jekyll with `jekyll-theme-cayman` (custom layout overrides Cayman entirely)
 - Custom SCSS with "Moonrise Kingdom" color scheme (dark forest, olive green, golden amber)
-- No JavaScript — static Markdown pages with HTML/CSS for interactivity (`<details>`/`<summary>`)
+- Small progressive JavaScript layer for mobile navigation, page table-of-contents behavior, method routing, and prompt copying
 - `kramdown: parse_block_html: true` required in `_config.yml` for markdown inside HTML blocks
 
 ## Site Structure
@@ -19,7 +19,7 @@ maas/index.md               — MAAS program page (sidebar layout)
 mair/index.md               — MAIR program page (sidebar layout)
 ethics/index.md             — Ethics & policies (sidebar layout)
 assessment-standards/index.md — Assessment standards (sidebar layout)
-methods/index.md            — Methods guide (details/summary dropdowns, sidebar layout)
+methods/index.md            — Methods guide with interactive chooser and method cards
 ```
 
 ## PDF Documents
@@ -46,5 +46,5 @@ To rebuild PDFs: `cd <dir> && pdflatex <file>.tex && pdflatex <file>.tex`
 - `temp_ignore/` is gitignored — staging area for private materials
 - `sources/` is gitignored — supervisor-side reference PDFs and markdown conversions (copyrighted)
 - Color variables defined in `:root` in `assets/css/style.scss`
-- Methods page uses `<details>/<summary>` dropdowns with `markdown="0"` (same pattern as Getting Started)
+- Methods page uses a small JavaScript chooser plus static fallback cards
 - Nav has two dropdowns: Methods and Programs (both use `.nav-dropdown` pattern)

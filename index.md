@@ -3,49 +3,59 @@ layout: default
 title: Home
 ---
 
-<div class="title-row" markdown="0">
-  <h1>Thesis &amp; Research Supervision</h1>
-  <a class="github-link" href="https://github.com/scdenney/thesis-supervision">View on GitHub</a>
-</div>
+<section class="home-hero" markdown="0">
+  <div class="home-hero-copy">
+    <p class="home-kicker">Leiden thesis support + public methods resources</p>
+    <h1>Thesis &amp; Research Supervision</h1>
+    <p class="home-lede">A practical resource for students moving from topic to research design, method, corpus, analysis, and write-up. Start with your program if you need requirements; start with methods or AI/code if you need a workflow.</p>
+    <div class="home-contact">
+      <span><strong>Supervisor</strong> Dr. Steven Denney</span>
+      <a href="mailto:s.c.denney@hum.leidenuniv.nl">s.c.denney@hum.leidenuniv.nl</a>
+      <a class="github-link" href="https://github.com/scdenney/thesis-supervision">View on GitHub</a>
+    </div>
+  </div>
+</section>
 
-**Supervisor:** Dr. Steven Denney ([s.c.denney@hum.leidenuniv.nl](mailto:s.c.denney@hum.leidenuniv.nl))<br>
-**Affiliation:** Leiden University, Faculty of Humanities
-
-<div class="home-mobile-start" markdown="0">
-  <a href="{{ '/getting-started/' | relative_url }}">Getting Started</a>
-  <a href="{{ '/methods/' | relative_url }}">Methods Guide</a>
-  <a class="is-secondary" href="#find-your-program">Find Your Program</a>
-</div>
-
----
-
-This site supports thesis and research supervision in the BA and MA programs I teach in the Faculty of Humanities at Leiden University. It is primarily designed for the students I supervise, but many of the program guidelines, assessment standards, getting-started materials, ethics guidance, and methods resources are also useful to other students, researchers, and faculty at Leiden and beyond. The methods section in particular, covering corpus building, digital-humanities tools, and the method-specific guides, is intended as a broader resource for students and faculty alike.
-
-All programs share four core evaluative standards: Knowledge & Insight, Application of Knowledge, Reaching Conclusions, and Communication. Expectations are calibrated to program level (BA or MA); see the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for details.
-
-<div class="home-cta-grid" markdown="0">
-  <div class="cta-banner">
-    <strong>New to thesis or research writing?</strong>
-    <h3>Getting Started Guide</h3>
-    <p>Five guided steps covering the question, sources, literature review, analytical framework, and writing up findings.</p>
-    <a class="cta-banner-link" href="{{ '/getting-started/' | relative_url }}">Open the guide</a>
+<section class="resource-paths" aria-labelledby="resource-paths-title" markdown="0">
+  <div class="section-heading">
+    <p class="section-kicker">Choose your route</p>
+    <h2 id="resource-paths-title">What do you need right now?</h2>
   </div>
 
-  <div class="cta-banner">
-    <strong>Choosing a method?</strong>
-    <h3>Browse the Methods Guide</h3>
-    <p>Start with corpus planning, then move into qualitative, computational, or AI-supported research workflows.</p>
-    <a class="cta-banner-link" href="{{ '/methods/' | relative_url }}">Explore methods</a>
+  <div class="resource-path-grid">
+    <a class="resource-path-card" href="#find-your-program">
+      <span class="path-meta">Program requirements</span>
+      <h3>Find your thesis rules</h3>
+      <p>Word counts, deadlines, supervision expectations, assessment notes, and program-specific documents.</p>
+    </a>
+
+    <a class="resource-path-card" href="{{ '/getting-started/' | relative_url }}">
+      <span class="path-meta">First steps</span>
+      <h3>Turn a topic into a plan</h3>
+      <p>Work through the question, sources, literature review, analytical framework, and findings strategy.</p>
+    </a>
+
+    <a class="resource-path-card" href="{{ '/methods/' | relative_url }}">
+      <span class="path-meta">Methods resource</span>
+      <h3>Choose and justify a method</h3>
+      <p>Use the methods chooser, then move into corpus building, qualitative methods, or computational text analysis.</p>
+    </a>
+
+    <a class="resource-path-card accent-path-card" href="{{ '/methods/claude-code-codex' | relative_url }}">
+      <span class="path-meta">AI and code</span>
+      <h3>Build a transparent workflow</h3>
+      <p>Use Claude Code, Codex, and related tools for source organization, scripting, cleanup, checking, and documentation.</p>
+    </a>
   </div>
-</div>
+</section>
 
 <div id="find-your-program"></div>
 
 ## Leiden Student? Find Your Program
 
-If you are writing within one of the Leiden programs I supervise, start with your program page. If you are here for broader research support or to use the public resources, begin with the guides above.
+If you are writing within one of the Leiden programs I supervise, start with your program page. If you are here for broader research support, begin with the methods and AI/code routes above.
 
-<div class="program-cards" markdown="0">
+<div class="program-cards program-overview-grid" markdown="0">
   <a class="program-card" href="{{ '/bais/' | relative_url }}">
     <span class="card-level ba">BA</span>
     <h3>BAIS</h3>
@@ -68,16 +78,14 @@ If you are writing within one of the Leiden programs I supervise, start with you
   </a>
 </div>
 
----
-
-## At a Glance
+## Program Snapshot
 
 <div class="program-facts-table" markdown="1">
 
 | | BAIS | BAKS | MAAS | MAIR |
 |---|---|---|---|---|
 | **Level** | BA | BA | MA | MA |
-| **Word count** | 10,000 (±10%) | 10,000 (±10%) | 12,000–15,000 | 15,000 max |
+| **Word count** | 10,000 (&plusmn;10%) | 10,000 (&plusmn;10%) | 12,000-15,000 | 15,000 max |
 | **Citation style** | Chicago | Chicago Notes-Bib | Consistent, recognized style | Consistent, recognized style |
 | **Final deadline** | June 23, 2026 | June 1, 2026 | July 1, 2026 | June 5, 2026 |
 
@@ -92,7 +100,7 @@ If you are writing within one of the Leiden programs I supervise, start with you
     <dl>
       <div>
         <dt>Word count</dt>
-        <dd>10,000 (±10%)</dd>
+        <dd>10,000 (&plusmn;10%)</dd>
       </div>
       <div>
         <dt>Citation style</dt>
@@ -113,7 +121,7 @@ If you are writing within one of the Leiden programs I supervise, start with you
     <dl>
       <div>
         <dt>Word count</dt>
-        <dd>10,000 (±10%)</dd>
+        <dd>10,000 (&plusmn;10%)</dd>
       </div>
       <div>
         <dt>Citation style</dt>
@@ -134,7 +142,7 @@ If you are writing within one of the Leiden programs I supervise, start with you
     <dl>
       <div>
         <dt>Word count</dt>
-        <dd>12,000–15,000</dd>
+        <dd>12,000-15,000</dd>
       </div>
       <div>
         <dt>Citation style</dt>
@@ -171,14 +179,29 @@ If you are writing within one of the Leiden programs I supervise, start with you
 
 All dates are for the **2025-2026 academic year**. Always confirm deadlines with your supervisor and program coordinator.
 
----
+## Core Resources
 
-## Quick Links
+<div class="link-panel-grid" markdown="0">
+  <a class="link-panel" href="{{ '/methods/' | relative_url }}">
+    <strong>Methods Guide</strong>
+    <span>Corpus building, qualitative methods, computational text analysis, and method selection.</span>
+  </a>
+  <a class="link-panel" href="{{ '/methods/claude-code-codex' | relative_url }}">
+    <strong>AI &amp; Code</strong>
+    <span>Practical workflows for Claude Code, Codex, documentation, and responsible use.</span>
+  </a>
+  <a class="link-panel" href="{{ '/assessment-standards/' | relative_url }}">
+    <strong>Assessment Standards</strong>
+    <span>Criteria, grade descriptors, thesis structure, and BA/MA expectations.</span>
+  </a>
+  <a class="link-panel" href="{{ '/ethics/' | relative_url }}">
+    <strong>Policies</strong>
+    <span>Ethics review, university GenAI policy, plagiarism, academic integrity, and support links.</span>
+  </a>
+</div>
 
-- [Getting Started Guide]({{ '/getting-started/' | relative_url }}): Step-by-step research and writing guide
-- [Methods Guide]({{ '/methods/' | relative_url }}): Comparative case studies, process tracing, framing, discourse analysis, corpus building, and computational text methods
-- [Assessment Standards]({{ '/assessment-standards/' | relative_url }}): Criteria, grade descriptors, and expectations
-- [Ethics & AI]({{ '/ethics/' | relative_url }}): Ethics review, GenAI policy, plagiarism regulations
+## Useful External Links
+
 - [Leiden University Library: Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis)
 - [Leiden University Library: Citing](https://www.library.universiteitleiden.nl/students/citing)
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab)

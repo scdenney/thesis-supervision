@@ -148,6 +148,99 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const methodRouter = document.querySelector(".method-router");
+  const methodRouterForm = document.querySelector("[data-method-router]");
+
+  if (methodRouter && methodRouterForm) {
+    const resultTitle = methodRouter.querySelector("[data-router-title]");
+    const resultCopy = methodRouter.querySelector("[data-router-copy]");
+    const resultLink = methodRouter.querySelector("[data-router-link]");
+    const routes = {
+      corpus: {
+        title: "Start with corpus planning",
+        copy: "Define what you will collect, how you will bound it, and how you will document it. This is the best first stop for most text-based projects.",
+        label: "Open Building a Corpus",
+        href: methodRouter.dataset.routeCorpus,
+      },
+      qualitative: {
+        title: "Start with qualitative approaches",
+        copy: "Your project depends on interpretation, case logic, frames, discourse, or causal explanation. Use the qualitative route to choose the closest fit.",
+        label: "Open Qualitative Approaches",
+        href: methodRouter.dataset.routeQualitative,
+      },
+      computational: {
+        title: "Start with computational methods",
+        copy: "You need to measure or model patterns across many documents. Begin with preprocessing, then choose topic analysis, sentiment, or embeddings.",
+        label: "Open Computational & Quantitative",
+        href: methodRouter.dataset.routeComputational,
+      },
+      ai: {
+        title: "Start with AI & Code",
+        copy: "Your immediate problem is workflow: organizing files, writing scripts, cleaning text, checking outputs, or documenting an agent-assisted process.",
+        label: "Open AI & Code",
+        href: methodRouter.dataset.routeAi,
+      },
+    };
+
+    const chooseRoute = () => {
+      const form = new FormData(methodRouterForm);
+      const material = form.get("material");
+      const goal = form.get("goal");
+      const code = form.get("code");
+
+      if (goal === "workflow") return routes.ai;
+      if (goal === "measure" || material === "numbers") return routes.computational;
+      if (goal === "interpret" || goal === "explain" || material === "cases" || material === "interviews") {
+        return routes.qualitative;
+      }
+      if (code === "comfortable" && material === "texts" && goal !== "collect") return routes.computational;
+      return routes.corpus;
+    };
+
+    const updateRouter = () => {
+      const route = chooseRoute();
+      if (!resultTitle || !resultCopy || !resultLink || !route) return;
+
+      resultTitle.textContent = route.title;
+      resultCopy.textContent = route.copy;
+      resultLink.textContent = route.label;
+      resultLink.href = route.href;
+    };
+
+    methodRouterForm.addEventListener("change", updateRouter);
+    updateRouter();
+  }
+
+  const copyButtons = Array.from(document.querySelectorAll("[data-copy-target]"));
+
+  copyButtons.forEach((button) => {
+    button.addEventListener("click", async () => {
+      const target = document.getElementById(button.dataset.copyTarget);
+      if (!target) return;
+
+      const text = target.textContent.trim();
+      try {
+        await navigator.clipboard.writeText(text);
+        button.textContent = "Copied";
+      } catch (error) {
+        const fallback = document.createElement("textarea");
+        fallback.value = text;
+        fallback.setAttribute("readonly", "");
+        fallback.style.position = "fixed";
+        fallback.style.opacity = "0";
+        document.body.appendChild(fallback);
+        fallback.select();
+        document.execCommand("copy");
+        fallback.remove();
+        button.textContent = "Copied";
+      }
+
+      window.setTimeout(() => {
+        button.textContent = "Copy";
+      }, 1800);
+    });
+  });
+
   if (!tocLinks.length || !headings.length) {
     return;
   }
