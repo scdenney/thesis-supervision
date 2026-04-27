@@ -9,6 +9,7 @@ title: Templates & Checklists
 <h4 class="page-sidebar-title">Contents</h4>
 <nav class="page-toc">
 <ul>
+<li><a href="#fill-out-a-template">Fill Out a Template</a></li>
 <li><a href="#how-to-use-these">How To Use These</a></li>
 <li><a href="#research-question-memo">Research Question Memo</a></li>
 <li><a href="#thesis-proposal-outline">Thesis Proposal Outline</a></li>
@@ -28,6 +29,46 @@ title: Templates & Checklists
 # Templates & Checklists
 
 Use these as working documents for supervision. They are not extra assignments unless your programme or supervisor asks for them; they are compact ways to turn a topic into something that can be discussed, revised, and assessed.
+
+---
+
+## Fill Out a Template
+
+<div class="template-builder" data-template-builder markdown="0">
+  <div class="template-builder-controls">
+    <label for="template-select">Choose a template</label>
+    <select id="template-select" data-template-select>
+      <option value="research-question">Research Question Memo</option>
+      <option value="proposal">Thesis Proposal Outline</option>
+      <option value="literature-matrix">Literature Review Matrix</option>
+      <option value="data-corpus">Data / Corpus Plan</option>
+      <option value="meeting-packet">Supervision Meeting Packet</option>
+      <option value="revision-log">Feedback and Revision Log</option>
+      <option value="genai-note">GenAI Methods Note</option>
+      <option value="final-checklist">Final Submission Checklist</option>
+    </select>
+  </div>
+
+  <form class="template-form" data-template-form>
+    <div class="template-fields" data-template-fields></div>
+  </form>
+
+  <div class="template-actions">
+    <button type="button" data-template-action="save">Save in browser</button>
+    <button type="button" data-template-action="copy">Copy</button>
+    <button type="button" data-template-action="download">Download .md</button>
+    <button type="button" data-template-action="print">Print</button>
+  </div>
+
+  <p class="template-note">Nothing is submitted through this page. Use the buttons to keep a browser draft, copy the text, download a Markdown file, or print a meeting copy.</p>
+  <p class="template-status" data-template-status aria-live="polite"></p>
+
+  <article class="template-output" data-template-output aria-label="Generated template preview"></article>
+</div>
+
+<noscript>
+Use the static templates below if JavaScript is unavailable.
+</noscript>
 
 ---
 

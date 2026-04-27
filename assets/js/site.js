@@ -456,4 +456,331 @@ document.addEventListener("DOMContentLoaded", () => {
       promptCard.scrollIntoView({ behavior: "smooth", block: "center" });
     });
   });
+
+  const templateBuilder = document.querySelector("[data-template-builder]");
+
+  if (templateBuilder) {
+    const templateSelect = templateBuilder.querySelector(
+      "[data-template-select]",
+    );
+    const fieldsContainer = templateBuilder.querySelector(
+      "[data-template-fields]",
+    );
+    const templateOutput = templateBuilder.querySelector(
+      "[data-template-output]",
+    );
+    const templateStatus = templateBuilder.querySelector(
+      "[data-template-status]",
+    );
+
+    const templateDefinitions = {
+      "research-question": {
+        title: "Research Question Memo",
+        fields: [
+          "Topic area",
+          "Case, region, corpus, or population",
+          "Time period",
+          "Research problem",
+          "Provisional research question",
+          "Why this question matters academically",
+          "Key literature or debate",
+          "Likely sources or data",
+          "Likely method",
+          "Main feasibility concern",
+          "Decision needed from supervisor",
+        ],
+      },
+      proposal: {
+        title: "Thesis Proposal Outline",
+        fields: [
+          "Tentative title",
+          "Research question",
+          "Research problem and motivation",
+          "Academic debate",
+          "Contribution",
+          "Research design",
+          "Materials",
+          "Ethics and data considerations",
+          "Chapter outline",
+          "Timeline",
+          "Questions for supervision",
+        ],
+      },
+      "literature-matrix": {
+        title: "Literature Review Matrix",
+        guidance:
+          "Use one row per source. Add more rows in your own document if needed.",
+        fields: [
+          "Source 1: debate, claim, method/evidence, use for thesis, limitation",
+          "Source 2: debate, claim, method/evidence, use for thesis, limitation",
+          "Source 3: debate, claim, method/evidence, use for thesis, limitation",
+          "Synthesis: what the literature agrees on",
+          "Synthesis: what the literature disagrees about",
+          "Synthesis: gap or unresolved problem",
+        ],
+      },
+      "data-corpus": {
+        title: "Data / Corpus Plan",
+        fields: [
+          "Research question",
+          "Unit of analysis",
+          "Corpus/data type",
+          "Source locations",
+          "Inclusion criteria",
+          "Exclusion criteria",
+          "Expected size",
+          "Language(s)",
+          "File naming convention",
+          "Metadata fields",
+          "Storage and backup plan",
+          "Quality checks",
+          "Ethical/privacy risks",
+          "AI/code tools planned",
+          "Disclosure needed",
+        ],
+      },
+      "meeting-packet": {
+        title: "Supervision Meeting Packet",
+        fields: [
+          "Meeting date",
+          "Current thesis stage",
+          "Work completed since last meeting",
+          "Main problem to discuss",
+          "Decisions needed",
+          "Material attached or linked",
+          "Specific feedback requested",
+          "Deadline pressure or risk",
+        ],
+      },
+      "revision-log": {
+        title: "Feedback and Revision Log",
+        guidance:
+          "Use one entry per comment, issue, or decision. Keep open items visible.",
+        fields: [
+          "Feedback item 1: issue, source, action taken, status, follow-up question",
+          "Feedback item 2: issue, source, action taken, status, follow-up question",
+          "Feedback item 3: issue, source, action taken, status, follow-up question",
+          "Items still open",
+          "Questions for supervisor",
+        ],
+      },
+      "genai-note": {
+        title: "GenAI Methods Note",
+        guidance:
+          "Use only for AI or code assistance that has been discussed with your supervisor and is allowed under the relevant conditions.",
+        fields: [
+          "Tool and version",
+          "Date(s) used",
+          "Task",
+          "Why the task was appropriate",
+          "What material was entered into the tool",
+          "Protected material excluded",
+          "Prompt or script location",
+          "Output location",
+          "Manual checks performed",
+          "Errors corrected",
+          "What was not delegated",
+          "Disclosure wording",
+        ],
+      },
+      "final-checklist": {
+        title: "Final Submission Checklist",
+        guidance:
+          "Use this before the final deadline. Confirm programme-specific rules in Brightspace or official programme materials.",
+        fields: [
+          "Programme",
+          "Final deadline and time",
+          "Word-count rule",
+          "Submission route and recipients",
+          "File format and file name",
+          "Repository upload requirement",
+          "Checks completed",
+          "Remaining risks",
+          "Confirmation or follow-up plan",
+        ],
+      },
+    };
+
+    const storagePrefix = "thesis-supervision-template:";
+
+    const setTemplateStatus = (message) => {
+      if (!templateStatus) return;
+      templateStatus.textContent = message;
+      if (!message) return;
+      window.setTimeout(() => {
+        if (templateStatus.textContent === message) {
+          templateStatus.textContent = "";
+        }
+      }, 2400);
+    };
+
+    const storageKey = () => `${storagePrefix}${templateSelect.value}`;
+
+    const getCurrentDefinition = () =>
+      templateDefinitions[templateSelect.value] ||
+      templateDefinitions["research-question"];
+
+    const collectTemplateValues = () => {
+      const values = {};
+      templateBuilder
+        .querySelectorAll("[data-template-field]")
+        .forEach((field) => {
+          values[field.dataset.templateField] = field.value.trim();
+        });
+      return values;
+    };
+
+    const buildTemplateMarkdown = () => {
+      const definition = getCurrentDefinition();
+      const values = collectTemplateValues();
+      const lines = [`# ${definition.title}`];
+
+      if (definition.guidance) {
+        lines.push("", definition.guidance);
+      }
+
+      definition.fields.forEach((field) => {
+        lines.push("", `## ${field}`, "", values[field] || "");
+      });
+
+      return lines.join("\n").trimEnd() + "\n";
+    };
+
+    const updateTemplateOutput = () => {
+      if (!templateOutput) return;
+      const markdown = buildTemplateMarkdown();
+      templateOutput.textContent = markdown;
+    };
+
+    const loadTemplateValues = () => {
+      try {
+        return JSON.parse(window.localStorage.getItem(storageKey())) || {};
+      } catch (error) {
+        return {};
+      }
+    };
+
+    const renderTemplateFields = () => {
+      const definition = getCurrentDefinition();
+      const savedValues = loadTemplateValues();
+
+      fieldsContainer.innerHTML = "";
+
+      definition.fields.forEach((field, index) => {
+        const wrapper = document.createElement("label");
+        wrapper.className = "template-field";
+
+        const labelText = document.createElement("span");
+        labelText.textContent = field;
+
+        const textarea = document.createElement("textarea");
+        textarea.dataset.templateField = field;
+        textarea.rows = index < 3 ? 2 : 4;
+        textarea.value = savedValues[field] || "";
+
+        wrapper.append(labelText, textarea);
+        fieldsContainer.append(wrapper);
+      });
+
+      updateTemplateOutput();
+    };
+
+    const saveTemplateValues = () => {
+      try {
+        window.localStorage.setItem(
+          storageKey(),
+          JSON.stringify(collectTemplateValues()),
+        );
+        setTemplateStatus("Saved in this browser.");
+      } catch (error) {
+        setTemplateStatus("Could not save in this browser.");
+      }
+    };
+
+    const copyTemplateMarkdown = async () => {
+      const markdown = buildTemplateMarkdown();
+      try {
+        await navigator.clipboard.writeText(markdown);
+        setTemplateStatus("Copied.");
+      } catch (error) {
+        const fallback = document.createElement("textarea");
+        fallback.value = markdown;
+        fallback.setAttribute("readonly", "");
+        fallback.style.position = "fixed";
+        fallback.style.opacity = "0";
+        document.body.appendChild(fallback);
+        fallback.select();
+        document.execCommand("copy");
+        fallback.remove();
+        setTemplateStatus("Copied.");
+      }
+    };
+
+    const downloadTemplateMarkdown = () => {
+      const definition = getCurrentDefinition();
+      const filename = `${definition.title
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/^-|-$/g, "")}.md`;
+      const blob = new Blob([buildTemplateMarkdown()], {
+        type: "text/markdown;charset=utf-8",
+      });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = filename;
+      document.body.appendChild(link);
+      link.click();
+      link.remove();
+      URL.revokeObjectURL(url);
+      setTemplateStatus("Downloaded.");
+    };
+
+    const printTemplateMarkdown = () => {
+      const definition = getCurrentDefinition();
+      const printWindow = window.open("", "_blank");
+      if (!printWindow) {
+        setTemplateStatus("Could not open print view.");
+        return;
+      }
+
+      const pre = document.createElement("pre");
+      pre.textContent = buildTemplateMarkdown();
+
+      printWindow.document.write(`<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>${definition.title}</title>
+  <style>
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; margin: 2rem; color: #222; }
+    pre { white-space: pre-wrap; font: inherit; line-height: 1.45; }
+  </style>
+</head>
+<body></body>
+</html>`);
+      printWindow.document.body.append(pre);
+      printWindow.document.close();
+      printWindow.focus();
+      printWindow.print();
+      setTemplateStatus("Print view opened.");
+    };
+
+    templateSelect.addEventListener("change", renderTemplateFields);
+    fieldsContainer.addEventListener("input", updateTemplateOutput);
+
+    templateBuilder
+      .querySelectorAll("[data-template-action]")
+      .forEach((button) => {
+        button.addEventListener("click", () => {
+          const action = button.dataset.templateAction;
+          if (action === "save") saveTemplateValues();
+          if (action === "copy") copyTemplateMarkdown();
+          if (action === "download") downloadTemplateMarkdown();
+          if (action === "print") printTemplateMarkdown();
+        });
+      });
+
+    renderTemplateFields();
+  }
 });

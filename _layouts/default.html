@@ -56,8 +56,15 @@
           </button>
           <nav class="site-nav" id="site-nav" aria-label="Primary">
             <a href="{{ '/' | relative_url }}"{% if is_home %} class="is-active" aria-current="page"{% endif %}>Start</a>
-            <a href="{{ '/getting-started/' | relative_url }}"{% if is_getting_started %} class="is-active" aria-current="page"{% endif %}>Guide</a>
-            <a href="{{ '/templates/' | relative_url }}"{% if is_templates %} class="is-active" aria-current="page"{% endif %}>Templates</a>
+            <details class="nav-dropdown{% if is_getting_started or is_templates %} is-current{% endif %}">
+              <summary>Guide <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
+              <div class="nav-dropdown-menu">
+                <div class="nav-dropdown-menu-inner">
+                  <a href="{{ '/getting-started/' | relative_url }}"{% if is_getting_started %} aria-current="page"{% endif %}>Thesis Guide</a>
+                  <a href="{{ '/templates/' | relative_url }}"{% if is_templates %} aria-current="page"{% endif %}>Templates &amp; Checklists</a>
+                </div>
+              </div>
+            </details>
             <details class="nav-dropdown{% if is_program %} is-current{% endif %}">
               <summary>Programs <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
               <div class="nav-dropdown-menu">
