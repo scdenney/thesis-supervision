@@ -9,6 +9,7 @@
   </head>
   {% assign is_home = false %}
   {% assign is_getting_started = false %}
+  {% assign is_templates = false %}
   {% assign is_methods = false %}
   {% assign is_ai = false %}
   {% assign is_assessment = false %}
@@ -20,6 +21,9 @@
   {% endif %}
   {% if page.url contains '/getting-started/' %}
     {% assign is_getting_started = true %}
+  {% endif %}
+  {% if page.url contains '/templates/' %}
+    {% assign is_templates = true %}
   {% endif %}
   {% if page.url contains '/methods/claude-code-codex' %}
     {% assign is_ai = true %}
@@ -53,6 +57,7 @@
           <nav class="site-nav" id="site-nav" aria-label="Primary">
             <a href="{{ '/' | relative_url }}"{% if is_home %} class="is-active" aria-current="page"{% endif %}>Start</a>
             <a href="{{ '/getting-started/' | relative_url }}"{% if is_getting_started %} class="is-active" aria-current="page"{% endif %}>Thesis Guide</a>
+            <a href="{{ '/templates/' | relative_url }}"{% if is_templates %} class="is-active" aria-current="page"{% endif %}>Templates</a>
             <details class="nav-dropdown{% if is_program %} is-current{% endif %}">
               <summary>Programs <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
               <div class="nav-dropdown-menu">
@@ -81,7 +86,7 @@
                     </a>
                     <a class="methods-menu-feature" href="{{ '/methods/claude-code-codex' | relative_url }}"{% if page.url contains '/methods/claude-code-codex' %} aria-current="page"{% endif %}>
                       <span class="nav-card-icon" data-method-visual="ai" aria-hidden="true"></span>
-                      <strong>Claude Code &amp; Codex</strong>
+                      <strong>AI &amp; Code</strong>
                       <em>Use AI for folders, scripts, checks, and documentation.</em>
                     </a>
                   </div>
@@ -108,7 +113,7 @@
             </details>
             <a href="{{ '/methods/claude-code-codex' | relative_url }}"{% if is_ai %} class="is-active" aria-current="page"{% endif %}>AI &amp; Code</a>
             <a href="{{ '/assessment-standards/' | relative_url }}"{% if is_assessment %} class="is-active" aria-current="page"{% endif %}>Assessment</a>
-            <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Policies</a>
+            <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Ethics &amp; AI</a>
           </nav>
         </div>
       </div>
@@ -119,7 +124,7 @@
       <nav class="breadcrumbs" aria-label="Breadcrumb">
         <a href="{{ '/' | relative_url }}">Home</a>
 
-        {% if is_getting_started %}
+        {% if is_getting_started or is_templates %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>
         {% elsif is_ai %}

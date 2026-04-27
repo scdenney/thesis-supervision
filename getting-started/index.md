@@ -15,6 +15,8 @@ Click on each step below to expand it. Each one includes objectives, key concept
 
 Work through all five steps. By the end you will have: a working research question, a data collection plan, a literature review outline, a methods framework, and a writing strategy.
 
+Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this guide when you need a concrete working document for a supervision meeting, proposal draft, literature review, corpus plan, or final submission check.
+
 ---
 
 ## The Five Steps {#the-five-steps}
@@ -373,7 +375,7 @@ Work through all five steps. By the end you will have: a working research questi
 
 <h4>Formatting</h4>
 <ul>
-<li>Citation styles vary by program — check your <a href="{{ '/' | relative_url }}">program page</a> for specific requirements</li>
+<li>Citation styles vary by program — check your <a href="{{ '/#find-your-program' | relative_url }}">program overview</a> for specific requirements</li>
 <li>Use your chosen citation style <strong>consistently</strong> throughout the thesis</li>
 <li>Consult the <a href="https://www.library.universiteitleiden.nl/students/citing">Leiden University Library: Citing</a> page for citation resources and guides</li>
 </ul>

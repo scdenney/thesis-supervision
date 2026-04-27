@@ -152,7 +152,7 @@ Start here when the hard part is choosing, justifying, or operationalizing a met
   <a class="method-card method-card-feature" data-method-groups="workflow ai computational qualitative" href="{{ '/methods/claude-code-codex' | relative_url }}">
     <span class="method-visual" data-method-visual="ai" aria-hidden="true"></span>
     <span class="method-type">AI &amp; Code</span>
-    <h3>Claude Code &amp; Codex</h3>
+    <h3>AI &amp; Code</h3>
     <p>Use when the challenge is source organization, scripting, cleanup, checking, or documenting a workflow.</p>
     <span class="tag-list">agents · scripts · disclosure</span>
   </a>

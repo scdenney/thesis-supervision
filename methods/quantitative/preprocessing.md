@@ -47,8 +47,6 @@ This page draws from the course's preprocessing material. Students who take it c
 - Vocabulary filtering: document-frequency cutoffs, rare-term handling, out-of-vocabulary strategies
 - Documenting preprocessing choices so they can be reported and reproduced
 
-<!-- TODO: refine this list against the DH course's current syllabus. -->
-
 ---
 
 ## What you need to learn first

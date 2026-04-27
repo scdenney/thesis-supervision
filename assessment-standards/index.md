@@ -31,13 +31,13 @@ title: Assessment Standards
 
 # Assessment Standards
 
-These assessment standards are used across all programs I supervise (BAIS, BAKS, MAAS, MAIR). The core criteria are broadly shared, with expectations calibrated to program level. See your [program page]({{ '/' | relative_url }}) for program-specific details.
+These assessment standards are used across all programs I supervise (BAIS, BAKS, MAAS, MAIR). The core criteria are broadly shared, with expectations calibrated to program level. See your [program overview]({{ '/#find-your-program' | relative_url }}) for program-specific details.
 
 ---
 
 ## Assessment Criteria
 
-Every thesis is assessed according to the following dimensions. The first four criteria capture the quality of the written thesis; the fifth — Learning Skills — assesses the research process and is used primarily in MA programs.
+Every Faculty thesis assessment form includes the following five dimensions. The first four criteria capture the quality of the written thesis and are assessed by both readers; the fifth — Learning Skills — assesses the research process and is assessed by the supervisor/first reader. Programme handling and weighting can differ.
 
 ### Knowledge and Insight
 
@@ -71,19 +71,19 @@ Every thesis is assessed according to the following dimensions. The first four c
 
 - Competent academic writing: readability, style, spelling, grammar, and appropriate terminology
 - Clear and logical structure with effective transitions between sections
-- Proper citations following a recognized style, used consistently (check your [program page]({{ '/' | relative_url }}) for specific requirements)
+- Proper citations following a recognized style, used consistently (check your [program overview]({{ '/#find-your-program' | relative_url }}) for specific requirements)
 - Professional formatting and presentation
 
 ### Learning Skills (Process)
 
-**Assessed by:** Supervisor — *used primarily in MA programs; BA programs may assess process through seminar participation*
+**Assessed by:** Supervisor/first reader — programme handling and weighting differ
 
 - Degree of independence throughout the research process
 - Planning and time management
 - Responsiveness to supervisor feedback
 - Participation in thesis group (if applicable)
 
-This criterion is assessed by the supervisor based on their observation of the research process. Check your [program page]({{ '/' | relative_url }}) for how this is weighted in your program.
+This criterion is assessed by the supervisor based on their observation of the research process. Check your [program overview]({{ '/#find-your-program' | relative_url }}) for how this is weighted in your program.
 
 ---
 

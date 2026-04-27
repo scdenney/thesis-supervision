@@ -50,8 +50,6 @@ This page draws from the course's word-embedding material. Students who take it 
 - Using embeddings as input features for classification, clustering, or topic analysis
 - Reporting embedding-based methods: pinning model versions, documenting training corpus, acknowledging limits
 
-<!-- TODO: refine this list against the DH course's current syllabus. -->
-
 ---
 
 ## What you need to learn first

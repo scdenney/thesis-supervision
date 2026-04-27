@@ -190,7 +190,7 @@ If your research question requires texts in more than one language — common in
 
 - Keep original-language texts as your primary data. Store translations separately and clearly label them.
 - In your metadata spreadsheet (see below), include a "Language" column.
-- If you use machine translation as a research aid, note which tool and version you used. This falls under your GenAI disclosure obligations — see the [Ethics & AI page]({{ '/ethics/#generative-ai-policy' | relative_url }}).
+- If you plan to use machine translation as a research aid, discuss it with your supervisor first. If permitted, note which tool and version you used, describe your quality checks, and cite/disclose the use under the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}).
 
 ---
 
@@ -261,13 +261,13 @@ AI coding assistants — such as Claude Code, OpenAI Codex, or GitHub Copilot �
 - Split large export files into individual documents
 - Run basic validation checks (e.g., flagging empty files, checking word counts)
 
-You do not need to be a programmer to use these tools effectively. Describe the task in plain language — "I have 300 PDFs in a folder and I need to convert them to plain text files with the same names" — and the tool will generate a script you can run.
+You do not need to be a programmer to use these tools effectively. Describe the task in plain language — "I have 300 PDFs in a folder and I need to convert them to plain text files with the same names" — and the tool can draft a script that you inspect, test on a small sample, and run only on permitted data.
 
 <div class="info-box" markdown="1">
 
-**GenAI disclosure:** Using AI tools for corpus management tasks (file conversion, cleaning, batch operations) falls under your program's generative AI policy. You must disclose this use in your methodology chapter. See the [Ethics & AI — Generative AI Policy]({{ '/ethics/#generative-ai-policy' | relative_url }}) for the full policy and disclosure requirements.
+**GenAI permission and disclosure:** Before using AI tools for corpus management tasks (file conversion, cleaning, batch operations), discuss the planned use with your supervisor and check the [Ethics & AI — Generative AI Policy]({{ '/ethics/#generative-ai-policy' | relative_url }}). If the use is permitted, disclose it in your methodology chapter and document what the tool helped with, what you checked manually, and where prompts, scripts, or outputs are stored.
 
-**Important distinction:** Using AI to *manage* your corpus (converting, cleaning, organizing files) is different from using AI to *analyze* your corpus (generating codes, interpreting meaning, producing findings). The former is a practical workflow tool; the latter raises fundamental questions about the integrity of your analysis. Discuss any planned AI use with your supervisor.
+**Important distinction:** Using AI to *manage* your corpus (converting, cleaning, organizing files) is different from using AI to *analyze* your corpus (generating codes, interpreting meaning, producing findings). The former is a practical workflow tool when it is transparent and verified; the latter raises fundamental questions about the integrity of your analysis and requires explicit guidance before you proceed.
 
 </div>
 

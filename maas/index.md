@@ -38,6 +38,12 @@ The content below is adapted from the MA Asian Studies thesis protocol for stude
 
 </div>
 
+<div class="info-box" markdown="1">
+
+**Your next step:** After confirming the rules below, draft a one-page working plan with your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}), then use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI-supported workflow.
+
+</div>
+
 ---
 
 ## Key Requirements
@@ -56,17 +62,17 @@ The content below is adapted from the MA Asian Studies thesis protocol for stude
 
 The thesis process begins with the assignment of a supervisor, which follows from the thesis distribution form you submit early in your program.
 
-| Milestone | Fall entry | Spring entry |
+| Milestone | Fall 2025 entry | Spring 2026 entry |
 |-----------|-----------|--------------|
-| Thesis distribution form due | September 24 | Mid-February |
-| Thesis methodology sessions | During Introduction to Asian Studies | First 3 weeks |
-| First meeting with supervisor | November | March |
-| Thesis proposal draft due | January 5 | June 1 |
-| Supervisor feedback on proposal | By January 20 | By June 20 |
-| Final thesis proposal due | January 31 | July 1 |
-| **First thesis submission** | **May 15** | **November 1** |
+| Thesis distribution form due | September 24, 2025 | Mid-February 2026 |
+| Thesis methodology sessions | During Introduction to Asian Studies | First 3 weeks of the semester |
+| First meeting with supervisor | November 2025 | March 2026 |
+| Thesis proposal draft due | January 5, 2026 | June 1, 2026 |
+| Supervisor feedback on proposal | By January 20, 2026 | By June 20, 2026 |
+| Final thesis proposal due | January 31, 2026 | July 1, 2026 |
+| **First thesis submission** | **May 15, 2026** | **November 1, 2026** |
 | Supervisor feedback on draft | Within 10 working days | Within 10 working days |
-| **Final thesis deadline** | **July 1** | **December 15** |
+| **Final thesis deadline** | **July 1, 2026** | **December 15, 2026** |
 
 <div class="info-box" markdown="1">
 
@@ -98,6 +104,8 @@ The thesis proposal is a required component of the Introduction to Asian Studies
 After your proposal is approved, you will write draft chapters in consultation with your supervisor, meeting at least twice during the writing phase.
 
 **Submission procedure:** Email the final thesis to your supervisor, second reader, and to [MAthesis@hum.leidenuniv.nl](mailto:MAthesis@hum.leidenuniv.nl) by the final deadline.
+
+**Extensions:** If you face extenuating circumstances or need an extension, submit the request through the examinations committee. Extensions are not granted individually by supervisors.
 
 **Formatting:**
 - 12,000–15,000 words including footnotes and references, excluding appendices
@@ -148,10 +156,10 @@ In addition to the general criteria above, your thesis must meet the requirement
 
 Students who do not pass the first assessment, or who did not complete the thesis by the final deadline, may submit a new draft by the resit deadline and a final version by the resit final deadline, under the guidance of the same supervisor.
 
-| | Fall entry | Spring entry |
+| | Fall 2025 entry | Spring 2026 entry |
 |---|-----------|--------------|
-| Resit draft | November 1 | May 15 |
-| Resit final | December 15 | July 1 |
+| Resit draft | November 1, 2026 | May 15, 2027 |
+| Resit final | December 15, 2026 | July 1, 2027 |
 
 ---
 

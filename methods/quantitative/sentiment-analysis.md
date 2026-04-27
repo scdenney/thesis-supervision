@@ -33,7 +33,7 @@ Assigning numerical values that summarize how positive, negative, or emotionally
 
 1. **Dictionary methods**: counting terms from a curated lexicon (LIWC, VADER, NRC, AFINN). Transparent and reproducible; struggles with negation, sarcasm, and domain shift.
 2. **Supervised classifiers**: training a model (logistic regression, SVM, fine-tuned transformer) on human-labelled examples. More accurate in-domain, but requires labelled training data and careful validation.
-3. **LLM-based rating**: prompting a large language model to rate each text. Fast to set up; variable across prompts and model versions; needs rigorous evaluation before trusted for a thesis.
+3. **LLM-based rating**: prompting a large language model to rate each text. Fast to set up; variable across prompts and model versions; needs rigorous evaluation, supervisor guidance, and compliance with the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}) before trusted for a thesis.
 
 Each family has weaknesses that matter more or less depending on your texts. Sarcasm-heavy social media breaks dictionary methods. Classifiers trained on movie reviews fail on policy documents. LLMs drift across model releases. Choose with the limits in mind.
 
@@ -50,8 +50,6 @@ This page draws from the course's sentiment analysis material. Students who take
 - Inter-annotator agreement (Cohen's kappa, Krippendorff's alpha) for labelled data
 - Validating sentiment scores against human judgment
 - Reporting sentiment methods in a methodology chapter — limitations are mandatory
-
-<!-- TODO: refine this list against the DH course's current syllabus. -->
 
 ---
 

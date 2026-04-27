@@ -35,6 +35,12 @@ title: Home
       <p>Work through the question, sources, literature review, analytical framework, and findings strategy.</p>
     </a>
 
+    <a class="resource-path-card" href="{{ '/templates/' | relative_url }}">
+      <span class="path-meta">Working documents</span>
+      <h3>Use a template</h3>
+      <p>Start a research memo, proposal outline, literature matrix, data plan, meeting packet, or submission checklist.</p>
+    </a>
+
     <a class="resource-path-card" href="{{ '/methods/' | relative_url }}">
       <span class="path-meta">Methods resource</span>
       <h3>Choose and justify a method</h3>
@@ -53,7 +59,7 @@ title: Home
 
 ## Leiden Student? Find Your Program
 
-If you are writing within one of the Leiden programs I supervise, start with your program page. If you are here for broader research support, begin with the methods and AI/code routes above.
+If you are writing within one of the Leiden programs I supervise, start with your program page. If you are here for broader research support, begin with the methods and AI & Code routes above.
 
 <div class="program-cards program-overview-grid" markdown="0">
   <a class="program-card" href="{{ '/bais/' | relative_url }}">
@@ -87,7 +93,7 @@ If you are writing within one of the Leiden programs I supervise, start with you
 | **Level** | BA | BA | MA | MA |
 | **Word count** | 10,000 (&plusmn;10%) | 10,000 (&plusmn;10%) | 12,000-15,000 | 15,000 max |
 | **Citation style** | Chicago | Chicago Notes-Bib | Consistent, recognized style | Consistent, recognized style |
-| **Final deadline** | June 23, 2026 | June 1, 2026 | July 1, 2026 | June 5, 2026 |
+| **Final deadline** | June 5, 2026 | June 1, 2026 | July 1, 2026 | June 5, 2026 |
 
 </div>
 
@@ -108,7 +114,7 @@ If you are writing within one of the Leiden programs I supervise, start with you
       </div>
       <div>
         <dt>Final deadline</dt>
-        <dd>June 23, 2026</dd>
+        <dd>June 5, 2026</dd>
       </div>
     </dl>
   </article>
@@ -194,8 +200,12 @@ All dates are for the **2025-2026 academic year**. Always confirm deadlines with
     <strong>Assessment Standards</strong>
     <span>Criteria, grade descriptors, thesis structure, and BA/MA expectations.</span>
   </a>
+  <a class="link-panel" href="{{ '/templates/' | relative_url }}">
+    <strong>Templates &amp; Checklists</strong>
+    <span>Research memo, proposal outline, literature matrix, data plan, meeting packet, and final checks.</span>
+  </a>
   <a class="link-panel" href="{{ '/ethics/' | relative_url }}">
-    <strong>Policies</strong>
+    <strong>Ethics &amp; AI</strong>
     <span>Ethics review, university GenAI policy, plagiarism, academic integrity, and support links.</span>
   </a>
 </div>

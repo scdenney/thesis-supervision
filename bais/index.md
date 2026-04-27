@@ -45,6 +45,12 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 
 </div>
 
+<div class="info-box" markdown="1">
+
+**Your next step:** After confirming the rules below, draft a one-page working plan with your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}), then use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI-supported workflow.
+
+</div>
+
 ---
 
 ## Key Requirements
@@ -55,7 +61,7 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 | **Citation style** | Chicago — supervisor determines whether Notes-Bibliography or Author-Date |
 | **Language** | English |
 | **Global perspective** | The thesis must either (a) place a regionally defined topic in a global context, or (b) analyze the topic from at least two disciplinary perspectives |
-| **Final deadline** | June 23, 2026 |
+| **Final deadline** | June 5, 2026 |
 
 ---
 
@@ -66,9 +72,9 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 | Research question and plan | Week 9 |
 | Literature review | Week 12 |
 | Thesis draft | Week 18 |
-| **Final thesis** | **June 23, 2026** |
+| **Final thesis** | **June 5, 2026** |
 
-All deadlines are Friday at 23:59. Deadlines are coordinated across seminars and cannot be moved. Always confirm exact dates with your supervisor and check Brightspace.
+All deadlines are Friday at 23:59. Deadlines are coordinated across seminars and are not ordinarily moved. In serious personal circumstances, contact your supervisor before the deadline; short extensions may be possible, while longer requests must go through the Board of Examiners. Always confirm exact dates with your supervisor and check Brightspace.
 
 ---
 

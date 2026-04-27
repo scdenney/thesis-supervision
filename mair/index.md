@@ -40,6 +40,12 @@ The content below is adapted from the MAIR thesis supervision guidelines for stu
 
 </div>
 
+<div class="info-box" markdown="1">
+
+**Your next step:** After confirming the rules below, draft a one-page working plan with your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}), then use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI-supported workflow.
+
+</div>
+
 ---
 
 ## Key Requirements

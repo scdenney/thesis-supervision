@@ -39,15 +39,21 @@ The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper t
 
 </div>
 
+<div class="info-box" markdown="1">
+
+**Your next step:** After confirming the rules below, draft a one-page working plan with your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}), then use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI-supported workflow.
+
+</div>
+
 ---
 
 ## Key Requirements
 
 | Requirement | Details |
 |-------------|---------|
-| **Word count** | 10,000 words (±10%) |
+| **Word count** | 10,000 words (±10%), including footnotes, excluding bibliography and appendices |
 | **Citation style** | Chicago Notes-Bibliography |
-| **Language** | English |
+| **Language** | English for this seminar; official programme rules allow Dutch or English, with another Western language only by Board of Examiners permission |
 | **Korean sources** | At least 10% of sources should be in Korean |
 | **Romanization** | McCune-Reischauer (MCR) system |
 | **Final deadline** | June 1, 2026 |
@@ -80,12 +86,13 @@ All assignments are submitted via Brightspace by 23:59 on the due date.
 
 ### Thesis Assessment
 
-The final thesis is graded separately by a thesis committee (first and second reader) using the faculty's shared criteria:
+The final thesis is graded separately by a thesis committee (first and second reader). The official Prospectus lists five criteria:
 
-1. **Knowledge and Insight** — Research question, motivation, and literature review
-2. **Application of Knowledge** — Data, methods, and analysis
-3. **Reaching Conclusions** — Synthesis, contribution, and limitations
-4. **Communication** — Writing, structure, and citations
+1. **Academic literature and research question** — Knowledge of academic literature and formulation of a research question based on it
+2. **Methodology and primary sources** — Systematic application of a methodology to primary sources
+3. **Primary source processing** — Careful processing of primary source materials
+4. **Korean-language materials** — Substantive engagement with Korean-language materials
+5. **Communication** — Language use, thesis structure, and apparatus
 
 See the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for detailed criteria and grade descriptors.
 

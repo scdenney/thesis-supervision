@@ -47,8 +47,6 @@ This page draws from the course's topic modeling material. Students who take it 
 - Measuring topic prevalence across metadata covariates (year, source, speaker)
 - Reporting topic models in a methodology chapter — what has to be disclosed
 
-<!-- TODO: refine this list against the DH course's current syllabus. -->
-
 ---
 
 ## What you need to learn first

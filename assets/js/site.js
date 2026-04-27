@@ -159,6 +159,35 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  const openDetailsForHash = () => {
+    const hash = window.location.hash;
+    if (!hash) return;
+
+    let targetId = hash.slice(1);
+    try {
+      targetId = decodeURIComponent(targetId);
+    } catch (error) {
+      return;
+    }
+
+    const target = document.getElementById(targetId);
+    if (!target) return;
+
+    const details =
+      target.tagName.toLowerCase() === "details"
+        ? target
+        : target.closest("details");
+    if (!details) return;
+
+    details.open = true;
+    window.requestAnimationFrame(() => {
+      target.scrollIntoView({ block: "start" });
+    });
+  };
+
+  openDetailsForHash();
+  window.addEventListener("hashchange", openDetailsForHash);
+
   const methodVisuals = {
     chooser: `
 	      <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" focusable="false">

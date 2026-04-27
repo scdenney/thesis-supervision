@@ -95,7 +95,7 @@ Before you rely on an AI/code-assisted workflow, make sure you can answer all of
 - Did you verify a sample of outputs against the original sources?
 - Are corpus boundaries, exclusions, and transformations documented?
 - Is the final interpretation yours, grounded in evidence you checked?
-- Have you followed the relevant [Policies]({{ '/ethics/' | relative_url }}) for disclosure and academic integrity?
+- Have you discussed the planned use with your supervisor and followed the relevant [Ethics & AI policy]({{ '/ethics/' | relative_url }}) for permission, disclosure, and academic integrity?
 
 ## Good Division of Labor
 

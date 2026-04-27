@@ -39,7 +39,7 @@ If you are unsure whether your research requires formal ethical review, consult 
 
 <div class="info-box" markdown="1">
 
-**Flowchart:** Use the faculty's [Ethics Checklist and Flowchart (PDF)](https://www.universiteitleiden.nl/binaries/content/assets/geesteswetenschappen/commissies/flowchart-checklist-ethics-committee.pdf) to determine whether your research needs formal review.
+**Checklist:** BA and MA students should use the faculty's [Ethics Checklist and Flowchart (PDF)](https://www.universiteitleiden.nl/binaries/content/assets/geesteswetenschappen/commissies/flowchart-checklist-ethics-committee.pdf) with their supervisor as a risk-screening tool. If the checklist suggests formal review may be needed, your supervisor or programme should determine the correct route.
 
 </div>
 
@@ -57,10 +57,12 @@ All thesis research must comply with the principles outlined in the Code of Ethi
 
 The Faculty of Humanities has established guidelines governing the use of generative AI (GenAI) tools in academic assessment. Key points:
 
-- GenAI tools may be used only in ethical, responsible, and transparent ways
-- Unless explicitly permitted by your supervisor, AI-generated content may **not** be submitted as your own work
-- Any approved use of GenAI must be **disclosed and properly cited**
-- When in doubt, ask your supervisor before using GenAI tools in your research or writing
+- GenAI products or outputs may not be used in assessed work unless your teacher or supervisor has explicitly allowed the specific use under clear conditions
+- Discuss any planned GenAI use with your supervisor before building it into your thesis workflow, so you can agree on which tasks are appropriate and what needs to be documented
+- Procedural support, such as file organization, scripting, corpus cleanup, checks, documentation, grammar support, or machine translation, still needs to be appropriate for the assignment and verified by you
+- You remain responsible for the thesis: the research question, evidence, interpretation, argument, and final claims must be work you can explain and defend
+- Any permitted use of GenAI in assessed work or research methodology must be disclosed, cited according to Faculty guidance, and documented with prompts and outputs available on request
+- Do not upload confidential, personal, copyrighted, or otherwise protected source material or research data to GenAI tools
 
 **Required resources:**
 
@@ -73,7 +75,7 @@ The Faculty of Humanities has established guidelines governing the use of genera
 
 ## Plagiarism
 
-Plagiarism is a serious academic offense. It includes presenting another person's work, ideas, or words as your own without proper attribution. This applies equally to printed sources, internet sources, and AI-generated content.
+Plagiarism is a serious academic offense. It includes presenting another person's work, ideas, or words as your own without proper attribution. This applies equally to printed sources, internet sources, and GenAI outputs.
 
 Consequences range from a failing grade to referral to the Board of Examiners. All theses are checked for plagiarism.
 
@@ -86,12 +88,14 @@ Consequences range from a failing grade to referral to the Board of Examiners. A
 As a thesis student, you are expected to uphold the highest standards of academic integrity. This includes:
 
 - Honest reporting of research methods and findings
-- Proper citation of all sources using a recognized style, applied consistently (see your [program page]({{ '/' | relative_url }}) for specific requirements)
+- Proper citation of all sources using a recognized style, applied consistently (see your [program overview]({{ '/#find-your-program' | relative_url }}) for specific requirements)
 - Transparent disclosure of any limitations, conflicts of interest, or use of AI tools
 - Respect for the intellectual property of others
 
 - [Code of Conduct for Students](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/code-of-conduct-for-students-of-the-faculty-of-humanities) — Faculty of Humanities
-- [Faculty Rules and Regulations](https://www.student.universiteitleiden.nl/en/organisation/rules-and-regulations/faculty-and-study-regulations/faculty-and-study-regulations/humanities)
+- [Course and Examination Regulations Humanities — bachelor's programmes](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/course-and-examination-regulations-humanities-bachelors-programmes)
+- [Course and Examination Regulations Humanities — master's programmes](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/course-and-examination-regulations-humanities-masters-programmes)
+- [Boards of Examiners — Faculty of Humanities](https://www.organisatiegids.universiteitleiden.nl/en/faculties-and-institutes/humanities/committees-and-boards/boards-of-examiners)
 
 ---
 
