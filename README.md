@@ -18,6 +18,17 @@ Resources and guidance for thesis and research supervision by Dr. Steven Denney 
 
 Jekyll + GitHub Pages. Markdown pages with custom HTML/CSS and small progressive JavaScript enhancements for navigation, table-of-contents behavior, method routing, and prompt copying.
 
+## Local build
+
+Install the GitHub Pages bundle and build the site locally:
+
+```bash
+bundle install
+bundle exec jekyll build
+```
+
+Bundler is configured to install gems under `_local/bundle`, which is ignored by Git.
+
 ## Reuse
 
 This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute this material for your own courses, provided you give appropriate credit. Fork away.
