@@ -15,7 +15,7 @@ Start here when the hard part is choosing, justifying, or operationalizing a met
   markdown="0">
   <div class="method-router-copy">
     <p class="section-kicker">Methods chooser</p>
-    <h2 id="method-router-title">Find the right first move</h2>
+    <h2 id="method-router-title">Match your project to a method</h2>
     <p>Answer three questions. The result points you to the part of the methods resource that should come first.</p>
     <span class="method-visual-large" data-method-visual="chooser" aria-hidden="true"></span>
   </div>
