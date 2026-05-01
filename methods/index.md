@@ -5,7 +5,7 @@ title: Methods Guide
 
 # Methods Guide
 
-Start here when the hard part is choosing, justifying, or operationalizing a method. The aim is not to pick a label first; it is to match your research question, material, and workflow to a defensible analytical path.
+Use this guide when the hard part is choosing, justifying, or operationalizing a method. The aim is not to pick a label; it is to match your research question, material, and workflow to a defensible analytical path.
 
 <section class="method-router method-router-visual" aria-labelledby="method-router-title"
   data-route-corpus="{{ '/methods/building-a-corpus' | relative_url }}"
@@ -14,9 +14,9 @@ Start here when the hard part is choosing, justifying, or operationalizing a met
   data-route-ai="{{ '/methods/claude-code-codex' | relative_url }}"
   markdown="0">
   <div class="method-router-copy">
-    <p class="section-kicker">Methods chooser</p>
+    <p class="section-kicker">Method selection</p>
     <h2 id="method-router-title">Match your project to a method</h2>
-    <p>Answer three questions. The result points you to the part of the methods resource that should come first.</p>
+    <p>Answer three questions. The result points you to the most relevant section of the methods resource.</p>
     <span class="method-visual-large" data-method-visual="chooser" aria-hidden="true"></span>
   </div>
 
@@ -35,7 +35,7 @@ Start here when the hard part is choosing, justifying, or operationalizing a met
       </label>
 
       <label>
-        <span>What do you need to do first?</span>
+        <span>What is your main analytical task?</span>
         <select name="goal">
           <option value="">Choose one</option>
           <option value="collect">Collect, bound, or organize sources</option>
@@ -58,9 +58,9 @@ Start here when the hard part is choosing, justifying, or operationalizing a met
     </form>
 
     <div class="router-result" data-router-result aria-live="polite">
-      <span class="result-label">Recommended first stop</span>
-      <h3 data-router-title>Start with corpus planning</h3>
-      <p data-router-copy>If you are unsure, begin by defining what you will collect and why. Most method problems become clearer once the corpus, cases, or data source is bounded.</p>
+      <span class="result-label">Recommended section</span>
+      <h3 data-router-title>Corpus planning</h3>
+      <p data-router-copy>If you are unsure, define what you will collect and why. Most method problems become clearer once the corpus, cases, or data source is bounded.</p>
       <a data-router-link href="{{ '/methods/building-a-corpus' | relative_url }}">Open Building a Corpus</a>
     </div>
   </div>
@@ -81,7 +81,7 @@ Start here when the hard part is choosing, justifying, or operationalizing a met
     <span class="method-visual" data-method-visual="corpus" aria-hidden="true"></span>
     <span class="method-type">Workflow</span>
     <h3>Building a Corpus</h3>
-    <p>Use first when the project depends on collecting, bounding, organizing, and documenting a body of texts.</p>
+    <p>Use when the project depends on collecting, bounding, organizing, and documenting a body of texts.</p>
     <span class="tag-list">sources · metadata · sampling</span>
   </a>
 

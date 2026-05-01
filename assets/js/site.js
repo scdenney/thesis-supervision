@@ -334,25 +334,25 @@ document.addEventListener("DOMContentLoaded", () => {
     const resultLink = methodRouter.querySelector("[data-router-link]");
     const routes = {
       corpus: {
-        title: "Start with corpus planning",
-        copy: "Define what you will collect, how you will bound it, and how you will document it. This is the best first stop for most text-based projects.",
+        title: "Corpus planning",
+        copy: "Define what you will collect, how you will bound it, and how you will document it. This section is most useful for text-based projects where the source base still needs to be made explicit.",
         label: "Open Building a Corpus",
         href: methodRouter.dataset.routeCorpus,
       },
       qualitative: {
-        title: "Start with qualitative approaches",
-        copy: "Your project depends on interpretation, case logic, frames, discourse, or causal explanation. Use the qualitative route to choose the closest fit.",
+        title: "Qualitative approaches",
+        copy: "Your project depends on interpretation, case logic, frames, discourse, or causal explanation. Review the qualitative approaches and choose the design that best fits the evidence.",
         label: "Open Qualitative Approaches",
         href: methodRouter.dataset.routeQualitative,
       },
       computational: {
-        title: "Start with computational methods",
-        copy: "You need to measure or model patterns across many documents. Begin with preprocessing, then choose topic analysis, sentiment, or embeddings.",
+        title: "Computational methods",
+        copy: "You need to measure or model patterns across many documents. Review preprocessing, then choose topic analysis, sentiment, or embeddings.",
         label: "Open Computational & Quantitative",
         href: methodRouter.dataset.routeComputational,
       },
       ai: {
-        title: "Start with AI & Code",
+        title: "AI & Code workflow",
         copy: "Your immediate problem is workflow: organizing files, writing scripts, cleaning text, checking outputs, or documenting an agent-assisted process.",
         label: "Open AI & Code",
         href: methodRouter.dataset.routeAi,
