@@ -5,7 +5,7 @@ title: Getting Started
 
 # Getting Started
 
-This guide walks you through five key stages of planning and writing a thesis. It applies to all programs (BAIS, BAKS, MAAS, MAIR) and is designed to be worked through in order — though you can revisit any step at any time.
+This guide walks you through five key stages of planning and writing a thesis. It applies to all programs (BAIS, BAKS, MAAS, MAIR) and works best when you go through it in order, though you can revisit any step at any time.
 
 ---
 
@@ -13,7 +13,7 @@ This guide walks you through five key stages of planning and writing a thesis. I
 
 Click on each step below to expand it. Each one includes objectives, key concepts, reflection prompts, and an exercise that produces something you can bring to your supervisor.
 
-Work through all five steps. By the end you will have: a working research question, a data collection plan, a literature review outline, a methods framework, and a writing strategy.
+Work through all five steps. By the end you will have a working research question, a data collection plan, a literature review outline, a methods framework, and a writing strategy.
 
 Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this guide when you need a concrete working document for a supervision meeting, proposal draft, literature review, corpus plan, or final submission check.
 
@@ -25,7 +25,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <summary>Step 1: Developing Your Research Question</summary>
 <div class="details-content">
 
-<p class="step-intro">Everything starts here. Your research question shapes every decision that follows — what you read, what data you gather, and how you analyze it.</p>
+<p class="step-intro">Everything starts here. Your research question shapes every decision that follows, from the sources you read to the way you analyze them.</p>
 
 <div class="step-objectives">
 <p>Objectives</p>
@@ -48,7 +48,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <h4>Research problem and research gap</h4>
 
-<p>The <strong>research problem</strong> is the broader issue your question addresses. It explains <em>why</em> your question matters — what we don't yet know, what existing scholarship has overlooked, or what needs to be re-examined.</p>
+<p>The <strong>research problem</strong> is the broader issue your question addresses. It explains <em>why</em> your question matters. That might be a gap in current knowledge, a blind spot in existing scholarship, an unresolved debate, or a settled view that warrants fresh examination.</p>
 
 <p>The <strong>research gap</strong> is the specific hole your thesis aims to fill. Gaps can take many forms: an understudied case, an untested theory, a missing comparison, a neglected perspective, or new data that warrants fresh analysis.</p>
 
@@ -100,7 +100,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <p><strong>Primary sources</strong> are original materials you analyze directly — interviews, surveys, archival documents, government reports, media sources, datasets, literary texts, visual materials, etc.</p>
 
-<p><strong>Secondary sources</strong> are scholarly works that analyze, interpret, or discuss primary sources — journal articles, monographs, book chapters, and review essays.</p>
+<p><strong>Secondary sources</strong> are scholarly works that analyze or interpret primary sources — journal articles, monographs, book chapters, and review essays.</p>
 
 <p>Most theses use a combination of both. The balance depends on your research question and methodology.</p>
 
@@ -109,7 +109,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <table>
 <thead><tr><th>Principle</th><th>What it means</th><th>In practice</th></tr></thead>
 <tbody>
-<tr><td><strong>Findable</strong></td><td>Data should be easy to locate</td><td>Organize and label your sources systematically; use reference management software (Zotero, Mendeley)</td></tr>
+<tr><td><strong>Findable</strong></td><td>Data should be easy to locate</td><td>Organize and label your sources with reference management software (Zotero, Mendeley)</td></tr>
 <tr><td><strong>Accessible</strong></td><td>Data should be obtainable</td><td>Ensure you can legally and practically access the sources you need</td></tr>
 <tr><td><strong>Interoperable</strong></td><td>Data should work across systems</td><td>Use standard formats and consistent naming conventions</td></tr>
 <tr><td><strong>Reusable</strong></td><td>Data should be usable by others</td><td>Document your sources, methods, and any transformations clearly</td></tr>
@@ -154,7 +154,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <summary>Step 3: Conducting a Literature Review</summary>
 <div class="details-content">
 
-<p class="step-intro">The literature review is not a book report. It's a critical conversation with the scholars who came before you — showing what they've established, where they disagree, and what they've left for you to explore.</p>
+<p class="step-intro">The literature review is a critical conversation with the scholars who came before you, not a book report. You map what they have already established and identify what they have left open for further work.</p>
 
 <div class="step-objectives">
 <p>Objectives</p>
@@ -170,13 +170,13 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <p>A good literature review:</p>
 <ul>
 <li><strong>Summarizes</strong> existing work on your topic</li>
-<li><strong>Identifies gaps</strong> — what has been overlooked, understudied, or contested</li>
+<li><strong>Identifies gaps</strong> — what has been overlooked or remains contested</li>
 <li><strong>Frames your research</strong> — shows how your thesis connects to and builds on existing scholarship</li>
 <li><strong>Justifies your approach</strong> — explains why your question, data, and methods are appropriate</li>
 </ul>
 
 <div class="tip-box">
-<p><strong>A literature review is not a summary of everything written on your topic.</strong> It is a focused, critical discussion of the scholarship most relevant to your research question.</p>
+<p><strong>A literature review covers the scholarship most relevant to your research question.</strong> It is a focused, critical discussion that engages a few key debates closely rather than catalogues everything ever written on your topic.</p>
 </div>
 
 <h4>How to organize your review</h4>
@@ -191,10 +191,10 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <h4>Building your review step by step</h4>
 <ol>
 <li><strong>Identify key search terms</strong> related to your topic, question, and field</li>
-<li><strong>Search systematically</strong> — Google Scholar, JSTOR, Web of Science, your field's specialized databases</li>
+<li><strong>Search widely</strong> — Google Scholar, JSTOR, Web of Science, your field's specialized databases</li>
 <li><strong>Read strategically</strong> — start with abstracts and introductions to assess relevance</li>
 <li><strong>Take structured notes</strong> — for each source, record the main argument, methods, findings, and relation to your research</li>
-<li><strong>Group and synthesize</strong> — organize sources into themes, debates, or approaches</li>
+<li><strong>Group and synthesize</strong> — organize sources into themes or competing positions</li>
 <li><strong>Identify the gap</strong> — articulate what the existing literature does not address</li>
 </ol>
 
@@ -205,7 +205,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <li>Where do scholars agree? Where do they disagree?</li>
 <li>What methodological approaches have been used? What approaches are missing?</li>
 <li>How does your research question address something the literature has not?</li>
-<li>Are there geographic, temporal, or thematic blind spots?</li>
+<li>Are there geographic or temporal blind spots that scholarship has overlooked?</li>
 </ul>
 </div>
 
@@ -217,7 +217,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <li>The methods used</li>
 <li>How the source relates to your research question</li>
 </ol>
-<p><strong>Part B:</strong> Draft an outline of your literature review, organized by theme, chronology, or methodology.</p>
+<p><strong>Part B:</strong> Draft an outline of your literature review, using whichever organizing principle (theme, chronology, methodology, or theoretical perspective) best fits your sources.</p>
 </div>
 
 </div>
@@ -227,7 +227,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <summary>Step 4: Building Your Analytical Framework</summary>
 <div class="details-content">
 
-<p class="step-intro">Your analytical framework is the bridge between your research question and your findings. It specifies what you're analyzing, how, and why that approach makes sense.</p>
+<p class="step-intro">Your analytical framework is the bridge between your research question and your findings. It specifies what you are analyzing and why your chosen approach makes sense for the task.</p>
 
 <div class="step-objectives">
 <p>Objectives</p>
@@ -240,7 +240,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <h4>How it fits together</h4>
 
-<p>The framework should flow logically from your literature review: the gap you identified motivates your research design, and your methods should suit the type of data you're working with.</p>
+<p>The framework should follow logically from your literature review. The gap you identified motivates your research design, and your methods should suit the type of data you are working with.</p>
 
 <p>Your framework specifies:</p>
 <ul>
@@ -319,7 +319,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <summary>Step 5: Writing and Reporting Findings</summary>
 <div class="details-content">
 
-<p class="step-intro">The findings chapter is where your analysis comes to life. This step helps you structure it — and develop a writing strategy for the full thesis.</p>
+<p class="step-intro">The findings chapter is where you present what your analysis shows. This step helps you structure it and develop a writing strategy for the full thesis.</p>
 
 <div class="step-objectives">
 <p>Objectives</p>
@@ -383,7 +383,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <div class="reflection-box">
 <p>Ask yourself</p>
 <ul>
-<li>How will you organize your findings — by theme, case, or sub-question?</li>
+<li>How will you organize your findings (by theme, by case, by sub-question, or chronologically)?</li>
 <li>What is the key evidence for each of your main points?</li>
 <li>How do your findings relate to the literature you reviewed?</li>
 <li>What are the most important contributions of your research?</li>
@@ -424,5 +424,5 @@ Bring these materials to your supervision meetings. Your supervisor will help yo
 **Other resources:**
 
 - [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) — How your thesis will be evaluated
-- [Ethics & AI]({{ '/ethics/' | relative_url }}) — Ethics review, GenAI policy, and plagiarism regulations
+- [Ethics & AI]({{ '/ethics/' | relative_url }}) — Ethics review plus the GenAI and plagiarism policies that govern your thesis
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) — Additional writing support

@@ -90,7 +90,7 @@ Supervision begins upon assignment. You should meet your supervisor shortly afte
 
 <div class="info-box" markdown="1">
 
-**Important:** Because there is no supervision during winter and summer breaks, theses cannot be written in their entirety over the break. You must actively consult your supervisor during the research process — a thesis cannot be submitted for evaluation that has not been overseen by a supervisor.
+**Important:** Because there is no supervision during winter and summer breaks, you should not plan to write the thesis from start to finish over the break. Consult your supervisor throughout the research process. A thesis submitted without supervisory oversight will not be accepted for evaluation.
 
 </div>
 
@@ -108,7 +108,7 @@ You and your supervisor should discuss any ethical implications of your research
 - Not use identifying information unless the person has expressly agreed
 - Respect the right of individuals to refuse to participate or withdraw at any stage
 
-**Particular care should be taken with vulnerable groups**, such as asylum seekers or citizens of authoritarian regimes. The program will not allow research that could endanger the researcher or participants.
+Take particular care with vulnerable groups, such as asylum seekers or citizens of authoritarian regimes. The program will not allow research that could endanger the researcher or participants.
 
 See the [Ethics & AI]({{ '/ethics/' | relative_url }}) page for consent form templates, the Code of Ethics, and university ethics guidelines.
 
@@ -130,7 +130,16 @@ Both the supervisor and second reader assess the thesis independently. The asses
 
 **Formal Requirements** — Word count (15,000 maximum); formatting; adherence to program-specific requirements.
 
-**Quality standards:** The thesis should include a clearly formulated research question; a critical report on existing academic debates; an original contribution that demonstrates advanced scholarly engagement; primary sources where appropriate; application of concepts and research methods; clear structure and proper language. Fraud and plagiarism are knockout criteria.
+A passing thesis should include:
+
+- A clearly formulated research question
+- A critical report on existing academic debates
+- An original contribution that goes beyond summary of the literature
+- Primary sources where appropriate
+- Application of concepts and research methods
+- Clear structure and proper language
+
+Fraud and plagiarism are knockout criteria.
 
 See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for the general framework and BA vs MA expectations.
 

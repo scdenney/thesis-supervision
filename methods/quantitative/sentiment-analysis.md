@@ -23,7 +23,7 @@ title: Sentiment Analysis
 
 # Sentiment Analysis
 
-Assigning numerical values that summarize how positive, negative, or emotionally charged a text is — useful when you need a scalar measure of tone across a large corpus.
+Assigning numerical values that summarize how positive or negative a text is (and sometimes how emotionally charged) — useful when you need a scalar measure of tone across a large corpus.
 
 ---
 
@@ -31,11 +31,11 @@ Assigning numerical values that summarize how positive, negative, or emotionally
 
 **Sentiment analysis** covers three broad families, each with different assumptions about what "sentiment" *is* and whom it generalizes to:
 
-1. **Dictionary methods**: counting terms from a curated lexicon (LIWC, VADER, NRC, AFINN). Transparent and reproducible; struggles with negation, sarcasm, and domain shift.
-2. **Supervised classifiers**: training a model (logistic regression, SVM, fine-tuned transformer) on human-labelled examples. More accurate in-domain, but requires labelled training data and careful validation.
-3. **LLM-based rating**: prompting a large language model to rate each text. Fast to set up; variable across prompts and model versions; needs rigorous evaluation, supervisor guidance, and compliance with the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}) before trusted for a thesis.
+1. **Dictionary methods**: counting terms from a curated lexicon (LIWC, VADER, NRC, AFINN). Transparent and reproducible. Struggles with sarcasm and negation, and breaks on serious domain shift.
+2. **Supervised classifiers**: training a model (logistic regression, SVM, fine-tuned transformer) on human-labeled examples. More accurate in-domain, but requires labeled training data and careful validation.
+3. **LLM-based rating**: prompting a large language model to rate each text. Fast to set up, but variable across prompts and model versions. Needs rigorous evaluation and supervisor guidance, plus compliance with the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}) before being trusted for a thesis.
 
-Each family has weaknesses that matter more or less depending on your texts. Sarcasm-heavy social media breaks dictionary methods. Classifiers trained on movie reviews fail on policy documents. LLMs drift across model releases. Choose with the limits in mind.
+Each family has weaknesses that matter more or less depending on your texts. Sarcasm-heavy social media breaks dictionary methods. Classifiers trained on movie reviews fail on policy documents, and LLM ratings drift across model releases. Choose with the limits in mind.
 
 ---
 
@@ -44,10 +44,10 @@ Each family has weaknesses that matter more or less depending on your texts. Sar
 This page draws from the course's sentiment analysis material. Students who take it come away with:
 
 - Dictionary methods: LIWC, VADER, NRC, AFINN — what each measures and where it breaks
-- Building a supervised classifier: labelling strategy, feature extraction, train/validation/test split
-- LLM-based sentiment rating: prompt design, reproducibility, version pinning
-- Handling negation, intensifiers, and contextual modifiers
-- Inter-annotator agreement (Cohen's kappa, Krippendorff's alpha) for labelled data
+- Building a supervised classifier: labeling strategy and feature extraction, plus a clean train/validation/test split
+- LLM-based sentiment rating: prompt design and reproducibility, with version pinning as the floor
+- Handling negation and intensifiers, plus other contextual modifiers
+- Inter-annotator agreement (Cohen's kappa, Krippendorff's alpha) for labeled data
 - Validating sentiment scores against human judgment
 - Reporting sentiment methods in a methodology chapter — limitations are mandatory
 
@@ -56,7 +56,7 @@ This page draws from the course's sentiment analysis material. Students who take
 ## What you need to learn first
 
 - **Preprocessing**: dictionary methods especially depend on tokenization and lemmatization. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
-- **Basic statistics**: agreement metrics, confidence intervals, reliability thinking.
+- **Basic statistics**: agreement metrics and confidence intervals, plus a working sense of reliability.
 - **Python or R**: `vaderSentiment`, `nltk`, `transformers` in Python; `sentimentr`, `quanteda.sentiment` in R.
 
 ---
@@ -74,7 +74,7 @@ This page draws from the course's sentiment analysis material. Students who take
 ## Related methods
 
 - [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}) — dictionary methods are especially sensitive to it.
-- [Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}) — sentiment is one of several dimensions framing scholarship measures; the two often appear together.
+- [Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}) — sentiment is one of several dimensions framing scholarship measures, and the two often appear together.
 - [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}) — sentiment-within-topic is a common analytical move.
 
 </div>

@@ -7,7 +7,7 @@ title: Home
   <div class="home-hero-copy">
     <p class="home-kicker">Leiden thesis support + public methods resources</p>
     <h1>Thesis &amp; Research Supervision</h1>
-    <p class="home-lede">A practical resource for students moving from topic to research design, method, corpus, analysis, and write-up. Start with your program if you need requirements; start with methods or AI/code if you need a workflow.</p>
+    <p class="home-lede">A practical resource for students working from a topic through research design, methods, corpus, analysis, and write-up. Start with your program if you need requirements. Start with methods or AI/code if you need a workflow.</p>
     <div class="home-contact">
       <span><strong>Supervisor</strong> Dr. Steven Denney</span>
       <a href="mailto:s.c.denney@hum.leidenuniv.nl">s.c.denney@hum.leidenuniv.nl</a>
@@ -44,7 +44,7 @@ title: Home
     <a class="resource-path-card" href="{{ '/methods/' | relative_url }}">
       <span class="path-meta">Methods resource</span>
       <h3>Choose and justify a method</h3>
-      <p>Use the methods chooser, then move into corpus building, qualitative methods, or computational text analysis.</p>
+      <p>Use the methods chooser, then work through corpus building, qualitative methods, computational text analysis, or a mixed approach.</p>
     </a>
 
     <a class="resource-path-card accent-path-card" href="{{ '/methods/claude-code-codex' | relative_url }}">

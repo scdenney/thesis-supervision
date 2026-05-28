@@ -23,15 +23,15 @@ title: Topic Analysis
 
 # Topic Analysis
 
-Finding the themes that run through a corpus without reading every text — useful for exploratory work on large collections and for measuring how themes vary across time, source, or speaker.
+Finding the themes that run through a corpus without reading every text — useful for exploratory work on large collections and for measuring how themes vary by source or over time.
 
 ---
 
 ## What it is
 
-**Topic analysis** is a family of techniques that discover clusters of co-occurring words ("topics") across a corpus, along with the proportion of each topic in each document. The best-known variants are **Latent Dirichlet Allocation (LDA)** and its metadata-aware cousin the **Structural Topic Model (STM)**; newer embedding-based methods like **BERTopic** occupy the same analytical slot with a different machinery. Outputs are usually (a) lists of high-probability words per topic, and (b) document-level topic proportions you can use for downstream comparison.
+**Topic analysis** is a family of techniques that discover clusters of co-occurring words ("topics") across a corpus, along with the proportion of each topic in each document. The best-known variants are **Latent Dirichlet Allocation (LDA)** and its metadata-aware cousin the **Structural Topic Model (STM)**. Newer embedding-based methods like **BERTopic** occupy the same analytical slot with different machinery. Outputs are usually (a) lists of high-probability words per topic, and (b) document-level topic proportions you can use for downstream comparison.
 
-Topic analysis does not "find the truth" of a corpus — it finds statistical regularities you then have to interpret. Naming, validating, and defending the topics is the researcher's job, and is where methodological rigour lives.
+Topic analysis does not "find the truth" of a corpus. It identifies statistical regularities you then have to interpret. Naming and defending the topics is the researcher's job, and is where methodological rigor lives.
 
 ---
 
@@ -42,9 +42,9 @@ This page draws from the course's topic modeling material. Students who take it 
 - How LDA works conceptually (mixed-membership over topics; topics as word distributions)
 - Reading STM as LDA plus covariates that shift topic prevalence and content
 - Embedding-based topic methods (BERTopic, Top2Vec) and how they differ from LDA
-- Choosing K (the number of topics): diagnostic plots, coherence scores, interpretability checks
-- Validating topics: semantic coherence, intruder tests, human coding on a sample
-- Measuring topic prevalence across metadata covariates (year, source, speaker)
+- Choosing K (the number of topics): diagnostic plots and coherence scores, with interpretability checks as the final filter
+- Validating topics: semantic coherence and intruder tests, plus human coding on a sample
+- Measuring topic prevalence across metadata covariates such as year and source (or speaker)
 - Reporting topic models in a methodology chapter — what has to be disclosed
 
 ---
@@ -62,17 +62,17 @@ This page draws from the course's topic modeling material. Students who take it 
 - Track how themes in a news corpus shift across a political crisis (prevalence by month)
 - Compare how two political parties frame the same issue (prevalence by source)
 - Identify latent genres in a literary corpus that weren't defined a priori
-- Surface candidate themes for subsequent close reading — topic modeling as a "where to look" tool rather than a final answer
+- Surface candidate themes for subsequent close reading — topic modeling as a "where to look" tool that points you toward passages worth reading carefully
 - Produce descriptive scaffolding for a larger corpus that would otherwise be impossible to read end-to-end
 
 ---
 
 ## Related methods
 
-- [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}) — the input to a topic model; shapes every topic you see.
+- [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}) — the input to a topic model, and it shapes every topic you see.
 - [Word Embeddings]({{ '/methods/quantitative/word-embeddings' | relative_url }}) — embedding-based topic models (BERTopic) and contextual-embedding methods live here.
-- [Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}) — topics-as-frames is a common analytical move; qualitative framing analysis on a topic-model-selected subset is a powerful pairing.
-- [Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}) — topic-modelled themes can drive sampling for close reading.
+- [Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}) — topics-as-frames is a common analytical move, and qualitative framing analysis on a topic-model-selected subset is a powerful pairing.
+- [Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}) — topic-modeled themes can drive sampling for close reading.
 
 </div>
 </div>

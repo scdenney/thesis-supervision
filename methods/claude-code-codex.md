@@ -5,13 +5,13 @@ title: AI & Code
 
 # AI & Code
 
-Claude Code, Codex, and similar agentic coding tools are most useful when thesis work becomes file-based: sources in folders, metadata in spreadsheets, scripts that need to run, outputs that need checking, and methods that need documentation. Use them to make the workflow more explicit and reproducible. Do not use them to outsource judgment, interpretation, or final claims.
+Claude Code, Codex, and similar agentic coding tools are most useful when thesis work becomes file-based: sources in folders, metadata in spreadsheets, scripts that need to run, outputs that need checking, and methods that need documentation. The point of using them is to make the workflow more explicit and reproducible. Judgment and final interpretive claims still have to come from you.
 
 <div class="workflow-hero" markdown="0">
   <div>
     <p class="section-kicker">Practical lab</p>
     <h2>Use AI tools where they make the research process clearer</h2>
-    <p>Good use is procedural and inspectable: organize files, clean text, write scripts, test outputs, and document what changed. Bad use hides analysis behind generated claims you cannot defend.</p>
+    <p>Good use is procedural and inspectable. Organize files, clean text, write scripts, test outputs, and document what changed. The misuse to avoid is hiding analysis behind generated claims you cannot defend.</p>
   </div>
   <a class="hero-action" href="https://scdenney.github.io/corpus-building/">Open Corpus Building Wizard</a>
 </div>
@@ -93,9 +93,9 @@ Before you rely on an AI/code-assisted workflow, make sure you can answer all of
 - Can you explain what the tool did and why that step was appropriate?
 - Are prompts, scripts, outputs, and manual corrections stored somewhere you can revisit?
 - Did you verify a sample of outputs against the original sources?
-- Are corpus boundaries, exclusions, and transformations documented?
+- Are the corpus boundaries documented, along with any exclusions and transformations applied along the way?
 - Is the final interpretation yours, grounded in evidence you checked?
-- Have you discussed the planned use with your supervisor and followed the relevant [Ethics & AI policy]({{ '/ethics/' | relative_url }}) for permission, disclosure, and academic integrity?
+- Have you discussed the planned use with your supervisor and followed the relevant [Ethics & AI policy]({{ '/ethics/' | relative_url }}) on permission and disclosure (and the broader academic-integrity expectations)?
 
 ## Good Division of Labor
 
@@ -103,7 +103,7 @@ Before you rely on an AI/code-assisted workflow, make sure you can answer all of
 |---|---|
 | Research question, theory, cases, corpus boundaries, interpretation, final claims | Folder setup, metadata templates, batch conversion, script drafting, debugging, validation checks, documentation drafts |
 
-The standard is simple: if the work shapes the argument, you must understand and defend it. If the work is repetitive, procedural, or technical, the tool can help, but you still verify the result.
+The standard is simple. If the work shapes the argument, you must understand and defend it. If the work is repetitive or procedural, the tool can help, but you still verify the result.
 
 ## Where To Go Next
 

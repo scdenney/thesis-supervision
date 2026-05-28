@@ -31,4 +31,4 @@ Bundler is configured to install gems under `_local/bundle`, which is ignored by
 
 ## Reuse
 
-This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to copy, adapt, and redistribute this material for your own courses, provided you give appropriate credit. Fork away.
+This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). You are free to copy and adapt this material for your own courses, provided you give appropriate credit. Fork away.

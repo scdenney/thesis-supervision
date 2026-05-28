@@ -35,7 +35,7 @@ title: BAIS
 
 <span class="card-level ba">BA</span>
 
-The BA thesis in International Studies is a 10,000-word research paper representing the capstone of your undergraduate studies. The thesis should demonstrate your ability to formulate a research question, engage with relevant scholarship from a global or comparative perspective, and apply appropriate methods to produce original academic work.
+The BA thesis in International Studies is a 10,000-word research paper that caps your undergraduate studies. It should show that you can frame a research question and work with relevant scholarship from a global or comparative perspective, using appropriate methods for the topic at hand.
 
 <div class="info-box" markdown="1">
 
@@ -74,13 +74,13 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 | Thesis draft | Week 18 |
 | **Final thesis** | **June 5, 2026** |
 
-All deadlines are Friday at 23:59. Deadlines are coordinated across seminars and are not ordinarily moved. In serious personal circumstances, contact your supervisor before the deadline; short extensions may be possible, while longer requests must go through the Board of Examiners. Always confirm exact dates with your supervisor and check Brightspace.
+All deadlines are Friday at 23:59. Deadlines are coordinated across seminars and rarely move. In serious personal circumstances, contact your supervisor before the deadline. Short extensions may be possible, while longer requests must go through the Board of Examiners. Always confirm exact dates with your supervisor and check Brightspace.
 
 ---
 
 ## Knockout Criteria
 
-Your thesis must meet **all** of the following minimum standards to receive a passing grade. Failure on any single criterion cannot be compensated by strong performance on others.
+Your thesis must meet **all** of the following minimum standards to receive a passing grade. Each criterion is judged independently of the others.
 
 The thesis:
 
@@ -98,7 +98,7 @@ The thesis:
 
 ## Grading Rubric
 
-Your thesis is graded on an unweighted average of four criteria. Marks of 9–10 should only be given in truly exceptional cases — when a student has produced near-publishable work.
+Your thesis is graded on an unweighted average of four criteria. Marks of 9–10 should only be given in exceptional cases, when a student has produced near-publishable work.
 
 ### Knowledge and Insight
 
@@ -159,7 +159,7 @@ Your thesis is graded on an unweighted average of four criteria. Marks of 9–10
 
 **Very good (8):** Written in clear and lucid academic English; free of any serious grammatical or spelling errors. Bibliography and all citations and/or footnotes well formatted.
 
-To qualify as **excellent (9)** or **exceptional (10)** for any criterion, the thesis must represent near-publishable content and go far above and beyond the descriptions above.
+To qualify as **excellent (9)** or **exceptional (10)** for any criterion, the thesis must represent near-publishable content and go well beyond the descriptions above.
 
 See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for grade descriptors and the full assessment framework.
 
@@ -196,7 +196,7 @@ After receiving a passing grade:
 
 **Late submission:**
 - Theses submitted within 5 working days of the deadline will be graded, but the grade may be lowered at the supervisor's discretion
-- Theses submitted after 5 working days but within 10 working days will count as a resubmission with a consequential lowering of the grade; if the thesis fails, there is no option for a revised version
+- Theses submitted after 5 working days but within 10 working days will count as a resubmission with a consequential lowering of the grade. If the thesis fails, there is no option for a revised version
 
 **Resubmission after a failing grade:**
 - Students who receive a failing grade (5.0 or lower) may submit a revised version

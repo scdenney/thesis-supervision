@@ -35,13 +35,13 @@ title: Discourse Analysis
 
 # Discourse Analysis
 
-Discourse analysis (DA) is a family of approaches for studying how language constructs meaning, identity, and power relations. It is not a single method with a fixed set of steps; it is a practice that requires deliberate choices about which tradition you work in, what you look for in the texts, and why those features matter for your research question.
+Discourse analysis (DA) is a family of approaches for studying how language constructs meaning and power relations. It is a practice that requires deliberate choices about which tradition you work in and what you look for in the texts, and about why those features matter for your research question.
 
-This page covers the three approaches most commonly used in the programs I supervise, with practical guidance on choosing between them, applying them, and writing up your analysis.
+This page covers the three approaches most commonly used in the programs I supervise, with practical guidance on choosing between them and writing up the analysis that follows.
 
 <div class="info-box" markdown="1">
 
-**Theory and method are inseparable in discourse analysis.** Unlike methods where you can learn a technique and apply it to various theoretical frameworks, DA approaches carry their own theoretical commitments about language, power, and social reality. Choosing an approach means accepting its underlying assumptions. Make sure you understand and can defend those assumptions in your thesis.
+**Theory and method are inseparable in discourse analysis.** Unlike methods where you can learn a technique and apply it to various theoretical frameworks, DA approaches carry their own theoretical commitments about language and power. Choosing an approach means accepting its underlying assumptions. Make sure you understand and can defend those assumptions in your thesis.
 
 </div>
 
@@ -49,19 +49,19 @@ This page covers the three approaches most commonly used in the programs I super
 
 ## What Is Discourse Analysis?
 
-Discourse analysis examines how language constructs social realities, establishes power relations, creates identities, and makes certain ways of thinking appear natural while rendering others invisible. All DA approaches share a basic premise: language is not a neutral window onto the world but an active force that shapes what we say and think.
+Discourse analysis examines how language constructs social realities, establishes power relations, creates identities, and makes certain ways of thinking appear natural while rendering others invisible. All DA approaches share a basic premise. Language is an active force that shapes what we say and think rather than a neutral window onto the world.
 
-Past that shared premise, the approaches diverge. They differ on what counts as "discourse," where to locate power, how systematically to analyze texts, and what kind of claims you can make. These are not minor technical differences; they reflect theoretical commitments rooted in different intellectual traditions.
+Past that shared premise, the approaches diverge. They differ on what counts as "discourse," where to locate power, how closely to analyze texts, and what kind of claims you can make. These differences reflect theoretical commitments rooted in different intellectual traditions.
 
 The three approaches most relevant for thesis students in the social sciences and humanities are:
 
-1. **Critical Discourse Analysis (CDA)**: focuses on how language reproduces or challenges power and inequality, with close attention to specific textual features
-2. **Discourse analysis in International Relations (IR DA)**: examines how foreign policy discourse constructs identities, threats, and political possibilities
-3. **Poststructuralist discourse theory (PDT)**: analyzes how broader systems of meaning are constructed, stabilized, and contested
+1. **Critical Discourse Analysis (CDA)** focuses on how language reproduces or challenges power and inequality, with close attention to specific textual features
+2. **Discourse analysis in International Relations (IR DA)** examines how foreign policy discourse constructs identities and threats, and with them the range of political possibilities
+3. **Poststructuralist discourse theory (PDT)** analyzes how broader systems of meaning are constructed and then contested
 
 <div class="tip-box" markdown="1">
 
-**A note on terminology.** "Discourse analysis" is sometimes used loosely to mean any close reading of text. In academic research, it refers specifically to a theoretically informed analysis grounded in one of the traditions described here. Simply reading texts carefully and reporting what they say is not discourse analysis — it is summarizing. The difference is the analytical framework.
+**A note on terminology.** "Discourse analysis" is sometimes used loosely to mean any close reading of text. In academic research, it refers specifically to a theoretically informed analysis grounded in one of the traditions described here. Simply reading texts carefully and reporting what they say is summarizing, not discourse analysis. The difference is the analytical framework.
 
 </div>
 
@@ -73,45 +73,45 @@ The three approaches most relevant for thesis students in the social sciences an
 
 CDA, associated primarily with Norman Fairclough and Ruth Wodak, analyzes the relationship between language use and social power. Its central claim is that discourse is both shaped by social structures and actively shapes them in return — a dialectical relationship ([Fairclough (1992)](#key-readings); [Fairclough and Wodak (1997)](#key-readings)).
 
-CDA works at the level of specific texts. You examine concrete linguistic features — word choices, grammatical structures, metaphors, presuppositions — and connect them to broader social and political processes. Fairclough's three-dimensional model is the most widely used framework:
+CDA works at the level of specific texts. You examine concrete linguistic features (word choices, grammatical structures, metaphors, presuppositions) and connect them to broader social and political processes. Fairclough's three-dimensional model is the most widely used framework:
 
-1. **Text**: the linguistic features of the text itself (vocabulary, grammar, cohesion, text structure)
-2. **Discursive practice**: how the text was produced, distributed, and consumed (genre, intertextuality, interdiscursivity)
-3. **Social practice**: the wider social and political context that the text both reflects and helps to constitute
+1. **Text** — the linguistic features of the text itself (vocabulary, grammar, cohesion, text structure)
+2. **Discursive practice** — how the text was produced, distributed, and consumed (genre, intertextuality, and interdiscursivity)
+3. **Social practice** — the wider social and political context that the text both reflects and helps to constitute
 
-CDA is explicitly normative: it aims to reveal how language sustains inequality, and it treats this critical stance as a strength rather than a source of bias ([Wodak and Meyer (2016)](#key-readings)).
+CDA is explicitly normative. It aims to show how language sustains inequality, and it treats this critical stance as a strength rather than a source of bias ([Wodak and Meyer (2016)](#key-readings)).
 
-**Best for:** Research questions about how specific actors use language to legitimize, naturalize, or challenge power relations — for example, how policy documents frame migration, how political speeches construct national identity, or how media coverage reproduces racial or gender stereotypes.
+**Best for:** Research questions about how specific actors use language to naturalize or challenge power relations. Examples include how policy documents frame migration and how political speeches construct national identity.
 
 ### Discourse Analysis in IR
 
-Discourse analysis in International Relations draws on poststructuralist theory but has developed its own distinctive methods, particularly through the work of Lene Hansen and Jennifer Milliken. The central concern is how foreign policy discourse constructs the identities, threats, and relationships that make particular policies appear necessary or legitimate ([Milliken, 1999](https://doi.org/10.1177/1354066199005002003); [Hansen, 2006](https://doi.org/10.4324/9780203236338)).
+Discourse analysis in International Relations draws on poststructuralist theory but has developed its own distinctive methods, particularly through the work of Lene Hansen and Jennifer Milliken. The central concern is how foreign policy discourse constructs the identities and threats that make particular policies appear necessary or legitimate ([Milliken, 1999](https://doi.org/10.1177/1354066199005002003); [Hansen, 2006](https://doi.org/10.4324/9780203236338)).
 
 The key analytical moves in IR DA are:
 
-- **Identity construction**: how "Self" and "Other" are defined in relational terms (a secure Europe defined against a threatening East, a civilized nation defined against barbaric enemies)
-- **Linking and differentiation**: how identities are constructed through chains of association (linking democracy with peace, freedom, and progress) and opposition (differentiating civilization from barbarism)
-- **Policy as enabled by discourse**: showing how certain policies become "natural" or "necessary" once particular identities and threats are discursively established
+- **Identity construction** — how "Self" and "Other" are defined in relational terms (a secure Europe defined against a threatening East, a civilized nation defined against barbaric enemies)
+- **Linking and differentiation** — how identities are constructed through chains of association (linking democracy with peace and progress) and opposition (differentiating civilization from barbarism)
+- **Policy as enabled by discourse** — how certain policies become "natural" or "necessary" once particular identities and threats are discursively established
 
 A key text is Hansen's *Security as Practice* ([2006](https://doi.org/10.4324/9780203236338)), which provides both a theoretical framework and concrete research designs for studying how foreign policy discourse links identity and policy. The Copenhagen School's securitization framework ([Buzan, Waever, and de Wilde (1998)](#key-readings)) is a related but distinct approach that examines how issues are discursively constructed as existential threats.
 
-**Best for:** Research questions about how states, international organizations, or political actors construct identities, define threats, and legitimize foreign policy — for example, how EU enlargement discourse constructs European identity, how counterterrorism discourse defines the terrorist Other, or how humanitarian intervention is discursively justified.
+**Best for:** Research questions about how states and international organizations construct identities and define threats in ways that legitimize foreign policy. Examples include how EU enlargement discourse constructs European identity and how counterterrorism discourse defines the terrorist Other.
 
 ### Poststructuralist Discourse Theory
 
-Poststructuralist discourse theory (PDT), rooted in the work of Ernesto Laclau and Chantal Mouffe ([Laclau and Mouffe (1985)](#key-readings)), takes the broadest view of discourse. This tradition draws on Michel Foucault's foundational insights about the relationship between discourse, knowledge, and power, though Laclau and Mouffe depart from Foucault in important ways. For Laclau and Mouffe, discourse is not limited to language — it encompasses all social practices and institutions through which meaning is produced. The analytical task is to examine how systems of meaning are constructed, how they achieve temporary stability, and how they are contested.
+Poststructuralist discourse theory (PDT), rooted in the work of Ernesto Laclau and Chantal Mouffe ([Laclau and Mouffe (1985)](#key-readings)), takes the broadest view of discourse. This tradition draws on Michel Foucault's foundational insights about the relationship between discourse, knowledge, and power, though Laclau and Mouffe depart from Foucault in important ways. For Laclau and Mouffe, discourse encompasses all social practices and institutions through which meaning is produced, well beyond language alone. The analytical task is to examine how systems of meaning achieve temporary stability and how that stability is later contested.
 
 Key concepts include:
 
-- **Nodal points**: privileged signs around which a discourse is organized (e.g., "democracy," "security," "development")
-- **Chains of equivalence**: how different signs are linked together to form a coherent discourse (linking "freedom" with "market economy" and "individual rights")
-- **Chains of difference**: how discourses differentiate themselves from competing systems of meaning
-- **Floating signifiers**: signs whose meaning is contested between competing discourses (e.g., "justice" means different things in neoliberal and socialist discourse)
-- **Hegemony**: the process by which a particular discourse achieves dominance and its meanings come to appear natural
+- **Nodal points** — privileged signs around which a discourse is organized (e.g., "democracy" or "security")
+- **Chains of equivalence** — how different signs are linked together to form a coherent discourse (linking "freedom" with "market economy" and "individual rights")
+- **Chains of difference** — how discourses differentiate themselves from competing systems of meaning
+- **Floating signifiers** — signs whose meaning is contested between competing discourses (e.g., "justice" means different things in neoliberal and socialist discourse)
+- **Hegemony** — the process by which a particular discourse achieves dominance and its meanings come to appear natural
 
 David Howarth's *Discourse* ([Howarth (2000)](#key-readings)) provides an accessible introduction, while [Jørgensen and Phillips (2002)](https://doi.org/10.4135/9781849208871) offers a clear comparative overview of this and other approaches.
 
-**Best for:** Research questions about how broader political projects or ideologies are constructed and contested — for example, how populist discourse restructures the meaning of "the people," how competing discourses define "sustainability," or how the meaning of "European identity" shifts across different political contexts.
+**Best for:** Research questions about how broader political projects or ideologies are constructed and contested. Examples include how populist discourse restructures the meaning of "the people" and how competing discourses define "sustainability."
 
 ---
 
@@ -121,8 +121,8 @@ The approach you choose should follow from your research question, not the other
 
 ### What is your unit of analysis?
 
-- **Specific texts and their linguistic features** (speeches, policy documents, media articles analyzed at the level of words, sentences, and rhetorical structures) → lean toward **CDA**
-- **Foreign policy texts and the identities they construct** (official statements, strategy documents, parliamentary debates analyzed for Self/Other constructions) → lean toward **IR DA**
+- **Specific texts and their linguistic features** (speeches or policy documents analyzed at the level of individual words and rhetorical structures) → lean toward **CDA**
+- **Foreign policy texts and the identities they construct** (official statements and parliamentary debates analyzed for Self/Other constructions) → lean toward **IR DA**
 - **Broader systems of meaning across multiple sites** (how a concept like "security" or "development" is defined differently across competing political projects) → lean toward **PDT**
 
 ### What is your relationship to power?
@@ -133,9 +133,9 @@ The approach you choose should follow from your research question, not the other
 
 ### How fine-grained is your textual analysis?
 
-- **Very fine-grained**: you will analyze specific word choices, grammatical constructions, metaphors, and rhetorical devices within individual texts → **CDA**
-- **Moderately fine-grained**: you will analyze how texts construct identities and link them to policy positions, but without detailed linguistic analysis → **IR DA**
-- **Broader**: you are mapping how signs are organized into systems of meaning across a range of texts and practices → **PDT**
+- **Very fine-grained** — you will analyze specific word choices, grammatical constructions, metaphors, and rhetorical devices within individual texts → **CDA**
+- **Moderately fine-grained** — you will analyze how texts construct identities and link them to policy positions, but without detailed linguistic analysis → **IR DA**
+- **Broader** — you are mapping how signs are organized into systems of meaning across a range of texts and practices → **PDT**
 
 <div class="reflection-box" markdown="1">
 
@@ -206,12 +206,12 @@ Drawing on [Laclau and Mouffe (1985)](#key-readings) and [Jørgensen and Phillip
 
 ## When to Use It
 
-Discourse analysis is appropriate when your research question is about **how language and meaning shape social and political realities** — not just what actors say, but how the way they say it constructs particular understandings of the world.
+Discourse analysis is appropriate when your research question is about **how language and meaning shape social and political realities**. The object of study is the way actors say things and how that construction produces particular understandings of the world.
 
 **Use discourse analysis when:**
 
-- You want to understand how a particular issue, identity, or policy is *constructed* through language, not just described
-- You are interested in what is taken for granted, left unsaid, or rendered invisible — not just what is explicitly stated
+- You want to understand how a particular issue or policy is *constructed* through language rather than simply described
+- You are interested in what is taken for granted and left unsaid, as much as in what is explicitly stated
 - You want to show how language enables or constrains political possibilities
 - Your research question asks "how" something is discursively constructed rather than "why" something happened
 
@@ -224,7 +224,7 @@ Discourse analysis is appropriate when your research question is about **how lan
 
 <div class="info-box" markdown="1">
 
-**DA and research design.** Discourse analysis typically works with a small to medium-sized corpus of carefully selected texts (10-50 documents is common, though this varies). The analysis is intensive — you will spend far more time per text than you would with content analysis or framing analysis. Quality of analysis matters more than quantity of texts. See [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) for guidance on selecting and organizing your textual data.
+**DA and research design.** Discourse analysis typically works with a small to medium-sized corpus of carefully selected texts (10-50 documents is common, though this varies). The analysis is intensive. You will spend far more time per text than you would with content analysis or framing analysis. Quality of analysis matters more than quantity of texts. See [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) for guidance on selecting and organizing your textual data.
 
 </div>
 
@@ -236,19 +236,19 @@ While the specific analytical moves differ by approach, the overall process foll
 
 ### Step 1: Ground yourself in the theory
 
-Before touching your data, read at least two foundational texts from your chosen approach. You need to understand the theoretical assumptions, not just the analytical techniques. Discourse analysis without theory is just impressionistic reading.
+Before touching your data, read at least two foundational texts from your chosen approach. You need to understand the theoretical assumptions as well as the analytical techniques. Discourse analysis without theory is just impressionistic reading.
 
-- **CDA:** Start with [Jørgensen and Phillips (2002)](https://doi.org/10.4135/9781849208871), chapters 3-4, then [Fairclough (1992)](#key-readings) or [Wodak and Meyer (2016)](#key-readings)
-- **IR DA:** Start with [Milliken (1999)](https://doi.org/10.1177/1354066199005002003), then [Hansen (2006)](https://doi.org/10.4324/9780203236338), chapters 1-5
-- **PDT:** Start with [Jørgensen and Phillips (2002)](https://doi.org/10.4135/9781849208871), chapter 2, then [Howarth (2000)](#key-readings)
+- **CDA.** Start with [Jørgensen and Phillips (2002)](https://doi.org/10.4135/9781849208871), chapters 3-4, then [Fairclough (1992)](#key-readings) or [Wodak and Meyer (2016)](#key-readings)
+- **IR DA.** Start with [Milliken (1999)](https://doi.org/10.1177/1354066199005002003), then [Hansen (2006)](https://doi.org/10.4324/9780203236338), chapters 1-5
+- **PDT.** Start with [Jørgensen and Phillips (2002)](https://doi.org/10.4135/9781849208871), chapter 2, then [Howarth (2000)](#key-readings)
 
 ### Step 2: Build your corpus
 
-Select your texts systematically. Your corpus should be:
+Select your texts with explicit selection criteria. Your corpus should be:
 
 - **Relevant** to your research question
-- **Bounded** by clear selection criteria (time period, source type, topic)
-- **Justified**: you must explain *why* these texts and not others
+- **Bounded** by clear selection criteria such as time period and source type
+- **Justified**, meaning you can explain *why* these texts and not others
 
 See [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) for detailed guidance.
 
@@ -259,33 +259,33 @@ This is where you specify *exactly what you will look for* and *why*. Based on t
 - Name the approach you are using and its core assumptions
 - Specify which textual features you will analyze (e.g., "I will analyze vocabulary, metaphor, and agency attribution following Fairclough's three-dimensional model")
 - Explain why these features matter for your research question
-- Define key analytical concepts in your own words, demonstrating that you understand them
+- Define key analytical concepts in your own words, which is how you show you understand them
 
 ### Step 4: Read and code your texts
 
 Read each text multiple times, each time with a different focus:
 
-1. **First reading**: read for overall meaning and context. What is this text doing? Who produced it, for whom, and in what context?
-2. **Second reading**: code for your selected analytical features. Mark vocabulary choices, metaphors, identity constructions, nodal points — whatever your framework specifies. Be systematic: go through each feature across each text.
-3. **Third reading**: look for patterns across your coded features. What patterns emerge? What is consistent, and what contradicts?
+1. **First reading.** Read for overall meaning and context. What is this text doing? Who produced it, and for whom?
+2. **Second reading.** Code for your selected analytical features. Mark vocabulary choices, metaphors, identity constructions, nodal points, whatever your framework specifies. Go through each feature across each text in turn.
+3. **Third reading.** Look for patterns across your coded features. What patterns emerge? What is consistent, and what contradicts?
 
 <div class="tip-box" markdown="1">
 
-**Keep an analytical journal.** As you code, write notes about what you are seeing, what surprises you, and what patterns are emerging. These notes will be invaluable when you write up your findings. They also create an audit trail that makes your analysis more transparent and defensible.
+**Keep an analytical journal.** As you code, write notes about what you are seeing and what surprises you. These notes will be invaluable when you write up your findings. They also create an audit trail that makes your analysis more transparent and defensible.
 
 </div>
 
 ### Step 5: Identify patterns and construct your argument
 
-Move from individual textual observations to broader analytical claims:
+Build up from individual textual observations to broader analytical claims:
 
-- **CDA:** Connect textual features to discursive practices (how the text was produced and circulated) and social practices (what power relations it sustains or challenges)
-- **IR DA:** Show how identity constructions link to and enable specific policies; trace how Self/Other constructions remain stable or shift across texts
-- **PDT:** Map the discursive structure — identify nodal points, chains of equivalence and difference, and antagonistic boundaries; show how meaning is fixed or contested
+- **CDA.** Connect textual features to discursive practices (how the text was produced and circulated) and social practices (what power relations it sustains or challenges)
+- **IR DA.** Show how identity constructions link to and enable specific policies. Trace how Self/Other constructions remain stable or shift across texts
+- **PDT.** Map the discursive structure by identifying nodal points, chains of equivalence and difference, and antagonistic boundaries. Then show how meaning is fixed or contested
 
 ### Step 6: Write up your analysis
 
-Present your findings systematically, using direct quotations from your texts as evidence. Every analytical claim must be supported by textual evidence. See "Structuring Your Thesis" below for how to organize this.
+Present your findings using direct quotations from your texts as evidence. Every analytical claim must be supported by textual evidence. See "Structuring Your Thesis" below for how to organize this.
 
 ---
 
@@ -295,21 +295,21 @@ A discourse analysis thesis follows the same general structure as any thesis, bu
 
 ### Introduction
 
-Standard: research question, relevance, brief overview of approach and case, chapter outline. No special requirements for DA beyond making clear that you are studying how something is discursively constructed.
+A standard introduction covers the research question, relevance, a brief overview of approach and case, and a chapter outline. No special requirements for DA beyond making clear that you are studying how something is discursively constructed.
 
 ### Literature Review
 
-Situate your research question within existing scholarship. This includes both the substantive literature on your topic (e.g., EU enlargement, counterterrorism policy, climate change politics) and the discourse-analytical literature relevant to your area. Show what previous DA scholarship on your topic has found and where your thesis contributes something new.
+Situate your research question within existing scholarship. This includes both the substantive literature on your topic (e.g., EU enlargement or climate change politics) and the discourse-analytical literature relevant to your area. Show what previous DA scholarship on your topic has found and where your thesis contributes something new.
 
 ### Analytical Framework
 
 This chapter is critical and must do three things clearly:
 
-1. **Specify your DA approach**: State whether you are using CDA, IR DA, PDT, or a combination, and explain the core theoretical assumptions. Do not just name the approach — demonstrate that you understand its epistemological and ontological commitments.
+1. **Specify your DA approach.** State whether you are using CDA, IR DA, PDT, or a combination, and explain the core theoretical assumptions. Naming the approach is not enough. Demonstrate that you understand its epistemological and ontological commitments.
 
-2. **Define your analytical categories**: Specify exactly which textual features you will analyze and why. For example: "Following Fairclough's three-dimensional model, I analyze vocabulary choices and metaphors at the textual level, intertextuality at the level of discursive practice, and the reproduction of neoliberal governance at the level of social practice." Be explicit and precise.
+2. **Define your analytical categories.** Specify exactly which textual features you will analyze and why. A model sentence might read, "Following Fairclough's three-dimensional model, I analyze vocabulary choices and metaphors at the textual level, intertextuality at the level of discursive practice, and the reproduction of neoliberal governance at the level of social practice." Be explicit and precise.
 
-3. **Describe your corpus and method of analysis**: What texts did you select, why, and how will you analyze them? Explain your coding process. If you have selection criteria, state them.
+3. **Describe your corpus and method of analysis.** What texts did you select, why, and how will you analyze them? Explain your coding process. If you have selection criteria, state them.
 
 <div class="reflection-box" markdown="1">
 
@@ -321,24 +321,24 @@ Before writing the full findings, try applying your framework to one or two text
 
 ### Findings / Analysis
 
-This is the heart of your thesis. Present your analysis systematically, organized by theme, by text, or by analytical category — whichever structure best serves your argument. Key principles:
+This is the heart of your thesis. Present your analysis in a consistent order, organized by theme or by analytical category, whichever structure best serves your argument. Key principles:
 
-- **Show your work.** Use direct quotations from your texts as evidence. Do not just claim that "the discourse constructs migrants as a threat" — show exactly *how* it does so, with specific examples of vocabulary, metaphors, or identity constructions.
-- **Move between text and interpretation.** For each observation, explain what the textual feature is, why it matters according to your framework, and what it tells us about your research question.
-- **Be systematic.** Apply your framework consistently across all texts. If you analyze metaphors in one text, analyze them in all texts. Inconsistent application undermines your credibility.
-- **Connect micro to macro.** Individual textual features are only interesting insofar as they reveal broader patterns. Always connect specific observations to larger discursive patterns and, ultimately, to your research question.
+- **Show your work.** Use direct quotations from your texts as evidence. Instead of claiming that "the discourse constructs migrants as a threat," show exactly *how* it does so, with specific examples of vocabulary and identity constructions.
+- **Alternate between text and interpretation.** For each observation, explain what the textual feature is and why it matters according to your framework, then what it tells us about your research question.
+- **Apply your framework consistently.** Use the same categories across all texts. If you analyze metaphors in one text, analyze them in all texts. Inconsistent application undermines your credibility.
+- **Connect micro to macro.** Individual textual features are only interesting insofar as they point to broader patterns. Always connect specific observations to larger discursive patterns and, ultimately, to your research question.
 
 ### Conclusion
 
-Summarize your findings, answer your research question, and discuss the broader implications. What does your analysis reveal about how discourse shapes the social or political phenomenon you studied? Discuss limitations honestly — including the limitations of your analytical approach and corpus selection.
+Summarize your findings and answer your research question, then discuss the broader implications. What does your analysis show about how discourse shapes the social or political phenomenon you studied? Discuss limitations honestly, including the limitations of your analytical approach and corpus selection.
 
 ---
 
 ## Example from the Literature
 
-To see what a well-executed discourse analysis looks like in practice, consider Lene Hansen's *Security as Practice* ([2006](https://doi.org/10.4324/9780203236338)), one of the most influential applications of discourse analysis in International Relations. Hansen analyzes Western discourse on the Bosnian War (1992-1995) to show how representations of Balkan identity shaped — and constrained — the foreign policy options available to Western governments. By tracing how the conflict was discursively framed through competing constructions (the Balkans as "ancient ethnic hatreds," as a "European" crisis demanding intervention, or as a site of genocide requiring moral action), Hansen demonstrates how each framing linked particular identities to particular policies. The "ancient hatreds" discourse, for instance, constructed Balkan peoples as fundamentally different from "civilized" Europeans, which made non-intervention appear reasonable — if the violence was rooted in centuries-old tribal enmities, outside intervention would be futile.
+To see what a well-executed discourse analysis looks like in practice, consider Lene Hansen's *Security as Practice* ([2006](https://doi.org/10.4324/9780203236338)), one of the most influential applications of discourse analysis in International Relations. Hansen analyzes Western discourse on the Bosnian War (1992-1995) to show how representations of Balkan identity shaped, and in fact constrained, the foreign policy options available to Western governments. By tracing how the conflict was discursively framed through competing constructions (the Balkans as "ancient ethnic hatreds," as a "European" crisis demanding intervention, or as a site of genocide requiring moral action), Hansen demonstrates how each framing linked particular identities to particular policies. The "ancient hatreds" discourse, for instance, constructed Balkan peoples as fundamentally different from "civilized" Europeans, which made non-intervention appear reasonable. If the violence was rooted in centuries-old tribal enmities, outside intervention would be futile.
 
-What makes Hansen's study exemplary is its combination of theoretical rigor and analytical transparency. She specifies her analytical framework clearly (drawing on poststructuralist identity theory), selects her texts systematically (official speeches, parliamentary debates, and media commentary across multiple Western states), and shows her analytical work by grounding every claim in concrete textual evidence. The study illustrates how discourse analysis moves beyond simply reporting what actors said about Bosnia to revealing how *the way they said it* constituted identities and enabled or foreclosed specific policy responses. For thesis students, it serves as a model for how to structure a DA project from research design through to findings.
+What makes Hansen's study exemplary is its combination of theoretical rigor and analytical transparency. She specifies her analytical framework clearly, drawing on poststructuralist identity theory, and selects her texts against explicit criteria (official speeches, parliamentary debates, and media commentary across multiple Western states). She then shows her analytical work by grounding every claim in concrete textual evidence. The study illustrates how discourse analysis goes further than reporting what actors said about Bosnia. It shows how *the way they said it* constituted identities and enabled or foreclosed specific policy responses. For thesis students, it serves as a model for how to structure a DA project from research design through to findings.
 
 ---
 
@@ -346,15 +346,15 @@ What makes Hansen's study exemplary is its combination of theoretical rigor and 
 
 Discourse analysis is one of the most frequently misapplied methods in student theses. Below are the most common problems and how to avoid them.
 
-**1. No theoretical framework.** The thesis claims to do "discourse analysis" but does not engage with any DA tradition. The student reads texts and reports what they say, without any theoretical grounding for *how* they analyze the texts or *why* certain textual features matter. Choose a specific approach (CDA, IR DA, PDT), read its foundational texts, and build an explicit analytical framework that specifies your theoretical commitments and analytical categories. If you cannot name the approach you are using and explain its assumptions, you are not doing discourse analysis.
+**1. No theoretical framework.** The thesis claims to do "discourse analysis" but does not engage with any DA tradition. The student reads texts and reports what they say, without any theoretical grounding for *how* they analyze the texts or *why* certain textual features matter. Choose a specific approach (CDA, IR DA, PDT) and read its foundational texts. Then build an explicit analytical framework that specifies your theoretical commitments and analytical categories. If you cannot name the approach you are using and explain its assumptions, you are not doing discourse analysis.
 
-**2. Confusing discourse analysis with close reading or summarizing.** The findings chapter describes what texts say — their content and arguments — rather than analyzing *how* they construct meaning. The student summarizes rather than analyzes. Always ask "how does this text construct X?" rather than "what does this text say about X?" Focus on the *mechanisms* of meaning-making: the word choices, the metaphors, the identity constructions, the presuppositions. Your job is not to report content but to reveal how language works.
+**2. Confusing discourse analysis with close reading or summarizing.** The findings chapter describes what texts say (their content and arguments) rather than analyzing *how* they construct meaning. The student summarizes rather than analyzes. Always ask "how does this text construct X?" rather than "what does this text say about X?" Focus on the *mechanisms* of meaning-making, such as the word choices, the metaphors, the identity constructions, and the presuppositions. Your job is to show how language works. Reporting content is a separate task, and a lesser one.
 
-**3. Being impressionistic rather than systematic.** The analysis cherry-picks interesting quotes without a systematic process. The student finds striking examples that support their argument but does not apply their framework consistently across all texts. Apply your analytical framework to every text in your corpus using the same categories. Code systematically. Report patterns, including patterns that complicate or contradict your expectations. An analytical journal and consistent coding process will help.
+**3. Being impressionistic rather than consistent.** The analysis cherry-picks interesting quotes without a repeatable procedure. The student finds striking examples that support their argument but does not apply their framework consistently across all texts. Apply your analytical framework to every text in your corpus using the same categories. Code each text against those same categories. Report patterns, including patterns that complicate or contradict your expectations. An analytical journal and consistent coding process will help.
 
-**4. Not connecting text-level findings to broader context.** The analysis stays at the level of individual textual features without explaining what they mean for the broader social, political, or theoretical question. The student identifies metaphors or identity constructions but never explains *so what*. Every textual observation needs to be connected upward — to broader discursive patterns, and from those patterns to your research question and its social or political significance. CDA's three-dimensional model is useful here even if you are not doing CDA: always move from text to discursive practice to social practice.
+**4. Not connecting text-level findings to broader context.** The analysis stays at the level of individual textual features without explaining what they mean for the broader social or political question. The student identifies metaphors or identity constructions but never explains *so what*. Every textual observation needs to be connected upward to broader discursive patterns, and from those patterns to your research question and its social or political significance. CDA's three-dimensional model is useful here even if you are not doing CDA. Always work from text up to discursive practice and then to social practice.
 
-**5. Treating discourse as a synonym for "what people say."** The student uses "discourse" to mean "discussion" or "debate" and never engages with the concept's theoretical meaning. The thesis says things like "the discourse on climate change" when it simply means "what politicians say about climate change." In DA, "discourse" has a specific theoretical meaning: a system of meaning that constitutes social reality. If you are using the term, use it precisely. If your analysis does not engage with how language *constitutes* reality (rather than merely reflecting it), you may not be doing discourse analysis — and that is fine, but then use a different method label.
+**5. Treating discourse as a synonym for "what people say."** The student uses "discourse" to mean "discussion" or "debate" and never engages with the concept's theoretical meaning. The thesis says things like "the discourse on climate change" when it simply means "what politicians say about climate change." In DA, "discourse" has a specific theoretical meaning, namely a system of meaning that constitutes social reality. If you are using the term, use it precisely. If your analysis does not engage with how language *constitutes* reality (rather than reflecting it), you may not be doing discourse analysis. That is fine, but then use a different method label.
 
 **6. Overambitious corpus.** The student collects hundreds of texts and produces a superficial analysis of each rather than a deep analysis of a well-selected sample. Quality over quantity. A rigorous analysis of 15-30 well-chosen texts will produce a much stronger thesis than a surface-level reading of 200. Discuss corpus size and selection with your supervisor.
 
@@ -378,11 +378,11 @@ Discourse analysis is one of the most frequently misapplied methods in student t
 
 - Milliken, J. (1999). The study of discourse in international relations: A critique of research and methods. *European Journal of International Relations*, 5(2), 225-254. [DOI: 10.1177/1354066199005002003](https://doi.org/10.1177/1354066199005002003) — **Essential.** Defines what DA means in IR and evaluates existing scholarship.
 - Hansen, L. (2006). *Security as Practice: Discourse, Identity, and the Question of European Defense*. Routledge. [DOI: 10.4324/9780203236338](https://doi.org/10.4324/9780203236338) — **Essential.** Provides both theory and concrete research designs for DA in IR. Chapters 1-5 are required reading for any IR DA thesis.
-- Buzan, B., Waever, O., & de Wilde, J. (1998). *Security: A New Framework for Analysis*. Lynne Rienner. — Introduces the securitization framework; relevant if your topic involves how issues are framed as security threats.
+- Buzan, B., Waever, O., & de Wilde, J. (1998). *Security: A New Framework for Analysis*. Lynne Rienner. — Introduces the securitization framework. Relevant if your topic involves how issues are framed as security threats.
 
 ### Poststructuralist Discourse Theory
 
-- Laclau, E., & Mouffe, C. (1985). *Hegemony and Socialist Strategy: Towards a Radical Democratic Politics*. Verso. — The foundational text for PDT. Theoretically dense; read Howarth (2000) or Jørgensen and Phillips (2002) first.
+- Laclau, E., & Mouffe, C. (1985). *Hegemony and Socialist Strategy: Towards a Radical Democratic Politics*. Verso. — The foundational text for PDT. Theoretically dense, so read Howarth (2000) or Jørgensen and Phillips (2002) first.
 - Howarth, D. (2000). *Discourse*. Open University Press. — Clear, accessible introduction to discourse theory from a Laclau-Mouffe perspective. Good starting point for PDT.
 
 ### Applied Examples
@@ -395,9 +395,9 @@ Discourse analysis is one of the most frequently misapplied methods in student t
 
 Discourse analysis overlaps with and can be combined with several other methods:
 
-- **[Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }})**: Framing analysis examines how issues are presented and structured, often with a more systematic coding procedure than DA. If your question is more about *what frames are used* and *how prevalent they are*, framing analysis may be a better fit. If your question is about *how language constitutes reality and power relations*, discourse analysis goes deeper.
+- **[Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }})** examines how issues are presented and structured, often with a more explicit coding procedure than DA. If your question is more about *what frames are used* and *how prevalent they are*, framing analysis may be a better fit. If your question is about *how language constitutes reality and power relations*, discourse analysis goes deeper.
 
-- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})**: Whatever DA approach you choose, you need a well-constructed corpus. This guide covers how to select, collect, organize, and manage your textual data for systematic analysis.
+- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})** covers what to do once you have chosen a DA approach and need a well-constructed corpus. It explains how to select, collect, organize, and manage your textual data for consistent analysis.
 
 </div>
 </div>

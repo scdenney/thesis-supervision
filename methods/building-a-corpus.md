@@ -39,15 +39,15 @@ title: Building a Corpus
 
 # Building a Corpus
 
-This is a practical guide to collecting, organizing, and managing a corpus of textual data for systematic analysis. It is not a method in itself — rather, it is a necessary first step for any method that requires you to work with a defined body of texts. If you are doing [framing analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}), [discourse analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}), or content analysis, you need a well-constructed corpus before you can begin your analytical work.
+This is a practical guide to collecting and organizing a corpus of textual data. It is not a method in itself. It is a necessary first step for any method that requires you to work with a defined body of texts. Any form of content analysis, including [framing analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}) and [discourse analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}), depends on having a well-constructed corpus before the analytical work can begin.
 
-A poorly constructed corpus undermines everything built on top of it. If your selection criteria are unclear, your sampling biased, or your documentation incomplete, no amount of sophisticated analysis will produce credible results. This guide walks you through the process from planning to organization so that you finish with a corpus you can defend in your methodology chapter.
+A poorly constructed corpus undermines everything built on top of it. If your selection criteria are unclear or your documentation incomplete, no amount of careful analysis will produce credible results. This guide walks you through the process from planning to organization so that you finish with a corpus you can defend in your methodology chapter.
 
 ---
 
 ## What Is a Corpus?
 
-A **corpus** (plural: *corpora*) is a systematically assembled collection of texts selected according to explicit criteria for the purpose of analysis. The key word is *systematic*. A corpus is not simply "all the articles I found" or "everything on this topic." It is a defined, bounded collection whose composition you can explain and justify.
+A **corpus** (plural: *corpora*) is a deliberately assembled collection of texts selected according to explicit criteria for the purpose of analysis. The key word is *deliberate*. A corpus is a defined, bounded collection whose composition you can explain and justify, rather than "all the articles I found" or "everything on this topic."
 
 Corpora can include virtually any kind of textual material:
 
@@ -59,7 +59,7 @@ Corpora can include virtually any kind of textual material:
 - Legal texts, court rulings, or treaties
 - Interview transcripts or parliamentary proceedings
 
-What makes these materials a corpus is not their format but the fact that you have collected them according to a clear rationale tied to your research question.
+What makes these materials a corpus is the fact that you have collected them according to a clear rationale tied to your research question. Format alone does not define one.
 
 <div class="info-box" markdown="1">
 
@@ -78,7 +78,7 @@ Before you collect a single text, you need to make four decisions. Write these d
 What types of texts will you include, and why? Your research question should drive this decision. Ask yourself:
 
 - What kind of textual evidence bears on my research question?
-- Which sources are most relevant to the actors, institutions, or debates I am studying?
+- Which sources are most relevant to the actors and debates I am studying?
 - What time period is appropriate? (A political crisis? A policy cycle? A decade of coverage?)
 - What geographic or linguistic boundaries apply?
 
@@ -100,13 +100,13 @@ Selection criteria are the explicit rules that determine what goes into your cor
 
 ### 3. Determine corpus size
 
-There is no universal rule for how large a corpus should be. The right size depends on your method, your research question, and what is practically feasible within your thesis timeline. Some guidelines:
+There is no universal rule for how large a corpus should be. The right size depends on your method and research question, alongside what is practically feasible within your thesis timeline. Some guidelines:
 
 - **For close qualitative analysis** (discourse analysis, detailed framing analysis): 30--80 texts is often sufficient. Quality of analysis matters more than volume.
 - **For broader content analysis** with coding schemes: 100--500 texts is common, depending on coding complexity.
 - **For computational or mixed-methods approaches**: Larger corpora are possible, but only if you have the tools and time to process them meaningfully.
 
-The most common mistake is building a corpus that is too large to analyze carefully. A corpus of 2,000 articles sounds impressive, but if you cannot read and code them systematically within your thesis timeline, it is a liability, not an asset.
+The most common mistake is building a corpus that is too large to analyze carefully. A corpus of 2,000 articles sounds impressive, but if you cannot read and code it within your thesis timeline, it becomes a liability.
 
 ### 4. Plan your search strategy
 
@@ -114,8 +114,8 @@ Before you start collecting, write out your search strategy:
 
 - Which databases or sources will you search?
 - What search terms and Boolean operators will you use?
-- How will you handle synonyms, variant spellings, or translations?
-- Will you search full text, headlines only, or abstracts?
+- How will you handle synonyms and variant spellings, including translations where the corpus covers more than one language?
+- Will you search full text or only headlines and abstracts?
 - How will you de-duplicate results across databases?
 
 <div class="exercise-box" markdown="1">
@@ -145,7 +145,7 @@ For most thesis projects in the social sciences and humanities, commercial datab
 - Tips: Factiva's search operators differ from LexisNexis — consult the help documentation. Use "Source Lists" to define your publication set. Export to RTF or PDF for consistent formatting. Factiva is particularly useful for multilingual searches because it allows you to search in one language and filter by region.
 
 **ProQuest**
-- Best for: Academic theses and dissertations, historical newspapers, specialized databases
+- Best for: Academic theses and dissertations, historical newspapers, and specialized subject databases
 - Coverage: Includes historical archives (e.g., *The New York Times* back to 1851) and discipline-specific databases
 - Tips: Useful when your corpus needs historical depth. The "Document Type" filter is essential for excluding irrelevant results. ProQuest also hosts several specialized databases (e.g., PAIS International for policy literature, Ethnic NewsWatch for minority media).
 
@@ -158,7 +158,7 @@ For most thesis projects in the social sciences and humanities, commercial datab
 **Other useful archives:**
 
 - **Government and institutional websites**: for policy documents, legislation, speeches, press releases. Many governments maintain searchable archives (e.g., the EU's EUR-Lex, the US Federal Register, or the Korean National Archives).
-- **Organizational repositories**: NGOs, think tanks, and international organizations often maintain document libraries (e.g., Human Rights Watch reports, World Bank publications, OECD policy briefs).
+- **Organizational repositories**: NGOs and international organizations, including think tanks, often maintain document libraries (e.g., Human Rights Watch reports, World Bank publications, OECD policy briefs).
 - **Digital newspaper archives**: for historical research, sources like the British Newspaper Archive, Delpher (Dutch-language), or the Korean National Library's digital archive may be relevant.
 
 ### Web Sources and APIs
@@ -177,11 +177,11 @@ Some corpora require material from the open web: news websites, blogs, social me
 
 ### Multilingual Corpora
 
-If your research question requires texts in more than one language — common in area studies and international relations — you need a clear strategy for managing multilingual material.
+If your research question requires texts in more than one language (common in area studies and international relations), you need a clear strategy for managing multilingual material.
 
 **Key decisions:**
 
-- **Will you analyze texts in their original language or in translation?** Analyzing originals preserves nuance but requires language competence; translation introduces interpretation at the data collection stage.
+- **Will you analyze texts in their original language or in translation?** Analyzing originals preserves nuance but requires language competence. Translation introduces interpretation at the data collection stage.
 - **Who translates?** If you translate, document your approach. If you use machine translation, acknowledge its limitations and describe quality checks.
 - **Are search terms equivalent across languages?** A direct translation of a keyword may not capture the same concept. Consult native-language scholarship to identify appropriate search terms.
 - **How will you handle texts that mix languages?** (e.g., Korean news articles that incorporate English loanwords or technical terms)
@@ -190,7 +190,7 @@ If your research question requires texts in more than one language — common in
 
 - Keep original-language texts as your primary data. Store translations separately and clearly label them.
 - In your metadata spreadsheet (see below), include a "Language" column.
-- If you plan to use machine translation as a research aid, discuss it with your supervisor first. If permitted, note which tool and version you used, describe your quality checks, and cite/disclose the use under the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}).
+- If you plan to use machine translation as a research aid, discuss it with your supervisor first. If permitted, record the tool and version used together with your quality checks, and cite/disclose the use under the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}).
 
 ---
 
@@ -202,7 +202,7 @@ A well-organized corpus saves considerable time during analysis. Set up your sys
 
 - **Use a consistent naming convention.** A good pattern: `YYYY-MM-DD_Source_ShortTitle` (e.g., `2024-03-15_KoreaHerald_THAAD-Deployment`). This sorts files chronologically by default.
 - **Store files in a single dedicated folder** with a clear directory structure. If your corpus is large, use subfolders by source or time period.
-- **Keep originals untouched.** Store raw downloaded files in one folder; work with copies in another. If you annotate or highlight texts, do it on the copies.
+- **Keep originals untouched.** Store raw downloaded files in one folder. Work with copies in another. If you annotate or highlight texts, do it on the copies.
 - **Back up everything.** Use cloud storage (university OneDrive, Google Drive) *and* a local backup. A lost corpus means starting over.
 
 ### Metadata spreadsheet
@@ -224,7 +224,7 @@ Create a spreadsheet to track every text in your corpus. At minimum, include:
 | **Search terms used** | "THAAD" AND "South Korea" AND "deployment" |
 | **Notes** | Wire service reprint — check for duplicates |
 
-This spreadsheet is a research instrument that documents your corpus construction process, not just an organizational aid for your own use. You will draw on it directly when writing your methodology chapter.
+This spreadsheet is a research instrument that documents your corpus construction process. You will draw on it directly when writing your methodology chapter.
 
 <div class="tip-box" markdown="1">
 
@@ -234,7 +234,7 @@ This spreadsheet is a research instrument that documents your corpus constructio
 
 ### Reference management
 
-Add all corpus texts to your reference manager (Zotero, Mendeley, or equivalent). This serves two purposes: it helps you cite corpus texts in your thesis, and it provides a second inventory of your collection. In Zotero, you can create a dedicated collection for your corpus and tag items by source, theme, or coding status.
+Add all corpus texts to your reference manager (Zotero, Mendeley, or equivalent). This serves two purposes. It helps you cite corpus texts in your thesis, and it provides a second inventory of your collection. In Zotero, you can create a dedicated collection for your corpus and tag items by source or by analytical theme.
 
 ---
 
@@ -252,7 +252,7 @@ Many corpus-building tasks are repetitive: converting PDFs to plain text, renami
 
 ### AI-assisted corpus management
 
-AI coding assistants — such as Claude Code, OpenAI Codex, or GitHub Copilot — can be useful for corpus management tasks, particularly if you are not an experienced programmer. These tools can help you:
+AI coding assistants such as Claude Code, OpenAI Codex, or GitHub Copilot can be useful for corpus management tasks, particularly if you are not an experienced programmer. These tools can help you:
 
 - Write scripts to batch-convert PDFs to plain text
 - Clean and standardize text files (removing headers, footers, boilerplate)
@@ -261,21 +261,21 @@ AI coding assistants — such as Claude Code, OpenAI Codex, or GitHub Copilot �
 - Split large export files into individual documents
 - Run basic validation checks (e.g., flagging empty files, checking word counts)
 
-You do not need to be a programmer to use these tools effectively. Describe the task in plain language — "I have 300 PDFs in a folder and I need to convert them to plain text files with the same names" — and the tool can draft a script that you inspect, test on a small sample, and run only on permitted data.
+You do not need to be a programmer to use these tools effectively. Describe the task in plain language (for example, "I have 300 PDFs in a folder and I need to convert them to plain text files with the same names"), and the tool can draft a script that you inspect and test on a small sample before running it on permitted data.
 
 <div class="info-box" markdown="1">
 
-**GenAI permission and disclosure:** Before using AI tools for corpus management tasks (file conversion, cleaning, batch operations), discuss the planned use with your supervisor and check the [Ethics & AI — Generative AI Policy]({{ '/ethics/#generative-ai-policy' | relative_url }}). If the use is permitted, disclose it in your methodology chapter and document what the tool helped with, what you checked manually, and where prompts, scripts, or outputs are stored.
+**GenAI permission and disclosure:** Before using AI tools for corpus management tasks of any kind (file conversion, batch renaming, header cleanup, basic validation), discuss the planned use with your supervisor and check the [Ethics & AI — Generative AI Policy]({{ '/ethics/#generative-ai-policy' | relative_url }}). If the use is permitted, disclose it in your methodology chapter and document what the tool helped with, what you verified by hand, and where the underlying prompts and outputs are stored.
 
-**Important distinction:** Using AI to *manage* your corpus (converting, cleaning, organizing files) is different from using AI to *analyze* your corpus (generating codes, interpreting meaning, producing findings). The former is a practical workflow tool when it is transparent and verified; the latter raises fundamental questions about the integrity of your analysis and requires explicit guidance before you proceed.
+**Important distinction:** Using AI to *manage* your corpus (file conversion, header cleanup, metadata assembly) is different from using AI to *analyze* your corpus (generating codes or producing interpretive findings). The former is a practical workflow tool when it is transparent and verified. The latter raises fundamental questions about the integrity of your analysis and requires explicit guidance before you proceed.
 
 </div>
 
 ### An agent-guided pipeline
 
-If your project needs a full computational pipeline — OCR from scanned PDFs, rule-based cleanup, metadata assembly, outputs formatted for a specific analysis tool — I maintain a standalone [Corpus Building Wizard](https://scdenney.github.io/corpus-building/). It asks six questions about your project and hands you a starter kit for [Claude Code](https://claude.ai/code){:target="_blank"} or [OpenAI Codex](https://developers.openai.com/codex/){:target="_blank"}: which skills to read, which templates to copy, and a one-line terminal command that launches an agent session already primed with your specifics.
+If your project needs a full computational pipeline (OCR from scanned PDFs, rule-based cleanup, metadata assembly, or outputs formatted for a specific analysis tool), I maintain a standalone [Corpus Building Wizard](https://scdenney.github.io/corpus-building/). It asks six questions about your project and hands you a starter kit for [Claude Code](https://claude.ai/code){:target="_blank"} or [OpenAI Codex](https://developers.openai.com/codex/){:target="_blank"}. You get a list of skills to read, templates to copy, and a one-line terminal command that launches an agent session already primed with your specifics.
 
-The wizard covers the three realistic execution paths — cloud API for laptops, ALICE / LUCDH for HPC work, and a local consumer GPU for students who'd rather run things at home. The broader methodological decisions (scope, selection, ethics, documentation) stay on this page, where they belong.
+The wizard covers the three realistic execution paths: cloud API for laptops, ALICE / LUCDH for HPC work, and a local consumer GPU for students who'd rather run things at home. The broader methodological decisions (scope, selection, ethics, documentation) stay on this page, where they belong.
 
 <aside class="cb-mini-wizard" markdown="0">
   <span class="cb-mini-eyebrow">Quick route</span>
@@ -311,7 +311,7 @@ The wizard covers the three realistic execution paths — cloud API for laptops,
 
 ### What not to automate
 
-Computational tools are for logistics, not for analytical judgment. The following should always be done by you:
+Computational tools handle logistics. Analytical judgment stays with you. The following should always be done by you:
 
 - **Deciding what to include and exclude**: selection criteria require human judgment about relevance
 - **Reading and interpreting texts**: the core of qualitative analysis
@@ -322,19 +322,19 @@ Computational tools are for logistics, not for analytical judgment. The followin
 
 ## Structuring Your Thesis
 
-Your corpus construction is not just a preparatory step — it is a methodological choice that needs to be documented and justified in your thesis. Reviewers and examiners will evaluate whether your corpus is appropriate for your research question and whether your construction process was rigorous and transparent.
+Your corpus construction is a methodological choice that needs to be documented and justified in your thesis. Reviewers and examiners will evaluate whether your corpus suits your research question and whether your construction process was careful and transparent.
 
 In your **methodology chapter**, you should cover the following:
 
 ### Selection criteria
 
-Explain what types of texts you collected and why. Justify your choice of sources, time frame, and any inclusion/exclusion rules. Connect these decisions explicitly to your research question.
+Explain what types of texts you collected and why. Justify your choice of sources and time frame, along with any inclusion/exclusion rules you applied. Connect these decisions explicitly to your research question.
 
 > *Example:* "The corpus consists of English-language news articles from the *Korea Herald* and *Korea Times* published between March 2016 and December 2017, covering the period from the initial announcement of THAAD deployment to the completion of installation. These sources were selected because they are the two major English-language daily newspapers in South Korea and provide sustained coverage of the issue accessible to an international audience."
 
 ### Search strategy
 
-Document exactly how you found your texts. Report the databases searched, the search terms used (including Boolean operators), and any filters applied. If you conducted multiple searches or revised your terms, explain why.
+Document exactly how you found your texts. Report the databases searched and the search terms used (including Boolean operators), together with any filters applied. If you conducted multiple searches or revised your terms, explain why.
 
 > *Example:* "Articles were retrieved from LexisNexis Academic using the search string ("THAAD" OR "Terminal High Altitude Area Defense") AND ("South Korea" OR "ROK"), limited to the date range 1 March 2016 to 31 December 2017, filtered by content type 'News.' The initial search returned 1,247 results."
 
@@ -356,7 +356,7 @@ Describe how you organized and stored your data. Mention your naming convention,
 
 **Ask yourself**
 
-If another researcher read only your methodology chapter, could they reconstruct your corpus? If the answer is no, you need to add more detail about your selection criteria, search strategy, or filtering process.
+If another researcher read only your methodology chapter, could they reconstruct your corpus? If the answer is no, you need to add more detail about your selection criteria and search strategy, and probably about your filtering process as well.
 
 </div>
 
@@ -368,17 +368,17 @@ These are the problems that most frequently weaken corpus-based thesis work. Eac
 
 **Undocumented selection criteria.** You collected texts but cannot clearly explain why *these* texts and not others. This makes your corpus appear arbitrary and undermines the credibility of your analysis. Fix: write your criteria before you search, and record every decision.
 
-**Selection bias.** Your corpus systematically over-represents certain perspectives, sources, or time periods because of how you searched. For example, searching only English-language sources for a study of Korean domestic debate, or collecting only articles that support your hypothesis. Fix: think critically about what your search strategy captures and what it misses. Acknowledge limitations honestly.
+**Selection bias.** Your corpus over-represents certain perspectives or time periods because of how you searched, and probably under-represents the sources that would push back on those perspectives. For example, searching only English-language sources for a study of Korean domestic debate, or collecting only articles that support your hypothesis. Fix: think critically about what your search strategy captures and what it misses. Acknowledge limitations honestly.
 
-**Not recording search terms and procedures.** You ran searches three weeks ago and cannot remember exactly what terms or filters you used. Now you cannot describe your collection process accurately or re-run the search if needed. Fix: log every search query — date, database, search string, number of results — in a running document or your metadata spreadsheet.
+**Not recording search terms and procedures.** You ran searches three weeks ago and cannot remember exactly what terms or filters you used. Now you cannot describe your collection process accurately or re-run the search if needed. Fix: log every search query (date, database, search string, number of results) in a running document or your metadata spreadsheet.
 
 **Corpus too large to analyze carefully.** You collected 1,500 articles because you could, but you do not have time to read and code them all properly. The result is either superficial analysis or a last-minute shift to a poorly justified subsample. Fix: estimate your analysis time *before* collecting. If close reading takes 15 minutes per text and you have 100 hours for analysis, your practical ceiling is around 400 texts — and that assumes no revisions.
 
-**Not backing up.** Your corpus is stored in one location — your laptop, a single USB drive, or a folder you might accidentally delete. Fix: maintain at least two backups in different locations (e.g., university cloud storage + external drive). Do this from day one.
+**Not backing up.** Your corpus sits in one fragile location (your laptop, an unsynced external drive, a project folder buried inside your downloads, or somewhere else you might accidentally clean out). Fix: maintain at least two backups in different locations (e.g., university cloud storage + external drive). Do this from day one.
 
-**Inconsistent file management.** Files are named haphazardly, stored in multiple locations, or lack metadata. When you need to find a specific text during writing, you waste time searching. Fix: establish your naming convention and metadata spreadsheet before you start collecting, and stick to it.
+**Inconsistent file management.** Files are named haphazardly and scattered across multiple locations, with little or no associated metadata. When you need to find a specific text during writing, you waste time searching. Fix: establish your naming convention and metadata spreadsheet before you start collecting, and stick to it.
 
-**Treating corpus construction as a neutral activity.** Every decision you make — which sources, which time frame, which search terms — shapes what your corpus can tell you. These are methodological choices, not administrative ones. Fix: discuss and justify these choices in your methodology chapter, and reflect on how different choices might have produced a different corpus.
+**Treating corpus construction as a neutral activity.** Every decision you make about sources, time frame, search terms, and inclusion thresholds shapes what your corpus can tell you. These are methodological choices that deserve the same scrutiny as any other analytic move. Fix: discuss and justify these choices in your methodology chapter, and reflect on how different choices might have produced a different corpus.
 
 ---
 

@@ -5,7 +5,7 @@ title: Methods Guide
 
 # Methods Guide
 
-Use this guide when the hard part is choosing, justifying, or operationalizing a method. The aim is not to pick a label; it is to match your research question, material, and workflow to a defensible analytical path.
+Use this guide when the hard part is choosing a method and defending it. The aim is to match your research question and material to an analytical path you can justify.
 
 <section class="method-router method-router-visual" aria-labelledby="method-router-title"
   data-route-corpus="{{ '/methods/building-a-corpus' | relative_url }}"
@@ -16,7 +16,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
   <div class="method-router-copy">
     <p class="section-kicker">Method selection</p>
     <h2 id="method-router-title">Match your project to a method</h2>
-    <p>Answer three questions. The result points you to the most relevant section of the methods resource.</p>
+    <p>Answer three questions. The result points you to a fitting section of the methods resource.</p>
     <span class="method-visual-large" data-method-visual="chooser" aria-hidden="true"></span>
   </div>
 
@@ -38,7 +38,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
         <span>What is your main analytical task?</span>
         <select name="goal">
           <option value="">Choose one</option>
-          <option value="collect">Collect, bound, or organize sources</option>
+          <option value="collect">Collect and bound sources</option>
           <option value="interpret">Interpret meaning, frames, discourse, or themes</option>
           <option value="explain">Explain why something happened</option>
           <option value="measure">Measure patterns across many documents</option>
@@ -60,7 +60,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
     <div class="router-result" data-router-result aria-live="polite">
       <span class="result-label">Recommended section</span>
       <h3 data-router-title>Corpus planning</h3>
-      <p data-router-copy>If you are unsure, define what you will collect and why. Most method problems become clearer once the corpus, cases, or data source is bounded.</p>
+      <p data-router-copy>When you are unsure, define what you will collect and why. Most method problems become clearer once the corpus or data source is bounded.</p>
       <a data-router-link href="{{ '/methods/building-a-corpus' | relative_url }}">Open Building a Corpus</a>
     </div>
   </div>
@@ -81,7 +81,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
     <span class="method-visual" data-method-visual="corpus" aria-hidden="true"></span>
     <span class="method-type">Workflow</span>
     <h3>Building a Corpus</h3>
-    <p>Use when the project depends on collecting, bounding, organizing, and documenting a body of texts.</p>
+    <p>Use when the project depends on collecting and documenting a bounded body of texts.</p>
     <span class="tag-list">sources · metadata · sampling</span>
   </a>
 
@@ -89,7 +89,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
     <span class="method-visual" data-method-visual="compare" aria-hidden="true"></span>
     <span class="method-type">Qualitative</span>
     <h3>Comparative Case Study</h3>
-    <p>Use when the research question depends on systematic comparison across cases.</p>
+    <p>Use when the research question depends on structured comparison across cases.</p>
     <span class="tag-list">cases · comparison · BA/MA</span>
   </a>
 
@@ -105,7 +105,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
     <span class="method-visual" data-method-visual="frame" aria-hidden="true"></span>
     <span class="method-type">Qualitative / mixed</span>
     <h3>Framing Analysis</h3>
-    <p>Use when the project asks how an issue is presented, emphasized, or categorized in texts.</p>
+    <p>Use when the project asks how an issue is presented or categorized in texts.</p>
     <span class="tag-list">media · texts · coding</span>
   </a>
 
@@ -113,7 +113,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
     <span class="method-visual" data-method-visual="discourse" aria-hidden="true"></span>
     <span class="method-type">Qualitative</span>
     <h3>Discourse Analysis</h3>
-    <p>Use when language, identity, power, and meaning-making are central to the claim.</p>
+    <p>Use when language and power are central to the claim.</p>
     <span class="tag-list">interpretive · theory-heavy · texts</span>
   </a>
 
@@ -121,7 +121,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
     <span class="method-visual" data-method-visual="preprocess" aria-hidden="true"></span>
     <span class="method-type">Computational prep</span>
     <h3>Preprocessing</h3>
-    <p>Use before topic models, sentiment analysis, embeddings, or any reproducible text pipeline.</p>
+    <p>Use before topic models or sentiment analysis, and before any reproducible text pipeline.</p>
     <span class="tag-list">cleanup · text-as-data · reproducibility</span>
   </a>
 
@@ -129,7 +129,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
     <span class="method-visual" data-method-visual="topics" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
     <h3>Topic Analysis</h3>
-    <p>Use to discover and compare clusters of themes across a larger document collection.</p>
+    <p>Use to find and compare clusters of themes across a larger document collection.</p>
     <span class="tag-list">themes · scale · validation</span>
   </a>
 
@@ -145,7 +145,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
     <span class="method-visual" data-method-visual="embeddings" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
     <h3>Word Embeddings</h3>
-    <p>Use when semantic similarity, contextual meaning, or model-based representation matters.</p>
+    <p>Use when semantic similarity or model-based representation of meaning matters.</p>
     <span class="tag-list">semantics · vectors · advanced</span>
   </a>
 
@@ -153,7 +153,7 @@ Use this guide when the hard part is choosing, justifying, or operationalizing a
     <span class="method-visual" data-method-visual="ai" aria-hidden="true"></span>
     <span class="method-type">AI &amp; Code</span>
     <h3>AI &amp; Code</h3>
-    <p>Use when the challenge is source organization, scripting, cleanup, checking, or documenting a workflow.</p>
+    <p>Use when the challenge is organizing sources or writing scripts to clean and document a workflow.</p>
     <span class="tag-list">agents · scripts · disclosure</span>
   </a>
 </div>
@@ -166,24 +166,24 @@ These are not covered in depth yet, but may be the right choice depending on the
 
 | Method | Brief description | Common in |
 |--------|-------------------|-----------|
-| **Qualitative interviewing + thematic analysis** | Semi-structured interviews analyzed for recurring themes and patterns | All programs, especially fieldwork-based theses |
-| **Content analysis** | Systematic coding and categorization of textual material; can be quantitative or qualitative | IR, media-adjacent topics |
+| **Qualitative interviewing + thematic analysis** | Semi-structured interviews coded for recurring themes | All programs, especially fieldwork-based theses |
+| **Content analysis** | Rule-based coding of textual material, quantitative or qualitative | IR, media-adjacent topics |
 | **Survey methods / quantitative analysis** | Statistical analysis of original or secondary survey data | MAIR especially, BAIS with quantitative focus |
-| **Archival research** | Systematic analysis of historical documents, government records, correspondence | Korean Studies, history-focused MAAS theses |
+| **Archival research** | Close reading of historical documents and government records | Korean Studies, history-focused MAAS theses |
 
 </div>
 
 <div class="methods-alt-mobile" markdown="0">
   <article class="method-summary-card">
     <h3>Qualitative interviewing + thematic analysis</h3>
-    <p>Semi-structured interviews analyzed for recurring themes and patterns.</p>
+    <p>Semi-structured interviews coded for recurring themes.</p>
     <strong>Common in</strong>
     <p>All programs, especially fieldwork-based theses.</p>
   </article>
 
   <article class="method-summary-card">
     <h3>Content analysis</h3>
-    <p>Systematic coding and categorization of textual material; can be quantitative or qualitative.</p>
+    <p>Rule-based coding of textual material. Can be quantitative or qualitative.</p>
     <strong>Common in</strong>
     <p>IR, media-adjacent topics.</p>
   </article>
@@ -197,7 +197,7 @@ These are not covered in depth yet, but may be the right choice depending on the
 
   <article class="method-summary-card">
     <h3>Archival research</h3>
-    <p>Systematic analysis of historical documents, government records, correspondence.</p>
+    <p>Close reading of historical documents and government records.</p>
     <strong>Common in</strong>
     <p>Korean Studies, history-focused MAAS theses.</p>
   </article>

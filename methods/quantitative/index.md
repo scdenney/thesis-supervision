@@ -5,13 +5,13 @@ title: Computational & Quantitative Approaches
 
 # Computational & Quantitative Approaches
 
-For work that treats a corpus programmatically — extracting patterns, measuring themes, building numerical representations that scale beyond what a single reader can manage. The pages below cover the most common computational approaches I point students to across the BA and MA programs I supervise.
+For work that treats a corpus programmatically to extract patterns and build numerical representations that scale beyond what a single reader can manage. The pages below cover the computational approaches I most often point students to across the BA and MA programs I supervise.
 
-The distinction with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is one of analytical posture, not subject matter. You can do computational work on a small corpus of parliamentary speeches; you can do discourse analysis on tweets. What changes is what the method *measures* and how the researcher's judgment enters the analysis — in computational work, judgment sits largely in design and validation; in qualitative work, it sits in interpretation itself.
+The distinction with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is one of analytical posture, and the same subject matter sits on either side. You can do computational work on a small corpus of parliamentary speeches, and you can do discourse analysis on tweets. What changes is what the method *measures* and where the researcher's judgment enters. In computational work, judgment sits largely in design and validation. In qualitative work, it sits in interpretation itself.
 
 ## Launch the wizard
 
-If you already know you need a computational pipeline — OCR from scans, cleanup, metadata assembly, analysis-ready outputs — the standalone wizard below routes you to the right path for your compute and scale and hands you a starter kit for Claude Code or Codex.
+If you already know you need a computational pipeline (OCR from scans, cleanup, metadata assembly, analysis-ready outputs), the standalone wizard below routes you to the right path for your compute and scale and hands you a starter kit for Claude Code or Codex.
 
 <div class="cb-term-wrap" markdown="0">
   <a class="cb-term" href="https://scdenney.github.io/corpus-building/"
@@ -42,7 +42,7 @@ If you already know you need a computational pipeline — OCR from scans, cleanu
 <div class="program-cards" markdown="0">
   <a class="program-card" href="{{ '/methods/quantitative/preprocessing' | relative_url }}">
     <h3>Preprocessing</h3>
-    <p>Tokenisation, normalisation, and the cleanup steps that shape every downstream result</p>
+    <p>Tokenization, normalization, and the cleanup steps that shape every downstream result</p>
   </a>
 </div>
 
@@ -86,7 +86,7 @@ These methods are also taught in two of my courses at Leiden. If you're a studen
   <a class="program-card" href="https://scdenney.github.io/ba3_text_as_data/" target="_blank" rel="noopener">
     <span class="card-level ba">BA3</span>
     <h3>Text as Data (DH strand)</h3>
-    <p>Six-seminar digital-humanities strand of the BA3 <em>Contemporary Korea and Digital Humanities</em> course. No programming required; introduces descriptive, clustering, classification, and topic-modeling methods on pre-prepared Korean corpora.</p>
+    <p>Six-seminar digital-humanities strand of the BA3 <em>Contemporary Korea and Digital Humanities</em> course. No programming required. It introduces descriptive, clustering, classification, and topic-modeling methods on pre-prepared Korean corpora.</p>
   </a>
 </div>
 
@@ -96,7 +96,7 @@ If your thesis draws on either course, the method pages here extend what's cover
 
 ## Combining with qualitative methods
 
-Most strong theses combine a computational measure with a qualitative reading. See the [Qualitative Approaches]({{ '/methods/qualitative/' | relative_url }}) page for that side of the split; the end of that page lists common pairings (framing + topic analysis, discourse analysis + keyword-in-context tooling, comparative case study + descriptive statistics).
+Most strong theses combine a computational measure with a qualitative reading. See the [Qualitative Approaches]({{ '/methods/qualitative/' | relative_url }}) page for that side of the split. The end of that page lists common pairings (framing + topic analysis, discourse analysis + keyword-in-context tooling, comparative case study + descriptive statistics).
 
 ---
 

@@ -37,7 +37,7 @@ These assessment standards are used across all programs I supervise (BAIS, BAKS,
 
 ## Assessment Criteria
 
-Every Faculty thesis assessment form includes the following five dimensions. The first four criteria capture the quality of the written thesis and are assessed by both readers; the fifth — Learning Skills — assesses the research process and is assessed by the supervisor/first reader. Programme handling and weighting can differ.
+Every Faculty thesis assessment form includes the following five dimensions. The first four criteria capture the quality of the written thesis and are assessed by both readers. The fifth, Learning Skills, assesses the research process and is assessed by the supervisor/first reader. Program handling and weighting can differ.
 
 ### Knowledge and Insight
 
@@ -76,7 +76,7 @@ Every Faculty thesis assessment form includes the following five dimensions. The
 
 ### Learning Skills (Process)
 
-**Assessed by:** Supervisor/first reader — programme handling and weighting differ
+**Assessed by:** Supervisor/first reader — program handling and weighting differ
 
 - Degree of independence throughout the research process
 - Planning and time management
@@ -89,7 +89,7 @@ This criterion is assessed by the supervisor based on their observation of the r
 
 ## Example Thesis Structure
 
-While the specifics of your thesis will depend on your topic and methodology, the following structure provides a solid starting point:
+The specifics of your thesis will depend on your topic and methodology. The following structure is a workable starting point:
 
 **I. Introduction**
 - Research question
@@ -144,11 +144,11 @@ All programs share core assessment criteria, but the depth and sophistication ex
 | **Research question** | Clear and focused; addresses an identifiable gap | Demonstrates advanced understanding of theoretical debates; situates the research within the field |
 | **Literature review** | Engages with key scholarship; identifies a gap | Critically synthesizes a broader body of literature; situates the research within theoretical frameworks |
 | **Methodology** | Appropriate and clearly explained | More sophisticated and well-justified; demonstrates methodological awareness and reflexivity |
-| **Analysis** | Sound application of chosen methods | Deeper analytical engagement; nuanced interpretation of findings |
+| **Analysis** | Sound application of chosen methods | Deeper analytical engagement; careful interpretation of findings |
 | **Independent contribution** | Shows capacity for independent research | Demonstrates a more advanced level of scholarly engagement and sustained independent inquiry |
 | **Word count** | 10,000 (±10%) | 12,000–15,000 (MAAS) / 15,000 hard max (MAIR) |
 
-In short: a strong BA thesis demonstrates that a student can conduct independent research competently. A strong MA thesis reflects a greater depth of scholarly engagement and the capacity for sustained independent research.
+In short, a strong BA thesis demonstrates that a student can conduct independent research competently. A strong MA thesis reflects a greater depth of scholarly engagement and the capacity for sustained independent research.
 
 ---
 

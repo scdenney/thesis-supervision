@@ -28,7 +28,7 @@ title: MAAS
 
 <span class="card-level ma">MA</span>
 
-The MA thesis in Asian Studies is a substantial research project demonstrating advanced knowledge of your field and the capacity for independent scholarly work. As a master's thesis, it requires deeper engagement with theory, more sophisticated methods, and a stronger original contribution than an undergraduate thesis.
+The MA thesis in Asian Studies is a substantial research project demonstrating advanced knowledge of your field and the capacity for independent scholarly work. Compared with an undergraduate thesis, it requires deeper engagement with theory and a stronger original contribution.
 
 <div class="info-box" markdown="1">
 

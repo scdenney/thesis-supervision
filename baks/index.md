@@ -31,7 +31,7 @@ title: BAKS
 
 <span class="card-level ba">BA</span>
 
-The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper that serves as the capstone of your undergraduate studies. The thesis should demonstrate knowledge and skills relevant to the discipline, including Korean-language ability; knowledge of history, politics, or culture; theory and methodology; and academic writing.
+The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper that caps your undergraduate studies. It should demonstrate the knowledge and skills relevant to the discipline. These include Korean-language ability, substantive knowledge of history, politics, or culture, command of theory and methodology, and academic writing.
 
 <div class="info-box" markdown="1">
 
@@ -103,7 +103,7 @@ See the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) pa
 A strong BA thesis demonstrates that you can:
 
 - Identify a clear research question and a gap in the existing literature
-- Engage meaningfully with relevant scholarship, including Korean-language sources
+- Engage seriously with relevant scholarship, including Korean-language sources
 - Apply a suitable methodology and present your findings clearly
 - Write in competent academic English with proper citations
 
