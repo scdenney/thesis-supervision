@@ -23,15 +23,15 @@ title: Preprocessing
 
 # Preprocessing
 
-A foundation skill for every computational approach in this section. The choices you make when cleaning a corpus shape every downstream result.
+Preprocessing is a foundation skill for every computational approach in this section. The choices you make when cleaning a corpus shape every downstream result.
 
 ---
 
 ## What it is
 
-**Preprocessing** is the cleanup work you do on a raw corpus before any analysis runs. It turns heterogeneous, messy text into a uniform form that a model or algorithm can reason over. Typical decisions include tokenization (how to split text into units), case handling, stop-word and punctuation treatment, stemming or lemmatization, n-gram extraction, and vocabulary filtering.
+**Preprocessing** is the cleanup work you do on a raw corpus before any analysis runs. It turns uneven, messy text into a uniform form that a model or algorithm can reason over. Typical decisions include tokenization (how to split text into units), case handling, stop-word and punctuation treatment, stemming or lemmatization, n-gram extraction, and vocabulary filtering.
 
-These aren't neutral technical choices. Stripping stop words before a discourse analysis removes discourse markers. Aggressive stemming collapses distinctions that might matter for your research question. Preprocessing decisions belong in your methodology chapter, where readers can see them.
+These choices carry methodological consequences. Stripping stop words before a discourse analysis removes discourse markers. Aggressive stemming collapses distinctions that might matter for your research question. Preprocessing decisions belong in your methodology chapter, where readers can see them.
 
 ---
 
@@ -44,24 +44,24 @@ This page draws from the course's preprocessing material. Students who take it c
 - Stop-word lists, including when to use a language-specific or domain-specific list and when to use none
 - Stemming vs. lemmatization and their tradeoffs
 - N-gram extraction and why bigrams / trigrams matter for framing-style analyses
-- Vocabulary filtering, including document-frequency cutoffs, rare-term handling, and out-of-vocabulary strategies
+- Vocabulary filtering with document-frequency cutoffs and rare-term handling. This includes out-of-vocabulary strategies
 - Documenting preprocessing choices so they can be reported and reproduced
 
 ---
 
 ## What you need to learn first
 
-- **Basic Python or R**: most preprocessing is scripting work. Students usually pick Python with `nltk`, `spaCy`, or `gensim`; R users reach for `tidytext` or `quanteda`.
-- **Unicode basics**: a working mental model for encoding and NFC/NFD normalization, plus a sense of why non-Latin or historical scripts (Korean or Arabic, for example) often surface bugs that English text hides.
-- **Your research question**: you can't pick preprocessing steps without knowing what you're going to measure.
+- **Basic Python or R.** Most preprocessing is scripting work. Students usually pick Python with `nltk`, `spaCy`, or `gensim`. R users reach for `tidytext` or `quanteda`.
+- **Unicode basics.** A working mental model for encoding and NFC/NFD normalization helps. So does a sense of why non-Latin or historical scripts, such as Korean or Arabic, often surface bugs that English text hides.
+- **Your research question.** You can't pick preprocessing steps without knowing what you're going to measure.
 
 ---
 
 ## What you can do with it
 
-Preprocessing is rarely the final step, but without it the later steps stall. Typical thesis applications:
+Preprocessing is rarely the final step. Later steps often stall without it. Typical thesis applications include the following.
 
-- Preparing a corpus for topic analysis, so topics reflect substantive content rather than punctuation and stop words
+- Preparing a corpus for topic analysis, so topics reflect substantive content with punctuation and stop words removed
 - Building feature matrices for a sentiment classifier
 - Cleaning scraped text before training word embeddings
 - Standardizing historical spelling variants so terms across centuries align
@@ -71,10 +71,10 @@ Preprocessing is rarely the final step, but without it the later steps stall. Ty
 
 ## Related methods
 
-- [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) — the step before preprocessing, which decides *which* texts end up in the pipeline.
-- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}) — the most common downstream method, where preprocessing choices shape topic coherence heavily.
-- [Word Embeddings]({{ '/methods/quantitative/word-embeddings' | relative_url }}) — embeddings learn from the preprocessed vocabulary, so preprocessing is effectively the schema.
-- [Sentiment Analysis]({{ '/methods/quantitative/sentiment-analysis' | relative_url }}) — dictionary methods are especially sensitive to tokenization and lemmatization choices.
+- [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}). This is the step before preprocessing, which decides *which* texts end up in the pipeline.
+- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}). This is the most common downstream method, where preprocessing choices shape topic coherence heavily.
+- [Word Embeddings]({{ '/methods/quantitative/word-embeddings' | relative_url }}). Embeddings learn from the preprocessed vocabulary, so preprocessing is effectively the schema.
+- [Sentiment Analysis]({{ '/methods/quantitative/sentiment-analysis' | relative_url }}). Dictionary methods are especially sensitive to tokenization and lemmatization choices.
 
 </div>
 </div>

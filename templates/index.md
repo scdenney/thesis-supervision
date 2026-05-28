@@ -28,7 +28,7 @@ title: Templates & Checklists
 
 # Templates & Checklists
 
-Use these as working documents for supervision. They are not extra assignments unless your programme or supervisor asks for them; they are compact ways to turn a topic into something that can be discussed, revised, and assessed.
+Use these as working documents for supervision. They are extra assignments only if your program or supervisor asks for them. Their purpose is to turn a topic into something that can be discussed, revised, and assessed.
 
 ---
 
@@ -110,7 +110,7 @@ Pick the template that matches your current problem. Keep each one short enough 
 - The question can be answered within the thesis word count and deadline
 - The question names a clear object of analysis
 - The question can be answered with sources or data you can realistically access
-- The question points toward a method, not just a topic
+- The question points toward both a method and a topic
 - The expected answer is not already obvious
 
 ---
@@ -125,7 +125,7 @@ Pick the template that matches your current problem. Keep each one short enough 
 4. **Academic debate**
    Identify the literature, disagreement, gap, or unresolved problem your thesis enters.
 5. **Contribution**
-   State what your thesis may add: a case, source base, comparison, interpretation, method, or empirical finding.
+   State what your thesis may add, such as a case, source base, comparison, interpretation, method, or empirical finding.
 6. **Research design**
    Explain case selection, corpus boundaries, data/source selection, and method.
 7. **Materials**
@@ -135,11 +135,11 @@ Pick the template that matches your current problem. Keep each one short enough 
 9. **Chapter outline**
    Give a provisional structure with one sentence per chapter.
 10. **Timeline**
-    Work backward from your programme deadline.
+    Work backward from your program deadline.
 11. **Questions for supervision**
     List the 2-4 decisions where you need guidance.
 
-**Before sending it:** Check the proposal requirements on your [programme page]({{ '/#find-your-program' | relative_url }}) and in Brightspace.
+**Before sending it:** Check the proposal requirements on your [program page]({{ '/#find-your-program' | relative_url }}) and in Brightspace.
 
 ---
 
@@ -205,7 +205,7 @@ Pick the template that matches your current problem. Keep each one short enough 
 **Quality checks:**
 
 - Sample collected files against the original sources
-- Check empty, duplicate, corrupted, or mislabelled files
+- Check empty, duplicate, corrupted, or mislabeled files
 - Record every filter, search query, and exclusion rule
 - Keep raw files separate from cleaned or translated files
 - Discuss any planned machine translation, scraping, AI, or coding assistance with your supervisor
@@ -260,7 +260,7 @@ Send a compact packet before the meeting if your supervisor requests materials i
 
 ## GenAI Methods Note
 
-**Purpose:** Document permitted AI/code assistance without making it sound like the tool produced the thesis.
+**Purpose:** Document permitted tool/code assistance without implying that the tool produced the thesis.
 
 Use this only for AI or code assistance that has been discussed with your supervisor and is allowed under the relevant conditions.
 
@@ -292,23 +292,23 @@ Adjust this wording to your actual use and citation style. Follow the Faculty Ge
 
 ### Programme Requirements
 
-- Confirm the final deadline, time, and submission route in Brightspace or your programme materials
-- Confirm the word-count rule for your programme
+- Confirm the final deadline, time, and submission route in Brightspace or your program materials
+- Confirm the word-count rule for your program
 - Confirm required file format and file naming rules
 - Confirm who must receive the final version
-- Confirm whether repository upload is required before or after assessment
+- Confirm whether Student Thesis Repository upload is required before or after assessment
 
 ### Thesis File
 
 - Title page includes required student and thesis information
-- Word count is stated and calculated according to programme rules
+- Word count is stated and calculated according to program rules
 - Table of contents matches headings and page numbers
 - Citations and bibliography use one style consistently
 - Figures, tables, appendices, and translations are labelled clearly
 - Any GenAI/code/tool assistance is disclosed as required
 - Any ethics, consent, anonymization, or data-storage commitments are reflected in the methods section
 - PDF opens correctly and is not a scanned image unless explicitly required
-- File size is below the programme limit, if one is stated
+- File size is below the program limit, if one is stated
 
 ### Before Sending
 

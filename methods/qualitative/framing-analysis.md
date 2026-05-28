@@ -36,13 +36,13 @@ title: Framing Analysis
 
 # Framing Analysis
 
-Framing analysis studies how issues are presented in news media, political communication, policy documents, and other texts. It asks which parts of an issue get emphasis, which parts recede, and how that pattern shapes interpretation. Whether the coverage is true or false is a separate question and not the main object of this method.
+Framing analysis studies how issues are presented in news media, political communication, policy documents, and other texts. It asks which parts of an issue get emphasis, which parts recede, and how that pattern shapes interpretation. Truth and falsity matter, of course, but they are separate from the main object of this method.
 
-This page explains the method and walks through how to apply it, with guidance on structuring a framing analysis thesis. It draws on the core literature in the field. It also answers practical questions that come up repeatedly in supervision.
+This page explains the method and walks through how to apply it in a thesis. It draws on the core literature in the field. It also answers practical questions that come up repeatedly in supervision.
 
 <div class="info-box" markdown="1">
 
-**Where does framing analysis fit?** It is one of the most widely used methods in media studies, political communication, and international relations research. If your research question asks how an issue is presented or constructed in texts, framing analysis is likely a good fit. For related approaches, see [Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}).
+**Where does framing analysis fit?** It is widely used in media studies, political communication, international relations research, and adjacent fields. If your research question asks how an issue is presented or constructed in texts, framing analysis is likely a good fit. For related approaches, see [Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}).
 
 </div>
 
@@ -71,19 +71,19 @@ Framing analysis goes further than basic content analysis. It asks *how* an issu
 
 **Frame.** A central organizing idea that gives meaning to an issue by emphasizing some aspects of reality, connecting them, and downplaying others ([Gamson & Modigliani, 1989](https://doi.org/10.1086/229213)).
 
-**Framing devices.** The textual elements that signal a frame, including metaphors, catchphrases, exemplars, visual images, and appeals to principle ([Gamson & Modigliani, 1989](https://doi.org/10.1086/229213)). These are what you look for when coding.
+**Framing devices.** The textual elements that signal a frame, including metaphors, catchphrases, exemplars, visual images, appeals to principle, and similar cues ([Gamson & Modigliani, 1989](https://doi.org/10.1086/229213)). These are what you look for when coding.
 
 **Generic vs. issue-specific frames.** Generic frames (e.g., conflict, human interest, economic consequences, responsibility, morality) appear across many issues and can be compared across contexts ([Semetko & Valkenburg, 2000](https://doi.org/10.1111/j.1460-2466.2000.tb02843.x)). Issue-specific frames are built for a particular topic and come from your data or prior literature.
 
 **Episodic vs. thematic framing.** [Iyengar (1991)](https://doi.org/10.7208/chicago/9780226388533.001.0001) distinguished between episodic frames (focusing on specific events or individual cases) and thematic frames (placing issues in a broader context with systemic causes). The distinction is especially useful for analyzing news coverage, where episodic framing tends to individualize responsibility while thematic framing points to structural explanations.
 
-**Frame building vs. frame setting.** Frame building refers to how frames emerge in media or political discourse. In plain terms, it asks how some frames come to dominate. Frame setting refers to how media frames influence audience perceptions ([Scheufele, 1999](https://doi.org/10.1111/j.1460-2466.1999.tb02784.x); [de Vreese, 2012](https://doi.org/10.1177/0002764211426331)). Most thesis-level framing analyses focus on identifying frames in texts (frame building), since measuring audience effects (frame setting) requires experimental or survey data.
+**Frame building vs. frame setting.** Frame building refers to how frames emerge in media or political discourse. In plain terms, it asks how some frames come to dominate. Frame setting refers to how media frames influence audience perceptions ([Scheufele, 1999](https://doi.org/10.1111/j.1460-2466.1999.tb02784.x) and [de Vreese, 2012](https://doi.org/10.1177/0002764211426331)). Most thesis-level framing analyses focus on identifying frames in texts (frame building), since measuring audience effects (frame setting) requires experimental or survey data.
 
-**Salience.** A key mechanism in framing. It makes certain pieces of information more noticeable and more memorable ([Entman, 1993](https://doi.org/10.1111/j.1460-2466.1993.tb01304.x)). A frame does not have to fabricate information. It works by emphasizing some elements and downplaying others.
+**Salience.** A key mechanism in framing. It makes certain pieces of information more noticeable and more memorable ([Entman, 1993](https://doi.org/10.1111/j.1460-2466.1993.tb01304.x)). A frame can work without fabricating information. It works by emphasizing some elements and downplaying others.
 
 <div class="tip-box" markdown="1">
 
-**Frames are not the same as topics.** A topic is what a text is about (e.g., climate change). A frame is how the text presents that topic (e.g., climate change as an economic burden, a moral imperative, a scientific controversy, or a security threat). A single topic can be framed in multiple, competing ways. Students often mix these up.
+**Frames differ from topics.** A topic is what a text is about (e.g., climate change). A frame is how the text presents that topic (e.g., climate change as an economic burden, a moral imperative, a scientific controversy, or a security threat). A single topic can be framed in multiple, competing ways. Students often mix these up.
 
 </div>
 
@@ -91,14 +91,14 @@ Framing analysis goes further than basic content analysis. It asks *how* an issu
 
 ## When to Use It
 
-Framing analysis is appropriate when your research question asks **how** an issue is presented or constructed in communication. It works well for:
+Framing analysis is appropriate when your research question asks **how** an issue is presented or constructed in communication. It works well for questions like these.
 
-- **Media coverage analysis**: How does the press frame a political crisis, policy debate, or social issue? Do frames differ across outlets, countries, or time periods?
-- **Political communication**: How do political actors frame issues to build support? How do competing frames interact in public debate?
-- **Policy discourse**: How are policy problems defined and solutions justified in official documents?
-- **Comparative studies**: How does framing of the same issue differ across countries, media systems, languages, or time periods?
+- **Media coverage analysis.** How does the press frame a political crisis, policy debate, or social issue? Do frames differ across outlets, countries, or time periods?
+- **Political communication.** How do political actors frame issues to build support? How do competing frames interact in public debate?
+- **Policy discourse.** How are policy problems defined and solutions justified in official documents?
+- **Comparative studies.** How does framing of the same issue differ across countries, media systems, languages, or time periods?
 
-Framing analysis is **not** the best choice when:
+Use another method when:
 
 - You want to measure the *effects* of framing on audiences (that requires experimental or survey methods)
 - Your interest is in language structure, power relations, or identity construction at a deep level (consider [discourse analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}) instead)
@@ -125,11 +125,11 @@ Framing analysis can also be applied to visual media (photographs, political car
 
 ### Step 1: Define Your Approach
 
-The first decision is whether to use a **deductive** approach, an **inductive** approach, or some combination of the two.
+The first decision is whether to use a **deductive** approach, an **inductive** approach, or a combination.
 
-**Deductive (theory-driven).** You start with a set of frames drawn from existing literature and look for them in your data. This is common when using generic frames. [Semetko and Valkenburg (2000)](https://doi.org/10.1111/j.1460-2466.2000.tb02843.x) identified five generic news frames (conflict, human interest, economic consequences, morality, and responsibility) that have been widely applied across contexts. A deductive approach is more structured and more replicable, which makes it easier for BA students to manage.
+**Deductive (theory-driven).** You start with a set of frames drawn from existing literature and look for them in your data. This is common when using generic frames. [Semetko and Valkenburg (2000)](https://doi.org/10.1111/j.1460-2466.2000.tb02843.x) identified five generic news frames (conflict, human interest, economic consequences, morality, and responsibility) that have been widely applied across contexts. A deductive approach gives BA students a more manageable design and makes the coding easier to replicate.
 
-**Inductive (data-driven).** You develop frames from the data itself through repeated reading and coding. This is necessary when studying an issue where no established frame typology exists, or when you want to capture issue-specific frames. It is more demanding. It also requires careful documentation of how frames were identified. [Matthes and Kohring (2008)](https://doi.org/10.1111/j.1460-2466.2008.00384.x) offer a rigorous cluster-analytic approach to inductively identifying frames.
+**Inductive (data-driven).** You develop frames from the data itself through repeated reading and coding. This is necessary when no established frame typology fits your issue, or when you want to capture issue-specific frames. It is more demanding. It also requires careful documentation of how frames were identified. [Matthes and Kohring (2008)](https://doi.org/10.1111/j.1460-2466.2008.00384.x) offer a rigorous cluster-analytic approach to inductively identifying frames.
 
 **Combined approach.** Many strong theses use a hybrid strategy. You start with frames from the literature, then allow new frames to emerge from the data. The practical upshot is a design with theoretical grounding that still remains open to what the material actually contains.
 
@@ -145,7 +145,7 @@ Your corpus is the collection of texts you will analyze. Corpus construction is 
 
 - **Source selection.** Which outlets, speakers, or document types? Why these and not others? Justify your selection in terms of your research question, for example by choosing outlets that represent different editorial positions or official documents from specific institutions.
 - **Time period.** What period does your analysis cover, and why? Are you analyzing a specific event, a policy cycle, or long-term trends?
-- **Sampling.** Will you analyze all relevant texts in your time period (census approach), or a sample? If sampling, what is your sampling strategy?
+- **Sampling.** Will you analyze all relevant texts in your time period, or a sample? If sampling, what is your sampling strategy?
 - **Size.** Your corpus must be large enough to support the claims you make. There is no universal minimum. A BA thesis might analyze 50-100 articles. An MA thesis might analyze 100-200 or more, depending on the method. See the [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) page for detailed guidance on corpus size, including how to balance analytical depth against volume for different methods.
 
 For detailed guidance on source selection, search strategies, and data management, see [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}).
@@ -189,7 +189,7 @@ With a tested codebook in hand, code your full corpus.
 
 Whichever approach you choose, state it explicitly in your methodology chapter and apply it consistently.
 
-**Intercoder reliability.** If you are the sole coder, as most thesis students are, you cannot calculate formal intercoder reliability. Acknowledge this as a limitation. You can partially mitigate it. Ask your supervisor or a peer to code a small subsample to check your interpretations, document your coding decisions thoroughly, and discuss borderline cases transparently in your analysis.
+**Intercoder reliability.** If you are the sole coder, as most thesis students are, you cannot calculate formal intercoder reliability. Acknowledge this as a limitation. You can partially address it. Ask your supervisor or a peer to code a small subsample, document your coding decisions thoroughly, and discuss borderline cases transparently in your analysis.
 
 ### Step 5: Analyze and Interpret
 
@@ -225,19 +225,19 @@ Students frequently ask whether they should analyze full articles or only headli
 
 **Headlines and full articles often frame issues differently.** Headlines are crafted to attract attention. Editors, rather than the reporting journalist, often write them. They may emphasize conflict or controversy in ways that the article body does not sustain. A headline might frame an event as a crisis while the article gives it a more measured treatment. The reverse also happens. A neutral headline can sit above an article with strong framing throughout.
 
-**When to analyze headlines only:**
+**When to analyze headlines only.**
 
 - Your research question is specifically about how issues are presented at first glance, meaning what audiences encounter when scanning a newspaper or news feed
 - You have a very large corpus and need to manage scope (headline analysis allows a bigger sample)
-- You are studying the "attention-grabbing" dimension of framing, that is, how editors choose to package stories
+- You are studying the "attention-grabbing" dimension of framing, meaning how editors choose to package stories
 
-**When to analyze full articles:**
+**When to analyze full articles.**
 
-- You want to understand the complete framing of an issue, including the causal attributions and recommended solutions that usually appear in the body text along with the supporting arguments
+- You want to understand the complete framing of an issue, including the causal attributions and recommended solutions that usually appear in the body text
 - Your corpus is manageable in size (under ~150 articles for a BA thesis, under ~200-250 for an MA thesis)
-- You are interested in framing depth that the initial signal of a headline cannot capture
+- You are interested in framing depth that the first signal of a headline cannot capture
 
-**When to analyze both:**
+**When to analyze both.**
 
 - You want to compare headline framing with article-body framing as part of your research design (this can be a research question in itself)
 - You suspect that editorial packaging diverges from journalistic treatment of the issue
@@ -270,8 +270,8 @@ A framing analysis thesis follows a standard structure, but each chapter has spe
 This is the chapter where you lay out the architecture of your analysis.
 
 - **Approach.** Explain whether you are using a deductive, inductive, or combined approach, and justify the choice
-- **Corpus.** Describe your source selection, time period, sampling strategy, and corpus size, with justification for each decision
-- **Codebook.** Present your frames with definitions, indicators, and examples. If deductive, explain where the frames come from. If inductive, describe the iterative process through which frames were developed
+- **Corpus.** Describe your source selection and time period. Then explain your sampling strategy, corpus size, and the reason for each decision
+- **Codebook.** Present your frames with definitions and indicators. Add examples and decision rules. If deductive, explain where the frames come from. If inductive, describe the iterative process through which frames were developed
 - **Coding procedure.** Explain your unit of analysis, how you handle multi-frame texts, and any reliability measures
 - **Limitations.** Discuss methodological limitations honestly (single coder, language constraints, corpus boundaries)
 
@@ -282,7 +282,7 @@ Structure your findings around the patterns in your data. Common organizational 
 - **By source or outlet.** Compare framing across different media, speakers, or document types. This works well for comparative research designs.
 - **By time period.** Trace how framing evolves across key moments or phases. This works well for studies of framing during crises, campaigns, or policy processes.
 
-In every case, combine quantitative presentation (tables showing frame frequencies and distributions) with qualitative analysis (representative excerpts demonstrating how each frame operates). The qualitative examples are what make framing analysis more than just counting categories.
+In every case, combine quantitative presentation, such as tables showing frame frequencies, with qualitative analysis using representative excerpts. The qualitative examples are what make framing analysis more than counting categories.
 
 ### Conclusion
 - Answer your research question directly
@@ -307,23 +307,23 @@ In every case, combine quantitative presentation (tables showing frame frequenci
 
 To see how framing analysis works in practice, consider [Semetko and Valkenburg (2000)](https://doi.org/10.1111/j.1460-2466.2000.tb02843.x), one of the most widely cited studies in the field. They analyzed 2,601 newspaper stories and 1,522 television news stories covering European politics, specifically the Amsterdam meetings of European heads of state in 1997. Using a deductive approach, they tested for the presence of five generic news frames (conflict, human interest, economic consequences, morality, and responsibility). Each frame was operationalized through a set of yes/no indicator questions (e.g., "Does the story reflect disagreement between parties/individuals/groups/countries?" for the conflict frame), which they applied to every item in the corpus.
 
-The study found that responsibility and conflict were the most prevalent frames in both press and television coverage, while morality was the least common. It also found significant differences across media types. Serious newspapers used the responsibility frame more frequently, while sensationalist outlets relied more heavily on the human interest frame. Two features of the study are worth emulating. It uses a justified deductive frame set and applies it uniformly across a large corpus that permits comparison across outlet types. Each frame is operationalized through specific indicators.
+The study found that responsibility and conflict were the most common frames in both press and television coverage, while morality was the least common. It also found significant differences across media types. Serious newspapers used the responsibility frame more frequently, while sensationalist outlets relied more heavily on the human interest frame. Two features of the study are worth emulating. It uses a justified deductive frame set across a large corpus that permits comparison across outlet types. It also operationalizes each frame through specific indicators.
 
 ---
 
 ## Common Pitfalls
 
-These are the problems that come up most often in student framing analyses. Avoiding them strengthens your thesis.
+These problems come up often in student framing analyses. Avoiding them strengthens your thesis.
 
-**1. Confusing frames with topics.** This is the single most common mistake. A frame is how the text presents and constructs the issue, while the topic is what the text is about. "Climate change" is a topic. "Climate change as economic burden" or "climate change as existential threat" are frames. If your "frames" could serve as subject headings in a library catalog, they are probably topics, not frames.
+**1. Confusing frames with topics.** This is the single most common mistake. A frame is how the text presents and constructs the issue, while the topic is what the text is about. "Climate change" is a topic. "Climate change as economic burden" or "climate change as existential threat" are frames. If your "frames" could serve as subject headings in a library catalog, they are probably topics instead.
 
 **2. Defining frames too vaguely.** If a frame definition is so broad that almost any text could be coded under it, it is not analytically useful. Each frame should have a clear definition and specific indicators. Test it this way. Could someone unfamiliar with your research apply your codebook and reach similar coding decisions?
 
 **3. Inconsistent coding.** This means applying different standards at different points in your analysis. For example, you might code more generously at the start and more strictly at the end, or shift your interpretation of a frame mid-corpus. Pilot your codebook, code in a consistent order (or randomize), and revisit early coding decisions after you finish.
 
-**4. Ignoring absent frames.** If a frame that the literature suggests should be present is absent or marginal in your data, that is a significant finding. Report what you found, and then discuss what you did not find and consider why.
+**4. Ignoring absent frames.** If a frame that the literature suggests should be present is absent or marginal in your data, that is a significant finding. Report what you found. Then discuss what you did not find and consider why.
 
-**5. Presenting only numbers without qualitative evidence.** A table showing that "the conflict frame appeared in 43% of articles" is a starting point, not a finding. You must show *how* the conflict frame actually operates in your texts. That means analyzing the language and arguments it relies on, as well as any recurring narrative structure. The qualitative examples are what demonstrate that your coding was valid and that the frames are real patterns, not artifacts of your categories.
+**5. Presenting only numbers without qualitative evidence.** A table showing that "the conflict frame appeared in 43% of articles" is only a starting point. You must show *how* the conflict frame actually operates in your texts. That means analyzing the language and arguments it relies on, as well as any recurring narrative structure. The qualitative examples demonstrate that your coding was valid and that the frames are real patterns, not artifacts of your categories.
 
 **6. Failing to justify corpus boundaries.** Why these sources and not others? Why this time period? If you cannot explain your selection decisions, reviewers will question whether different choices would produce different results. Every boundary should be justified in your methodology chapter.
 
@@ -333,25 +333,25 @@ These are the problems that come up most often in student framing analyses. Avoi
 
 ## Key Readings
 
-These are the essential references for a framing analysis thesis. You do not need to cite all of them, but you should be familiar with the core works.
+These are the essential references for a framing analysis thesis. You can cite selectively, but you should know the core works.
 
 ### Foundational works
 
-- [Entman, R. M. (1993). "Framing: Toward clarification of a fractured paradigm." *Journal of Communication*, 43(4), 51-58.](https://doi.org/10.1111/j.1460-2466.1993.tb01304.x) — The most widely cited definition of framing. Start here.
-- [Gamson, W. A., & Modigliani, A. (1989). "Media discourse and public opinion on nuclear power." *American Journal of Sociology*, 95(1), 1-37.](https://doi.org/10.1086/229213) — Introduces the concept of "media packages" and framing devices. A model for how to study frames in media discourse.
-- [Iyengar, S. (1991). *Is Anyone Responsible? How Television Frames Political Issues*. University of Chicago Press.](https://doi.org/10.7208/chicago/9780226388533.001.0001) — The episodic/thematic distinction. Essential for anyone studying news framing.
+- [Entman, R. M. (1993). "Framing: Toward clarification of a fractured paradigm." *Journal of Communication*, 43(4), 51-58.](https://doi.org/10.1111/j.1460-2466.1993.tb01304.x). The most widely cited definition of framing. Start here.
+- [Gamson, W. A., & Modigliani, A. (1989). "Media discourse and public opinion on nuclear power." *American Journal of Sociology*, 95(1), 1-37.](https://doi.org/10.1086/229213). Introduces the concept of "media packages" and framing devices. A model for how to study frames in media discourse.
+- [Iyengar, S. (1991). *Is Anyone Responsible? How Television Frames Political Issues*. University of Chicago Press.](https://doi.org/10.7208/chicago/9780226388533.001.0001). The episodic/thematic distinction. Essential for anyone studying news framing.
 
 ### Methodology and application
 
-- [Semetko, H. A., & Valkenburg, P. M. (2000). "Framing European politics." *Journal of Communication*, 50(2), 93-109.](https://doi.org/10.1111/j.1460-2466.2000.tb02843.x) — Develops and applies the five generic news frames. The standard reference for deductive framing analysis.
-- [Matthes, J., & Kohring, M. (2008). "The content analysis of media frames." *Journal of Communication*, 58(2), 258-279.](https://doi.org/10.1111/j.1460-2466.2008.00384.x) — A rigorous quantitative approach to identifying frames inductively. Useful for MA students considering cluster analysis.
-- [D'Angelo, P., & Kuypers, J. A. (Eds.). (2010). *Doing News Framing Analysis*. Routledge.](https://doi.org/10.4324/9780203864463) — An edited volume with practical examples of different approaches to framing analysis. Good for seeing the range of methods in practice.
+- [Semetko, H. A., & Valkenburg, P. M. (2000). "Framing European politics." *Journal of Communication*, 50(2), 93-109.](https://doi.org/10.1111/j.1460-2466.2000.tb02843.x). Develops and applies the five generic news frames. The standard reference for deductive framing analysis.
+- [Matthes, J., & Kohring, M. (2008). "The content analysis of media frames." *Journal of Communication*, 58(2), 258-279.](https://doi.org/10.1111/j.1460-2466.2008.00384.x). A rigorous quantitative approach to identifying frames inductively. Useful for MA students considering cluster analysis.
+- [D'Angelo, P., & Kuypers, J. A. (Eds.). (2010). *Doing News Framing Analysis*. Routledge.](https://doi.org/10.4324/9780203864463). An edited volume with practical examples of different approaches to framing analysis. Good for seeing the range of methods in practice.
 
 ### Theory and review
 
-- [Chong, D., & Druckman, J. N. (2007). "Framing theory." *Annual Review of Political Science*, 10(1), 103-126.](https://doi.org/10.1146/annurev.polisci.10.072805.103054) — A comprehensive review of framing theory from a political science perspective. Useful for understanding framing effects and the broader body of theory.
-- [Scheufele, D. A. (1999). "Framing as a theory of media effects." *Journal of Communication*, 49(1), 103-122.](https://doi.org/10.1111/j.1460-2466.1999.tb02784.x) — Distinguishes frame building from frame setting and connects framing to agenda-setting theory.
-- [de Vreese, C. H. (2012). "New avenues for framing research." *American Behavioral Scientist*, 56(3), 365-375.](https://doi.org/10.1177/0002764211426331) — Reviews the state of framing research and identifies directions for future work. Helpful for positioning your study.
+- [Chong, D., & Druckman, J. N. (2007). "Framing theory." *Annual Review of Political Science*, 10(1), 103-126.](https://doi.org/10.1146/annurev.polisci.10.072805.103054). A comprehensive review of framing theory from a political science perspective. Useful for understanding framing effects and the broader body of theory.
+- [Scheufele, D. A. (1999). "Framing as a theory of media effects." *Journal of Communication*, 49(1), 103-122.](https://doi.org/10.1111/j.1460-2466.1999.tb02784.x). Distinguishes frame building from frame setting and connects framing to agenda-setting theory.
+- [de Vreese, C. H. (2012). "New avenues for framing research." *American Behavioral Scientist*, 56(3), 365-375.](https://doi.org/10.1177/0002764211426331). Reviews the state of framing research and identifies directions for future work. Helpful for positioning your study.
 
 <div class="tip-box" markdown="1">
 
@@ -363,11 +363,11 @@ These are the essential references for a framing analysis thesis. You do not nee
 
 ## Related Methods
 
-Framing analysis often overlaps with or complements other methods. Depending on your research question, you may want to explore:
+Framing analysis often overlaps with or complements other methods. Depending on your research question, you may want to explore these.
 
-- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }})**: Goes deeper into how language constructs meaning and identity, and how it sustains power relations. Where framing analysis asks "how is this issue presented?", discourse analysis asks "how does language constitute social reality?" If your interest is in the ideological or power dimensions of communication, discourse analysis may be more appropriate, or may complement framing analysis.
+- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}).** Goes deeper into how language constructs meaning and identity. It also asks how language sustains power relations. Where framing analysis asks "how is this issue presented?", discourse analysis asks "how does language constitute social reality?" If your interest is in the ideological or power dimensions of communication, discourse analysis may be more appropriate, or may complement framing analysis.
 
-- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})**: Every framing analysis depends on a well-constructed corpus. This guide covers source selection, database access, sampling strategies, and data management. Consult it before finalizing your research design.
+- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}).** Every framing analysis depends on a well-constructed corpus. This guide covers source selection, database access, sampling strategies, and data management. Consult it before finalizing your research design.
 
 </div>
 </div>

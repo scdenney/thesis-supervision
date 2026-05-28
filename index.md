@@ -7,7 +7,7 @@ title: Home
   <div class="home-hero-copy">
     <p class="home-kicker">Leiden thesis support + public methods resources</p>
     <h1>Thesis &amp; Research Supervision</h1>
-    <p class="home-lede">A practical resource for students working from a topic through research design, methods, corpus, analysis, and write-up. Start with your program if you need requirements. Start with methods or AI/code if you need a workflow.</p>
+    <p class="home-lede">A practical resource for shaping a topic into a research design, choosing methods, organizing evidence, and writing the thesis. Start with your program page for requirements. Use the methods and workflow pages when you need practical guidance.</p>
     <div class="home-contact">
       <span><strong>Supervisor</strong> Dr. Steven Denney</span>
       <a href="mailto:s.c.denney@hum.leidenuniv.nl">s.c.denney@hum.leidenuniv.nl</a>
@@ -32,25 +32,25 @@ title: Home
     <a class="resource-path-card" href="{{ '/getting-started/' | relative_url }}">
       <span class="path-meta">First steps</span>
       <h3>Turn a topic into a plan</h3>
-      <p>Work through the question, sources, literature review, analytical framework, and findings strategy.</p>
+      <p>Shape the research question, sources, literature review, analytical framework, and findings strategy.</p>
     </a>
 
     <a class="resource-path-card" href="{{ '/templates/' | relative_url }}">
       <span class="path-meta">Working documents</span>
       <h3>Use a template</h3>
-      <p>Start a research memo, proposal outline, literature matrix, data plan, meeting packet, or submission checklist.</p>
+      <p>Open working formats for a research memo, proposal outline, literature matrix, data plan, meeting packet, or submission checklist.</p>
     </a>
 
     <a class="resource-path-card" href="{{ '/methods/' | relative_url }}">
       <span class="path-meta">Methods resource</span>
       <h3>Choose and justify a method</h3>
-      <p>Use the methods chooser, then work through corpus building, qualitative methods, computational text analysis, or a mixed approach.</p>
+      <p>Use the methods chooser, then build a defensible approach for corpus work, qualitative research, computational text analysis, or mixed methods.</p>
     </a>
 
     <a class="resource-path-card accent-path-card" href="{{ '/methods/claude-code-codex' | relative_url }}">
       <span class="path-meta">AI and code</span>
       <h3>Build a transparent workflow</h3>
-      <p>Use Claude Code, Codex, and related tools for source organization, scripting, cleanup, checking, and documentation.</p>
+      <p>Plan tool-supported work for source organization, scripting, cleanup, checks, and documentation.</p>
     </a>
   </div>
 </section>
@@ -59,7 +59,7 @@ title: Home
 
 ## Leiden Student? Find Your Program
 
-If you are writing within one of the Leiden programs I supervise, start with your program page. If you are here for broader research support, begin with the methods and AI & Code routes above.
+If you are writing in one of the Leiden programs I supervise, start with your program page. For broader research support, begin with the methods and workflow routes above.
 
 <div class="program-cards program-overview-grid" markdown="0">
   <a class="program-card" href="{{ '/bais/' | relative_url }}">
@@ -190,11 +190,11 @@ All dates are for the **2025-2026 academic year**. Always confirm deadlines with
 <div class="link-panel-grid" markdown="0">
   <a class="link-panel" href="{{ '/methods/' | relative_url }}">
     <strong>Methods Guide</strong>
-    <span>Corpus building, qualitative methods, computational text analysis, and method selection.</span>
+    <span>Help with corpus building, qualitative research, computational text analysis, and method selection.</span>
   </a>
   <a class="link-panel" href="{{ '/methods/claude-code-codex' | relative_url }}">
     <strong>AI &amp; Code</strong>
-    <span>Practical workflows for Claude Code, Codex, documentation, and responsible use.</span>
+    <span>Practical workflows for tool use, documentation, and responsible practice.</span>
   </a>
   <a class="link-panel" href="{{ '/assessment-standards/' | relative_url }}">
     <strong>Assessment Standards</strong>
@@ -206,7 +206,7 @@ All dates are for the **2025-2026 academic year**. Always confirm deadlines with
   </a>
   <a class="link-panel" href="{{ '/ethics/' | relative_url }}">
     <strong>Ethics &amp; AI</strong>
-    <span>Ethics review, university GenAI policy, plagiarism, academic integrity, and support links.</span>
+    <span>Ethics review, university policy, plagiarism rules, academic integrity, and support links.</span>
   </a>
 </div>
 

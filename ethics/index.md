@@ -25,13 +25,13 @@ title: Ethics & AI
 
 # Ethics & AI
 
-This page collects the key ethical guidelines and university policies relevant to your thesis research, along with the formal regulations you may need to cite.
+This page collects the ethical guidelines, university policies, and formal regulations you may need for thesis research.
 
 ---
 
 ## Ethics Review
 
-**For BA and MA students:** Your thesis research is reviewed for ethical concerns by your supervisor, not by the faculty Ethics Committee. During supervision meetings, we will discuss any ethical dimensions of your research design — particularly when your work involves human participants, sensitive data, vulnerable populations, or other risk factors.
+**For BA and MA students:** Your thesis research is reviewed for ethical concerns by your supervisor, not by the faculty Ethics Committee. During supervision meetings, we will discuss any ethical dimensions of your research design, especially when your work involves human participants, sensitive data, vulnerable populations, or other risk factors.
 
 **Exception:** Research Master students must submit their research for formal review by the [Faculty Ethics Committee](https://www.universiteitleiden.nl/en/humanities/research/ethical-review-research).
 
@@ -79,23 +79,23 @@ Plagiarism is a serious academic offense. It includes presenting another person'
 
 Consequences range from a failing grade to referral to the Board of Examiners. All theses are checked for plagiarism.
 
-- [Regulations on Plagiarism](https://www.organisatiegids.universiteitleiden.nl/en/regulations/general/plagiarism) — Leiden University
+- [Regulations on Plagiarism](https://www.organisatiegids.universiteitleiden.nl/en/regulations/general/plagiarism) (Leiden University)
 
 ---
 
 ## Academic Integrity
 
-As a thesis student, you are expected to uphold the highest standards of academic integrity. This includes:
+As a thesis student, you are expected to follow the university's academic integrity rules. This includes:
 
 - Honest reporting of research methods and findings
 - Proper citation of all sources using a recognized style, applied consistently (see your [program overview]({{ '/#find-your-program' | relative_url }}) for specific requirements)
 - Transparent disclosure of any limitations, conflicts of interest, AI-tool use, or other relevant caveats
 - Respect for the intellectual property of others
 
-- [Code of Conduct for Students](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/code-of-conduct-for-students-of-the-faculty-of-humanities) — Faculty of Humanities
-- [Course and Examination Regulations Humanities — bachelor's programmes](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/course-and-examination-regulations-humanities-bachelors-programmes)
-- [Course and Examination Regulations Humanities — master's programmes](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/course-and-examination-regulations-humanities-masters-programmes)
-- [Boards of Examiners — Faculty of Humanities](https://www.organisatiegids.universiteitleiden.nl/en/faculties-and-institutes/humanities/committees-and-boards/boards-of-examiners)
+- [Code of Conduct for Students](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/code-of-conduct-for-students-of-the-faculty-of-humanities) (Faculty of Humanities)
+- [Course and Examination Regulations Humanities, bachelor's programs](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/course-and-examination-regulations-humanities-bachelors-programmes)
+- [Course and Examination Regulations Humanities, master's programs](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/course-and-examination-regulations-humanities-masters-programmes)
+- [Boards of Examiners, Faculty of Humanities](https://www.organisatiegids.universiteitleiden.nl/en/faculties-and-institutes/humanities/committees-and-boards/boards-of-examiners)
 
 ---
 
@@ -103,15 +103,15 @@ As a thesis student, you are expected to uphold the highest standards of academi
 
 If you require academic accommodations due to a disability, contact your study advisor early in the process. Accommodations for thesis work (such as extended deadlines or alternative formats) are arranged through the formal university process.
 
-- [Studying with a Disability](https://www.student.universiteitleiden.nl/en/support/study-support/studying-with-a-disability/studying-with-a-disability-1/humanities) — Leiden University
+- [Studying with a Disability](https://www.student.universiteitleiden.nl/en/support/study-support/studying-with-a-disability/studying-with-a-disability-1/humanities) (Leiden University)
 
 ---
 
 ## Useful Links
 
 ### Ethics Committee
-- [Ethics Committee — Main page](https://www.universiteitleiden.nl/en/humanities/research/ethical-review-research)
-- [Ethics Committee — Organisatiegids](https://www.organisatiegids.universiteitleiden.nl/en/faculties-and-institutes/humanities/committees-and-boards/ethics-committee)
+- [Ethics Committee main page](https://www.universiteitleiden.nl/en/humanities/research/ethical-review-research)
+- [Ethics Committee Organisatiegids](https://www.organisatiegids.universiteitleiden.nl/en/faculties-and-institutes/humanities/committees-and-boards/ethics-committee)
 - [Applications](https://www.organisatiegids.universiteitleiden.nl/en/faculties-and-institutes/humanities/committees-and-boards/ethics-committee/applications)
 - [Codes of Conduct](https://www.organisatiegids.universiteitleiden.nl/en/faculties-and-institutes/humanities/committees-and-boards/ethics-committee/codes-of-conduct)
 - [Forms and Templates](https://www.organisatiegids.universiteitleiden.nl/en/faculties-and-institutes/humanities/committees-and-boards/ethics-committee/forms-and-templates)
@@ -119,8 +119,8 @@ If you require academic accommodations due to a disability, contact your study a
 - [Education (ethics training)](https://www.organisatiegids.universiteitleiden.nl/en/faculties-and-institutes/humanities/committees-and-boards/ethics-committee/education)
 
 ### Library & Writing Support
-- [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) — Leiden University Library
-- [Citing Sources](https://www.library.universiteitleiden.nl/students/citing) — Leiden University Library
+- [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) (Leiden University Library)
+- [Citing Sources](https://www.library.universiteitleiden.nl/students/citing) (Leiden University Library)
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab)
 - [Thesis Support Events](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab/services/thesis-support)
 - [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/)

@@ -35,7 +35,7 @@ title: BAIS
 
 <span class="card-level ba">BA</span>
 
-The BA thesis in International Studies is a 10,000-word research paper that caps your undergraduate studies. It should show that you can frame a research question and work with relevant scholarship from a global or comparative perspective, using appropriate methods for the topic at hand.
+The BA thesis in International Studies is a 10,000-word research paper that completes your undergraduate studies. It should show that you can frame a research question and work with relevant scholarship from a global or comparative perspective, using appropriate methods for the topic at hand.
 
 <div class="info-box" markdown="1">
 
@@ -47,7 +47,7 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 
 <div class="info-box" markdown="1">
 
-**Your next step:** After confirming the rules below, draft a one-page working plan with your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}), then use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI-supported workflow.
+**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI/code workflow.
 
 </div>
 
@@ -58,7 +58,7 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 | Requirement | Details |
 |-------------|---------|
 | **Word count** | 10,000 words (±10%), excluding bibliography and notes |
-| **Citation style** | Chicago — supervisor determines whether Notes-Bibliography or Author-Date |
+| **Citation style** | Chicago, with the supervisor determining whether Notes-Bibliography or Author-Date applies |
 | **Language** | English |
 | **Global perspective** | The thesis must either (a) place a regionally defined topic in a global context, or (b) analyze the topic from at least two disciplinary perspectives |
 | **Final deadline** | June 5, 2026 |
@@ -74,7 +74,7 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 | Thesis draft | Week 18 |
 | **Final thesis** | **June 5, 2026** |
 
-All deadlines are Friday at 23:59. Deadlines are coordinated across seminars and rarely move. In serious personal circumstances, contact your supervisor before the deadline. Short extensions may be possible, while longer requests must go through the Board of Examiners. Always confirm exact dates with your supervisor and check Brightspace.
+All deadlines are Friday at 23:59. Deadlines are coordinated across seminars and rarely change. In serious personal circumstances, contact your supervisor before the deadline. Short extensions may be possible, while longer requests must go through the Board of Examiners. Always confirm exact dates with your supervisor and check Brightspace.
 
 ---
 
@@ -102,62 +102,62 @@ Your thesis is graded on an unweighted average of four criteria. Marks of 9–10
 
 ### Knowledge and Insight
 
-**Satisfactory (6):**
+**Satisfactory (6).**
 - Shows a general understanding of the relevant literature
 - Provides a reasonably clear research question
 - Situates the research question in a relevant and reasonably clear theoretical framework
 
-**Good (7):**
-- Shows a clear and succinct understanding of the relevant literature and demonstrates gaps therein
+**Good (7).**
+- Shows a clear and succinct understanding of the relevant literature and identifies gaps in it
 - Provides a clear and academically topical research question
 - Situates the research question in a clear and appropriate theoretical framework
 
-**Very good (8):**
-- Demonstrates a full and insightful understanding of the relevant literature, the gaps therein, and the connections between schools of academic knowledge
+**Very good (8).**
+- Demonstrates a full and insightful understanding of the relevant literature, its gaps, and the connections between schools of academic knowledge
 - Provides a clear, academically topical, and verifiable research question
 - Situates the research question in a clear, appropriate, well-organized, and properly understood theoretical framework
 
 ### Application of Knowledge
 
-**Satisfactory (6):**
+**Satisfactory (6).**
 - Outlines an understandable methodology and describes how data was collected and why
 - Describes the main findings in a coherent fashion based on the data provided
 - Organizes body chapters around the data collected in a general way that connects to the research question
 
-**Good (7):**
+**Good (7).**
 - Details a clear and sound methodology and justifiably describes how data was collected and why
 - Describes the main findings on the basis of the data and in line with the methodology
 - Organizes the body chapters clearly around the data, building upon the research question
 
-**Very good (8):**
-- Provides a clear, sound, and academically-grounded methodology and describes not only how data was collected, but how this is analytically important
-- Describes the main findings in a clear and convincing manner, on the basis of the research question and methodology
-- Organizes the body chapters in a soundly structured fashion around the data and research question to lead the reader to the conclusions drawn
+**Very good (8).**
+- Provides a clear, sound, and academically grounded methodology, explaining how data was collected and why those choices matter analytically
+- Describes the main findings clearly and convincingly, on the basis of the research question and methodology
+- Organizes the body chapters around the data and research question so the conclusions follow from the analysis
 
 ### Reaching Conclusions
 
-**Satisfactory (6):**
+**Satisfactory (6).**
 - Clearly states its arguments
 - Bases its arguments on the data presented in the body chapters
 - Links its arguments to the literature review and makes a case for academic and/or societal relevance
 
-**Good (7):**
+**Good (7).**
 - States its arguments clearly, succinctly, and convincingly
 - Clearly bases its arguments on the data presented in the body chapters and the theoretical framework
 - Connects the arguments to the literature reviewed and argues effectively for academic and/or societal relevance
 
-**Very good (8):**
+**Very good (8).**
 - States its arguments clearly, forcefully, and convincingly
 - Effectively bases its arguments on the data and theoretical framework in a sophisticated manner
 - Convincingly connects the arguments to the current academic literature, scientific debate, and/or broader social situation
 
 ### Communication
 
-**Satisfactory (6):** Written in reasonably clear academic English and free of endemic grammatical or spelling errors that hinder understanding. Bibliography, citations, and/or footnotes formatted correctly with only minor errors.
+**Satisfactory (6).** Written in reasonably clear academic English and free of endemic grammatical or spelling errors that hinder understanding. Bibliography, citations, and/or footnotes formatted correctly with only minor errors.
 
-**Good (7):** Written in clear academic English and free of notable grammatical or spelling errors. Bibliography, citations, and/or footnotes formatted correctly.
+**Good (7).** Written in clear academic English and free of notable grammatical or spelling errors. Bibliography, citations, and/or footnotes formatted correctly.
 
-**Very good (8):** Written in clear and lucid academic English; free of any serious grammatical or spelling errors. Bibliography and all citations and/or footnotes well formatted.
+**Very good (8).** Written in clear and lucid academic English. Free of serious grammatical or spelling errors. Bibliography and all citations and/or footnotes well formatted.
 
 To qualify as **excellent (9)** or **exceptional (10)** for any criterion, the thesis must represent near-publishable content and go well beyond the descriptions above.
 
@@ -188,17 +188,17 @@ To submit your final thesis:
 
 After receiving a passing grade:
 
-3. Upload the final version to the [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) (tab "Submit") — this is required for graduation
+3. Upload the final version to the [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) (tab "Submit"). This is required for graduation
 
 ---
 
 ## Late Submission and Resubmission
 
-**Late submission:**
+**Late submission.**
 - Theses submitted within 5 working days of the deadline will be graded, but the grade may be lowered at the supervisor's discretion
 - Theses submitted after 5 working days but within 10 working days will count as a resubmission with a consequential lowering of the grade. If the thesis fails, there is no option for a revised version
 
-**Resubmission after a failing grade:**
+**Resubmission after a failing grade.**
 - Students who receive a failing grade (5.0 or lower) may submit a revised version
 - The deadline for resubmission is 10 working days after receiving the grade and feedback
 - The revised thesis is assessed by the same two readers
@@ -209,12 +209,12 @@ After receiving a passing grade:
 
 ## University Links
 
-- [Thesis Seminars: Guidelines for Students (2025-26, PDF)](https://www.student.universiteitleiden.nl/binaries/content/assets/geesteswetenschappen/studenten-site/ba-international-studies/thesis-seminars-guidelines-for-students-2025-26-updated.pdf) — Official student guidelines
-- [BAIS Thesis & Papers page](https://www.student.universiteitleiden.nl/en/your-study-programme/thesis-and-papers/humanities/international-studies-ba) — Official student portal
-- [Getting Started Guide]({{ '/getting-started/' | relative_url }}) — Step-by-step research guide
-- [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) — Library resources
-- [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) — Thesis support and events
-- [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) — Browse past theses and submit yours
+- [Thesis Seminars: Guidelines for Students (2025-26, PDF)](https://www.student.universiteitleiden.nl/binaries/content/assets/geesteswetenschappen/studenten-site/ba-international-studies/thesis-seminars-guidelines-for-students-2025-26-updated.pdf) (official student guidelines)
+- [BAIS Thesis & Papers page](https://www.student.universiteitleiden.nl/en/your-study-programme/thesis-and-papers/humanities/international-studies-ba) (official student portal)
+- [Getting Started Guide]({{ '/getting-started/' | relative_url }}) (step-by-step research guide)
+- [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) (library resources)
+- [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) (thesis support and events)
+- [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) (browse past theses and submit yours)
 - **Study advisor:** [bais.stuco@hum.leidenuniv.nl](mailto:bais.stuco@hum.leidenuniv.nl)
 
 </div>

@@ -5,7 +5,7 @@ title: Methods Guide
 
 # Methods Guide
 
-Use this guide when picking a method is the hard part. It helps you connect your research question and material to an analytical path you can defend.
+Use this guide when choosing a method is the hard part. It helps you connect your research question and material to an analytical path you can defend.
 
 <section class="method-router method-router-visual" aria-labelledby="method-router-title"
   data-route-corpus="{{ '/methods/building-a-corpus' | relative_url }}"
@@ -16,7 +16,7 @@ Use this guide when picking a method is the hard part. It helps you connect your
   <div class="method-router-copy">
     <p class="section-kicker">Method selection</p>
     <h2 id="method-router-title">Match your project to a method</h2>
-    <p>Answer the three questions below. You will get a starting point in the methods resource.</p>
+    <p>Answer the questions below. You will get a starting point in the methods resource.</p>
     <span class="method-visual-large" data-method-visual="chooser" aria-hidden="true"></span>
   </div>
 
@@ -97,7 +97,7 @@ Use this guide when picking a method is the hard part. It helps you connect your
     <span class="method-visual" data-method-visual="trace" aria-hidden="true"></span>
     <span class="method-type">Qualitative</span>
     <h3>Process Tracing</h3>
-    <p>Use when you need to test a causal mechanism inside one case, or reconstruct how it worked.</p>
+    <p>Use when you need to test a causal mechanism within one case and reconstruct how it worked.</p>
     <span class="tag-list">causal · evidence tests · MA-ready</span>
   </a>
 
@@ -153,14 +153,14 @@ Use this guide when picking a method is the hard part. It helps you connect your
     <span class="method-visual" data-method-visual="ai" aria-hidden="true"></span>
     <span class="method-type">AI &amp; Code</span>
     <h3>AI &amp; Code</h3>
-    <p>Use when the sticking point is organizing sources, or writing scripts that clean and document the workflow.</p>
+    <p>Use when the challenge is organizing sources or writing scripts that keep the workflow documented.</p>
     <span class="tag-list">agents · scripts · disclosure</span>
   </a>
 </div>
 
 ## Other Methods To Consider
 
-These are not covered in depth yet. Depending on the project, one of them may still be the right choice.
+The methods below are not covered in depth yet. Depending on the project, one of them may still be the right choice.
 
 <div class="methods-alt-table" markdown="1">
 
@@ -203,4 +203,4 @@ These are not covered in depth yet. Depending on the project, one of them may st
   </article>
 </div>
 
-For general planning, see [Getting Started - Step 4: Building Your Analytical Framework]({{ '/getting-started/#step-4' | relative_url }}). For assessment, see [Assessment Standards - Application of Knowledge]({{ '/assessment-standards/#application-of-knowledge' | relative_url }}).
+For general planning, see [Getting Started, Step 4: Building Your Analytical Framework]({{ '/getting-started/#step-4' | relative_url }}). For assessment, see [Assessment Standards, Application of Knowledge]({{ '/assessment-standards/#application-of-knowledge' | relative_url }}).

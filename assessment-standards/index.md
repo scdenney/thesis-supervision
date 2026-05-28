@@ -31,20 +31,20 @@ title: Assessment Standards
 
 # Assessment Standards
 
-These assessment standards are used across all programs I supervise (BAIS, BAKS, MAAS, MAIR). The core criteria are broadly shared, with expectations calibrated to program level. See your [program overview]({{ '/#find-your-program' | relative_url }}) for program-specific details.
+These assessment standards apply across the programs I supervise (BAIS, BAKS, MAAS, MAIR). The core criteria are broadly shared, with expectations calibrated to program level. See your [program overview]({{ '/#find-your-program' | relative_url }}) for program-specific details.
 
 ---
 
 ## Assessment Criteria
 
-Every Faculty thesis assessment form includes the following five dimensions. The first four criteria capture the quality of the written thesis and are assessed by both readers. The fifth, Learning Skills, assesses the research process and is assessed by the supervisor/first reader. Program handling and weighting can differ.
+Every Faculty thesis assessment form includes five dimensions. The first four criteria capture the quality of the written thesis and are assessed by both readers. The fifth, Learning Skills, concerns the research process and is assessed by the supervisor/first reader. Program handling and weighting can differ.
 
 ### Knowledge and Insight
 
 **Thesis sections:** Introduction, Literature Review
 
 - A clear, well-motivated research question that reflects insight into key discussions and methods in the field
-- A literature review that critically assesses existing research, identifies a gap, and demonstrates originality
+- A literature review that assesses existing research critically, identifies a gap, and demonstrates originality
 - Evidence of engagement with relevant academic debates
 
 ### Application of Knowledge
@@ -69,14 +69,14 @@ Every Faculty thesis assessment form includes the following five dimensions. The
 
 **Assessed across:** Entire thesis
 
-- Competent academic writing: readability, style, spelling, grammar, and appropriate terminology
+- Competent academic writing with readable style, careful spelling and grammar, and appropriate terminology
 - Clear and logical structure with effective transitions between sections
 - Proper citations following a recognized style, used consistently (check your [program overview]({{ '/#find-your-program' | relative_url }}) for specific requirements)
 - Professional formatting and presentation
 
 ### Learning Skills (Process)
 
-**Assessed by:** Supervisor/first reader — program handling and weighting differ
+**Assessed by:** Supervisor/first reader. Program handling and weighting differ
 
 - Degree of independence throughout the research process
 - Planning and time management
@@ -125,26 +125,26 @@ The specifics of your thesis will depend on your topic and methodology. The foll
 
 | Grade | Level | Description |
 |-------|-------|-------------|
-| 9–10 | Distinction | Outstanding work; excellent understanding of the field; original thinking; rigorous and persuasive argument |
-| 8–8.9 | Merit | Excellent understanding; independent thought; strong, well-supported argument |
-| 7–7.9 | Merit | Good to very good work; most criteria met convincingly |
-| 6–6.9 | Pass | Satisfactory understanding; reasonable argument; minor shortcomings in some areas |
-| 5.1–5.9 | — | The faculty does not issue grades in this range |
-| 3–5.0 | Fail | Inadequate understanding; substantial omissions or weaknesses |
-| 0–2.9 | Ungradable | No significant grasp of the material; irrelevant, incomplete, or plagiarized work |
+| 9–10 | Distinction | Outstanding work with excellent understanding of the field, original thinking, and a rigorous, persuasive argument |
+| 8–8.9 | Merit | Excellent understanding, independent thought, and a strong, well-supported argument |
+| 7–7.9 | Merit | Good to very good work, with most criteria met convincingly |
+| 6–6.9 | Pass | Satisfactory understanding and a reasonable argument, with minor shortcomings in some areas |
+| 5.1–5.9 | No grade issued | The faculty does not issue grades in this range |
+| 3–5.0 | Fail | Inadequate understanding, with substantial omissions or weaknesses |
+| 0–2.9 | Ungradable | No significant grasp of the material, or work that is irrelevant, incomplete, or plagiarized |
 
 ---
 
 ## BA vs MA Expectations
 
-All programs share core assessment criteria, but the depth and sophistication expected differs by level.
+All programs share core assessment criteria, but the expected depth and sophistication differ by level.
 
 | Dimension | BA (BAIS, BAKS) | MA (MAAS, MAIR) |
 |-----------|-----------------|-----------------|
-| **Research question** | Clear and focused; addresses an identifiable gap | Demonstrates advanced understanding of theoretical debates; situates the research within the field |
-| **Literature review** | Engages with key scholarship; identifies a gap | Critically synthesizes a broader body of literature; situates the research within theoretical frameworks |
-| **Methodology** | Appropriate and clearly explained | More sophisticated and well-justified; demonstrates methodological awareness and reflexivity |
-| **Analysis** | Sound application of chosen methods | Deeper analytical engagement; careful interpretation of findings |
+| **Research question** | Clear and focused, addressing an identifiable gap | Demonstrates advanced understanding of theoretical debates and situates the research within the field |
+| **Literature review** | Engages with key scholarship and identifies a gap | Synthesizes a broader body of literature and situates the research within theoretical frameworks |
+| **Methodology** | Appropriate and clearly explained | More sophisticated and well justified, with methodological awareness and reflexivity |
+| **Analysis** | Sound application of chosen methods | Deeper analytical engagement and careful interpretation of findings |
 | **Independent contribution** | Shows capacity for independent research | Demonstrates a more advanced level of scholarly engagement and sustained independent inquiry |
 | **Word count** | 10,000 (±10%) | 12,000–15,000 (MAAS) / 15,000 hard max (MAIR) |
 

@@ -5,13 +5,13 @@ title: Getting Started
 
 # Getting Started
 
-This guide walks you through five key stages of planning and writing a thesis. It applies to all programs (BAIS, BAKS, MAAS, MAIR) and works best when you go through it in order, though you can revisit any step at any time.
+This guide walks you through five stages of planning and writing a thesis. It applies to all programs (BAIS, BAKS, MAAS, MAIR). Work through it in order when you are starting out, and return to individual steps as your project changes.
 
 ---
 
 ## How to Use This Guide
 
-Click on each step below to expand it. Each one includes objectives, key concepts, reflection prompts, and an exercise that produces something you can bring to your supervisor.
+Click on each step below to expand it. Each one includes objectives, key concepts, reflection prompts, and an exercise that gives you something concrete to bring to your supervisor.
 
 Work through all five steps. By the end you will have a working research question, a data collection plan, a literature review outline, a methods framework, and a writing strategy.
 
@@ -38,19 +38,19 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <h4>What makes a strong research question?</h4>
 
-<p>A strong research question is:</p>
+<p>A strong research question has these qualities.</p>
 <ul>
-<li><strong>Clear</strong> — It can be understood without additional explanation</li>
-<li><strong>Focused</strong> — It is narrow enough to be answered within the scope of your thesis</li>
-<li><strong>Relevant</strong> — It connects to existing scholarly debates in your field</li>
-<li><strong>Researchable</strong> — It can be investigated with available data and methods</li>
+<li><strong>Clear.</strong> It can be understood without additional explanation</li>
+<li><strong>Focused.</strong> It is narrow enough to be answered within the scope of your thesis</li>
+<li><strong>Relevant.</strong> It connects to existing scholarly debates in your field</li>
+<li><strong>Researchable.</strong> It can be investigated with available data and methods</li>
 </ul>
 
 <h4>Research problem and research gap</h4>
 
 <p>The <strong>research problem</strong> is the broader issue your question addresses. It explains <em>why</em> your question matters. That might be a gap in current knowledge, a blind spot in existing scholarship, an unresolved debate, or a settled view that warrants fresh examination.</p>
 
-<p>The <strong>research gap</strong> is the specific hole your thesis aims to fill. Gaps can take many forms: an understudied case, an untested theory, a missing comparison, a neglected perspective, or new data that warrants fresh analysis.</p>
+<p>The <strong>research gap</strong> is the specific hole your thesis aims to fill. It might be an understudied case, an untested theory, a missing comparison, a neglected perspective, or new data that warrants fresh analysis.</p>
 
 <div class="tip-box">
 <p><strong>Your question will evolve.</strong> It will almost certainly change as you read more and refine your thinking. This is normal. Start with a working question that gives you direction, and plan to revise it as your understanding deepens.</p>
@@ -69,7 +69,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <div class="exercise-box">
 <p>Exercise</p>
-<p>Draft a working research question (1–2 sentences). Then write a short paragraph (150–250 words) explaining:</p>
+<p>Draft a working research question (1–2 sentences). Then write a short paragraph (150–250 words) that explains the following.</p>
 <ol>
 <li>The research problem your question addresses</li>
 <li>Why this question matters (the gap in existing knowledge)</li>
@@ -85,7 +85,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <summary>Step 2: Data and Sources</summary>
 <div class="details-content">
 
-<p class="step-intro">Your research question tells you what to ask. This step helps you figure out where to look for answers — and how to manage what you find.</p>
+<p class="step-intro">Your research question tells you what to ask. This step helps you decide where to look for answers and how to manage what you find.</p>
 
 <div class="step-objectives">
 <p>Objectives</p>
@@ -98,9 +98,9 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <h4>Primary vs. secondary sources</h4>
 
-<p><strong>Primary sources</strong> are original materials you analyze directly — interviews, surveys, archival documents, government reports, media sources, datasets, literary texts, visual materials, etc.</p>
+<p><strong>Primary sources</strong> are original materials you analyze directly, such as interviews, surveys, archival documents, government reports, media sources, datasets, literary texts, and visual materials.</p>
 
-<p><strong>Secondary sources</strong> are scholarly works that analyze or interpret primary sources — journal articles, monographs, book chapters, and review essays.</p>
+<p><strong>Secondary sources</strong> are scholarly works that analyze or interpret primary sources, including journal articles, monographs, book chapters, and review essays.</p>
 
 <p>Most theses use a combination of both. The balance depends on your research question and methodology.</p>
 
@@ -118,11 +118,11 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <h4>What kinds of data might you use?</h4>
 <ul>
-<li><strong>Textual sources</strong> — policy documents, news articles, speeches, legal texts, literary works</li>
-<li><strong>Quantitative data</strong> — statistical datasets, survey results, economic indicators</li>
-<li><strong>Qualitative data</strong> — interview transcripts, ethnographic observations, focus groups</li>
-<li><strong>Archival materials</strong> — historical documents, correspondence, organizational records</li>
-<li><strong>Digital sources</strong> — social media data, web content, digital archives</li>
+<li><strong>Textual sources.</strong> Policy documents, news articles, speeches, legal texts, literary works</li>
+<li><strong>Quantitative data.</strong> Statistical datasets, survey results, economic indicators</li>
+<li><strong>Qualitative data.</strong> Interview transcripts, ethnographic observations, focus groups</li>
+<li><strong>Archival materials.</strong> Historical documents, correspondence, organizational records</li>
+<li><strong>Digital sources.</strong> Social media data, web content, digital archives</li>
 </ul>
 
 <div class="reflection-box">
@@ -138,7 +138,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <div class="exercise-box">
 <p>Exercise</p>
-<p>Write a data collection plan (300–500 words) that addresses:</p>
+<p>Write a data collection plan (300–500 words) that covers these points.</p>
 <ol>
 <li>What types of sources (primary and secondary) you will use</li>
 <li>How you will find and access these sources</li>
@@ -167,12 +167,12 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <h4>What a literature review does</h4>
 
-<p>A good literature review:</p>
+<p>A good literature review does several things.</p>
 <ul>
 <li><strong>Summarizes</strong> existing work on your topic</li>
-<li><strong>Identifies gaps</strong> — what has been overlooked or remains contested</li>
-<li><strong>Frames your research</strong> — shows how your thesis connects to and builds on existing scholarship</li>
-<li><strong>Justifies your approach</strong> — explains why your question, data, and methods are appropriate</li>
+<li><strong>Identifies gaps.</strong> What has been overlooked or remains contested</li>
+<li><strong>Frames your research.</strong> How your thesis connects to and builds on existing scholarship</li>
+<li><strong>Justifies your approach.</strong> Why your question, data, and methods are appropriate</li>
 </ul>
 
 <div class="tip-box">
@@ -181,21 +181,21 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <h4>How to organize your review</h4>
 <ul>
-<li><strong>Thematic</strong> — organized by topic or theme (most common)</li>
-<li><strong>Chronological</strong> — traces the development of scholarship over time</li>
-<li><strong>Methodological</strong> — groups studies by the methods they use</li>
-<li><strong>Theoretical</strong> — organized around competing perspectives</li>
+<li><strong>Thematic.</strong> Organized by topic or theme (most common)</li>
+<li><strong>Chronological.</strong> Traces the development of scholarship over time</li>
+<li><strong>Methodological.</strong> Groups studies by the methods they use</li>
+<li><strong>Theoretical.</strong> Organized around competing perspectives</li>
 </ul>
 <p>Many literature reviews combine more than one approach.</p>
 
 <h4>Building your review step by step</h4>
 <ol>
 <li><strong>Identify key search terms</strong> related to your topic, question, and field</li>
-<li><strong>Search widely</strong> — Google Scholar, JSTOR, Web of Science, your field's specialized databases</li>
-<li><strong>Read strategically</strong> — start with abstracts and introductions to assess relevance</li>
-<li><strong>Take structured notes</strong> — for each source, record the main argument, methods, findings, and relation to your research</li>
-<li><strong>Group and synthesize</strong> — organize sources into themes or competing positions</li>
-<li><strong>Identify the gap</strong> — articulate what the existing literature does not address</li>
+<li><strong>Search widely.</strong> Use Google Scholar, JSTOR, Web of Science, and specialized databases in your field</li>
+<li><strong>Read strategically.</strong> Start with abstracts and introductions to assess relevance</li>
+<li><strong>Take structured notes.</strong> For each source, record the main argument, methods, findings, and relation to your research</li>
+<li><strong>Group and synthesize.</strong> Organize sources into themes or competing positions</li>
+<li><strong>Identify the gap.</strong> Articulate what the existing literature does not address</li>
 </ol>
 
 <div class="reflection-box">
@@ -211,7 +211,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <div class="exercise-box">
 <p>Exercise</p>
-<p><strong>Part A:</strong> Create an annotated bibliography of 8–12 key sources. For each source, write 3–4 sentences covering:</p>
+<p><strong>Part A:</strong> Create an annotated bibliography of 8–12 key sources. For each source, write 3–4 sentences covering these points.</p>
 <ol>
 <li>The main argument or finding</li>
 <li>The methods used</li>
@@ -242,7 +242,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <p>The framework should follow logically from your literature review. The gap you identified motivates your research design, and your methods should suit the type of data you are working with.</p>
 
-<p>Your framework specifies:</p>
+<p>Your framework should specify the following.</p>
 <ul>
 <li><strong>What</strong> you are analyzing (your data or cases)</li>
 <li><strong>How</strong> you will analyze it (your methods and approach)</li>
@@ -251,38 +251,38 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <h4>Common approaches</h4>
 
-<p><strong>Qualitative methods:</strong></p>
+<p><strong>Qualitative methods.</strong></p>
 <table>
 <thead><tr><th>Method</th><th>When to use it</th></tr></thead>
 <tbody>
 <tr><td>Thematic analysis</td><td>Identifying patterns and themes in textual data</td></tr>
-<tr><td>Content analysis</td><td>Systematic coding and categorization of textual material</td></tr>
+<tr><td>Content analysis</td><td>Consistent coding and categorization of textual material</td></tr>
 <tr><td>Discourse analysis</td><td>Examining how language constructs meaning</td></tr>
 <tr><td>Case study analysis</td><td>In-depth examination of one or more cases</td></tr>
 <tr><td>Process tracing</td><td>Tracking causal mechanisms through detailed evidence</td></tr>
 </tbody>
 </table>
 
-<p><strong>Quantitative methods:</strong></p>
+<p><strong>Quantitative methods.</strong></p>
 <table>
 <thead><tr><th>Method</th><th>When to use it</th></tr></thead>
 <tbody>
 <tr><td>Descriptive statistics</td><td>Summarizing patterns in numerical data</td></tr>
 <tr><td>Inferential statistics</td><td>Testing hypotheses about relationships between variables</td></tr>
-<tr><td>Comparative analysis</td><td>Systematic comparison across cases or datasets</td></tr>
+<tr><td>Comparative analysis</td><td>Comparison across cases or datasets</td></tr>
 </tbody>
 </table>
 
 <div class="tip-box">
-<p><strong>Mixed methods</strong> combine qualitative and quantitative approaches. This can strengthen your analysis but also increases complexity — discuss with your supervisor whether this is appropriate for your project.</p>
+<p><strong>Mixed methods</strong> combine qualitative and quantitative approaches. This can strengthen your analysis, but it also increases complexity. Discuss with your supervisor whether this is appropriate for your project.</p>
 </div>
 
 <div class="info-box">
-<p><strong>Want more detail?</strong> The <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> provides in-depth guidance on specific methods — including comparative case study design, process tracing, framing analysis, discourse analysis, building a corpus, and AI-supported workflows with <a href="{{ '/methods/claude-code-codex' | relative_url }}">Claude Code and Codex</a>.</p>
+<p><strong>Want more detail?</strong> The <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> gives fuller guidance on comparative case study design, process tracing, framing analysis, discourse analysis, corpus building, and supported workflows with <a href="{{ '/methods/claude-code-codex' | relative_url }}">Claude Code and Codex</a>.</p>
 </div>
 
 <h4>Justifying your choices</h4>
-<p>Your thesis should explicitly explain:</p>
+<p>Your thesis should explicitly explain these choices.</p>
 <ol>
 <li>Why you chose this particular methodology</li>
 <li>How it suits your research question and data</li>
@@ -303,7 +303,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <div class="exercise-box">
 <p>Exercise</p>
-<p>Write a methods outline (300–500 words) that includes:</p>
+<p>Write a methods outline (300–500 words) that covers these points.</p>
 <ol>
 <li>Your research design (qualitative, quantitative, or mixed)</li>
 <li>Your specific method(s) and why they are appropriate</li>
@@ -342,7 +342,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 </tbody>
 </table>
 
-<p>Whatever structure you choose, each section should:</p>
+<p>Whatever structure you choose, each section should do the following.</p>
 <ol>
 <li>State what you found</li>
 <li>Present the evidence (quotes, data, examples)</li>
@@ -352,21 +352,21 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <h4>From findings to conclusions</h4>
 
-<p>Your conclusion chapter should:</p>
+<p>Your conclusion chapter should do the following.</p>
 <ul>
 <li><strong>Summarize</strong> your main findings in relation to the research question</li>
-<li><strong>Discuss contributions</strong> — what does your research add to the field?</li>
-<li><strong>Acknowledge limitations</strong> — what couldn't you do, and why?</li>
-<li><strong>Suggest future research</strong> — what questions remain open?</li>
+<li><strong>Discuss contributions.</strong> What does your research add to the field?</li>
+<li><strong>Acknowledge limitations.</strong> What could you not do, and why?</li>
+<li><strong>Suggest future research.</strong> What questions remain open?</li>
 </ul>
 
 <div class="tip-box">
-<p><strong>Don't introduce new evidence or arguments in the conclusion.</strong> It should synthesize what you've already presented.</p>
+<p><strong>Do not introduce new evidence or arguments in the conclusion.</strong> It should synthesize what you have already presented.</p>
 </div>
 
 <h4>Practical writing strategies</h4>
 <ul>
-<li><strong>Start with what you know best.</strong> You don't have to write chapters in order. Many students start with the literature review or methods.</li>
+<li><strong>Start with what you know best.</strong> You do not have to write chapters in order. Many students start with the literature review or methods.</li>
 <li><strong>Write regularly.</strong> Consistent daily or weekly sessions beat marathon sessions before deadlines.</li>
 <li><strong>Revise iteratively.</strong> First drafts are meant to be revised. Write rough, then improve.</li>
 <li><strong>Use feedback early.</strong> Bring drafts to supervision meetings. Feedback is most useful when it comes early.</li>
@@ -375,7 +375,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 
 <h4>Formatting</h4>
 <ul>
-<li>Citation styles vary by program — check your <a href="{{ '/#find-your-program' | relative_url }}">program overview</a> for specific requirements</li>
+<li>Citation styles vary by program. Check your <a href="{{ '/#find-your-program' | relative_url }}">program overview</a> for specific requirements</li>
 <li>Use your chosen citation style <strong>consistently</strong> throughout the thesis</li>
 <li>Consult the <a href="https://www.library.universiteitleiden.nl/students/citing">Leiden University Library: Citing</a> page for citation resources and guides</li>
 </ul>
@@ -394,7 +394,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 <div class="exercise-box">
 <p>Exercise</p>
 <p><strong>Part A:</strong> Draft an outline of your findings chapter, with section headings and brief notes on the evidence you will present in each section.</p>
-<p><strong>Part B:</strong> Write a rough draft of your conclusion (500–750 words), addressing: summary of findings, contributions, limitations, and future research.</p>
+<p><strong>Part B:</strong> Write a rough draft of your conclusion (500–750 words) that addresses the summary of findings, contributions, limitations, and future research.</p>
 </div>
 
 </div>
@@ -416,13 +416,13 @@ Bring these materials to your supervision meetings. Your supervisor will help yo
 
 **Program-specific resources:**
 
-- [BAIS]({{ '/bais/' | relative_url }}) — Requirements, deadlines, and documents
-- [BAKS]({{ '/baks/' | relative_url }}) — Requirements and link to the Thesis Seminar
-- [MAAS]({{ '/maas/' | relative_url }}) — Requirements, deadlines, and documents
-- [MAIR]({{ '/mair/' | relative_url }}) — Requirements, deadlines, and documents
+- [BAIS]({{ '/bais/' | relative_url }}) (requirements, deadlines, and documents)
+- [BAKS]({{ '/baks/' | relative_url }}) (requirements and link to the Thesis Seminar)
+- [MAAS]({{ '/maas/' | relative_url }}) (requirements, deadlines, and documents)
+- [MAIR]({{ '/mair/' | relative_url }}) (requirements, deadlines, and documents)
 
 **Other resources:**
 
-- [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) — How your thesis will be evaluated
-- [Ethics & AI]({{ '/ethics/' | relative_url }}) — Ethics review plus the GenAI and plagiarism policies that govern your thesis
-- [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) — Additional writing support
+- [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) (how your thesis will be evaluated)
+- [Ethics & AI]({{ '/ethics/' | relative_url }}) (ethics review plus the plagiarism and GenAI policies that govern your thesis)
+- [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) (additional writing support)

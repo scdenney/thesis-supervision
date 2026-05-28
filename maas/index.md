@@ -28,7 +28,7 @@ title: MAAS
 
 <span class="card-level ma">MA</span>
 
-The MA thesis in Asian Studies is a substantial research project demonstrating advanced knowledge of your field and the capacity for independent scholarly work. Compared with an undergraduate thesis, it requires deeper engagement with theory and a stronger original contribution.
+The MA thesis in Asian Studies is a substantial research project that demonstrates advanced knowledge of your field and the capacity for independent scholarly work. Compared with an undergraduate thesis, it requires deeper engagement with theory and a stronger original contribution.
 
 <div class="info-box" markdown="1">
 
@@ -40,7 +40,7 @@ The content below is adapted from the MA Asian Studies thesis protocol for stude
 
 <div class="info-box" markdown="1">
 
-**Your next step:** After confirming the rules below, draft a one-page working plan with your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}), then use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI-supported workflow.
+**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI/code workflow.
 
 </div>
 
@@ -60,7 +60,7 @@ The content below is adapted from the MA Asian Studies thesis protocol for stude
 
 ## Timeline and Deadlines
 
-The thesis process begins with the assignment of a supervisor, which follows from the thesis distribution form you submit early in your program.
+The thesis process begins with the assignment of a supervisor, based on the thesis distribution form you submit early in your program.
 
 | Milestone | Fall 2025 entry | Spring 2026 entry |
 |-----------|-----------|--------------|
@@ -76,7 +76,7 @@ The thesis process begins with the assignment of a supervisor, which follows fro
 
 <div class="info-box" markdown="1">
 
-**Important:** Students who submit a thesis or part thereof by the first submission deadline have the right to receive feedback within 10 working days. Students who miss the first deadline forfeit the right to further feedback but may still submit by the final deadline.
+**Important:** Students who submit a thesis or part of one by the first submission deadline have the right to receive feedback within 10 working days. Students who miss the first deadline forfeit the right to further feedback but may still submit by the final deadline.
 
 </div>
 
@@ -86,12 +86,12 @@ The thesis process begins with the assignment of a supervisor, which follows fro
 
 The thesis proposal is a required component of the Introduction to Asian Studies course and is graded pass/fail.
 
-**Requirements:**
+**Requirements.**
 - Approximately 1,500 words including bibliography
 - Must state a clear research question, relevant literature, and methodology
 - Submit by email to your supervisor
 
-**Process:**
+**Process.**
 1. Submit a draft proposal by the draft deadline
 2. Receive written feedback from your supervisor
 3. Revise and submit the final proposal by the final deadline
@@ -103,11 +103,11 @@ The thesis proposal is a required component of the Introduction to Asian Studies
 
 After your proposal is approved, you will write draft chapters in consultation with your supervisor, meeting at least twice during the writing phase.
 
-**Submission procedure:** Email the final thesis to your supervisor, second reader, and to [MAthesis@hum.leidenuniv.nl](mailto:MAthesis@hum.leidenuniv.nl) by the final deadline.
+**Submission procedure.** Email the final thesis to your supervisor, second reader, and [MAthesis@hum.leidenuniv.nl](mailto:MAthesis@hum.leidenuniv.nl) by the final deadline.
 
-**Extensions:** If you face extenuating circumstances or need an extension, submit the request through the examinations committee. Extensions are not granted individually by supervisors.
+**Extensions.** If you face extenuating circumstances or need an extension, submit the request through the examinations committee. Extensions are not granted individually by supervisors.
 
-**Formatting:**
+**Formatting.**
 - 12,000–15,000 words including footnotes and references, excluding appendices
 - Consistent citation style throughout
 - Consult your supervisor about their preferences for layout (font, spacing, footnotes vs. endnotes, etc.)
@@ -118,15 +118,15 @@ After your proposal is approved, you will write draft chapters in consultation w
 
 Your thesis is assessed by your supervisor (first reader) and a second reader. Both complete independent assessments, followed by a joint grade. The assessment covers five criteria:
 
-**Knowledge and Insight** — The research question reflects insight into key discussions and methods of the field; clarity and relevance of the problem; embedding in existing literature; originality.
+**Knowledge and Insight.** The research question reflects insight into key discussions and methods of the field. The problem is clear and relevant, embedded in existing literature, and original.
 
-**Application of Knowledge** — Critical analysis of primary sources; use of complex concepts and effective research methods; description and justification of methodology; application of knowledge in broader contexts.
+**Application of Knowledge.** The thesis critically analyzes primary sources, uses complex concepts and effective research methods, describes and justifies its methodology, and applies knowledge in broader contexts.
 
-**Reaching Conclusions** — Logical and consistent reasoning; well-founded conclusions; degree to which the research question is answered; connection to other and future research; consideration of social and ethical aspects.
+**Reaching Conclusions.** The thesis uses logical and consistent reasoning, reaches well-founded conclusions, answers the research question, connects the findings to other and future research, and considers social and ethical aspects.
 
-**Communication** — Language competence; readability, style, grammar, and terminology; structure and layout; correct use of citations and bibliography.
+**Communication.** The thesis shows language competence through readability, style, grammar, terminology, structure, layout, and correct use of citations and bibliography.
 
-**Learning Skills (Process)** — Degree of independence; planning and time management; handling of supervisor feedback.
+**Learning Skills (Process).** This criterion covers independence, planning and time management, and handling of supervisor feedback.
 
 Supervisors and second readers have a maximum of **6 weeks** from the final submission deadline to complete the assessment.
 
@@ -138,17 +138,17 @@ See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for gr
 
 In addition to the general criteria above, your thesis must meet the requirements of your specialization:
 
-**East Asian Studies (MA60):** Broad knowledge of East Asia; knowledge of the history, development, and current trends in East Asian Studies; the ability to locate, assess, and use original sources in modern or classical Chinese, Japanese, or Korean.
+**East Asian Studies (MA60).** Broad knowledge of East Asia is required, including knowledge of the history, development, and current trends in East Asian Studies. Students must be able to locate, assess, and use original sources in modern or classical Chinese, Japanese, or Korean.
 
-**South Asian Studies (MA60):** Broad knowledge of South Asia; knowledge of the history, development, and current trends in South Asian Studies. Students who have completed intermediate or advanced language electives should demonstrate the ability to use original sources in Hindi, Sanskrit, or Classical Tibetan.
+**South Asian Studies (MA60).** Broad knowledge of South Asia is required, including knowledge of the history, development, and current trends in South Asian Studies. Students who have completed intermediate or advanced language electives should demonstrate the ability to use original sources in Hindi, Sanskrit, or Classical Tibetan.
 
-**Southeast Asian Studies (MA60):** Broad knowledge of Southeast Asia; knowledge of the history, development, and current trends in Southeast Asian Studies. Students who have completed intermediate or advanced language electives should demonstrate the ability to use original sources in Malay/Indonesian.
+**Southeast Asian Studies (MA60).** Broad knowledge of Southeast Asia is required, including knowledge of the history, development, and current trends in Southeast Asian Studies. Students who have completed intermediate or advanced language electives should demonstrate the ability to use original sources in Malay/Indonesian.
 
-**History, Arts and Culture (MA60):** Broad knowledge of one or more regions in Asia; knowledge of history, development, and current trends in the study of the history, art, or culture of these regions; familiarity with relevant disciplinary theories and methods.
+**History, Arts and Culture (MA60).** Broad knowledge of one or more regions in Asia is required, along with knowledge of history, development, and current trends in the study of the history, art, or culture of these regions. Students should also be familiar with relevant disciplinary theories and methods.
 
-**Politics, Society, and Economy (MA60):** Broad knowledge of one or more regions in Asia; knowledge of history, development, and current trends in the study of politics, society, or economy of these regions; familiarity with relevant disciplinary theories and methods.
+**Politics, Society, and Economy (MA60).** Broad knowledge of one or more regions in Asia is required, along with knowledge of history, development, and current trends in the study of politics, society, or economy of these regions. Students should also be familiar with relevant disciplinary theories and methods.
 
-**Chinese, Japanese, or Korean Studies (MA120):** All of the above for your region, plus excellent command of Chinese, Japanese, or Korean that enables you to use the language for academic and professional purposes; ability to independently design, conduct, and complete original research.
+**Chinese, Japanese, or Korean Studies (MA120).** All of the above applies for your region, plus excellent command of Chinese, Japanese, or Korean that enables you to use the language for academic and professional purposes. Students must be able to independently design, conduct, and complete original research.
 
 ---
 
@@ -165,12 +165,12 @@ Students who do not pass the first assessment, or who did not complete the thesi
 
 ## University Links
 
-- [MAAS Thesis & Papers page](https://www.student.universiteitleiden.nl/en/your-study-programme/thesis-and-papers/humanities/asian-studies-ma) — Official student portal
-- [MA Thesis Asian Studies — Prospectus](https://studiegids.universiteitleiden.nl/en/courses/134994/ma-thesis-asian-studies-60-ec)
-- [Getting Started Guide]({{ '/getting-started/' | relative_url }}) — Step-by-step research guide
-- [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) — Library resources
-- [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) — Thesis support and events
-- [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) — Browse past theses
+- [MAAS Thesis & Papers page](https://www.student.universiteitleiden.nl/en/your-study-programme/thesis-and-papers/humanities/asian-studies-ma) (official student portal)
+- [MA Thesis Asian Studies Prospectus](https://studiegids.universiteitleiden.nl/en/courses/134994/ma-thesis-asian-studies-60-ec)
+- [Getting Started Guide]({{ '/getting-started/' | relative_url }}) (step-by-step research guide)
+- [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) (library resources)
+- [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) (thesis support and events)
+- [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) (browse past theses)
 - **Study advisor:** [stucomaas@hum.leidenuniv.nl](mailto:stucomaas@hum.leidenuniv.nl)
 
 </div>
