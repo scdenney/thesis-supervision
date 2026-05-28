@@ -5,7 +5,7 @@ title: Methods Guide
 
 # Methods Guide
 
-Use this guide when choosing a method is the hard part. It helps you connect your research question and material to an analytical path you can defend.
+Start here when the method is still unsettled. Choose the method by asking what evidence you have and what claim you want to make.
 
 <section class="method-router method-router-visual" aria-labelledby="method-router-title"
   data-route-corpus="{{ '/methods/building-a-corpus' | relative_url }}"
@@ -16,7 +16,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
   <div class="method-router-copy">
     <p class="section-kicker">Method selection</p>
     <h2 id="method-router-title">Match your project to a method</h2>
-    <p>Answer the questions below. You will get a starting point in the methods resource.</p>
+    <p>Answer the questions below and use the result as a place to begin.</p>
     <span class="method-visual-large" data-method-visual="chooser" aria-hidden="true"></span>
   </div>
 
@@ -60,7 +60,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <div class="router-result" data-router-result aria-live="polite">
       <span class="result-label">Recommended section</span>
       <h3 data-router-title>Corpus planning</h3>
-      <p data-router-copy>When you are unsure, start by defining what you will collect and why. Most method problems get easier once the corpus or data source has clear boundaries.</p>
+      <p data-router-copy>If the answer is still unclear, define the source base first. Method choices usually get easier once you know what evidence you actually have.</p>
       <a data-router-link href="{{ '/methods/building-a-corpus' | relative_url }}">Open Building a Corpus</a>
     </div>
   </div>
@@ -81,7 +81,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <span class="method-visual" data-method-visual="corpus" aria-hidden="true"></span>
     <span class="method-type">Workflow</span>
     <h3>Building a Corpus</h3>
-    <p>Use when the project depends on a bounded body of texts and a clear record of how you collected them.</p>
+    <p>Start here if the archive, search terms, or inclusion rules are still fuzzy.</p>
     <span class="tag-list">sources · metadata · sampling</span>
   </a>
 
@@ -89,7 +89,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <span class="method-visual" data-method-visual="compare" aria-hidden="true"></span>
     <span class="method-type">Qualitative</span>
     <h3>Comparative Case Study</h3>
-    <p>Use when the research question asks for careful comparison across cases.</p>
+    <p>For two or more cases that share enough context to make their differences count.</p>
     <span class="tag-list">cases · comparison · BA/MA</span>
   </a>
 
@@ -97,7 +97,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <span class="method-visual" data-method-visual="trace" aria-hidden="true"></span>
     <span class="method-type">Qualitative</span>
     <h3>Process Tracing</h3>
-    <p>Use when you need to test a causal mechanism within one case and reconstruct how it worked.</p>
+    <p>For questions where timing matters and each link in the causal chain needs evidence.</p>
     <span class="tag-list">causal · evidence tests · MA-ready</span>
   </a>
 
@@ -105,7 +105,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <span class="method-visual" data-method-visual="frame" aria-hidden="true"></span>
     <span class="method-type">Qualitative / mixed</span>
     <h3>Framing Analysis</h3>
-    <p>Use when the project asks how texts present or categorize an issue.</p>
+    <p>For projects about how an issue is packaged in headlines, speeches, or policy text.</p>
     <span class="tag-list">media · texts · coding</span>
   </a>
 
@@ -113,7 +113,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <span class="method-visual" data-method-visual="discourse" aria-hidden="true"></span>
     <span class="method-type">Qualitative</span>
     <h3>Discourse Analysis</h3>
-    <p>Use when the claim turns on language and power.</p>
+    <p>For claims about how language builds identities or turns one view into common sense.</p>
     <span class="tag-list">interpretive · theory-heavy · texts</span>
   </a>
 
@@ -121,7 +121,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <span class="method-visual" data-method-visual="preprocess" aria-hidden="true"></span>
     <span class="method-type">Computational prep</span>
     <h3>Preprocessing</h3>
-    <p>Use before topic models and sentiment analysis. It also fits any text pipeline that someone else should be able to rerun.</p>
+    <p>Decide what counts as a token and what gets dropped. Document each choice.</p>
     <span class="tag-list">cleanup · text-as-data · reproducibility</span>
   </a>
 
@@ -129,7 +129,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <span class="method-visual" data-method-visual="topics" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
     <h3>Topic Analysis</h3>
-    <p>Use to find thematic clusters across a larger document collection and compare them with care.</p>
+    <p>A first map of a large corpus. The model points to clusters. You still name them.</p>
     <span class="tag-list">themes · scale · validation</span>
   </a>
 
@@ -137,7 +137,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <span class="method-visual" data-method-visual="sentiment" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
     <h3>Sentiment Analysis</h3>
-    <p>Use when the project needs a defensible measure of tone or affect.</p>
+    <p>Useful when tone matters and the score can be checked against your own texts.</p>
     <span class="tag-list">tone · dictionaries · classifiers</span>
   </a>
 
@@ -145,7 +145,7 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <span class="method-visual" data-method-visual="embeddings" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
     <h3>Word Embeddings</h3>
-    <p>Use when semantic similarity matters, or when the project needs a model-based representation of meaning.</p>
+    <p>For similarity, conceptual drift, or retrieval when keyword searches are too brittle.</p>
     <span class="tag-list">semantics · vectors · advanced</span>
   </a>
 
@@ -153,14 +153,14 @@ Use this guide when choosing a method is the hard part. It helps you connect you
     <span class="method-visual" data-method-visual="ai" aria-hidden="true"></span>
     <span class="method-type">AI &amp; Code</span>
     <h3>AI &amp; Code</h3>
-    <p>Use when the challenge is organizing sources or writing scripts that keep the workflow documented.</p>
+    <p>For source folders, scripts, and logs that need to stay inspectable.</p>
     <span class="tag-list">agents · scripts · disclosure</span>
   </a>
 </div>
 
 ## Other Methods To Consider
 
-The methods below are not covered in depth yet. Depending on the project, one of them may still be the right choice.
+These methods are only sketched here. Some projects will still need one of them.
 
 <div class="methods-alt-table" markdown="1">
 

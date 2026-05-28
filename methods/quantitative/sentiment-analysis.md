@@ -23,59 +23,58 @@ title: Sentiment Analysis
 
 # Sentiment Analysis
 
-Sentiment analysis assigns numerical values to text tone. Most uses estimate how positive or negative a passage is. Some also measure emotional intensity, which helps when you need a scalar measure of tone across a large corpus.
+Sentiment analysis estimates tone numerically. It works only when the measure matches how tone operates in your corpus.
 
 ---
 
 ## What it is
 
-**Sentiment analysis** usually falls into three families. Each makes different assumptions about what "sentiment" *is* and whom it generalizes to.
+**Sentiment analysis** usually means one of several tools. The important question is what the score is supposed to measure.
 
-1. **Dictionary methods.** Count terms from a curated lexicon (LIWC, VADER, NRC, AFINN). These methods are transparent and reproducible. They struggle with sarcasm and negation, and serious domain shift can break them.
-2. **Supervised classifiers.** Train a model (logistic regression, SVM, fine-tuned transformer) on human-labeled examples. They can be more accurate in-domain. In return, they require labeled training data and careful validation.
-3. **LLM-based rating.** Prompt a large language model to rate each text. This is fast to set up, but ratings can vary across prompts and model versions. Treat the output cautiously. It needs rigorous evaluation and supervisor guidance, plus compliance with the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}) before being trusted for a thesis.
+Dictionary methods count terms from a curated lexicon such as LIWC, VADER, NRC, or AFINN. They are transparent and easy to rerun. They struggle with sarcasm and negation, especially after domain shift.
 
-Which weaknesses bite hardest depends on your texts. Sarcasm-heavy social media breaks dictionary methods. Classifiers trained on movie reviews fail on policy documents. LLM ratings can drift across model releases. Choose with the limits in mind.
+Supervised classifiers work best in-domain and require a labeling plan with validation. LLM-based ratings are quick to set up. Their scores can change with the prompt or model version. Treat that route as experimental unless your supervisor has approved it and you can evaluate it properly under the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}).
+
+The weak point depends on the material. Sarcasm-heavy social media breaks many dictionaries. Classifiers trained on movie reviews fail on policy documents. A thesis needs to show that the chosen measure is valid for the actual texts.
 
 ---
 
 ## What you learn in the DH course
 
-This page draws from the course's sentiment analysis material. Students who take it learn to work with:
+In the DH course, the sentiment unit is mainly about validation. Students practice the following.
 
-- Dictionary methods, including LIWC, VADER, NRC, and AFINN, with attention to what each measures and where it breaks
-- Building a supervised classifier through labeling strategy and feature extraction, followed by a clean train/validation/test split
-- LLM-based sentiment rating, including prompt design and reproducibility, with version pinning as the floor
-- Handling negation and intensifiers, plus other contextual modifiers
+- Comparing dictionary methods and checking where each one breaks
+- Building a supervised classifier from labeled examples
+- Handling negation, intensifiers, and other contextual modifiers
 - Inter-annotator agreement (Cohen's kappa, Krippendorff's alpha) for labeled data
 - Validating sentiment scores against human judgment
-- Reporting sentiment methods in a methodology chapter. Limitations are mandatory
+- Reporting limits without treating the score as self-explanatory
 
 ---
 
 ## What you need to learn first
 
 - **Preprocessing.** Dictionary methods depend heavily on tokenization and lemmatization. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
-- **Basic statistics.** You need agreement metrics and confidence intervals, plus a working sense of reliability.
+- **Basic statistics.** You need agreement metrics, confidence intervals, and a working sense of reliability.
 - **Python or R.** Python options include `vaderSentiment`, `nltk`, and `transformers`. R users can start with `sentimentr` or `quanteda.sentiment`.
 
 ---
 
 ## What you can do with it
 
-- Chart whether coverage of a policy in major newspapers turned negative after a key event
-- Compare emotional tone of government vs. opposition speeches across a legislative term
-- Track sentiment toward a country or leader over time in foreign-language press
+- Chart whether coverage of a policy turned negative after a key event
+- Compare the tone of government and opposition speeches across a legislative term
+- Track sentiment toward a country or leader in foreign-language press
 - Surface high-emotion passages for qualitative close reading
-- Build a scalar covariate you can use in a topic model or regression (e.g. STM with `sentiment` as a prevalence covariate)
+- Build a scalar covariate for a topic model or regression
 
 ---
 
 ## Related methods
 
-- [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}). Dictionary methods are especially sensitive to it.
-- [Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}). Framing scholarship often measures sentiment alongside other dimensions.
-- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}). Sentiment-within-topic is a common analytical pairing.
+- [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}) matters because dictionaries depend on tokens.
+- [Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}) can include sentiment as one dimension of a frame.
+- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}) pairs naturally with sentiment when tone varies by theme.
 
 </div>
 </div>

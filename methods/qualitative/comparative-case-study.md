@@ -33,21 +33,21 @@ title: Comparative Case Study Design
 
 # Comparative Case Study Design
 
-Comparative case study design is widely used in political science and international relations, especially in area studies. It compares two or more cases against explicit criteria to identify what explains an outcome or why similar conditions sometimes produce different results. If your research question asks *why* outcomes differ across cases, or *what factors* account for that variation, comparative design is likely a strong fit.
+Comparative case study design is for questions that need more than one case but still require close knowledge of each case. The comparison works only when the cases are chosen for a reason you can defend.
 
-This page walks you through the logic of comparison and the main design types. It also explains how to select and analyze cases and how to structure a comparative thesis. The guidance applies to both BA and MA students. Where expectations differ by level, I note that.
+The method is common in political science, international relations, and area studies. It is useful for explaining variation across cases or a shared outcome across different settings.
 
 ---
 
 ## What Is Comparative Case Study Design?
 
-Comparative case study design uses structured comparison to draw analytical leverage from differences and similarities across cases. You examine two or more cases side by side, holding some factors constant while letting others vary. That controlled variation is what licenses claims about which factors matter for the outcome under study.
+Comparative case study design uses structured comparison. You examine two or more cases side by side, holding some factors constant while letting others vary. That controlled variation gives the comparison its leverage.
 
-The intellectual foundations go back to John Stuart Mill's ([1843](https://en.wikipedia.org/wiki/A_System_of_Logic)) *methods of agreement and difference*. They remain the logical basis for comparative design. In political science, [Lijphart (1971)](https://doi.org/10.2307/1955513) formalized the comparative method as a distinct research strategy. [Przeworski and Teune (1970)](https://archive.org/details/logicofcomparati0000prze) then developed the most similar and most different systems frameworks that underwrite most comparative theses today.
+The intellectual foundations go back to John Stuart Mill's ([1843](https://en.wikipedia.org/wiki/A_System_of_Logic)) *methods of agreement and difference*. In political science, [Lijphart (1971)](https://doi.org/10.2307/1955513) treated comparison as a distinct research strategy. [Przeworski and Teune (1970)](https://archive.org/details/logicofcomparati0000prze) developed the most similar and most different systems frameworks that still shape many student theses.
 
 <div class="info-box" markdown="1">
 
-**Comparison is analytical work.** A common mistake is to write two separate case studies and call it a comparative thesis. Genuine comparative design needs an explicit analytical framework. That framework specifies *what* you are comparing, *why* those cases were selected, and *how* the comparison helps answer your research question.
+**Comparison is analytical work.** Two separate case chapters do not make a comparative thesis. The analytical framework has to say what is being compared, why these cases belong together, and how the comparison answers the research question.
 
 </div>
 
@@ -57,19 +57,19 @@ The intellectual foundations go back to John Stuart Mill's ([1843](https://en.wi
 
 ### Most Similar Systems Design (MSSD)
 
-MSSD selects cases that are as similar as possible in background conditions but differ in the outcome you want to explain. The logic runs as follows. If two cases share most features but diverge on the outcome, the factors they *do not* share become your leading candidates for explanation.
+MSSD selects cases that are similar in background conditions but different on the outcome. If the cases share most features and still diverge, the features they do not share become leading candidates for explanation.
 
-For example, comparing democratic backsliding in Hungary and Poland (two post-communist EU member states with similar institutional starting points but divergent trajectories after 2015) would follow MSSD logic. The shared context controls for many variables. That lets you focus on what differs.
+For example, a comparison of democratic backsliding in Hungary and Poland would follow MSSD logic. Both are post-communist EU member states with similar institutional starting points. Their trajectories after 2015 diverged. The shared context helps you focus on what differs.
 
 MSSD corresponds to Mill's *method of difference*. It is the more common design in comparative theses because it allows you to control for contextual factors without statistical methods.
 
 ### Most Different Systems Design (MDSD)
 
-MDSD takes the opposite approach. It selects cases that differ on most background conditions but share the outcome of interest. The logic runs as follows. If very different cases all produce the same outcome, the factors they *do* share become strong candidates for explanation.
+MDSD takes the opposite route. It selects cases that differ on most background conditions but share the outcome of interest. If very different cases produce the same outcome, the factors they share deserve attention.
 
-For example, studying why protest movements in Chile, Hong Kong, and Sudan all peaked in 2019 (despite vast differences in political systems and economic structures across very different regions) would follow MDSD logic. You would look for commonalities that cut across the differences.
+For example, a study of why protest movements in Chile, Hong Kong, and Sudan peaked in 2019 would follow MDSD logic. The cases differ sharply, so the argument would look for common conditions that cut across those differences.
 
-MDSD corresponds to Mill's *method of agreement*. In practice, it is most useful when you want to identify factors that operate across diverse contexts.
+MDSD corresponds to Mill's *method of agreement*. It is most useful when you want to identify factors that operate across diverse contexts.
 
 ### Case Selection
 
@@ -77,7 +77,7 @@ Case selection is the most consequential methodological decision in a comparativ
 
 [Seawright and Gerring (2008)](https://doi.org/10.1177/1065912907313077) identify several principled techniques for case selection. These include typical cases, diverse cases, most similar cases, most different cases, extreme cases, and deviant cases. Each serves a different analytical purpose.
 
-| Selection strategy | Purpose | Use when... |
+| Selection strategy | Purpose | Good fit |
 |--------------------|---------|-------------|
 | **Most similar** | Isolate what explains different outcomes | You have cases with shared context but divergent results |
 | **Most different** | Identify common causes across contexts | You have cases with different contexts but the same outcome |
@@ -87,7 +87,7 @@ Case selection is the most consequential methodological decision in a comparativ
 
 <div class="tip-box" markdown="1">
 
-**For BA students.** A two-case comparison using MSSD is the most manageable design. Focus on selecting cases with a clear shared context and a meaningful difference in outcome. For MA students, three-case designs or combinations of MSSD and MDSD logic are common. They can strengthen your explanatory power, but only if you can handle the added complexity within your word limit.
+**For BA students.** A two-case MSSD design is usually the safest choice. Focus on selecting cases with a clear shared context and a meaningful difference in outcome. **For MA students**, a third case can work if the word limit leaves room for the comparison.
 
 </div>
 
@@ -95,20 +95,17 @@ Case selection is the most consequential methodological decision in a comparativ
 
 ## When to Use It
 
-Comparative case study design is appropriate when all or most of the following apply.
+Comparative case study design fits when the question depends on variation across cases.
 
-- Your research question asks **why** outcomes vary across cases, or **what explains** a shared outcome in different contexts
+- Your research question asks **why** outcomes vary across cases
+- You are explaining a shared outcome in different contexts
 - You can identify cases that offer a meaningful basis for causal inference (through similarity or difference)
 - You want to make **causal or explanatory claims**, even if they are tentative
-- Your evidence comes from qualitative sources (documents, interviews, secondary literature, policy records) rather than large-N datasets
-- You want to balance depth of analysis with some degree of cross-case generalizability
+- Your evidence comes from qualitative sources, with enough depth for within-case analysis
 
-It is **less appropriate** in these situations.
+It is a poor fit when the question is really about one case, when the project is mainly descriptive, or when the case set has no plausible basis for structured comparison.
 
-- You are interested in the internal mechanics of a single case (consider [process tracing]({{ '/methods/qualitative/process-tracing' | relative_url }}) instead)
-- Your research question is purely descriptive or interpretive
-- You cannot identify a plausible basis for structured comparison (i.e., the cases have nothing analytically in common)
-- You have so many cases that qualitative comparison becomes superficial (at that point, consider quantitative methods)
+If the project is about the internal mechanics of one case, consider [process tracing]({{ '/methods/qualitative/process-tracing' | relative_url }}). If the case count is too large for careful within-case work, consider a quantitative design.
 
 ---
 
@@ -151,23 +148,23 @@ At the BA level, a clear statement of these elements is sufficient. At the MA le
 
 ### Step 4: Conduct within-case analysis
 
-Before you compare, you need to understand each case on its own terms. For each case, gather and analyze your evidence around the variables in your analytical framework. In practice, that evidence may include primary documents, interviews, secondary scholarship, data, or other sources suited to the case.
+Before you compare, you need to understand each case on its own terms. For each case, gather and analyze your evidence around the variables in your analytical framework. The evidence may include primary documents, interviews, secondary scholarship, data, or other sources suited to the case.
 
-Write up each case as a structured analysis rather than a narrative history. Each case chapter should address the same questions and variables in the same order so the reader can follow the comparison. The parallel structure is essential. Without it, the cross-case chapter gets muddled.
+Write up each case as a structured analysis. Each case chapter should address the same questions and variables in the same order so the reader can follow the comparison. The parallel structure is essential. Without it, the cross-case chapter gets muddled.
 
 ### Step 5: Conduct cross-case comparison
 
-This is where the comparative payoff happens. Compare your cases along every dimension of your analytical framework, in the same order for each case.
+In the cross-case chapter, compare the cases along each dimension of the analytical framework. Use the same order for every case.
 
 - Where do the cases align, and what does that tell you?
 - Where do they diverge, and what factors account for the divergence?
 - Do the patterns you observe support your theoretical expectations, or do they challenge them?
 
-A comparison table or matrix can be useful here. For each explanatory factor, summarize the evidence from each case and note whether it supports or undermines the expected relationship.
+A comparison table or matrix helps here. For each explanatory factor, summarize the evidence from each case and note whether it supports or undermines the expected relationship.
 
 ### Step 6: Draw conclusions with appropriate scope
 
-State what your comparison shows about your research question. Be explicit about the scope of your claims. A two-case comparison supports conditional generalizations ("under these conditions, this factor appears to matter"), not universal laws. Discuss what your findings contribute to the academic debate you identified in the literature review. Note limitations honestly.
+State what your comparison shows about your research question. Be explicit about the scope of your claims. A two-case comparison supports conditional generalizations, such as "under these conditions, this factor appears to matter." Discuss what your findings contribute to the academic debate you identified in the literature review. Note limitations honestly.
 
 <div class="exercise-box" markdown="1">
 
@@ -196,8 +193,8 @@ A comparative case study thesis follows a predictable structure. Chapter titles 
 A few structural notes.
 
 - **The analytical framework chapter must include your case selection justification.** This is not optional. Explain why you chose these cases and what design logic you are using. Then explain what the comparison is designed to show. Reviewers and examiners look for this.
-- **Case chapters must follow parallel structure.** If Case 1 discusses factors A, B, and C in that order, Case 2 must do the same. This makes the cross-case chapter possible and signals analytical discipline.
-- **The cross-case chapter is not a summary.** It is where you do the comparative work. You identify patterns and weigh competing explanations, then address where your expectations held and where they did not. Many students underinvest in this chapter. In practice, it should be one of the strongest parts of your thesis.
+- **Case chapters must follow parallel structure.** If Case 1 discusses the same factors in a given order, Case 2 should follow that order. This makes the cross-case chapter possible.
+- **The cross-case chapter does the comparative work.** Identify patterns and weigh competing explanations, then address where your expectations held and where they did not. Leave enough space for this chapter. It is where the design is judged.
 - **If you have three cases**, you can either give each its own chapter or group two similar cases together and dedicate a separate chapter to the third. Discuss the structure with your supervisor.
 
 <div class="tip-box" markdown="1">
@@ -228,7 +225,7 @@ Notice several features you can emulate in your own thesis.
 
 Hur ([2022](https://www.cornellpress.cornell.edu/book/9781501763649/narratives-of-civic-duty/)), *Narratives of Civic Duty: How National Stories Shape Democracy in Asia* (Cornell UP), offers a complementary model of Korea-Taiwan comparison built around a different explanatory variable, the **state-citizen linkage** (the historicized bond between a national people and their state). Hur's central argument is that citizens are more inclined to fulfill civic duty when they perceive the state as representing the nation to which they belong. National narratives, in this account, are the mechanism through which the linkage is forged or weakened. The comparative design follows MSSD logic. South Korea and Taiwan share key structural conditions, including democratic institutions, advanced economies, and post-authoritarian trajectories. They differ in the strength of the state-citizen linkage their national stories produce.
 
-In South Korea, twentieth-century struggles against Japanese colonialism and the Korean War, followed by decades of postwar military dictatorship, forged a national narrative in which Koreans are a distinct people who fought to build and protect their own state. This narrative produces a strong state-citizen linkage. Citizens internalize an obligation to sustain the state because they understand it as *theirs*, the product of collective sacrifice. In Taiwan, by contrast, the majority Taiwanese-origin population long associated the state with KMT mainlander rule, an imposition from outside rather than something the national community built for itself. Even after democratization, this weaker state-citizen linkage means that national attachment does not translate into civic duty with the same force. Hur's counterintuitive finding is that nationalism can *strengthen* democracy. Where the state-citizen linkage is strong, national identity generates the sense of obligation that sustains democratic participation, what she calls "the last bastion against democratic breakdown." For students designing their own MSSD comparison, the book models how to isolate a specific variable (the strength of the state-citizen linkage) by controlling for structural similarities. It also shows how a comparative design can challenge conventional wisdom about the relationship between nationalism and democracy.
+In South Korea, twentieth-century struggles against Japanese colonialism and the Korean War, followed by decades of postwar military dictatorship, forged a national narrative in which Koreans are a distinct people who fought to build and protect their own state. This narrative produces a strong state-citizen linkage. Citizens internalize an obligation to sustain the state because they understand it as *theirs*, the product of collective sacrifice. In Taiwan, by contrast, the majority Taiwanese-origin population long associated the state with KMT mainlander rule, an outside imposition. Even after democratization, this weaker state-citizen linkage means that national attachment does not translate into civic duty with the same force. Hur's counterintuitive finding is that nationalism can *strengthen* democracy. Where the state-citizen linkage is strong, national identity generates the sense of obligation that sustains democratic participation, what she calls "the last bastion against democratic breakdown." For students designing their own MSSD comparison, the book models how to isolate a specific variable (the strength of the state-citizen linkage) by controlling for structural similarities. It also shows how a comparative design can challenge conventional wisdom about the relationship between nationalism and democracy.
 
 [Jo (2025)](https://doi.org/10.1177/00104140251369326), "Storytelling Elites and the Remaking of Nationhood in Democratic South Korea and Taiwan," *Comparative Political Studies*, offers a third Korea-Taiwan comparison. It combines comparative case design with [process tracing]({{ '/methods/qualitative/process-tracing' | relative_url }}). Jo argues that democratization empowers new **storytelling elites** (rival politicians, dissident intellectuals, and civil society leaders) with the institutional and rhetorical resources to challenge the state's prevailing national narrative. These elites can mount two kinds of challenge. They can contest the **bottom-line premise** of the narrative (its foundational claim about who the national people are) or its **sideline elements** (secondary features that can be revised without threatening the core). The comparative design pairs South Korea and Taiwan as structurally similar cases. Both are East Asian and democratized. Both inherited state-imposed narratives of national oneness, "One Korea" and "One China." From there, Jo traces how storytelling elites challenged those narratives under democracy. In South Korea, new elites contested sideline elements but left the bottom-line premise of Korean nationhood intact. Democracy *entrenched* the "One Korea" narrative. In Taiwan, elites challenged the bottom-line premise itself. Democracy *displaced* the "One China" narrative, which became increasingly untenable in electoral politics. The study is instructive for students because it shows how to combine a structured cross-case comparison (identifying what differs between cases) with interpretive process tracing (showing *how* the divergence unfolded within each case over time).
 
@@ -245,12 +242,12 @@ Find one published comparative study in your topic area (your supervisor can sug
 ## Common Pitfalls
 
 **1. Selecting cases on the dependent variable without variation.**
-If both of your cases have the same outcome, you cannot explain variation. You can only describe commonalities. Make sure your design has inferential power, which usually means variation on either the outcome (MSSD) or the background conditions (MDSD). If you deliberately select cases with the same outcome, as in MDSD, be clear that your aim is to find shared causes. You are not trying to explain difference.
+If both of your cases have the same outcome, you cannot explain variation. You can only describe commonalities. Make sure your design has inferential power, which usually means variation on either the outcome (MSSD) or the background conditions (MDSD). For MDSD, the target is the shared cause.
 
 **2. Writing two separate case studies instead of a comparison.**
-This is the single most common structural problem in comparative theses. If your case chapters lack parallel structure and you do not have a dedicated cross-case comparison chapter, you have written two case studies side by side. That is not yet a comparative analysis. The comparison has to be explicit and structured, applying the same framework to every case.
+A comparison requires parallel case chapters and a dedicated cross-case chapter. Without both, the thesis becomes two case studies placed side by side. The comparison has to be explicit and structured, applying the same framework to every case.
 
-**3. Choosing cases for convenience rather than analytical reasons.**
+**3. Choosing cases for convenience.**
 "I speak Korean and Japanese" is a feasibility statement. It leaves the analytical rationale unstated. Language skills may make cases *feasible*, but the justification must be analytical. Why do these cases, when compared, help answer your research question? Feasibility and analytical logic are both necessary. Neither alone is sufficient.
 
 **4. Failing to specify the analytical framework before analyzing the cases.**
@@ -260,7 +257,7 @@ Define your variables and expectations before conducting your case analysis. Oth
 Some students treat the cross-case chapter as a place to briefly restate what each case chapter already said. The comparison chapter should do new analytical work. Identify patterns across cases and weigh competing explanations. Then discuss where your expectations held and where they did not. This chapter is often where examiners form their strongest impressions of your analytical ability.
 
 **6. Overclaiming from a small number of cases.**
-Two or three cases cannot prove a general theory. Be honest about the scope of your claims. Phrases like "these findings suggest that, under conditions of X, factor Y may contribute to outcome Z" are appropriate. Phrases like "this proves that Y causes Z" are not.
+Two or three cases are too few to prove a general theory. Be honest about the scope of your claims. Phrases like "these findings suggest that, under conditions of X, factor Y may contribute to outcome Z" are appropriate. Avoid language that claims proof from a small case set.
 
 **7. Ignoring alternative explanations.**
 A good comparative design weighs your preferred explanation against plausible alternatives. If you do not address why other factors might account for the outcome, and why your explanation is more persuasive, your analysis will fall short. This matters most at the MA level.

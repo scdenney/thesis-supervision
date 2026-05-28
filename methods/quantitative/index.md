@@ -5,13 +5,13 @@ title: Computational & Quantitative Approaches
 
 # Computational & Quantitative Approaches
 
-These approaches treat a corpus programmatically to extract patterns and build numerical representations at a scale no single reader can handle. The pages below cover the computational methods I most often point students to across the BA and MA programs I supervise.
+These pages are for projects where close reading alone cannot handle the corpus. Computational methods shift the interpretive work to collection, preprocessing, validation, and explanation.
 
-The split with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is about analytical posture. The same subject matter can sit on either side. You can do computational work on a small corpus of parliamentary speeches, and you can do discourse analysis on tweets. What changes is what the method *measures* and where the researcher's judgment enters. In computational work, judgment sits mainly in design and validation. In qualitative work, it sits in interpretation itself.
+The split with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is about analytical posture. The same speeches or tweets can support several kinds of analysis, depending on the claim.
 
 ## Launch the wizard
 
-Already know you need a computational pipeline for OCR, cleanup, metadata assembly, or analysis-ready outputs? The standalone wizard below routes you to the right path for your compute and scale, then hands you a starter kit for Claude Code or Codex.
+If the immediate problem is OCR, cleanup, metadata, or analysis-ready files, use the standalone wizard. It routes by scale and compute, then gives you a starter kit for Claude Code or Codex.
 
 <div class="cb-term-wrap" markdown="0">
   <a class="cb-term" href="https://scdenney.github.io/corpus-building/"
@@ -30,7 +30,7 @@ Already know you need a computational pipeline for OCR, cleanup, metadata assemb
         </span>
       </div>
       <div class="cb-term-caption">
-        Turn a folder of source files into an analysis-ready text corpus. The wizard hands you a starter kit for Claude Code or Codex.
+        Turn a source folder into an analysis-ready text corpus. The wizard builds the starter kit around your constraints.
         <span class="cb-term-arrow">&rarr;</span>
       </div>
     </div>
@@ -42,7 +42,7 @@ Already know you need a computational pipeline for OCR, cleanup, metadata assemb
 <div class="program-cards" markdown="0">
   <a class="program-card" href="{{ '/methods/quantitative/preprocessing' | relative_url }}">
     <h3>Preprocessing</h3>
-    <p>Tokenization, normalization, and the cleanup steps that shape every downstream result.</p>
+    <p>Cleaning choices that shape the model input.</p>
   </a>
 </div>
 
@@ -51,22 +51,22 @@ Already know you need a computational pipeline for OCR, cleanup, metadata assemb
 <div class="program-cards" markdown="0">
   <a class="program-card" href="{{ '/methods/quantitative/topic-analysis' | relative_url }}">
     <h3>Topic Analysis</h3>
-    <p>Find themes across a corpus with LDA, STM, or embedding-based methods.</p>
+    <p>Use LDA, STM, or embedding-based models to map recurring themes.</p>
   </a>
   <a class="program-card" href="{{ '/methods/quantitative/sentiment-analysis' | relative_url }}">
     <h3>Sentiment Analysis</h3>
-    <p>Measure affect with dictionaries, classifiers, or LLM-based ratings where useful.</p>
+    <p>Estimate tone, then validate the measure against the corpus.</p>
   </a>
   <a class="program-card" href="{{ '/methods/quantitative/word-embeddings' | relative_url }}">
     <h3>Word Embeddings</h3>
-    <p>Represent words and documents as vectors for similarity and drift. Use them for classification when needed.</p>
+    <p>Represent words or documents as vectors for similarity, drift, and classification.</p>
   </a>
 </div>
 
 <div class="question-banner" markdown="0">
   <div class="question-banner-copy">
     <strong>Need to sort out the corpus or pipeline before choosing one of these?</strong>
-    <p>Use the corpus page for planning and organization. Use the wizard above when the main issue is workflow, OCR, or compute.</p>
+    <p>Use the corpus page for research design. Use the wizard when the bottleneck is files, OCR, or compute.</p>
   </div>
   <a href="{{ '/methods/building-a-corpus' | relative_url }}">Go to Building a Corpus</a>
 </div>
@@ -75,31 +75,31 @@ Already know you need a computational pipeline for OCR, cleanup, metadata assemb
 
 ## In the classroom
 
-I teach these methods in two of my Leiden courses. If you're enrolled in one, the method pages above work as a reference alongside the weekly sessions.
+I teach these methods in two Leiden courses. If you are enrolled in either one, these pages give you the methodological language that the weekly exercises do not always have time to spell out.
 
 <div class="program-cards" markdown="0">
   <a class="program-card" href="https://scdenney.github.io/ba2_digital-korea/" target="_blank" rel="noopener">
     <span class="card-level ba">BA2</span>
     <h3>Digital Korea</h3>
-    <p>12-session course in computational text analysis with Orange Data Mining and R, aimed mainly at Korean Studies students. Covers the full preprocessing → classification → topic modeling pipeline.</p>
+    <p>12-session course in computational text analysis with Orange Data Mining and R, aimed mainly at Korean Studies students. It starts with preprocessing and ends with topic modeling.</p>
   </a>
   <a class="program-card" href="https://scdenney.github.io/ba3_text_as_data/" target="_blank" rel="noopener">
     <span class="card-level ba">BA3</span>
     <h3>Text as Data (DH strand)</h3>
-    <p>Six-seminar digital-humanities strand of the BA3 <em>Contemporary Korea and Digital Humanities</em> course. No programming required. It introduces descriptive, clustering, classification, and topic-modeling methods on pre-prepared Korean corpora.</p>
+    <p>Six-seminar digital-humanities strand of the BA3 <em>Contemporary Korea and Digital Humanities</em> course. No programming required. Students work with prepared Korean corpora and learn how the main text-as-data tools behave.</p>
   </a>
 </div>
 
-If your thesis draws on either course, these method pages extend what we cover in class. They supply the extra methodological grounding the methods chapter usually needs.
+If your thesis draws on either course, use these pages to turn the classroom workflow into methods-chapter prose.
 
 ---
 
 ## Combining with qualitative methods
 
-Most strong theses pair a computational measure with a qualitative reading. See the [Qualitative Approaches]({{ '/methods/qualitative/' | relative_url }}) page for that side of the split. The end of that page lists common pairings, including framing + topic analysis and discourse analysis + keyword-in-context tooling. It also covers comparative case study with descriptive statistics.
+Many theses are stronger when a computational measure is checked through close reading. See [Qualitative Approaches]({{ '/methods/qualitative/' | relative_url }}) for that side of the split and for common pairings.
 
 ---
 
 ## Overview and other methods
 
-Return to the [Methods overview]({{ '/methods/' | relative_url }}) for the wider orientation. Its "Other Methods to Explore" table points to less commonly used approaches outside these pages.
+Return to the [Methods overview]({{ '/methods/' | relative_url }}) if none of the pages here fits your project.

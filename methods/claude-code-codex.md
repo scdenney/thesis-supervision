@@ -5,13 +5,13 @@ title: AI & Code
 
 # AI & Code
 
-Claude Code, Codex, and similar agentic coding tools become useful once thesis work turns file-based. You will have sources in folders, metadata in spreadsheets, scripts that need to run, and outputs that need checking against the originals. Methods documentation belongs in the same workflow. The point is to make the process easier to inspect and rerun. Judgment and the final interpretive claims still have to come from you.
+Claude Code, Codex, and similar coding agents become useful once thesis work turns file-based. At that stage you have source folders, metadata sheets, scripts, and outputs that need checking against the originals. Methods documentation belongs in the same workflow. The point is inspection and rerunning. Judgment and final interpretive claims stay with you.
 
 <div class="workflow-hero" markdown="0">
   <div>
     <p class="section-kicker">Practical lab</p>
     <h2>Use AI tools where they make the research process clearer</h2>
-    <p>Good use is procedural and inspectable. Organize files, clean text, write scripts, test outputs, and keep a record of what changed. The problem to avoid is hiding analysis behind generated claims you cannot defend.</p>
+    <p>Use these tools for work you can inspect: file organization, text cleanup, scripts, tests, and change logs. Avoid analysis you cannot defend.</p>
   </div>
   <a class="hero-action" href="https://scdenney.github.io/corpus-building/">Open Corpus Building Wizard</a>
 </div>
@@ -29,7 +29,7 @@ Claude Code, Codex, and similar agentic coding tools become useful once thesis w
   <button class="workflow-card workflow-action" type="button" data-workflow-target="prompt-corpus">
     <span class="method-type">Corpus pipeline</span>
     <h3>Convert and clean files</h3>
-    <p>Use scripts for repetitive work. OCR checks, PDF-to-text conversion, header removal, deduplication, and word counts should be routine rather than improvised.</p>
+    <p>Treat OCR checks, PDF-to-text conversion, header removal, and deduplication as routine scripted steps.</p>
     <span class="workflow-action-label">Jump to prompt</span>
   </button>
 
@@ -43,7 +43,7 @@ Claude Code, Codex, and similar agentic coding tools become useful once thesis w
   <button class="workflow-card workflow-action" type="button" data-workflow-target="prompt-disclosure">
     <span class="method-type">Methods documentation</span>
     <h3>Audit the process</h3>
-    <p>Check whether the record would hold up in a methods chapter. Prompts, scripts, outputs, exclusions, and transformations need to be traceable.</p>
+    <p>Check whether the record would hold up in a methods chapter. Prompts, scripts, outputs, and exclusions need to be traceable.</p>
     <span class="workflow-action-label">Jump to prompt</span>
   </button>
 </div>
@@ -111,7 +111,7 @@ The standard is simple. If the work shapes the argument, you have to understand 
   <a class="route-card" href="{{ '/methods/building-a-corpus' | relative_url }}">
     <span class="route-label">Before analysis</span>
     <h3>Building a Corpus</h3>
-    <p>Use this if the challenge is choosing source material, setting corpus boundaries, collecting files, and documenting the result.</p>
+    <p>Use this if the challenge is choosing source material, setting corpus boundaries, collecting files, or documenting the result.</p>
   </a>
 
   <a class="route-card" href="{{ '/methods/quantitative/' | relative_url }}">
@@ -123,6 +123,6 @@ The standard is simple. If the work shapes the argument, you have to understand 
   <a class="route-card accent-route-card" href="https://scdenney.github.io/corpus-building/">
     <span class="route-label">Interactive companion</span>
     <h3>Corpus Building Wizard</h3>
-    <p>Use the companion wizard if you need a concrete starter kit for Claude Code or Codex.</p>
+    <p>Open the companion wizard when you need a starter kit for Claude Code or Codex.</p>
   </a>
 </div>

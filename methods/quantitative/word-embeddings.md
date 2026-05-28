@@ -23,59 +23,60 @@ title: Word Embeddings
 
 # Word Embeddings
 
-Word embeddings are numerical representations of words and documents that encode semantic relationships as distances in vector space. Most modern NLP uses them, and they make it possible to trace concepts at scale.
+Word embeddings turn words or documents into vectors. The main use is distance: items with similar usage sit closer together.
 
 ---
 
 ## What it is
 
-**Word embeddings** represent each word or document as a vector in a high-dimensional space, so semantically related items land close to each other. The two broad families are:
+**Word embeddings** represent language in a high-dimensional space. For thesis work, two families matter most.
 
-1. **Static embeddings** use one vector per word, learned from co-occurrence patterns in a training corpus. Word2Vec (skip-gram, CBOW), GloVe, and fastText are the classic examples. They train quickly and are easy to inspect. The tradeoff is context. "Bank" has one vector whether the sentence is about a river or a financial institution.
-2. **Contextual embeddings** produce a fresh vector per word *in context* with a pre-trained transformer (BERT, RoBERTa, sentence-transformers). They often work better for downstream tasks. In exchange, they are harder to interpret directly and computationally heavier.
+Static embeddings use one vector per word, learned from co-occurrence patterns in a training corpus. Word2Vec, GloVe, and fastText are the classic examples. They train quickly and are easy to inspect. The cost is context. "Bank" has one vector whether the sentence concerns a river or a financial institution.
 
-Embeddings are a representation you feed into something else. In practice, that might be a similarity search, a classifier, a clustering algorithm, or a time-trajectory measurement.
+Contextual embeddings produce a fresh vector for a word or sentence in context, usually with a pre-trained transformer. They often work better for downstream tasks. They are also harder to interpret directly and heavier to run.
+
+Embeddings are rarely the final method. They are usually an input to similarity search, classification, clustering, or a measurement of semantic change.
 
 ---
 
 ## What you learn in the DH course
 
-This page draws from the course's word-embedding material. Students who take it come away with:
+In the DH course, embeddings are taught as representations you have to inspect. Students work through:
 
 - Vector-space semantics and the distributional hypothesis ("a word is known by the company it keeps")
-- Training a Word2Vec / GloVe / fastText model on your own corpus vs. using a pre-trained model
-- Contextual embeddings, including BERT and multilingual BERT. You learn when sentence-transformers are worth the compute
-- Similarity operations with cosine distance and nearest neighbors. Analogy tasks come up here too
+- Training a model on your own corpus versus using a pre-trained model
+- Contextual embeddings, including BERT and multilingual BERT
+- Similarity operations with cosine distance and nearest neighbors
 - Aligning embedding spaces across time (to measure semantic change) or across languages
-- Using embeddings as input features for classification or clustering. The same representations also support topic analysis
-- Reporting embedding-based methods by pinning model versions and documenting the training corpus. A clear note on limits belongs there as well
+- Using embeddings as input features for classification or clustering
+- Reporting model versions and the training corpus clearly
 
 ---
 
 ## What you need to learn first
 
-- **Preprocessing.** Embeddings learn from the vocabulary you feed them, so decisions here propagate into the geometry. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
-- **Linear algebra basics.** You need cosine similarity and vector arithmetic, plus enough dimensionality-reduction intuition to read a plot. You don't need to derive it. A working mental model is enough.
+- **Preprocessing.** Embeddings are trained on the retained vocabulary, so decisions here affect the vector space. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
+- **Linear algebra basics.** You need cosine similarity, vector arithmetic, and enough dimensionality-reduction intuition to read a plot. You do not need to derive the math.
 - **Python.** Essentially all embedding tooling is Python-first (`gensim`, `transformers`, `sentence-transformers`). R bindings exist but lag.
 
 ---
 
 ## What you can do with it
 
-- Measure how the meaning of a political keyword shifts across decades (diachronic embeddings)
-- Surface near-synonyms and related terms you'd otherwise miss in keyword searches
+- Measure how the meaning of a political keyword shifts across decades
+- Surface near-synonyms and related terms missed by keyword searches
 - Cluster documents by semantic similarity, even when they share no keywords
-- Build a retrieval system for a large corpus (semantic search instead of exact-match)
-- Feed sentence- or document-level embeddings into a sentiment or classification model
-- Use cross-language alignment to find the Korean equivalent of an English concept by projecting embeddings into a shared space
+- Build semantic search for a large corpus
+- Feed sentence- or document-level embeddings into a classifier
+- Use cross-language alignment to compare concepts across languages
 
 ---
 
 ## Related methods
 
-- [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}). This sets the vocabulary the embedding sees.
-- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}). Embedding-based topic methods (BERTopic, Top2Vec) are built directly on contextual embeddings.
-- [Sentiment Analysis]({{ '/methods/quantitative/sentiment-analysis' | relative_url }}). Modern sentiment classifiers use contextual embeddings as their feature layer.
+- [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}) sets the vocabulary used to train or query the embedding.
+- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}) includes embedding-based topic methods.
+- [Sentiment Analysis]({{ '/methods/quantitative/sentiment-analysis' | relative_url }}) often uses contextual embeddings under the hood.
 
 </div>
 </div>

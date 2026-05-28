@@ -39,17 +39,17 @@ title: Building a Corpus
 
 # Building a Corpus
 
-This guide explains how to collect and organize a corpus of textual data. Corpus building is preparatory work. It gives you the defined body of texts you need before applying any method that depends on textual evidence. Content analysis, including [framing analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}) and [discourse analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}), depends on a well-constructed corpus before the analytical work can begin.
+A corpus is the body of texts your analysis rests on. Build it deliberately. Decide what belongs in it and record how it was collected. Keep enough documentation for the method chapter.
 
-A weak corpus undermines everything built on top of it. If your selection criteria are unclear or your documentation is incomplete, no amount of careful analysis will produce credible results. This guide takes you from planning to organization. The aim is practical. You should finish with a corpus you can defend in your methodology chapter.
+A weak corpus damages everything that follows. If the selection criteria are vague or the search record is missing, careful analysis cannot repair the problem later. The aim here is practical. You should finish with a corpus you can defend.
 
 ---
 
 ## What Is a Corpus?
 
-A **corpus** (plural *corpora*) is a deliberately assembled collection of texts selected according to explicit criteria for analysis. The key word is *deliberate*. A corpus is a defined, bounded collection whose composition you can explain and justify, rather than "all the articles I found" or "everything on this topic."
+A **corpus** (plural *corpora*) is a deliberately assembled collection of texts selected according to explicit criteria for analysis. The key word is *deliberate*. A corpus is a defined, bounded collection whose composition you can explain and justify. It is never just "all the articles I found" or "everything on this topic."
 
-Corpora can include many kinds of textual material.
+Corpora can include many kinds of textual material:
 
 - News articles from specific outlets over a defined period
 - Policy documents, government reports, or legislative texts
@@ -135,17 +135,17 @@ Before collecting any texts, draft a one-page corpus construction plan. Include 
 For most thesis projects in the social sciences and humanities, commercial databases and institutional archives are the primary collection tools. Through the Leiden University Library, these options are especially common.
 
 **LexisNexis Academic (Nexis Uni)**
-- Best for: News media (newspapers, wire services, magazines, trade publications)
+- Main use: News media (newspapers, wire services, magazines, trade publications)
 - Coverage: Thousands of international sources. Strong on English-language media, variable for non-English
 - Tips: Use the "Timeline" and "Source" filters to narrow results efficiently. Export metadata (headline, date, source, word count) along with full text. LexisNexis sometimes includes duplicate articles from syndication, so build de-duplication into your workflow. Limit searches by content type (e.g., "News" only) to exclude irrelevant material.
 
 **Factiva (Dow Jones)**
-- Best for: International business and financial news, plus major general-interest media
+- Main use: International business and financial news, plus major general-interest media
 - Coverage: Strong international coverage. Often better than LexisNexis for Asian and European sources
 - Tips: Factiva's search operators differ from LexisNexis. Consult the help documentation. Use "Source Lists" to define your publication set. Export to RTF or PDF for consistent formatting. Factiva is particularly useful for multilingual searches because it allows you to search in one language and filter by region.
 
 **ProQuest**
-- Best for: Academic theses and dissertations, historical newspapers, and specialized subject databases
+- Main use: Academic theses and dissertations, historical newspapers, and specialized subject databases
 - Coverage: Includes historical archives (e.g., *The New York Times* back to 1851) and discipline-specific databases
 - Tips: Useful when your corpus needs historical depth. The "Document Type" filter is essential for excluding irrelevant results. ProQuest also hosts several specialized databases (e.g., PAIS International for policy literature, Ethnic NewsWatch for minority media).
 
@@ -240,11 +240,11 @@ Add all corpus texts to your reference manager (Zotero, Mendeley, or equivalent)
 
 ## Using Computational Tools
 
-For small corpora (under 100 texts), manual organization is manageable. Larger collections often need help, especially when the corpus requires format conversion or cleaning.
+Small corpora, say under 100 texts, can often be organized by hand. Larger collections need a more mechanical workflow, especially when the material has to be converted or cleaned.
 
 ### Basic file operations
 
-Many corpus-building tasks are repetitive. Common examples include converting PDFs to plain text, renaming files in batch, extracting text from HTML pages, removing headers and footers, or splitting large export files into individual documents. These jobs are well-suited to scripting.
+Many corpus-building tasks are repetitive. Common examples include converting PDFs to plain text, renaming files in batch, extracting text from HTML pages, removing boilerplate, or splitting a large export into individual documents. These jobs are well-suited to scripting.
 
 - **Python** is the most common language for text processing in the social sciences. Libraries like `BeautifulSoup` (HTML parsing), `pdfplumber` or `PyMuPDF` (PDF extraction), and `pandas` (metadata management) handle most corpus-building tasks.
 - **R** users can accomplish similar tasks with packages like `pdftools`, `rvest`, and `readtext`.
@@ -252,7 +252,7 @@ Many corpus-building tasks are repetitive. Common examples include converting PD
 
 ### AI-assisted corpus management
 
-AI coding assistants such as Claude Code, OpenAI Codex, or GitHub Copilot can be useful for corpus management tasks, especially for students without much programming experience. These tools can help you:
+AI coding assistants such as Claude Code, OpenAI Codex, or GitHub Copilot can help students draft and test small corpus-management scripts, especially when programming experience is limited. Typical tasks include:
 
 - Write scripts to batch-convert PDFs to plain text
 - Clean and standardize text files (removing headers, footers, boilerplate)
@@ -273,9 +273,9 @@ You do not need to be a programmer to use these tools effectively. Describe the 
 
 ### An agent-guided pipeline
 
-If your project needs a full computational pipeline, I maintain a standalone [Corpus Building Wizard](https://scdenney.github.io/corpus-building/). Typical cases include OCR from scanned PDFs, rule-based cleanup, metadata assembly, or outputs formatted for a specific analysis tool. The wizard asks six questions about your project and hands you a starter kit for [Claude Code](https://claude.ai/code){:target="_blank"} or [OpenAI Codex](https://developers.openai.com/codex/){:target="_blank"}. You get skills to read and templates to copy. It also gives you a one-line terminal command that launches an agent session already primed with your specifics.
+If your project needs a full computational pipeline, I maintain a standalone [Corpus Building Wizard](https://scdenney.github.io/corpus-building/). Use it for OCR from scanned PDFs, rule-based cleanup, metadata assembly, or outputs formatted for a specific analysis tool. The wizard asks about your project and returns a setup for [Claude Code](https://claude.ai/code){:target="_blank"} or [OpenAI Codex](https://developers.openai.com/codex/){:target="_blank"}. It also gives you a one-line terminal command for an agent session already primed with your specifics.
 
-The wizard covers realistic execution paths. Cloud API works for laptops. ALICE / LUCDH handles HPC work. A local consumer GPU suits students who'd rather run things at home. The broader methodological decisions (scope, selection, ethics, documentation) stay on this page, where they belong.
+The wizard covers three execution paths. Cloud API works for laptops. ALICE / LUCDH handles HPC work. A local consumer GPU suits students who prefer to run things at home. The broader methodological decisions (scope, selection, ethics, documentation) stay here.
 
 <aside class="cb-mini-wizard" markdown="0">
   <span class="cb-mini-eyebrow">Quick route</span>
@@ -328,7 +328,7 @@ In your **methodology chapter**, cover these points.
 
 ### Selection criteria
 
-Explain what types of texts you collected and why. Justify your choice of sources and time frame, along with any inclusion/exclusion rules you applied. Connect these decisions to your research question rather than treating them as background logistics.
+Explain what types of texts you collected and why. Justify your choice of sources and time frame, along with any inclusion/exclusion rules you applied. Connect these decisions to your research question. They are part of the research design, not background logistics.
 
 > *Example:* "The corpus consists of English-language news articles from the *Korea Herald* and *Korea Times* published between March 2016 and December 2017, covering the period from the initial announcement of THAAD deployment to the completion of installation. These sources were selected because they are the two major English-language daily newspapers in South Korea and provide sustained coverage of the issue accessible to an international audience."
 
