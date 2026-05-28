@@ -361,11 +361,11 @@ These are the essential references for a framing analysis thesis. You can cite s
 
 ## Related Methods
 
-Framing analysis often overlaps with or complements other methods. Depending on your research question, you may want to explore these.
+Framing analysis borders two other pages.
 
-- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}).** Goes deeper into how language constructs meaning and identity. It also asks how language sustains power relations. Where framing analysis asks "how is this issue presented?", discourse analysis asks "how does language constitute social reality?" If your interest is in the ideological or power dimensions of communication, discourse analysis may be more appropriate, or may complement framing analysis.
+- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }}).** Choose this when the project is less about coding frames and more about how language builds identities, authority, or power relations.
 
-- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}).** Every framing analysis depends on a well-constructed corpus. That page covers source selection, database access, sampling strategies, and data management. Consult it before finalizing your research design.
+- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}).** Use this before fixing the codebook if the source base is still unsettled. Frame counts mean little if the corpus boundaries are vague.
 
 </div>
 </div>

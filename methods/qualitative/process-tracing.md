@@ -300,13 +300,11 @@ The useful model is the sequence. State the mechanism before the findings. Then 
 
 ## Related Methods
 
-Process tracing is often combined with other methods.
+Process tracing usually sits next to one other method.
 
-- **[Comparative Case Study]({{ '/methods/qualitative/comparative-case-study' | relative_url }}).** Process tracing is a within-case method, while comparative case study works across cases. They answer different but complementary questions. Comparative design helps you identify *which* variables matter by examining patterns across cases. Process tracing then helps explain *how* those variables operate by tracing the causal mechanism within a single case.
+- **[Comparative Case Study]({{ '/methods/qualitative/comparative-case-study' | relative_url }}).** Use comparison to identify the variable or case difference that needs explaining. Use process tracing to test the mechanism inside one case.
 
-- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}).** Process tracing often requires assembling a structured body of primary source material such as documents, speeches, policy records, and media coverage. That guide covers practical strategies for collecting and organizing textual evidence so it stays manageable.
+- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}).** Use it when the evidence comes from documents, speeches, policy records, or media coverage. A clean source base makes it easier to test each step of the mechanism.
 
 </div>
 </div>
-</content>
-</invoke>

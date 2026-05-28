@@ -240,7 +240,7 @@ Add all corpus texts to your reference manager (Zotero, Mendeley, or equivalent)
 
 ## Using Computational Tools
 
-Small corpora, say under 100 texts, can often be organized by hand. Larger collections need a more mechanical workflow, especially when the material has to be converted or cleaned.
+Small corpora, say under 100 texts, can often be organized by hand. Larger collections need a more mechanical workflow when the material has to be converted or cleaned.
 
 ### Basic file operations
 
@@ -252,7 +252,7 @@ Many corpus-building tasks are repetitive. Common examples include converting PD
 
 ### AI-assisted corpus management
 
-AI coding assistants such as Claude Code, OpenAI Codex, or GitHub Copilot can help students draft and test small corpus-management scripts, especially when programming experience is limited. Typical tasks include:
+AI coding assistants such as Claude Code, OpenAI Codex, or GitHub Copilot can help students with limited programming experience draft and test small corpus-management scripts. Typical tasks include:
 
 - Write scripts to batch-convert PDFs to plain text
 - Clean and standardize text files (removing headers, footers, boilerplate)
@@ -400,10 +400,10 @@ These works provide methodological foundations for corpus construction and text-
 
 ## Related Methods
 
-Corpus construction is a preparatory step for several analytical methods. Once your corpus is built, you may apply one of these methods.
+After the source base is set, choose the method that fits the claim.
 
-- **[Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }})**. Analyzing how issues are defined and problems diagnosed. It also tracks how solutions are proposed in textual material.
-- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }})**. Examining how language constructs meaning, identity, and power relations within and across texts.
+- **[Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }})**. Use this for questions about how texts define a problem and make some responses seem reasonable.
+- **[Discourse Analysis]({{ '/methods/qualitative/discourse-analysis' | relative_url }})**. Use this for questions about how language builds meaning, identity, and authority.
 
 </div>
 </div>

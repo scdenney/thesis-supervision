@@ -294,15 +294,13 @@ Start with [Seawright and Gerring (2008)](https://doi.org/10.1177/10659129073130
 
 ## Related Methods
 
-Comparative case study design is often combined with other methods to strengthen within-case analysis or to build the evidentiary base for comparison.
+Most comparative projects need one neighboring method.
 
-- **[Process Tracing]({{ '/methods/qualitative/process-tracing' | relative_url }}).** If your comparative design identifies *what* factors differ across cases, process tracing helps you establish *how* those factors actually produced the outcome within each case. Combining the two is a common and powerful strategy, especially at the MA level. On integrating comparative and within-case methods, see [Seawright (2016)](https://doi.org/10.1017/CBO9781316160831).
+- **[Process Tracing]({{ '/methods/qualitative/process-tracing' | relative_url }}).** Use it when the comparison shows which factor matters, but the thesis still has to show the path from cause to outcome inside each case. On comparative and within-case methods, see [Seawright (2016)](https://doi.org/10.1017/CBO9781316160831).
 
-- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}).** If your case analysis draws on a defined body of texts (policy documents or media coverage, say), you will need to construct a corpus for each case. The corpus-building guide covers how to collect and manage textual data under consistent rules. That discipline keeps your comparison resting on transparent and replicable evidence.
+- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}).** Use it when each case rests on documents, speeches, policy records, or media coverage. Define the source base for each case in the same way, or the comparison will be driven by uneven evidence.
 
-For guidance on how your method choice is assessed, see [Assessment Standards, Application of Knowledge]({{ '/assessment-standards/#application-of-knowledge' | relative_url }}). For ethical considerations in comparative research, especially when working with human participants or sensitive topics across different national contexts, see [Ethics]({{ '/ethics/' | relative_url }}).
+Assessment criteria for method choice are listed under [Assessment Standards, Application of Knowledge]({{ '/assessment-standards/#application-of-knowledge' | relative_url }}). If the comparison involves interviews, vulnerable groups, or sensitive national contexts, check [Ethics]({{ '/ethics/' | relative_url }}) before collecting material.
 
 </div>
 </div>
-</content>
-</invoke>
