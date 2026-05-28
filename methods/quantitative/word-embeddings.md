@@ -23,18 +23,18 @@ title: Word Embeddings
 
 # Word Embeddings
 
-Numerical representations of words (and documents) that encode semantic relationships as geometric ones — the foundation of most modern NLP, and the workhorse for tracing concepts at scale.
+Numerical representations of words (and documents) that encode semantic relationships as distances in vector space. Most modern NLP uses them, and they make it possible to trace concepts at scale.
 
 ---
 
 ## What it is
 
-**Word embeddings** represent each word (or document) as a vector in a high-dimensional space such that semantically related items land close to each other. Two broad families:
+**Word embeddings** represent each word (or document) as a vector in a high-dimensional space, so that semantically related items land close to each other. The two broad families are:
 
-1. **Static embeddings**: one vector per word, learned from co-occurrence patterns in a training corpus. Word2Vec (skip-gram, CBOW), GloVe, and fastText are the classics. Fast to train and easy to inspect, but context-insensitive. "Bank" has one vector whether it's a river or a financial institution.
-2. **Contextual embeddings**: a fresh vector per word *in context*, produced by a pre-trained transformer (BERT, RoBERTa, sentence-transformers). More accurate for downstream tasks, but harder to interpret directly and computationally heavier.
+1. **Static embeddings** use one vector per word, learned from co-occurrence patterns in a training corpus. Word2Vec (skip-gram, CBOW), GloVe, and fastText are the classics. They train quickly and are easy to inspect. The tradeoff is context. "Bank" has one vector whether the sentence is about a river or a financial institution.
+2. **Contextual embeddings** produce a fresh vector per word *in context* with a pre-trained transformer (BERT, RoBERTa, sentence-transformers). They often work better for downstream tasks. In exchange, they are harder to interpret directly and computationally heavier.
 
-Embeddings aren't an analysis on their own. They're a representation you feed into something else, such as a similarity search, a classifier, a clustering algorithm, or a time-trajectory measurement.
+Embeddings are a representation you feed into something else. In practice, that might be a similarity search, a classifier, a clustering algorithm, or a time-trajectory measurement.
 
 ---
 
@@ -44,19 +44,19 @@ This page draws from the course's word-embedding material. Students who take it 
 
 - Vector-space semantics and the distributional hypothesis ("a word is known by the company it keeps")
 - Training a Word2Vec / GloVe / fastText model on your own corpus vs. using a pre-trained model
-- Contextual embeddings: BERT, multilingual BERT, sentence-transformers, and when each is worth the compute
-- Similarity operations: cosine distance and nearest neighbors, plus analogy tasks
+- Contextual embeddings, including BERT and multilingual BERT, and a sense of when sentence-transformers are worth the compute
+- Similarity operations with cosine distance and nearest neighbors. Analogy tasks come up here too
 - Aligning embedding spaces across time (to measure semantic change) or across languages
-- Using embeddings as input features for classification or clustering, and as the basis for topic analysis
-- Reporting embedding-based methods: pinning model versions and documenting the training corpus, plus a clear note on limits
+- Using embeddings as input features for classification or clustering. The same representations also support topic analysis
+- Reporting embedding-based methods by pinning model versions and documenting the training corpus. A clear note on limits belongs there as well
 
 ---
 
 ## What you need to learn first
 
-- **Preprocessing**: embeddings learn from the vocabulary you feed them, so decisions here propagate into the geometry. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
-- **Linear algebra basics**: cosine similarity and vector arithmetic, plus enough dimensionality-reduction intuition to read a plot. You don't need to derive it, but you need a mental model.
-- **Python**: essentially all embedding tooling is Python-first (`gensim`, `transformers`, `sentence-transformers`). R bindings exist but lag.
+- **Preprocessing:** embeddings learn from the vocabulary you feed them, so decisions here propagate into the geometry. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
+- **Linear algebra basics:** you need cosine similarity and vector arithmetic, plus enough dimensionality-reduction intuition to read a plot. You don't need to derive it. A working mental model is enough.
+- **Python:** essentially all embedding tooling is Python-first (`gensim`, `transformers`, `sentence-transformers`). R bindings exist but lag.
 
 ---
 
@@ -67,7 +67,7 @@ This page draws from the course's word-embedding material. Students who take it 
 - Cluster documents by semantic similarity, even when they share no keywords
 - Build a retrieval system for a large corpus (semantic search instead of exact-match)
 - Feed sentence- or document-level embeddings into a sentiment or classification model
-- Cross-language alignment: find the Korean equivalent of an English concept by projecting embeddings into a shared space
+- Use cross-language alignment to find the Korean equivalent of an English concept by projecting embeddings into a shared space
 
 ---
 

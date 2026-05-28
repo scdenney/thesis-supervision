@@ -5,13 +5,13 @@ title: AI & Code
 
 # AI & Code
 
-Claude Code, Codex, and similar agentic coding tools are most useful when thesis work becomes file-based: sources in folders, metadata in spreadsheets, scripts that need to run, outputs that need checking, and methods that need documentation. The point of using them is to make the workflow more explicit and reproducible. Judgment and final interpretive claims still have to come from you.
+Claude Code, Codex, and similar agentic coding tools become useful once thesis work turns file-based. You will have sources sitting in folders, metadata in spreadsheets, scripts that need to run, and outputs that need checking against the originals. Methods documentation lands in the same bucket. The point is to make the workflow easier to inspect and rerun. Judgment and the final interpretive claims still have to come from you.
 
 <div class="workflow-hero" markdown="0">
   <div>
     <p class="section-kicker">Practical lab</p>
     <h2>Use AI tools where they make the research process clearer</h2>
-    <p>Good use is procedural and inspectable. Organize files, clean text, write scripts, test outputs, and document what changed. The misuse to avoid is hiding analysis behind generated claims you cannot defend.</p>
+    <p>Good use is procedural and inspectable. Organize files, clean text, write scripts, test outputs, and keep a record of what changed. The misuse to avoid is hiding analysis behind generated claims you cannot defend.</p>
   </div>
   <a class="hero-action" href="https://scdenney.github.io/corpus-building/">Open Corpus Building Wizard</a>
 </div>
@@ -22,35 +22,35 @@ Claude Code, Codex, and similar agentic coding tools are most useful when thesis
   <button class="workflow-card workflow-action" type="button" data-workflow-target="prompt-folder">
     <span class="method-type">No code required</span>
     <h3>Organize sources</h3>
-    <p>Create a folder structure, naming convention, metadata sheet, and evidence log before analysis begins.</p>
+    <p>Create the folder structure before analysis begins. Add naming rules and metadata fields. Keep an evidence log.</p>
     <span class="workflow-action-label">Jump to prompt</span>
   </button>
 
   <button class="workflow-card workflow-action" type="button" data-workflow-target="prompt-corpus">
     <span class="method-type">Corpus pipeline</span>
     <h3>Convert and clean files</h3>
-    <p>Use scripts for repetitive work: OCR checks, PDF-to-text conversion, header removal, deduplication, and word counts.</p>
+    <p>Use scripts for repetitive work. OCR checks, PDF-to-text conversion, header removal, deduplication, and word counts should be routine rather than improvised.</p>
     <span class="workflow-action-label">Jump to prompt</span>
   </button>
 
   <button class="workflow-card workflow-action" type="button" data-workflow-target="prompt-script">
     <span class="method-type">Code support</span>
     <h3>Build or debug scripts</h3>
-    <p>Ask the tool to inspect errors, add tests, explain a script, or make a pipeline easier to rerun.</p>
+    <p>Ask the tool to inspect errors and add tests. It can also explain a script or make a pipeline easier to rerun.</p>
     <span class="workflow-action-label">Jump to prompt</span>
   </button>
 
   <button class="workflow-card workflow-action" type="button" data-workflow-target="prompt-disclosure">
     <span class="method-type">Methods documentation</span>
     <h3>Audit the process</h3>
-    <p>Check whether prompts, scripts, outputs, exclusions, and transformations are documented well enough for a methods chapter.</p>
+    <p>Check whether the record would hold up in a methods chapter. Prompts, scripts, outputs, exclusions, and transformations all need to be traceable.</p>
     <span class="workflow-action-label">Jump to prompt</span>
   </button>
 </div>
 
 ## Starter Prompts
 
-Use these as starting points. Replace bracketed text with your actual project details.
+Treat these as starting points. Swap the bracketed text out for your actual project details.
 
 <div class="prompt-grid" markdown="0">
   <article class="prompt-card">
@@ -88,13 +88,13 @@ Use these as starting points. Replace bracketed text with your actual project de
 
 ## Responsible Use Checklist
 
-Before you rely on an AI/code-assisted workflow, make sure you can answer all of the following:
+Before you lean on any AI- or code-assisted workflow, you should be able to answer all of the following.
 
 - Can you explain what the tool did and why that step was appropriate?
 - Are prompts, scripts, outputs, and manual corrections stored somewhere you can revisit?
 - Did you verify a sample of outputs against the original sources?
 - Are the corpus boundaries documented, along with any exclusions and transformations applied along the way?
-- Is the final interpretation yours, grounded in evidence you checked?
+- Is the final interpretation yours, grounded in evidence you actually checked?
 - Have you discussed the planned use with your supervisor and followed the relevant [Ethics & AI policy]({{ '/ethics/' | relative_url }}) on permission and disclosure (and the broader academic-integrity expectations)?
 
 ## Good Division of Labor
@@ -103,7 +103,7 @@ Before you rely on an AI/code-assisted workflow, make sure you can answer all of
 |---|---|
 | Research question, theory, cases, corpus boundaries, interpretation, final claims | Folder setup, metadata templates, batch conversion, script drafting, debugging, validation checks, documentation drafts |
 
-The standard is simple. If the work shapes the argument, you must understand and defend it. If the work is repetitive or procedural, the tool can help, but you still verify the result.
+The standard is simple. Work that shapes the argument is work you have to understand and defend yourself. For the repetitive or procedural pieces, the tool can pitch in, but verifying the result is still on you.
 
 ## Where To Go Next
 
@@ -111,13 +111,13 @@ The standard is simple. If the work shapes the argument, you must understand and
   <a class="route-card" href="{{ '/methods/building-a-corpus' | relative_url }}">
     <span class="route-label">Before analysis</span>
     <h3>Building a Corpus</h3>
-    <p>Use this if the challenge is selecting, bounding, collecting, and documenting source material.</p>
+    <p>Use this if the challenge is choosing source material, setting corpus boundaries, collecting files, and documenting the result.</p>
   </a>
 
   <a class="route-card" href="{{ '/methods/quantitative/' | relative_url }}">
     <span class="route-label">Computational route</span>
     <h3>Computational &amp; Quantitative</h3>
-    <p>Move here when you are ready to preprocess text or run a scalable analysis.</p>
+    <p>Head here once you are ready to preprocess text or run a scalable analysis.</p>
   </a>
 
   <a class="route-card accent-route-card" href="https://scdenney.github.io/corpus-building/">
@@ -126,3 +126,5 @@ The standard is simple. If the work shapes the argument, you must understand and
     <p>Use the companion wizard if you need a concrete starter kit for Claude Code or Codex.</p>
   </a>
 </div>
+</content>
+</invoke>

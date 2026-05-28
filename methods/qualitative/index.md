@@ -5,9 +5,9 @@ title: Qualitative Approaches
 
 # Qualitative Approaches
 
-For close reading and interpretive work, where human judgment about meaning drives the analysis. The four pages below cover methods used across the BA and MA programs I supervise, and each answers a different kind of question about texts and cases in political communication. They are often combined with each other, and frequently paired with a computational method for sampling or validation. See the [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}) page for that side of the split.
+Close reading and interpretive work, where the analyst's judgment about meaning does the heavy lifting. The four pages below cover methods I supervise in the BA and MA programs. Each one answers a different kind of question about texts and cases in political communication. You'll see them combined with each other often enough, and routinely paired with a computational method for sampling or validation. The [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}) page covers the other side of the split.
 
-Each page below follows the same structure. It covers what the method is, when to use it, how to apply it step by step, how to structure the relevant thesis chapters, and what to read.
+Every page below follows the same structure. It walks through what the method is, when to use it, how to apply it step by step, how to organize the relevant thesis chapters, and what to read.
 
 ## Common qualitative methods
 
@@ -42,17 +42,17 @@ Each page below follows the same structure. It covers what the method is, when t
 
 ## Combining qualitative and computational approaches
 
-Many of the strongest theses combine a qualitative method with a computational one. A few common pairings:
+The strongest theses, in my experience, pair a qualitative method with a computational one. A few common pairings:
 
-- **Framing analysis + topic analysis.** Use a topic model to surface candidate frames in a large corpus, then read closely within each cluster.
-- **Discourse analysis + keyword-in-context tooling.** Let the computational side locate passages worth reading and keep the interpretive judgment human.
-- **Comparative case study + descriptive corpus statistics.** Report aggregate measures (volume, sentiment, keyword prevalence) alongside your cross-case interpretation.
-- **Process tracing + digital archives.** Use computational search to identify the causal-process observations you would otherwise miss.
+- **Framing analysis + topic analysis**: a topic model surfaces candidate frames in a large corpus, and you read closely within each cluster.
+- **Discourse analysis + keyword-in-context tooling**: the computational side locates passages worth reading, while the interpretive judgment stays with you.
+- **Comparative case study + descriptive corpus statistics**: report aggregate measures (volume, sentiment, keyword prevalence) alongside your cross-case interpretation.
+- **Process tracing + digital archives**: computational search picks up the causal-process observations you would otherwise miss.
 
-The two sides complement each other. See the [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}) page for the methods on the other side of the split.
+The two sides work together. The [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}) page covers the methods on the other side of the split.
 
 ---
 
 ## Overview and other methods
 
-Not sure which path is right for you? Go back to the [Methods overview]({{ '/methods/' | relative_url }}) for the broader orientation, or consult the "Other Methods to Explore" table there for less commonly used approaches (qualitative interviewing, thematic analysis, archival research).
+Not sure which path is right for you? Head back to the [Methods overview]({{ '/methods/' | relative_url }}) for the broader orientation. The "Other Methods to Explore" table there lists less commonly used approaches such as qualitative interviewing, thematic analysis, and archival research.

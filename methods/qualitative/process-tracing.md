@@ -28,19 +28,19 @@ title: Process Tracing
 
 # Process Tracing
 
-Process tracing is a within-case method for investigating causal mechanisms. It asks *how* X causes Y by unpacking the steps that connect a cause to an outcome, where cross-case comparison asks *whether* X causes Y. It is one of the most widely used qualitative methods in political science and international relations, and it pairs naturally with case study research.
+Process tracing is a within-case method for investigating causal mechanisms. It asks *how* X causes Y by unpacking the steps that connect a cause to an outcome. Cross-case comparison, by contrast, asks *whether* X causes Y. The method has wide use in political science and international relations, and it pairs naturally with case study research.
 
 ---
 
 ## What Is Process Tracing?
 
-Process tracing examines the chain of events and decisions that link a proposed cause to an observed outcome within a single case. The goal is to identify and test a **causal mechanism** — the specific sequence of steps through which a cause produces an effect.
+Process tracing examines the chain of events and decisions that link a proposed cause to an observed outcome within a single case. The goal is to identify and test a **causal mechanism**, meaning the specific sequence of steps through which a cause produces an effect.
 
-As [Collier (2011)](https://doi.org/10.1017/S1049096511001429) puts it, process tracing is "the systematic examination of diagnostic evidence selected and analyzed in light of research questions and hypotheses posed by the investigator." You are doing more than narrating what happened. You are testing whether the evidence is consistent with a proposed causal chain and inconsistent with alternatives.
+As [Collier (2011)](https://doi.org/10.1017/S1049096511001429) puts it, process tracing is "the systematic examination of diagnostic evidence selected and analyzed in light of research questions and hypotheses posed by the investigator." You are doing more than narrating what happened. The work is to test whether the evidence is consistent with a proposed causal chain and inconsistent with the alternatives a reader might raise.
 
 <div class="info-box" markdown="1">
 
-**Within-case vs. cross-case:** Process tracing operates within a single case, examining the internal causal logic in detail. This distinguishes it from comparative methods (such as MSSD or MDSD), which examine patterns *across* cases. Many strong theses combine both approaches, using cross-case comparison to identify which variables matter and process tracing to explain how they work. See [Related Methods](#related-methods) for more on this connection.
+**Within-case vs. cross-case.** Process tracing stays inside one case and examines its internal causal logic in detail. That sets it apart from comparative methods (such as MSSD or MDSD), which examine patterns *across* cases. Many strong theses combine both approaches. Cross-case comparison helps identify which variables matter. Process tracing then explains how they work. See [Related Methods](#related-methods) for more on this connection.
 
 </div>
 
@@ -48,21 +48,21 @@ As [Collier (2011)](https://doi.org/10.1017/S1049096511001429) puts it, process 
 
 ## Key Concepts
 
-**Causal mechanism.** The central object of process tracing. A causal mechanism is a theorized sequence of steps (or entities and activities) that transmits a causal force from X to Y. For example, if you hypothesize that economic sanctions cause policy change, the mechanism might run: sanctions imposed --> economic costs increase --> key domestic elites lose revenue --> elites pressure the government --> government concedes. Each step must be specified in advance and tested against evidence.
+**Causal mechanism.** This is the central object of process tracing. A causal mechanism is a theorized sequence of steps (or entities and activities) that transmits a causal force from X to Y. Suppose you hypothesize that economic sanctions cause policy change. The mechanism might run as follows. Sanctions imposed --> economic costs increase --> key domestic elites lose revenue --> elites pressure the government --> government concedes. Each step needs to be specified in advance and tested against evidence.
 
-**Temporal structure of the causal chain.** A causal mechanism unfolds over time. Each step in the chain occurs at a specific moment, what [Seawright (2016)](https://doi.org/10.1017/CBO9781316160831) characterizes as a sequence from an initial condition at time 1 (T₁) through intermediate steps at T₂, T₃, and so on, to the outcome at Tₙ. This temporal ordering is an independent source of empirical leverage, not merely a narrative convenience. At each time point, the mechanism implies a specific state of affairs that should be observable. Take the sanctions example. At T₁, sanctions are imposed and export revenue begins to decline. At T₂, firms connected to the ruling coalition report losses. At T₃, business elites pressure the government. At T₄, the government calculates that the cost of maintaining the policy exceeds the cost of conceding. At T₅, the policy changes. Each step is both an effect of what came before it and a cause of what follows.
+**Temporal structure of the causal chain.** A causal mechanism unfolds over time. Each step in the chain occurs at a specific moment. [Seawright (2016)](https://doi.org/10.1017/CBO9781316160831) characterizes this as a sequence running from an initial condition at time 1 (T₁) through intermediate steps at T₂, T₃, and onward, to the outcome at Tₙ. This temporal ordering gives you empirical leverage. It is not just a narrative convenience. At each time point, the mechanism implies a specific state of affairs that should be observable. Take the sanctions example. At T₁, sanctions are imposed and export revenue begins to decline. At T₂, firms connected to the ruling coalition report losses. At T₃, business elites pressure the government. At T₄, the government calculates that the cost of maintaining the policy exceeds the cost of conceding. At T₅, the policy changes. Each step is both an effect of what came before it and a cause of what follows.
 
-The temporal structure provides two important checks on the analysis. First, the *sequence* must hold. If evidence shows that elites pressured the government *before* sanctions caused economic losses, the proposed mechanism is disconfirmed regardless of how plausible each individual step appears in isolation. Second, each step generates its own testable predictions at a specific point in time, which means you evaluate the mechanism as a chain of linked claims, each of which can independently pass or fail an evidence test, instead of as a single package. The more links in the chain that survive testing, the stronger the overall inference, and if one link breaks, the chain as a whole is called into question. When you specify your mechanism (see [Step 1](#step-1-specify-your-causal-mechanism-in-advance) below), assign each step a place in the temporal sequence and identify what observable state of affairs you would expect at that moment.
+The temporal structure provides two important checks on the analysis. First, the *sequence* must hold. If evidence shows that elites pressured the government *before* sanctions caused economic losses, the proposed mechanism is disconfirmed regardless of how plausible each individual step appears in isolation. Second, each step generates its own testable predictions at a specific point in time. The practical upshot is that you evaluate the mechanism as a chain of linked claims, each of which can independently pass or fail an evidence test, rather than as a single package. The more links survive testing, the stronger the overall inference. If one link breaks, the chain as a whole is called into question. When you specify your mechanism (see [Step 1](#step-1-specify-your-causal-mechanism-in-advance) below), assign each step a place in the temporal sequence and identify what observable state of affairs you would expect at that moment.
 
-**Diagnostic evidence.** Process tracing relies on evidence that can discriminate between competing explanations. Not all evidence is equally useful. The key question is whether this piece of evidence confirms or disconfirms a specific step in the proposed mechanism. [Beach and Pedersen (2019)](https://doi.org/10.3998/mpub.10072208) distinguish between different types of observable manifestations that can serve as diagnostic evidence for each step of a mechanism.
+**Diagnostic evidence.** Process tracing relies on evidence that can discriminate between competing explanations. Not all evidence is equally useful. The key question is whether a piece of evidence confirms or disconfirms a specific step in the proposed mechanism. [Beach and Pedersen (2019)](https://doi.org/10.3998/mpub.10072208) distinguish between different types of observable manifestations that can serve as diagnostic evidence for each step of a mechanism.
 
-**Variants of process tracing.** [Beach and Pedersen (2019)](https://doi.org/10.3998/mpub.10072208) identify three main variants. In *theory-testing*, you start with a hypothesized mechanism derived from the literature and test whether it operated in your case. In *theory-building*, you work backwards from an observed outcome to identify the mechanism that produced it. In *explaining-outcome*, you construct a case-specific explanation that may combine multiple mechanisms. This guide focuses primarily on the theory-testing variant because it is the most structured and the most common in student theses. If you think theory-building or explaining-outcome better suits your research question, consult Beach and Pedersen (2019, chs. 3--5) and discuss the choice with your supervisor.
+**Variants of process tracing.** [Beach and Pedersen (2019)](https://doi.org/10.3998/mpub.10072208) identify three main variants. In *theory-testing*, you start with a hypothesized mechanism derived from the literature and test whether it operated in your case. In *theory-building*, you work backwards from an observed outcome to identify the mechanism that produced it. In *explaining-outcome*, you construct a case-specific explanation that may combine multiple mechanisms. This guide focuses primarily on the theory-testing variant. It is the most structured of the three and the most common in student theses. If you think theory-building or explaining-outcome better suits your research question, consult Beach and Pedersen (2019, chs. 3--5) and discuss the choice with your supervisor.
 
-**Equifinality.** Multiple different causal paths can produce the same outcome. Process tracing shows that the mechanism operated in your case, but it cannot prove the mechanism is the only possible explanation. You must always consider and address alternative mechanisms that could also explain the outcome.
+**Equifinality.** Several different causal paths can produce the same outcome. Process tracing shows that the mechanism operated in your case. It cannot prove the mechanism is the only possible explanation. You must always consider and address alternative mechanisms that could also explain the outcome.
 
 <div class="tip-box" markdown="1">
 
-**Think of it like a detective investigating a crime.** A detective goes beyond observing that a suspect was at the scene (correlation) and traces the sequence of motive, means, opportunity, forensic evidence, and witness testimony. Each piece of evidence either strengthens or weakens the case. Process tracing works the same way. You build a chain of evidence linking cause to outcome, step by step.
+**Think of it like a detective investigating a crime.** A detective does more than observe that a suspect was at the scene (correlation). The detective traces motive, means, opportunity, forensic evidence, and witness testimony. Each piece of evidence either strengthens or weakens the case. Process tracing works the same way. You build a chain of evidence linking cause to outcome, one step at a time.
 
 </div>
 
@@ -70,7 +70,7 @@ The temporal structure provides two important checks on the analysis. First, the
 
 ## Types of Evidence Tests
 
-[Mahoney (2012)](https://doi.org/10.1177/0049124112437709) and [Collier (2011)](https://doi.org/10.1017/S1049096511001429) identify four classic tests for evaluating evidence in process tracing. Each test has different implications for confirming or eliminating a hypothesis:
+[Mahoney (2012)](https://doi.org/10.1177/0049124112437709) and [Collier (2011)](https://doi.org/10.1017/S1049096511001429) identify four classic tests for evaluating evidence in process tracing. Each test carries different implications for confirming or eliminating a hypothesis.
 
 | Test | Passing confirms? | Failing eliminates? | Logic |
 |------|-------------------|---------------------|-------|
@@ -81,11 +81,11 @@ The temporal structure provides two important checks on the analysis. First, the
 
 **Straw-in-the-wind tests** offer weak evidence. Finding that a government official mentioned sanctions in a speech is consistent with the sanctions mechanism, but it does not prove the mechanism operated. Failing the test does not eliminate it either.
 
-**Hoop tests** set minimum thresholds. If you claim sanctions caused economic pain to elites, there must be evidence of actual economic losses. If there is no such evidence, the mechanism fails. But finding economic losses alone does not confirm the full mechanism.
+**Hoop tests** set minimum thresholds. If you claim sanctions caused economic pain to elites, there must be evidence of actual economic losses. Without such evidence, the mechanism fails. Finding economic losses alone, however, does not confirm the full mechanism.
 
-**Smoking gun tests** provide strong confirmation. A leaked memo showing that business elites explicitly pressured the government to change policy because of sanctions would be powerful evidence. However, not finding such a memo does not mean the pressure never occurred.
+**Smoking gun tests** provide strong confirmation. A leaked memo showing that business elites explicitly pressured the government to change policy because of sanctions would be powerful evidence. Failing to find such a memo does not mean the pressure never occurred.
 
-**Doubly decisive tests** are both necessary and sufficient — the gold standard, but extremely rare in social science.
+**Doubly decisive tests** are both necessary and sufficient. They are the gold standard, and extremely rare in social science.
 
 <div class="reflection-box" markdown="1">
 
@@ -105,8 +105,8 @@ Process tracing is appropriate when:
 
 - Your research question asks **how** or **why** an outcome occurred in a specific case
 - You have a proposed causal mechanism you want to test or develop
-- You have (or can obtain) detailed evidence about the sequence of events within the case — such as documents, interviews, speeches, policy records, or media reports
-- You want to go beyond correlation to examine the causal logic connecting variables
+- You have (or can obtain) detailed evidence about the sequence of events within the case, such as documents, interviews, speeches, policy records, or media reports
+- You want to go beyond correlation and examine the causal logic connecting variables
 
 Process tracing is less appropriate when:
 
@@ -116,7 +116,7 @@ Process tracing is less appropriate when:
 
 <div class="info-box" markdown="1">
 
-**BA vs. MA expectations:** BA students are expected to specify a plausible causal mechanism in advance, identify the key steps, and then assess the evidence for each step. MA students should engage more deeply with the methodological literature, justify their choice of process tracing variant, apply the evidence tests explicitly, and demonstrate greater sophistication in handling alternative explanations and equifinality. See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for how methodology is evaluated.
+**BA vs. MA expectations.** BA students are expected to specify a plausible causal mechanism in advance and identify its key steps, then assess the evidence step by step. MA students should engage more deeply with the methodological literature, justify their choice of process tracing variant, apply the evidence tests explicitly, and show more care in handling alternative explanations and equifinality. See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for how methodology is evaluated.
 
 </div>
 
@@ -128,46 +128,46 @@ Process tracing involves a structured sequence of steps. The sections below walk
 
 ### Step 1: Specify Your Causal Mechanism in Advance
 
-Before examining your case, you must articulate the mechanism you expect to find. This means breaking your proposed explanation into discrete, sequential steps. Each step should identify who does what and why.
+Before examining your case, you must articulate the mechanism you expect to find. In practice, this means breaking your proposed explanation into discrete, sequential steps. Each step should identify who does what and why.
 
-Write out the full chain: X --> Step 1 --> Step 2 --> Step 3 --> Y. Be specific. "Economic pressure leads to policy change" is not a mechanism. "Sanctions reduce export revenue --> firms linked to the ruling coalition lose profits --> business elites lobby the president for concessions --> the president calculates that the cost of maintaining the policy exceeds the cost of conceding" is a mechanism.
+Write out the full chain. X --> Step 1 --> Step 2 --> Step 3 --> Y. Be specific. "Economic pressure leads to policy change" is too vague to count as a mechanism. "Sanctions reduce export revenue --> firms linked to the ruling coalition lose profits --> business elites lobby the president for concessions --> the president calculates that the cost of maintaining the policy exceeds the cost of conceding" is a mechanism.
 
 <div class="tip-box" markdown="1">
 
-**Draw it out.** Create a diagram of your mechanism with each step in a separate box and arrows connecting them. This forces you to be explicit about the causal logic and helps you identify where the chain might break down.
+**Draw it out.** Create a diagram of your mechanism with each step in a separate box and arrows connecting them. The exercise forces you to be explicit about the causal logic, and it helps you identify where the chain might break down.
 
 </div>
 
 ### Step 2: Derive Observable Implications for Each Step
 
-For each step in the mechanism, ask what evidence you should expect to find if the step actually occurred, and what evidence would be inconsistent with it.
+For each step in the mechanism, ask what evidence you should expect to find if the step actually occurred. Then ask what evidence would be inconsistent with it.
 
-These observable implications are your empirical predictions. For example, if you claim that business elites pressured the government, you would look for evidence such as meeting records, public statements by business leaders, lobbying disclosures, media reports of business opposition, or shifts in political donations.
+These observable implications are your empirical predictions. Suppose you claim that business elites pressured the government. You would then look for evidence such as meeting records, public statements by business leaders, lobbying disclosures, media reports of business opposition, or shifts in political donations.
 
-Think about what types of evidence tests (hoop, smoking gun, straw-in-the-wind) each piece of evidence constitutes. Prioritize collecting evidence that can serve as hoop or smoking gun tests, since these have the most inferential power.
+Think about what type of evidence test each piece of evidence constitutes, whether a hoop, smoking gun, or straw-in-the-wind test. Prioritize evidence that can serve as a hoop or smoking gun test, since these carry the most inferential power.
 
 ### Step 3: Collect and Evaluate Evidence Systematically
 
 Gather evidence for each step of the mechanism. This typically involves primary sources (government documents, speeches, archival records, interview transcripts, media coverage) and may be supplemented by secondary scholarship.
 
-For each piece of evidence, assess:
+For each piece of evidence, ask the following.
 
 1. **What step does it speak to?** Map every piece of evidence to a specific step in your mechanism.
 2. **What kind of test does it represent?** Is it a hoop test (necessary but not sufficient), a smoking gun (sufficient but not necessary), or a straw-in-the-wind?
-3. **How reliable is the source?** Consider the source's potential biases and the context in which it was produced, and check whether it can be corroborated.
+3. **How reliable is the source?** Consider the source's potential biases and the context in which it was produced. Check whether it can be corroborated.
 4. **Does it support or weaken the mechanism?** Be honest. If evidence contradicts a step, report it and assess what it means for the overall argument.
 
 ### Step 4: Assess the Overall Chain
 
-After evaluating evidence for each step, make a judgment about the mechanism as a whole. Did every step pass at least a hoop test? Were there any smoking guns? Are there steps with weak or missing evidence?
+After evaluating evidence for each step, make a judgment about the mechanism as a whole. Did every step pass at least a hoop test? Were there any smoking guns? Which steps still have weak or missing evidence?
 
-A strong process tracing analysis requires that no step fails a hoop test (which would break the chain) and that the overall body of evidence is more consistent with your mechanism than with plausible alternatives. A smoking gun for every step is welcome but not necessary.
+A strong process tracing analysis requires every step to pass its hoop test, since one failed hoop test breaks the chain. The overall body of evidence should also fit your mechanism better than plausible alternatives. A smoking gun for every step is welcome but not necessary.
 
 ### Step 5: Test Alternative Explanations
 
-Identify at least one or two alternative mechanisms that could explain the same outcome. Subject them to the same evidence tests. If the evidence is equally consistent with an alternative mechanism, you cannot claim strong support for your preferred explanation.
+Identify at least one or two alternative mechanisms that could explain the same outcome. Subject them to the same evidence tests. If the evidence fits an alternative mechanism just as well, you cannot claim strong support for your preferred explanation.
 
-This step is not optional. One of the most common weaknesses in student theses is confirming only the preferred explanation without seriously testing alternatives. [Bennett and Checkel (2015)](https://doi.org/10.1017/CBO9781139858472) emphasize that the inferential power of process tracing depends on actively engaging with competing hypotheses.
+This step is required. One of the most common weaknesses in student theses is confirming the preferred explanation while giving alternatives only passing attention. [Bennett and Checkel (2015)](https://doi.org/10.1017/CBO9781139858472) emphasize that the inferential power of process tracing depends on active engagement with competing hypotheses.
 
 <div class="exercise-box" markdown="1">
 
@@ -185,7 +185,7 @@ This step is not optional. One of the most common weaknesses in student theses i
 
 ## Structuring Your Thesis
 
-Process tracing maps directly onto a standard thesis structure, but with specific requirements for each chapter. Here is how to organize the key sections.
+Process tracing maps directly onto a standard thesis structure, with specific requirements for each chapter. Here is how to organize the key sections.
 
 ### Introduction
 
@@ -193,11 +193,11 @@ Present your research question (a *how* or *why* question about a specific case)
 
 ### Literature Review
 
-Review the scholarly debate around your topic. Identify the competing explanations in the literature for the type of outcome you are studying. These competing explanations become the basis for the alternative mechanisms you will test.
+Review the scholarly debate around your topic. Identify the competing explanations in the literature for the type of outcome you are studying. Those competing explanations become the basis for the alternative mechanisms you will test.
 
 ### Analytical Framework
 
-This chapter is critical for process tracing theses. It must accomplish three things:
+This chapter is critical for process tracing theses. It must accomplish three things.
 
 1. **Explain and justify your method.** Define process tracing and explain why it is appropriate for your research question, citing the methodological literature (e.g., [Beach and Pedersen 2019](https://doi.org/10.3998/mpub.10072208); [Bennett and Checkel 2015](https://doi.org/10.1017/CBO9781139858472)).
 2. **Specify the proposed causal mechanism.** Lay out the full mechanism step by step, explaining the theoretical logic behind each step. This is where you derive the mechanism from your theory rather than your data.
@@ -205,25 +205,25 @@ This chapter is critical for process tracing theses. It must accomplish three th
 
 <div class="tip-box" markdown="1">
 
-**The mechanism must appear before the findings.** A common mistake is to present the mechanism only after describing the evidence, which makes the analysis look like a post hoc narrative instead of a genuine test. Specify the mechanism in the analytical framework chapter so that the reader knows what you are testing before you present the results.
+**The mechanism must appear before the findings.** A common mistake is to present the mechanism only after describing the evidence, which makes the analysis look like a post hoc narrative instead of a genuine test. Specify the mechanism in the analytical framework chapter. That way, the reader knows what you are testing before you present the results.
 
 </div>
 
 ### Findings
 
-Organize the findings chapters around the steps of the mechanism, letting the causal sequence drive the order of presentation. For each step:
+Organize the findings chapters around the steps of the mechanism, letting the causal sequence drive the order of presentation. For each step, do the following.
 
 - Present the relevant evidence
 - Assess what type of test the evidence represents
 - State whether the step passes or fails
 
-If your mechanism has three to five steps, you might dedicate a subsection to each step within a single findings chapter, or split the analysis across two chapters for longer mechanisms. Either way, the steps of the mechanism supply the organizing logic.
+If your mechanism has three to five steps, you might dedicate a subsection to each step within a single findings chapter. For longer mechanisms, split the analysis across two chapters. Either way, the steps of the mechanism supply the organizing logic.
 
-Address alternative explanations within the findings chapters or in a dedicated section. Show that the evidence is more consistent with your mechanism than with alternatives.
+Address alternative explanations within the findings chapters or in a dedicated section. Show that the evidence fits your mechanism better than the alternatives.
 
 ### Conclusion
 
-The conclusion evaluates the overall causal chain. Did the mechanism hold? Which steps were most strongly supported? Where was the evidence weakest? What does this tell you about the broader theoretical debate you engaged in your literature review? Discuss limitations honestly, particularly any steps where evidence was thin, and suggest directions for future research.
+The conclusion evaluates the overall causal chain. Did the mechanism hold? Which steps were most strongly supported? Where was the evidence weakest? What does this tell you about the broader theoretical debate you engaged in your literature review? Discuss limitations honestly. Pay particular attention to any steps where evidence was thin, and suggest directions for future research.
 
 <div class="info-box" markdown="1">
 
@@ -243,9 +243,9 @@ The conclusion evaluates the overall causal chain. Did the mechanism hold? Which
 
 ## Example from the Literature
 
-To see how process tracing works in practice, consider the treatment in George and Bennett (2005, ch. 10), which uses the end of the Cold War as an illustrative case. The question is *how* the Cold War ended peacefully. Through what causal mechanism did Soviet foreign policy shift from confrontation to cooperation in the late 1980s? Noting that Gorbachev came to power and the Cold War ended would establish only a correlation. Process tracing instead unpacks the intervening steps, including the diffusion of new ideas among Soviet policy intellectuals, Gorbachev's receptiveness to these ideas, specific policy decisions (such as accepting asymmetric arms reductions), and the feedback effects of Western responses. Each step is specified in advance and evaluated against the documentary and testimonial record. The analysis also considers alternative mechanisms, such as economic decline forcing Soviet concessions regardless of leadership, and shows why the evidence better supports an ideas-driven explanation.
+To see how process tracing works in practice, consider the treatment in George and Bennett (2005, ch. 10), which uses the end of the Cold War as an illustrative case. The question is *how* the Cold War ended peacefully. Through what causal mechanism did Soviet foreign policy shift from confrontation to cooperation in the late 1980s? Simply noting that Gorbachev came to power and the Cold War ended would establish a correlation, no more. Process tracing instead unpacks the intervening steps. Among them are the diffusion of new ideas among Soviet policy intellectuals, Gorbachev's receptiveness to those ideas, specific policy decisions (such as accepting asymmetric arms reductions), and the feedback effects of Western responses. Each step is specified in advance and evaluated against the documentary and testimonial record. The analysis also considers alternative mechanisms, such as economic decline forcing Soviet concessions regardless of leadership, and shows why the evidence better supports an ideas-driven explanation.
 
-This example illustrates features that should appear in your own thesis. The mechanism is broken into discrete, testable steps instead of a general narrative, and evidence is marshaled for each step individually. The analysis also engages explicitly with the competing explanations identified in the literature. For a concise overview of this approach, see [Collier (2011)](https://doi.org/10.1017/S1049096511001429), who uses simpler examples to demonstrate the same logic of diagnostic evidence and step-by-step evaluation.
+The example illustrates features that should appear in your own thesis. The mechanism is broken into discrete, testable steps rather than a general narrative, and evidence is marshaled for each step individually. The analysis also engages explicitly with the competing explanations identified in the literature. For a concise overview, see [Collier (2011)](https://doi.org/10.1017/S1049096511001429), who uses simpler examples to demonstrate the same logic of diagnostic evidence and step-by-step evaluation.
 
 ---
 
@@ -253,11 +253,11 @@ This example illustrates features that should appear in your own thesis. The mec
 
 **Confusing narrative with process tracing.** Telling the story of what happened in chronological order is not process tracing. Process tracing requires a theorized mechanism specified in advance and explicit evidence tests, applied step by step to each link in the causal chain. If your findings chapter reads like a history essay, you are narrating, not tracing.
 
-**Not specifying the mechanism in advance.** If you derive your mechanism from the same evidence you use to test it, you are engaged in circular reasoning. The mechanism should come from theory, namely your literature review and analytical framework, before you turn to your data. You can refine the mechanism during research, but the version you test must be stated before you present findings.
+**Not specifying the mechanism in advance.** If you derive your mechanism from the same evidence you use to test it, you are engaged in circular reasoning. The mechanism should come from theory, namely your literature review and analytical framework, before you turn to your data. You can refine the mechanism during research. But the version you test must be stated before you present findings.
 
 **Cherry-picking evidence.** Selecting only the evidence that supports your explanation while ignoring contradictory evidence undermines the entire exercise. Process tracing requires that you actively look for disconfirming evidence and report it transparently. If a step fails a hoop test, say so.
 
-**Ignoring alternative explanations.** Showing that evidence is consistent with your mechanism is not enough. Evidence may also be consistent with other mechanisms. If you do not test alternatives, you cannot claim that your mechanism is the most plausible explanation. At minimum, identify the strongest competing explanation from the literature and subject it to the same evidence tests.
+**Ignoring alternative explanations.** Showing that evidence is consistent with your mechanism is not enough. The same evidence may also be consistent with other mechanisms. If you do not test alternatives, you cannot claim that your mechanism is the most plausible explanation. At minimum, identify the strongest competing explanation from the literature and subject it to the same evidence tests.
 
 **Treating all evidence as equal.** A straw-in-the-wind test does not carry the same inferential weight as a smoking gun. Be explicit about what kind of test each piece of evidence constitutes. A thesis that relies entirely on straw-in-the-wind evidence is not compelling, even if there is a lot of it.
 
@@ -278,7 +278,7 @@ This example illustrates features that should appear in your own thesis. The mec
 
 **Essential**
 
-- [Beach, D., & Pedersen, R. B. (2019). *Process-Tracing Methods: Foundations and Guidelines* (2nd ed.). University of Michigan Press.](https://doi.org/10.3998/mpub.10072208) — The most comprehensive methodological guide. Covers theory-testing, theory-building, and explaining-outcome variants in detail. Start here for method design.
+- [Beach, D., & Pedersen, R. B. (2019). *Process-Tracing Methods: Foundations and Guidelines* (2nd ed.). University of Michigan Press.](https://doi.org/10.3998/mpub.10072208) — The most comprehensive methodological guide. Covers the theory-testing, theory-building, and explaining-outcome variants in detail. Start here for method design.
 
 - [Collier, D. (2011). Understanding process tracing. *PS: Political Science & Politics*, 44(4), 823--830.](https://doi.org/10.1017/S1049096511001429) ([Free PDF](https://polisci.berkeley.edu/sites/default/files/people/u3827/Understanding%20Process%20Tracing.pdf)) — A clear, concise introduction to the method and the four evidence tests. Excellent starting point for students new to process tracing.
 
@@ -288,13 +288,13 @@ This example illustrates features that should appear in your own thesis. The mec
 
 - [Mahoney, J. (2012). The logic of process tracing tests in the social sciences. *Sociological Methods & Research*, 41(4), 570--597.](https://doi.org/10.1177/0049124112437709) — Formalizes the logic of the four evidence tests. Important for understanding the inferential foundations of the method.
 
-- [Seawright, J. (2016). *Multi-Method Social Science: Combining Qualitative and Quantitative Tools*. Cambridge UP.](https://doi.org/10.1017/CBO9781316160831) — Develops the temporal logic of causal chains (T₁ through Tₙ) and explains how process tracing integrates with cross-case methods. Useful for understanding what each step in a mechanism must look like as an observable state of affairs at a specific moment.
+- [Seawright, J. (2016). *Multi-Method Social Science: Combining Qualitative and Quantitative Tools*. Cambridge UP.](https://doi.org/10.1017/CBO9781316160831) — Develops the temporal logic of causal chains (T₁ through Tₙ) and explains how process tracing integrates with cross-case methods. Useful for thinking about what each step in a mechanism must look like as an observable state of affairs at a specific moment.
 
 - George, A. L., & Bennett, A. (2005). *Case Studies and Theory Development in the Social Sciences*. MIT Press. — A foundational text on case study methods more broadly, with a landmark treatment of process tracing in the context of theory development. Chapter 10 is the key chapter.
 
 <div class="info-box" markdown="1">
 
-**Where to start:** BA students should begin with [Collier (2011)](https://doi.org/10.1017/S1049096511001429) for a clear overview, then consult [Beach and Pedersen (2019)](https://doi.org/10.3998/mpub.10072208) for practical guidance on designing their analysis. MA students should read Beach and Pedersen in full and engage with [Bennett and Checkel (2015)](https://doi.org/10.1017/CBO9781139858472) for a more advanced treatment.
+**Where to start:** BA students should begin with [Collier (2011)](https://doi.org/10.1017/S1049096511001429) for a clear overview, then consult [Beach and Pedersen (2019)](https://doi.org/10.3998/mpub.10072208) for practical guidance on designing the analysis. MA students should read Beach and Pedersen in full and engage with [Bennett and Checkel (2015)](https://doi.org/10.1017/CBO9781139858472) for a more advanced treatment.
 
 </div>
 
@@ -302,11 +302,13 @@ This example illustrates features that should appear in your own thesis. The mec
 
 ## Related Methods
 
-Process tracing is often combined with other methods:
+Process tracing is often combined with other methods.
 
-- **[Comparative Case Study]({{ '/methods/qualitative/comparative-case-study' | relative_url }})**: Process tracing is a within-case method, while comparative case study works across cases. They answer different but complementary questions. Comparative design helps you identify *which* variables matter by examining patterns across cases. Process tracing helps you explain *how* those variables operate by tracing the causal mechanism within a single case. Many strong theses combine both.
+- **[Comparative Case Study]({{ '/methods/qualitative/comparative-case-study' | relative_url }})**: Process tracing is a within-case method, while comparative case study works across cases. They answer different but complementary questions. Comparative design helps you identify *which* variables matter by examining patterns across cases. Process tracing then helps explain *how* those variables operate by tracing the causal mechanism within a single case. Many strong theses combine both.
 
-- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})**: Process tracing often requires assembling a structured body of primary source material such as documents, speeches, policy records, and media coverage. This guide covers practical strategies for collecting and organizing textual evidence so that it stays manageable.
+- **[Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }})**: Process tracing often requires assembling a structured body of primary source material such as documents, speeches, policy records, and media coverage. That guide covers practical strategies for collecting and organizing textual evidence so it stays manageable.
 
 </div>
 </div>
+</content>
+</invoke>

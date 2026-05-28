@@ -5,13 +5,13 @@ title: Computational & Quantitative Approaches
 
 # Computational & Quantitative Approaches
 
-For work that treats a corpus programmatically to extract patterns and build numerical representations that scale beyond what a single reader can manage. The pages below cover the computational approaches I most often point students to across the BA and MA programs I supervise.
+For work that treats a corpus programmatically to extract patterns and build numerical representations at a scale no single reader can handle. The pages below cover the computational approaches I most often point students to across the BA and MA programs I supervise.
 
-The distinction with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is one of analytical posture, and the same subject matter sits on either side. You can do computational work on a small corpus of parliamentary speeches, and you can do discourse analysis on tweets. What changes is what the method *measures* and where the researcher's judgment enters. In computational work, judgment sits largely in design and validation. In qualitative work, it sits in interpretation itself.
+The distinction with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is one of analytical posture. The same subject matter sits on either side. You can do computational work on a small corpus of parliamentary speeches, and you can do discourse analysis on tweets. What changes is what the method *measures* and where the researcher's judgment enters. In computational work, judgment sits largely in design and validation. In qualitative work, it sits in interpretation itself.
 
 ## Launch the wizard
 
-If you already know you need a computational pipeline (OCR from scans, cleanup, metadata assembly, analysis-ready outputs), the standalone wizard below routes you to the right path for your compute and scale and hands you a starter kit for Claude Code or Codex.
+Already know you need a computational pipeline (OCR from scans, cleanup, metadata assembly, analysis-ready outputs)? The standalone wizard below routes you to the right path for your compute and scale, and hands you a starter kit for Claude Code or Codex.
 
 <div class="cb-term-wrap" markdown="0">
   <a class="cb-term" href="https://scdenney.github.io/corpus-building/"
@@ -51,22 +51,22 @@ If you already know you need a computational pipeline (OCR from scans, cleanup, 
 <div class="program-cards" markdown="0">
   <a class="program-card" href="{{ '/methods/quantitative/topic-analysis' | relative_url }}">
     <h3>Topic Analysis</h3>
-    <p>Discovering themes across a corpus with LDA, STM, and embedding-based methods</p>
+    <p>Finding themes across a corpus with LDA and STM, plus embedding-based methods where useful</p>
   </a>
   <a class="program-card" href="{{ '/methods/quantitative/sentiment-analysis' | relative_url }}">
     <h3>Sentiment Analysis</h3>
-    <p>Measuring affect with dictionaries, classifiers, and LLM-based rating</p>
+    <p>Measuring affect with dictionaries and classifiers, with LLM-based rating where useful</p>
   </a>
   <a class="program-card" href="{{ '/methods/quantitative/word-embeddings' | relative_url }}">
     <h3>Word Embeddings</h3>
-    <p>Vector representations of words and documents for similarity, drift, and classification</p>
+    <p>Vector representations of words and documents for similarity and drift, with classification when needed</p>
   </a>
 </div>
 
 <div class="question-banner" markdown="0">
   <div class="question-banner-copy">
     <strong>Need to sort out the corpus or pipeline before choosing one of these?</strong>
-    <p>Use the corpus page for planning and organization, or the wizard above if the issue is workflow, OCR, or compute rather than method choice.</p>
+    <p>Use the corpus page for planning and organization. Use the wizard above when the main issue is workflow or compute, including OCR.</p>
   </div>
   <a href="{{ '/methods/building-a-corpus' | relative_url }}">Go to Building a Corpus</a>
 </div>
@@ -75,7 +75,7 @@ If you already know you need a computational pipeline (OCR from scans, cleanup, 
 
 ## In the classroom
 
-These methods are also taught in two of my courses at Leiden. If you're a student in one of them, the method pages above double as a reference alongside the weekly sessions.
+I teach these methods in two of my Leiden courses. If you're enrolled in one, the method pages above double as a reference alongside the weekly sessions.
 
 <div class="program-cards" markdown="0">
   <a class="program-card" href="https://scdenney.github.io/ba2_digital-korea/" target="_blank" rel="noopener">
@@ -90,16 +90,16 @@ These methods are also taught in two of my courses at Leiden. If you're a studen
   </a>
 </div>
 
-If your thesis draws on either course, the method pages here extend what's covered in class with the methodological scaffolding you'll need for the methods chapter.
+If your thesis draws on either course, these method pages extend what's covered in class. They give you the methodological scaffolding you'll need for the methods chapter.
 
 ---
 
 ## Combining with qualitative methods
 
-Most strong theses combine a computational measure with a qualitative reading. See the [Qualitative Approaches]({{ '/methods/qualitative/' | relative_url }}) page for that side of the split. The end of that page lists common pairings (framing + topic analysis, discourse analysis + keyword-in-context tooling, comparative case study + descriptive statistics).
+Most strong theses pair a computational measure with a qualitative reading. See the [Qualitative Approaches]({{ '/methods/qualitative/' | relative_url }}) page for that side of the split. The end of that page lists common pairings, including framing + topic analysis and discourse analysis + keyword-in-context tooling. It also covers comparative case study + descriptive statistics.
 
 ---
 
 ## Overview and other methods
 
-Return to the [Methods overview]({{ '/methods/' | relative_url }}) for the broader orientation, or consult its "Other Methods to Explore" table for less commonly used approaches that aren't covered in depth.
+Return to the [Methods overview]({{ '/methods/' | relative_url }}) for the wider orientation. Its "Other Methods to Explore" table is where to look for less commonly used approaches that aren't covered in depth.

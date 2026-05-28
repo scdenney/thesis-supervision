@@ -29,7 +29,7 @@ A foundation skill for every computational approach in this section. The choices
 
 ## What it is
 
-**Preprocessing** is the cleanup work you do on a raw corpus before any analysis runs — turning heterogeneous, messy text into a uniform form that a model or algorithm can reason over. Typical decisions include tokenization (how to split text into units), case handling, stop-word and punctuation treatment, stemming or lemmatization, n-gram extraction, and vocabulary filtering.
+**Preprocessing** is the cleanup work you do on a raw corpus before any analysis runs. It turns heterogeneous, messy text into a uniform form that a model or algorithm can reason over. Typical decisions include tokenization (how to split text into units), case handling, stop-word and punctuation treatment, stemming or lemmatization, n-gram extraction, and vocabulary filtering.
 
 These aren't neutral technical choices. Stripping stop words before a discourse analysis removes discourse markers. Aggressive stemming collapses distinctions that might matter for your research question. Preprocessing decisions belong in your methodology chapter, where readers can see them.
 
@@ -39,12 +39,12 @@ These aren't neutral technical choices. Stripping stop words before a discourse 
 
 This page draws from the course's preprocessing material. Students who take it come away with:
 
-- Tokenization strategies: word, subword, sentence, character-level
+- Tokenization strategies for word, subword, sentence, and character-level text
 - Unicode normalization and diacritic handling for multilingual corpora
-- Stop-word lists — when to use a language-specific or domain-specific list, and when to use none
+- Stop-word lists, including when to use a language-specific or domain-specific list and when to use none
 - Stemming vs. lemmatization and their tradeoffs
 - N-gram extraction and why bigrams / trigrams matter for framing-style analyses
-- Vocabulary filtering: document-frequency cutoffs and rare-term handling, plus out-of-vocabulary strategies
+- Vocabulary filtering, including document-frequency cutoffs, rare-term handling, and out-of-vocabulary strategies
 - Documenting preprocessing choices so they can be reported and reproduced
 
 ---
@@ -52,7 +52,7 @@ This page draws from the course's preprocessing material. Students who take it c
 ## What you need to learn first
 
 - **Basic Python or R**: most preprocessing is scripting work. Students usually pick Python with `nltk`, `spaCy`, or `gensim`; R users reach for `tidytext` or `quanteda`.
-- **Unicode basics**: a working mental model for encoding and NFC/NFD normalization, plus a sense of why non-Latin or historical scripts (Korean, Arabic, classical Chinese) often surface bugs that English text hides.
+- **Unicode basics**: a working mental model for encoding and NFC/NFD normalization, plus a sense of why non-Latin or historical scripts (Korean or Arabic, for example) often surface bugs that English text hides.
 - **Your research question**: you can't pick preprocessing steps without knowing what you're going to measure.
 
 ---
@@ -61,7 +61,7 @@ This page draws from the course's preprocessing material. Students who take it c
 
 Preprocessing is rarely the final step, but without it the later steps stall. Typical thesis applications:
 
-- Preparing a corpus for topic analysis, so topics reflect substantive content rather than punctuation and stopwords
+- Preparing a corpus for topic analysis, so topics reflect substantive content rather than punctuation and stop words
 - Building feature matrices for a sentiment classifier
 - Cleaning scraped text before training word embeddings
 - Standardizing historical spelling variants so terms across centuries align

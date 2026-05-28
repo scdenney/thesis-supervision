@@ -23,19 +23,19 @@ title: Sentiment Analysis
 
 # Sentiment Analysis
 
-Assigning numerical values that summarize how positive or negative a text is (and sometimes how emotionally charged) — useful when you need a scalar measure of tone across a large corpus.
+Sentiment analysis assigns numerical values that summarize how positive or negative a text is, and sometimes how emotionally charged. It gives you a scalar measure of tone across a large corpus.
 
 ---
 
 ## What it is
 
-**Sentiment analysis** covers three broad families, each with different assumptions about what "sentiment" *is* and whom it generalizes to:
+**Sentiment analysis** covers three broad families, each with different assumptions about what "sentiment" *is* and whom it generalizes to.
 
-1. **Dictionary methods**: counting terms from a curated lexicon (LIWC, VADER, NRC, AFINN). Transparent and reproducible. Struggles with sarcasm and negation, and breaks on serious domain shift.
-2. **Supervised classifiers**: training a model (logistic regression, SVM, fine-tuned transformer) on human-labeled examples. More accurate in-domain, but requires labeled training data and careful validation.
-3. **LLM-based rating**: prompting a large language model to rate each text. Fast to set up, but variable across prompts and model versions. Needs rigorous evaluation and supervisor guidance, plus compliance with the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}) before being trusted for a thesis.
+1. **Dictionary methods**: counting terms from a curated lexicon (LIWC, VADER, NRC, AFINN). Transparent and reproducible. They struggle with sarcasm and negation, and serious domain shift can break them outright.
+2. **Supervised classifiers**: training a model (logistic regression, SVM, fine-tuned transformer) on human-labeled examples. More accurate in-domain. In return, they require labeled training data and careful validation.
+3. **LLM-based rating**: prompting a large language model to rate each text. Fast to set up, but variable across prompts and model versions. Treat the output cautiously. It needs rigorous evaluation and supervisor guidance, plus compliance with the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}) before being trusted for a thesis.
 
-Each family has weaknesses that matter more or less depending on your texts. Sarcasm-heavy social media breaks dictionary methods. Classifiers trained on movie reviews fail on policy documents, and LLM ratings drift across model releases. Choose with the limits in mind.
+Which weaknesses bite hardest depends on your texts. Sarcasm-heavy social media breaks dictionary methods. Classifiers trained on movie reviews fail on policy documents. LLM ratings can drift across model releases. Choose with the limits in mind.
 
 ---
 
@@ -75,7 +75,7 @@ This page draws from the course's sentiment analysis material. Students who take
 
 - [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}) — dictionary methods are especially sensitive to it.
 - [Framing Analysis]({{ '/methods/qualitative/framing-analysis' | relative_url }}) — sentiment is one of several dimensions framing scholarship measures, and the two often appear together.
-- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}) — sentiment-within-topic is a common analytical move.
+- [Topic Analysis]({{ '/methods/quantitative/topic-analysis' | relative_url }}) — sentiment-within-topic is a common analytical pairing.
 
 </div>
 </div>
