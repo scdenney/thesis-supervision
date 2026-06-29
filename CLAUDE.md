@@ -5,8 +5,8 @@ Jekyll + GitHub Pages site for Dr. Steven Denney's thesis and research supervisi
 
 ## Tech Stack
 - Jekyll with `jekyll-theme-cayman` (custom layout overrides Cayman entirely)
-- Custom SCSS with "Moonrise Kingdom" color scheme (dark forest, olive green, golden amber)
-- Small progressive JavaScript layer for mobile navigation, page table-of-contents behavior, method routing, and prompt copying
+- Custom SCSS with a Leiden blue scheme (deep navy `#001158` header/footer, navy ink headings, a blue link/accent ladder, near-white `#FAFBFC` background) — all colors are tokens in `:root`; no warm tones (no brown/gold/cream)
+- Small progressive JavaScript layer for mobile navigation, page table-of-contents behavior, and method routing
 - `kramdown: parse_block_html: true` required in `_config.yml` for markdown inside HTML blocks
 
 ## Site Structure
@@ -46,5 +46,7 @@ To rebuild PDFs: `cd <dir> && pdflatex <file>.tex && pdflatex <file>.tex`
 - `temp_ignore/` is gitignored — staging area for private materials
 - `sources/` is gitignored — supervisor-side reference PDFs and markdown conversions (copyrighted)
 - Color variables defined in `:root` in `assets/css/style.scss`
+- Program facts (word count, citation style, deadline) live in `_data/programs.yml` — the single source of truth read by the landing-page snapshot and each program page. Edit facts there, not inline.
 - Methods page uses a small JavaScript chooser plus static fallback cards
-- Nav has two dropdowns: Methods and Programs (both use `.nav-dropdown` pattern)
+- Nav has three dropdowns — Programs, Guide, and Methods (a mega-menu); all use the `.nav-dropdown` pattern. Under Methods → "Corpus" there is one page, Building a Corpus (corpus-design methods). The GenAI rules live on the Ethics & AI page.
+- AI/code workflow tooling (the former "AI & Code" page, starter prompts, the Corpus Wizard) has been extracted to a git-ignored `ai-for-research-export/` folder, staged for the separate **AI for Research** site (https://github.com/scdenney/ai-for-research). It is not published here; the methods site keeps only corpus-design methods and the Ethics GenAI policy. When that site is live, link to it from Methods/Ethics.

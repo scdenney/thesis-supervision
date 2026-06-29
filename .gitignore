@@ -23,10 +23,15 @@ Gemfile.lock
 # Claude Code
 .codex_review/
 .codex_tmp/
+.claude/
 
 # Private materials
 temp_ignore/
 _local/
+private/
 
 # Academic source PDFs and conversions (copyrighted)
 sources/
+
+# AI-for-research material extracted from this site (staging for scdenney/ai-for-research)
+ai-for-research-export/

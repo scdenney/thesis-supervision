@@ -8,15 +8,15 @@ Resources and guidance for thesis and research supervision by Dr. Steven Denney 
 
 - Program-specific thesis guidelines for BAIS, BAKS, MAAS, and MAIR
 - A step-by-step getting-started guide
-- Templates and checklists for supervision meetings, proposal planning, data/corpus work, AI disclosure, and final submission
+- Templates and checklists for supervision meetings, proposal planning, data/corpus work, disclosure, and final submission
 - Assessment standards and grade descriptors
 - Ethics and AI policy information
-- Methods guides (comparative case study, process tracing, framing analysis, discourse analysis, corpus building)
+- Methods guides (comparative case study, process tracing, framing analysis, discourse analysis, corpus building, and computational approaches)
 - Student-facing PDF handouts compiled from LaTeX
 
 ## Built with
 
-Jekyll + GitHub Pages. Markdown pages with custom HTML/CSS and small progressive JavaScript enhancements for navigation, table-of-contents behavior, method routing, and prompt copying.
+Jekyll + GitHub Pages. Markdown pages with custom HTML/CSS and small progressive JavaScript enhancements for navigation, table-of-contents behavior, and method routing.
 
 ## Local build
 

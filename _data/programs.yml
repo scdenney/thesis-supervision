@@ -1,0 +1,49 @@
+# Single source of truth for program facts.
+# Used by the landing-page Program Snapshot and each program page.
+# Update facts here once per academic year; pages read from this file.
+academic_year: "2025-2026"
+
+programs:
+  - code: BAIS
+    name: International Studies
+    level: BA
+    url: /bais/
+    words: "10,000 (&plusmn;10%)"
+    words_plain: "10,000 words (±10%), excluding bibliography and notes"
+    citation: "Chicago"
+    citation_long: "Chicago, with the supervisor determining whether Notes-Bibliography or Author-Date applies"
+    deadline: "June 5, 2026"
+    language: "English"
+
+  - code: BAKS
+    name: Korean Studies
+    level: BA
+    url: /baks/
+    words: "10,000 (&plusmn;10%)"
+    words_plain: "10,000 words (±10%), including footnotes, excluding bibliography and appendices"
+    citation: "Chicago Notes-Bibliography"
+    citation_long: "Chicago Notes-Bibliography"
+    deadline: "June 1, 2026"
+    language: "English for this seminar"
+
+  - code: MAAS
+    name: Asian Studies
+    level: MA
+    url: /maas/
+    words: "12,000&ndash;15,000"
+    words_plain: "12,000–15,000 words, including footnotes and references, excluding appendices"
+    citation: "Consistent, recognized style"
+    citation_long: "A consistent, recognized citation style appropriate to the discipline (for example, *Journal of Asian Studies* for social science or *American Historical Review* for history)"
+    deadline: "July 1, 2026"
+    language: "English"
+
+  - code: MAIR
+    name: International Relations
+    level: MA
+    url: /mair/
+    words: "15,000 max"
+    words_plain: "15,000 words maximum &mdash; a hard cap including all elements (notes, bibliography, and appendices), with no 10% margin"
+    citation: "Consistent, recognized style"
+    citation_long: "One consistent, recognized reference style applied throughout"
+    deadline: "June 5, 2026"
+    language: "English"
