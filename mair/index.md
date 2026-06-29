@@ -3,6 +3,8 @@ layout: default
 title: MAIR
 ---
 
+{% assign program = site.data.programs.programs | where: "code", "MAIR" | first %}
+
 <div class="page-layout">
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
@@ -42,7 +44,7 @@ The content below is adapted from the MAIR thesis supervision guidelines for stu
 
 <div class="info-box" markdown="1">
 
-**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI/code workflow.
+**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or computational methods.
 
 </div>
 
@@ -52,11 +54,11 @@ The content below is adapted from the MAIR thesis supervision guidelines for stu
 
 | Requirement | Details |
 |-------------|---------|
-| **Word count** | **15,000 words hard maximum**, including all elements (notes, bibliography, appendices). No 10% margin. |
-| **Citation style** | One reference style, used consistently throughout |
+| **Word count** | {{ program.words_plain }} |
+| **Citation style** | {{ program.citation_long }} |
 | **Language** | English |
 | **Specialization fit** | Thesis must fit your MAIR specialization track |
-| **Next deadline** | June 5, 2026 |
+| **Next deadline** | {{ program.deadline }} |
 
 ---
 
@@ -66,7 +68,7 @@ MAIR has a single thesis submission deadline per semester. If you miss the deadl
 
 | Deadline | Date |
 |----------|------|
-| **June 2026** | **Friday, June 5, 2026** |
+| **June 2026** | **Friday, {{ program.deadline }}** |
 | December 2026 | TBD (typically first Friday of December) |
 
 **Extensions.** If you need an extension, discuss it with **both** your supervisor and second reader well before the deadline. Both must approve. Extensions may result in a later graduation date and could prevent participation in the graduation ceremony. If the extension is not approved, contact [stucomair@hum.leidenuniv.nl](mailto:stucomair@hum.leidenuniv.nl) and consult the Board of Examiners.

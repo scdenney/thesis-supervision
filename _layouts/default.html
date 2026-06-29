@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{{ page.title }} | {{ site.title }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><polygon points='32,8 2,24 32,40 62,24' fill='%232C3527'/><polygon points='32,40 2,24 2,28 32,44 62,28 62,24' fill='%23F4A731'/><rect x='29' y='40' width='6' height='14' rx='1' fill='%232C3527'/><rect x='22' y='52' width='20' height='4' rx='2' fill='%23F4A731'/></svg>" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><polygon points='32,8 2,24 32,40 62,24' fill='%23001158'/><polygon points='32,40 2,24 2,28 32,44 62,28 62,24' fill='%236FA6E5'/><rect x='29' y='40' width='6' height='14' rx='1' fill='%23001158'/><rect x='22' y='52' width='20' height='4' rx='2' fill='%236FA6E5'/></svg>" />
   </head>
   {% assign is_home = false %}
   {% assign is_getting_started = false %}
   {% assign is_templates = false %}
   {% assign is_methods = false %}
-  {% assign is_ai = false %}
   {% assign is_assessment = false %}
   {% assign is_ethics = false %}
   {% assign is_program = false %}
@@ -25,13 +24,8 @@
   {% if page.url contains '/templates/' %}
     {% assign is_templates = true %}
   {% endif %}
-  {% if page.url contains '/methods/claude-code-codex' %}
-    {% assign is_ai = true %}
-  {% endif %}
   {% if page.url contains '/methods/' %}
-    {% unless is_ai %}
-      {% assign is_methods = true %}
-    {% endunless %}
+    {% assign is_methods = true %}
   {% endif %}
   {% if page.url contains '/assessment-standards/' %}
     {% assign is_assessment = true %}
@@ -56,23 +50,23 @@
           </button>
           <nav class="site-nav" id="site-nav" aria-label="Primary">
             <a href="{{ '/' | relative_url }}"{% if is_home %} class="is-active" aria-current="page"{% endif %}>Home</a>
-            <details class="nav-dropdown{% if is_getting_started or is_templates %} is-current{% endif %}">
-              <summary>Guide <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
-              <div class="nav-dropdown-menu">
-                <div class="nav-dropdown-menu-inner">
-                  <a href="{{ '/getting-started/' | relative_url }}"{% if is_getting_started %} aria-current="page"{% endif %}>Thesis Guide</a>
-                  <a href="{{ '/templates/' | relative_url }}"{% if is_templates %} aria-current="page"{% endif %}>Templates &amp; Checklists</a>
-                </div>
-              </div>
-            </details>
             <details class="nav-dropdown{% if is_program %} is-current{% endif %}">
               <summary>Programs <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
               <div class="nav-dropdown-menu">
                 <div class="nav-dropdown-menu-inner">
-                  <a href="{{ '/bais/' | relative_url }}"{% if page.url contains '/bais/' %} aria-current="page"{% endif %}>BAIS</a>
-                  <a href="{{ '/baks/' | relative_url }}"{% if page.url contains '/baks/' %} aria-current="page"{% endif %}>BAKS</a>
-                  <a href="{{ '/maas/' | relative_url }}"{% if page.url contains '/maas/' %} aria-current="page"{% endif %}>MAAS</a>
-                  <a href="{{ '/mair/' | relative_url }}"{% if page.url contains '/mair/' %} aria-current="page"{% endif %}>MAIR</a>
+                  <a href="{{ '/bais/' | relative_url }}"{% if page.url contains '/bais/' %} aria-current="page"{% endif %}>BAIS &mdash; International Studies</a>
+                  <a href="{{ '/baks/' | relative_url }}"{% if page.url contains '/baks/' %} aria-current="page"{% endif %}>BAKS &mdash; Korean Studies</a>
+                  <a href="{{ '/maas/' | relative_url }}"{% if page.url contains '/maas/' %} aria-current="page"{% endif %}>MAAS &mdash; Asian Studies</a>
+                  <a href="{{ '/mair/' | relative_url }}"{% if page.url contains '/mair/' %} aria-current="page"{% endif %}>MAIR &mdash; International Relations</a>
+                </div>
+              </div>
+            </details>
+            <details class="nav-dropdown{% if is_getting_started or is_templates %} is-current{% endif %}">
+              <summary>Guide <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
+              <div class="nav-dropdown-menu">
+                <div class="nav-dropdown-menu-inner">
+                  <a href="{{ '/getting-started/' | relative_url }}"{% if is_getting_started %} aria-current="page"{% endif %}>Getting Started</a>
+                  <a href="{{ '/templates/' | relative_url }}"{% if is_templates %} aria-current="page"{% endif %}>Templates &amp; Checklists</a>
                 </div>
               </div>
             </details>
@@ -80,25 +74,13 @@
               <summary>Methods <span class="nav-arrow" aria-hidden="true">&#9662;</span></summary>
               <div class="nav-dropdown-menu methods-mega-menu">
                 <div class="nav-dropdown-menu-inner methods-menu-inner">
-                  <div class="methods-menu-feature-grid">
-                    <a class="methods-menu-feature" href="{{ '/methods/' | relative_url }}"{% if page.title == 'Methods Guide' %} aria-current="page"{% endif %}>
-                      <span class="nav-card-icon" data-method-visual="chooser" aria-hidden="true"></span>
-                      <strong>Methods Guide</strong>
-                      <em>Use the chooser and browse all method cards.</em>
-                    </a>
-                    <a class="methods-menu-feature" href="https://scdenney.github.io/corpus-building/">
-                      <span class="nav-card-icon" data-method-visual="corpus" aria-hidden="true"></span>
-                      <strong>Corpus Wizard</strong>
-                      <em>Route OCR, cleanup, metadata, and compute work.</em>
-                    </a>
-                    <a class="methods-menu-feature" href="{{ '/methods/claude-code-codex' | relative_url }}"{% if page.url contains '/methods/claude-code-codex' %} aria-current="page"{% endif %}>
-                      <span class="nav-card-icon" data-method-visual="ai" aria-hidden="true"></span>
-                      <strong>AI &amp; Code</strong>
-                      <em>Use AI for folders, scripts, checks, and documentation.</em>
-                    </a>
-                  </div>
+                  <a class="methods-menu-feature methods-menu-lead" href="{{ '/methods/' | relative_url }}"{% if page.title == 'Methods Guide' %} aria-current="page"{% endif %}>
+                    <span class="nav-card-icon" data-method-visual="chooser" aria-hidden="true"></span>
+                    <strong>Methods Guide &mdash; start here</strong>
+                    <em>Use the chooser, then browse every method.</em>
+                  </a>
 
-                  <div class="methods-menu-columns">
+                  <div class="methods-menu-columns methods-menu-columns-3">
                     <div class="methods-menu-group">
                       <p>Qualitative</p>
                       <a href="{{ '/methods/qualitative/comparative-case-study' | relative_url }}"{% if page.url contains '/methods/qualitative/comparative-case-study' %} aria-current="page"{% endif %}>Comparative Case Study</a>
@@ -108,19 +90,21 @@
                     </div>
                     <div class="methods-menu-group">
                       <p>Computational</p>
-                      <a href="{{ '/methods/building-a-corpus' | relative_url }}"{% if page.url contains '/methods/building-a-corpus' %} aria-current="page"{% endif %}>Building a Corpus</a>
                       <a href="{{ '/methods/quantitative/preprocessing' | relative_url }}"{% if page.url contains '/methods/quantitative/preprocessing' %} aria-current="page"{% endif %}>Preprocessing</a>
                       <a href="{{ '/methods/quantitative/topic-analysis' | relative_url }}"{% if page.url contains '/methods/quantitative/topic-analysis' %} aria-current="page"{% endif %}>Topic Analysis</a>
                       <a href="{{ '/methods/quantitative/sentiment-analysis' | relative_url }}"{% if page.url contains '/methods/quantitative/sentiment-analysis' %} aria-current="page"{% endif %}>Sentiment Analysis</a>
                       <a href="{{ '/methods/quantitative/word-embeddings' | relative_url }}"{% if page.url contains '/methods/quantitative/word-embeddings' %} aria-current="page"{% endif %}>Word Embeddings</a>
                     </div>
+                    <div class="methods-menu-group">
+                      <p>Corpus</p>
+                      <a href="{{ '/methods/building-a-corpus' | relative_url }}"{% if page.url contains '/methods/building-a-corpus' %} aria-current="page"{% endif %}>Building a Corpus</a>
+                    </div>
                   </div>
                 </div>
               </div>
             </details>
-            <a href="{{ '/methods/claude-code-codex' | relative_url }}"{% if is_ai %} class="is-active" aria-current="page"{% endif %}>AI &amp; Code</a>
             <a href="{{ '/assessment-standards/' | relative_url }}"{% if is_assessment %} class="is-active" aria-current="page"{% endif %}>Assessment</a>
-            <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Policies</a>
+            <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Ethics &amp; AI</a>
           </nav>
         </div>
       </div>
@@ -134,11 +118,6 @@
         {% if is_getting_started or is_templates %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>
-        {% elsif is_ai %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/' | relative_url }}">Methods</a>
-          <span class="crumb-sep">/</span>
-          <span class="crumb-current">AI &amp; Code</span>
         {% elsif is_assessment %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>
@@ -162,9 +141,9 @@
         {% elsif page.url contains '/methods/quantitative/' %}
           <span class="crumb-sep">/</span>
           <a href="{{ '/methods/' | relative_url }}">Methods</a>
-          {% if page.title != 'Computational & Quantitative Approaches' %}
+          {% if page.title != 'Computational Approaches' %}
           <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/quantitative/' | relative_url }}">Computational &amp; Quantitative</a>
+          <a href="{{ '/methods/quantitative/' | relative_url }}">Computational</a>
           {% endif %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>

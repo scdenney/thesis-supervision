@@ -3,6 +3,8 @@ layout: default
 title: BAIS
 ---
 
+{% assign program = site.data.programs.programs | where: "code", "BAIS" | first %}
+
 <div class="page-layout">
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
@@ -47,7 +49,7 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 
 <div class="info-box" markdown="1">
 
-**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI/code workflow.
+**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or computational methods.
 
 </div>
 
@@ -57,11 +59,11 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 
 | Requirement | Details |
 |-------------|---------|
-| **Word count** | 10,000 words (±10%), excluding bibliography and notes |
-| **Citation style** | Chicago, with the supervisor determining whether Notes-Bibliography or Author-Date applies |
+| **Word count** | {{ program.words_plain }} |
+| **Citation style** | {{ program.citation_long }} |
 | **Language** | English |
 | **Global perspective** | The thesis must either (a) place a regionally defined topic in a global context, or (b) analyze the topic from at least two disciplinary perspectives |
-| **Final deadline** | June 5, 2026 |
+| **Final deadline** | {{ program.deadline }} |
 
 ---
 
@@ -72,7 +74,7 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 | Research question and plan | Week 9 |
 | Literature review | Week 12 |
 | Thesis draft | Week 18 |
-| **Final thesis** | **June 5, 2026** |
+| **Final thesis** | **{{ program.deadline }}** |
 
 All deadlines are Friday at 23:59. Deadlines are coordinated across seminars and rarely change. In serious personal circumstances, contact your supervisor before the deadline. Short extensions may be possible, while longer requests must go through the Board of Examiners. Always confirm exact dates with your supervisor and check Brightspace.
 

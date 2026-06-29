@@ -1,45 +1,23 @@
 ---
 layout: default
-title: Computational & Quantitative Approaches
+title: Computational Approaches
 ---
 
-# Computational & Quantitative Approaches
+# Computational Approaches
 
 These pages are for projects where close reading alone cannot handle the corpus. Computational methods shift the interpretive work to collection, preprocessing, validation, and explanation.
 
 The split with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is about analytical posture. The same speeches or tweets can support several kinds of analysis, depending on the claim.
 
-## Launch the wizard
-
-If the immediate problem is OCR, cleanup, metadata, or analysis-ready files, use the standalone wizard. It routes by scale and compute, then gives you a starter kit for Claude Code or Codex.
-
-<div class="cb-term-wrap" markdown="0">
-  <a class="cb-term" href="https://scdenney.github.io/corpus-building/"
-     aria-label="Launch the corpus-building wizard">
-    <div class="cb-term-bar">
-      <span class="cb-term-dot cb-dot-r" aria-hidden="true"></span>
-      <span class="cb-term-dot cb-dot-y" aria-hidden="true"></span>
-      <span class="cb-term-dot cb-dot-g" aria-hidden="true"></span>
-      <span class="cb-term-title">corpus-building - companion resource</span>
-    </div>
-    <div class="cb-term-body">
-      <div class="cb-term-line">
-        <span class="cb-term-prompt">$</span>
-        <span class="cb-term-cmd-wrap">
-          <span class="cb-term-cmd">corpus-building-wizard</span><span class="cb-term-cursor">|</span>
-        </span>
-      </div>
-      <div class="cb-term-caption">
-        Turn a source folder into an analysis-ready text corpus. The wizard builds the starter kit around your constraints.
-        <span class="cb-term-arrow">&rarr;</span>
-      </div>
-    </div>
-  </a>
-</div>
+Two steps come before any model: define your source base, then decide how to clean it.
 
 ## Preparation before analysis
 
 <div class="program-cards" markdown="0">
+  <a class="program-card" href="{{ '/methods/building-a-corpus' | relative_url }}">
+    <h3>Building a Corpus</h3>
+    <p>Define and bound your source base before any computation. Start here.</p>
+  </a>
   <a class="program-card" href="{{ '/methods/quantitative/preprocessing' | relative_url }}">
     <h3>Preprocessing</h3>
     <p>Cleaning choices that shape the model input.</p>
@@ -61,14 +39,6 @@ If the immediate problem is OCR, cleanup, metadata, or analysis-ready files, use
     <h3>Word Embeddings</h3>
     <p>Represent words or documents as vectors for similarity, drift, and classification.</p>
   </a>
-</div>
-
-<div class="question-banner" markdown="0">
-  <div class="question-banner-copy">
-    <strong>Need to sort out the corpus or pipeline before choosing one of these?</strong>
-    <p>Use the corpus page for research design. Use the wizard when the bottleneck is files, OCR, or compute.</p>
-  </div>
-  <a href="{{ '/methods/building-a-corpus' | relative_url }}">Go to Building a Corpus</a>
 </div>
 
 ---

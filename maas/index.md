@@ -3,6 +3,8 @@ layout: default
 title: MAAS
 ---
 
+{% assign program = site.data.programs.programs | where: "code", "MAAS" | first %}
+
 <div class="page-layout">
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
@@ -40,7 +42,7 @@ The content below is adapted from the MA Asian Studies thesis protocol for stude
 
 <div class="info-box" markdown="1">
 
-**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI/code workflow.
+**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or computational methods.
 
 </div>
 
@@ -50,11 +52,11 @@ The content below is adapted from the MA Asian Studies thesis protocol for stude
 
 | Requirement | Details |
 |-------------|---------|
-| **Word count** | 12,000–15,000 words, including footnotes and references, excluding appendices |
-| **Citation style** | An established format according to the standards of your discipline, used consistently (e.g., *Journal of Asian Studies* for social science, *American Historical Review* for history) |
+| **Word count** | {{ program.words_plain }} |
+| **Citation style** | {{ program.citation_long }} |
 | **Language** | English |
 | **Asian-language sources** | Encouraged, and required for some specializations (see below) |
-| **Final deadline** | July 1, 2026 (fall entry) |
+| **Final deadline** | {{ program.deadline }} (fall entry) |
 
 ---
 
@@ -72,7 +74,7 @@ The thesis process begins with the assignment of a supervisor, based on the thes
 | Final thesis proposal due | January 31, 2026 | July 1, 2026 |
 | **First thesis submission** | **May 15, 2026** | **November 1, 2026** |
 | Supervisor feedback on draft | Within 10 working days | Within 10 working days |
-| **Final thesis deadline** | **July 1, 2026** | **December 15, 2026** |
+| **Final thesis deadline** | **{{ program.deadline }}** | **December 15, 2026** |
 
 <div class="info-box" markdown="1">
 

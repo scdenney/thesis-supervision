@@ -3,6 +3,8 @@ layout: default
 title: BAKS
 ---
 
+{% assign program = site.data.programs.programs | where: "code", "BAKS" | first %}
+
 <div class="page-layout">
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
@@ -41,7 +43,7 @@ The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper t
 
 <div class="info-box" markdown="1">
 
-**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or AI/code workflow.
+**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or computational methods.
 
 </div>
 
@@ -51,12 +53,12 @@ The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper t
 
 | Requirement | Details |
 |-------------|---------|
-| **Word count** | 10,000 words (±10%), including footnotes, excluding bibliography and appendices |
-| **Citation style** | Chicago Notes-Bibliography |
+| **Word count** | {{ program.words_plain }} |
+| **Citation style** | {{ program.citation_long }} |
 | **Language** | English for this seminar. Official program rules allow Dutch or English, with another Western language only by Board of Examiners permission |
 | **Korean sources** | At least 10% of sources should be in Korean |
 | **Romanization** | McCune-Reischauer (MCR) system |
-| **Final deadline** | June 1, 2026 |
+| **Final deadline** | {{ program.deadline }} |
 
 ---
 
@@ -67,7 +69,7 @@ The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper t
 | Assignment #1: Revised Research Proposal | March 13, 2026 |
 | Assignment #2: Preliminary Draft | April 3, 2026 |
 | Assignment #3: Empirical Draft | May 6, 2026 |
-| **Final Manuscript** | **June 1, 2026** |
+| **Final Manuscript** | **{{ program.deadline }}** |
 
 All assignments are submitted via Brightspace by 23:59 on the due date.
 

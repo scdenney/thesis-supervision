@@ -278,7 +278,7 @@ Use [Templates & Checklists]({{ '/templates/' | relative_url }}) alongside this 
 </div>
 
 <div class="info-box">
-<p><strong>Want more detail?</strong> The <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> gives fuller guidance on comparative case study design, process tracing, framing analysis, discourse analysis, corpus building, and supported workflows with <a href="{{ '/methods/claude-code-codex' | relative_url }}">Claude Code and Codex</a>.</p>
+<p><strong>Want more detail?</strong> The <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> gives fuller guidance on comparative case study design, process tracing, framing analysis, discourse analysis, and corpus building.</p>
 </div>
 
 <h4>Justifying your choices</h4>

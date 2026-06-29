@@ -26,12 +26,6 @@ title: Building a Corpus
 <li><a href="#related-methods">Related Methods</a></li>
 </ul>
 </nav>
-<div class="page-route-card" markdown="0">
-<span class="page-route-eyebrow">Computational route</span>
-<h5>Need OCR, cleanup, metadata, or compute planning?</h5>
-<p>Launch the wizard if you already know this corpus needs a technical pipeline.</p>
-<a class="page-route-link" href="https://scdenney.github.io/corpus-building/">Launch the wizard</a>
-</div>
 </div>
 </aside>
 
@@ -250,64 +244,7 @@ Many corpus-building tasks are repetitive. Common examples include converting PD
 - **R** users can accomplish similar tasks with packages like `pdftools`, `rvest`, and `readtext`.
 - **Command-line tools** such as `pdftotext`, `pandoc`, and standard Unix utilities (`rename`, `sed`, `awk`) are effective for batch operations.
 
-### AI-assisted corpus management
-
-AI coding assistants such as Claude Code, OpenAI Codex, or GitHub Copilot can help students with limited programming experience draft and test small corpus-management scripts. Typical tasks include:
-
-- Write scripts to batch-convert PDFs to plain text
-- Clean and standardize text files (removing headers, footers, boilerplate)
-- Parse and restructure metadata exports from databases
-- Rename files in bulk according to your naming convention
-- Split large export files into individual documents
-- Run basic validation checks (e.g., flagging empty files, checking word counts)
-
-You do not need to be a programmer to use these tools effectively. Describe the task in plain language. For example, "I have 300 PDFs in a folder and I need to convert them to plain text files with the same names." The tool can draft a script that you inspect and test on a small sample before running it on permitted data.
-
-<div class="info-box" markdown="1">
-
-**GenAI permission and disclosure.** Before using AI tools for corpus management tasks of any kind (file conversion, batch renaming, header cleanup, basic validation), discuss the planned use with your supervisor and check the [Ethics & AI generative AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}). If the use is permitted, disclose it in your methodology chapter. Document what the tool helped with and what you verified by hand. Note where the underlying prompts and outputs are stored.
-
-**Important distinction.** Using AI to *manage* your corpus (file conversion, header cleanup, metadata assembly) is different from using AI to *analyze* your corpus (generating codes or producing interpretive findings). Corpus management can be a practical workflow task when it is transparent and verified. Corpus analysis raises fundamental questions about the integrity of your analysis and requires explicit guidance before you proceed.
-
-</div>
-
-### An agent-guided pipeline
-
-If your project needs a full computational pipeline, I maintain a standalone [Corpus Building Wizard](https://scdenney.github.io/corpus-building/). Use it for OCR from scanned PDFs, rule-based cleanup, metadata assembly, or outputs formatted for a specific analysis tool. The wizard asks about your project and returns a setup for [Claude Code](https://claude.ai/code){:target="_blank"} or [OpenAI Codex](https://developers.openai.com/codex/){:target="_blank"}. It also gives you a one-line terminal command for an agent session already primed with your specifics.
-
-The wizard covers three execution paths. Cloud API works for laptops. ALICE / LUCDH handles HPC work. A local consumer GPU suits students who prefer to run things at home. The broader methodological decisions (scope, selection, ethics, documentation) stay here.
-
-<aside class="cb-mini-wizard" markdown="0">
-  <span class="cb-mini-eyebrow">Quick route</span>
-  <h3>Which corpus-building path fits your project?</h3>
-  <p>Two questions. The full wizard opens with your answers already loaded.</p>
-  <form method="get" action="https://scdenney.github.io/corpus-building/">
-    <label>
-      <span>How many pages?</span>
-      <select name="pages" required>
-        <option value="">&mdash;</option>
-        <option value="lt100">Less than 100</option>
-        <option value="101_500">101–500</option>
-        <option value="501_1k">501–1,000</option>
-        <option value="1k_5k">1,001–5,000</option>
-        <option value="5k_10k">5,001–10,000</option>
-        <option value="gt10k">More than 10,000</option>
-      </select>
-    </label>
-    <label>
-      <span>What compute?</span>
-      <select name="compute" required>
-        <option value="">&mdash;</option>
-        <option value="alice">ALICE account</option>
-        <option value="lucdh">LUCDH workstation</option>
-        <option value="gpu_big">Local GPU, 16 GB or more</option>
-        <option value="gpu_small">Local GPU, less than 16 GB</option>
-        <option value="none">Laptop only</option>
-      </select>
-    </label>
-    <button type="submit">Open the full wizard &rarr;</button>
-  </form>
-</aside>
+If you use any code or tool assistance for these procedural steps, inspect and test the result on a small sample first, and disclose the use under the [Ethics &amp; AI generative-AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}).
 
 ### What not to automate
 

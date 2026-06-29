@@ -7,7 +7,7 @@ title: Qualitative Approaches
 
 These pages cover the close-reading and case-based methods I supervise most often. The analyst's judgment is central here: you decide what the evidence means, why a comparison is fair, and how far the claim can travel.
 
-Students often combine these methods with each other. They also pair them with computational tools for sampling or validation. For that side of the split, see [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}).
+Students often combine these methods with each other. They also pair them with computational tools for sampling or validation. For that side of the split, see [Computational Approaches]({{ '/methods/quantitative/' | relative_url }}).
 
 ## Common qualitative methods
 
@@ -32,8 +32,8 @@ Students often combine these methods with each other. They also pair them with c
 
 <div class="question-banner" markdown="0">
   <div class="question-banner-copy">
-    <strong>Still working out the corpus first?</strong>
-    <p>Go back to the corpus page if the source base is still unsettled.</p>
+    <strong>Most text-based projects begin with the corpus.</strong>
+    <p>If the source base is still unsettled, define and bound it first &mdash; the analysis rests on it.</p>
   </div>
   <a href="{{ '/methods/building-a-corpus' | relative_url }}">Go to Building a Corpus</a>
 </div>
@@ -49,7 +49,7 @@ Qualitative and computational methods can be paired when each has a defined role
 - **Comparative case study + descriptive corpus statistics.** Aggregate measures such as volume or keyword prevalence can support the cross-case interpretation.
 - **Process tracing + digital archives.** Computational search helps identify causal-process observations you might otherwise miss.
 
-The [Computational & Quantitative Approaches]({{ '/methods/quantitative/' | relative_url }}) page covers the methods on the other side of the split.
+The [Computational Approaches]({{ '/methods/quantitative/' | relative_url }}) page covers the methods on the other side of the split.
 
 ---
 

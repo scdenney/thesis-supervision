@@ -11,7 +11,6 @@ Start here when the method is still unsettled. Choose the method by asking what 
   data-route-corpus="{{ '/methods/building-a-corpus' | relative_url }}"
   data-route-qualitative="{{ '/methods/qualitative/' | relative_url }}"
   data-route-computational="{{ '/methods/quantitative/' | relative_url }}"
-  data-route-ai="{{ '/methods/claude-code-codex' | relative_url }}"
   markdown="0">
   <div class="method-router-copy">
     <p class="section-kicker">Method selection</p>
@@ -42,7 +41,6 @@ Start here when the method is still unsettled. Choose the method by asking what 
           <option value="interpret">Interpret meaning, frames, discourse, or themes</option>
           <option value="explain">Explain why something happened</option>
           <option value="measure">Measure patterns across many documents</option>
-          <option value="workflow">Use AI/code tools to build a workflow</option>
         </select>
       </label>
 
@@ -58,10 +56,10 @@ Start here when the method is still unsettled. Choose the method by asking what 
     </form>
 
     <div class="router-result" data-router-result aria-live="polite">
-      <span class="result-label">Recommended section</span>
-      <h3 data-router-title>Corpus planning</h3>
-      <p data-router-copy>If the answer is still unclear, define the source base first. Method choices usually get easier once you know what evidence you actually have.</p>
-      <a data-router-link href="{{ '/methods/building-a-corpus' | relative_url }}">Open Building a Corpus</a>
+      <span class="result-label">Your starting point</span>
+      <h3 data-router-title>Answer a question to begin</h3>
+      <p data-router-copy>Choose an option above and a recommended section will appear here. Not sure yet? Browse the method cards below.</p>
+      <a data-router-link href="#browse-method-cards">Browse method cards</a>
     </div>
   </div>
 </section>
@@ -73,7 +71,6 @@ Start here when the method is still unsettled. Choose the method by asking what 
   <button type="button" data-method-filter="workflow">Workflow</button>
   <button type="button" data-method-filter="qualitative">Qualitative</button>
   <button type="button" data-method-filter="computational">Computational</button>
-  <button type="button" data-method-filter="ai">AI &amp; Code</button>
 </div>
 
 <div class="method-card-grid method-card-grid-expanded" markdown="0">
@@ -147,14 +144,6 @@ Start here when the method is still unsettled. Choose the method by asking what 
     <h3>Word Embeddings</h3>
     <p>For similarity, conceptual drift, or retrieval when keyword searches are too brittle.</p>
     <span class="tag-list">semantics · vectors · advanced</span>
-  </a>
-
-  <a class="method-card method-card-feature" data-method-groups="workflow ai computational qualitative" href="{{ '/methods/claude-code-codex' | relative_url }}">
-    <span class="method-visual" data-method-visual="ai" aria-hidden="true"></span>
-    <span class="method-type">AI &amp; Code</span>
-    <h3>AI &amp; Code</h3>
-    <p>For source folders, scripts, and logs that need to stay inspectable.</p>
-    <span class="tag-list">agents · scripts · disclosure</span>
   </a>
 </div>
 
