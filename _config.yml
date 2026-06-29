@@ -6,3 +6,11 @@ show_downloads: false
 
 kramdown:
   parse_block_html: true
+
+# Staging/working dirs Jekyll should never render or copy into _site
+exclude:
+  - ai-for-research-export/
+  - private/
+  - README.md
+  - _local/
+  - vendor/
