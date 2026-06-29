@@ -5,7 +5,7 @@ Jekyll + GitHub Pages site for Dr. Steven Denney's thesis and research supervisi
 
 ## Tech Stack
 - Jekyll with `jekyll-theme-cayman` (custom layout overrides Cayman entirely)
-- Custom SCSS with a Leiden blue scheme (deep navy `#001158` header/footer, navy ink headings, a blue link/accent ladder, near-white `#FAFBFC` background) — all colors are tokens in `:root`; no warm tones (no brown/gold/cream)
+- Custom SCSS with a warm academic-paper palette: deep navy `#001158` header/footer (Leiden brand anchor), navy-charcoal `#21283A` headings, slate-blue `#34557A` links, warm near-black `#2B2B2F` body text on a warm-paper `#F4F2EC` background, white cards with warm hairline borders + warm low-contrast shadows. Muted bronze `#8A6A3B` is the light-surface accent (rules/underlines/active borders, used sparingly) and brass `#C2A877` is the accent on the navy header. All colors are tokens in `:root`; the method-card SVG line-art (in `assets/js/site.js`) is hand-tinted to match — keep it warm if you touch it. (History: started warm gold → went Leiden-blue → now warm paper; don't reintroduce bright pale-blue panels.)
 - Small progressive JavaScript layer for mobile navigation, page table-of-contents behavior, and method routing
 - `kramdown: parse_block_html: true` required in `_config.yml` for markdown inside HTML blocks
 
