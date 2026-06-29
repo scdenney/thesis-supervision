@@ -8,30 +8,30 @@
 }
 
 :root {
-  /* ── Leiden blue palette: deep navy + a ladder of blues on soft white (no warm tones) ── */
+  /* ── Academic-paper palette: deep navy chrome + slate-blue ink on warm paper (bronze used sparingly) ── */
   --navy-deep: #001158;     /* site header + footer, brand navy (Leiden) */
-  --plum: #14274D;          /* navy ink: headings, buttons, dropdown text, labels */
-  --plum-hover: #0B1A36;    /* navy button hover */
-  --teal: #1A5499;          /* links, eyebrows, route links (clear blue) */
-  --blue-hover: #103A73;    /* link / route hover */
-  --accent: #2F6FD0;          /* accent blue on LIGHT surfaces: underlines, callout edges, active borders */
-  --accent-hi: #6FA6E5;  /* light-blue accent on the NAVY header (active tab, header rule) */
-  --bg: #FAFBFC;         /* page background (near-white, barely-there cool tint) */
+  --plum: #21283A;          /* navy-charcoal ink: headings, buttons, dropdown text, labels */
+  --plum-hover: #161B28;    /* heading / navy button hover */
+  --teal: #34557A;          /* links, eyebrows, route links (slate-blue) */
+  --blue-hover: #24405E;    /* link / route hover (darker slate) */
+  --accent: #8A6A3B;        /* muted bronze on LIGHT surfaces: underlines, rules, active borders (sparingly) */
+  --accent-hi: #C2A877;     /* warm brass accent on the NAVY header (active tab, header rule) */
+  --bg: #F4F2EC;            /* page background (warm paper) */
   --white: #FFFFFF;
-  --surface: #FFFFFF;       /* cards: crisp white */
-  --surface-soft: #EEF1F6;  /* soft neutral panel tint */
-  --footer-bg: #EDF0F5;     /* table headers, code, details summary */
-  --text: #15233D;          /* body text (deep navy-charcoal) */
-  --muted: #51607A;         /* muted blue-grey text */
-  --line: rgba(20, 39, 77, 0.13);
-  --ring: rgba(47, 111, 208, 0.55);   /* focus ring (blue) */
+  --surface: #FFFFFF;       /* cards: warm white */
+  --surface-soft: #EFEBE1;  /* soft warm panel tint */
+  --footer-bg: #ECE7DC;     /* table headers, code, details summary */
+  --text: #2B2B2F;          /* body text (warm near-black) */
+  --muted: #6B6459;         /* muted warm-grey text */
+  --line: rgba(60, 48, 30, 0.16);
+  --ring: rgba(138, 106, 59, 0.5);   /* focus ring (bronze) */
 
-  /* Elevation — cool, navy-tinted */
-  --shadow-sm: 0 1px 2px rgba(20, 39, 77, 0.06);
-  --shadow-md: 0 8px 20px rgba(20, 39, 77, 0.08);
-  --shadow-lg: 0 18px 38px rgba(20, 39, 77, 0.13);
-  --shadow: 0 10px 24px rgba(20, 39, 77, 0.09);
-  --shadow-soft: 0 1px 0 rgba(255, 255, 255, 0.6), 0 10px 22px rgba(20, 39, 77, 0.05);
+  /* Elevation — warm, low-contrast */
+  --shadow-sm: 0 1px 2px rgba(60, 46, 28, 0.07);
+  --shadow-md: 0 8px 20px rgba(60, 46, 28, 0.09);
+  --shadow-lg: 0 18px 38px rgba(60, 46, 28, 0.14);
+  --shadow: 0 10px 24px rgba(60, 46, 28, 0.10);
+  --shadow-soft: 0 1px 0 rgba(255, 255, 255, 0.6), 0 10px 22px rgba(60, 46, 28, 0.06);
 
   /* Type */
   --font-serif: "Iowan Old Style", "Charter", "Palatino Linotype", Palatino, Georgia,
@@ -228,7 +228,7 @@ textarea:focus-visible {
 .nav-dropdown.is-current > summary {
   color: #ffffff;
   background: rgba(255, 255, 255, 0.09);
-  border-color: rgba(111, 166, 229, 0.45);
+  border-color: rgba(194, 168, 119, 0.45);
   box-shadow: inset 0 -2px 0 var(--accent-hi);
 }
 
@@ -239,7 +239,7 @@ textarea:focus-visible {
 .nav-dropdown.is-current[open] > summary {
   color: #ffffff;
   background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(111, 166, 229, 0.5);
+  border-color: rgba(194, 168, 119, 0.5);
 }
 
 .nav-dropdown[open] > summary {
@@ -305,12 +305,12 @@ textarea:focus-visible {
 
 .nav-dropdown-menu a:hover,
 .nav-dropdown-menu a:focus {
-  background: rgba(26, 79, 156, 0.12);
+  background: rgba(138, 106, 59, 0.12);
   color: var(--plum);
 }
 
 .nav-dropdown-menu a[aria-current="page"] {
-  background: rgba(47, 111, 208, 0.16);
+  background: rgba(138, 106, 59, 0.16);
   color: var(--plum);
 }
 
@@ -360,8 +360,8 @@ textarea:focus-visible {
   align-items: center;
   min-height: 4.35rem;
   padding: 0.75rem;
-  border: 1px solid rgba(26, 79, 156, 0.2);
-  background: linear-gradient(180deg, #ffffff, #F7FAFE);
+  border: 1px solid rgba(138, 106, 59, 0.2);
+  background: linear-gradient(180deg, #ffffff, #FAF8F2);
   white-space: normal;
   overflow: hidden;
   transition: border-color 0.16s ease, box-shadow 0.16s ease,
@@ -383,27 +383,27 @@ textarea:focus-visible {
 }
 
 .nav-dropdown-menu a.methods-menu-feature:nth-child(3)::before {
-  background: #0E7C8B;
+  background: #2E5570;
 }
 
 .nav-dropdown-menu a.methods-menu-feature:hover,
 .nav-dropdown-menu a.methods-menu-feature:focus {
-  border-color: rgba(47, 111, 208, 0.7);
-  background: linear-gradient(180deg, #ffffff, #EAF0F8);
-  box-shadow: 0 12px 24px rgba(10, 42, 102, 0.1);
+  border-color: rgba(138, 106, 59, 0.7);
+  background: linear-gradient(180deg, #ffffff, #EEE9DF);
+  box-shadow: 0 12px 24px rgba(60, 46, 28, 0.1);
   transform: translateY(-2px);
 }
 
 .nav-dropdown-menu a.methods-menu-feature:nth-child(2):hover,
 .nav-dropdown-menu a.methods-menu-feature:nth-child(2):focus {
-  border-color: rgba(26, 79, 156, 0.55);
-  background: linear-gradient(180deg, #ffffff, #EFF5FC);
+  border-color: rgba(138, 106, 59, 0.55);
+  background: linear-gradient(180deg, #ffffff, #F3EFE6);
 }
 
 .nav-dropdown-menu a.methods-menu-feature:nth-child(3):hover,
 .nav-dropdown-menu a.methods-menu-feature:nth-child(3):focus {
-  border-color: rgba(14, 124, 139, 0.5);
-  background: linear-gradient(180deg, #ffffff, #ECF6F8);
+  border-color: rgba(46, 85, 112, 0.5);
+  background: linear-gradient(180deg, #ffffff, #F1ECE2);
 }
 
 .nav-dropdown-menu a.methods-menu-feature:hover::before,
@@ -442,30 +442,30 @@ textarea:focus-visible {
   width: 3rem;
   height: 3rem;
   overflow: hidden;
-  border: 1px solid rgba(26, 79, 156, 0.16);
+  border: 1px solid rgba(138, 106, 59, 0.16);
   border-radius: 8px;
-  background: #EFF5FC;
+  background: #F3EFE6;
   transition: border-color 0.16s ease, transform 0.16s ease,
     background-color 0.16s ease;
 }
 
 .methods-menu-feature:hover .nav-card-icon,
 .methods-menu-feature:focus .nav-card-icon {
-  border-color: rgba(47, 111, 208, 0.55);
-  background: #EAF0F8;
+  border-color: rgba(138, 106, 59, 0.55);
+  background: #EEE9DF;
   transform: scale(1.04);
 }
 
 .methods-menu-feature:nth-child(2):hover .nav-card-icon,
 .methods-menu-feature:nth-child(2):focus .nav-card-icon {
-  border-color: rgba(26, 79, 156, 0.45);
-  background: #EFF5FC;
+  border-color: rgba(138, 106, 59, 0.45);
+  background: #F3EFE6;
 }
 
 .methods-menu-feature:nth-child(3):hover .nav-card-icon,
 .methods-menu-feature:nth-child(3):focus .nav-card-icon {
-  border-color: rgba(14, 124, 139, 0.42);
-  background: #ECF6F8;
+  border-color: rgba(46, 85, 112, 0.42);
+  background: #F1ECE2;
 }
 
 .nav-card-icon svg {
@@ -513,7 +513,7 @@ textarea:focus-visible {
 }
 
 .crumb-sep {
-  color: rgba(76, 91, 117, 0.6);
+  color: rgba(107, 100, 89, 0.6);
 }
 
 .crumb-current {
@@ -640,14 +640,14 @@ main h1 + p {
 
 .page-toc a:hover,
 .page-toc a:focus {
-  background: rgba(26, 79, 156, 0.12);
+  background: rgba(138, 106, 59, 0.12);
   color: var(--plum);
 }
 
 .page-route-card {
   margin-top: 1rem;
   padding: 0.95rem;
-  border: 1px solid rgba(26, 79, 156, 0.16);
+  border: 1px solid rgba(138, 106, 59, 0.16);
   border-radius: 8px;
   background: #ffffff;
   box-shadow: var(--shadow-soft);
@@ -688,7 +688,7 @@ main h1 + p {
   color: var(--white);
   font-weight: 700;
   text-decoration: none;
-  box-shadow: 0 8px 18px rgba(26, 79, 156, 0.16);
+  box-shadow: 0 8px 18px rgba(138, 106, 59, 0.16);
 }
 
 .page-route-link:hover {
@@ -965,7 +965,7 @@ th {
 }
 
 tr:hover {
-  background: #F3F7FC;
+  background: #F6F2EA;
 }
 
 /* ── Code blocks ── */
@@ -1050,7 +1050,7 @@ main p {
 .home-hero {
   margin: 0.4rem 0 1.8rem;
   padding: 2.4rem 2.2rem;
-  background: linear-gradient(155deg, #EEF2F8 0%, #FAFBFC 55%, var(--white) 100%);
+  background: linear-gradient(155deg, #F1ECE3 0%, #FAF8F2 55%, var(--white) 100%);
   border: 1px solid var(--line);
   border-radius: 14px;
   box-shadow: var(--shadow-soft);
@@ -1230,7 +1230,7 @@ main p {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: rgba(26, 79, 156, 0.1);
+  background: rgba(138, 106, 59, 0.1);
   color: var(--plum);
   font-weight: 700;
   font-size: 0.85rem;
@@ -1330,7 +1330,7 @@ button.workflow-card {
 .workflow-card:hover,
 .workflow-card:focus-visible,
 .link-panel:hover {
-  border-color: rgba(47, 111, 208, 0.55);
+  border-color: rgba(138, 106, 59, 0.55);
   box-shadow: var(--shadow-md);
   transform: translateY(-2px);
 }
@@ -1361,8 +1361,8 @@ button.workflow-card {
 
 .accent-path-card,
 .accent-route-card {
-  border-color: rgba(26, 79, 156, 0.32);
-  background: linear-gradient(180deg, #ffffff, #EFF5FC);
+  border-color: rgba(138, 106, 59, 0.32);
+  background: linear-gradient(180deg, #ffffff, #F3EFE6);
 }
 
 .tag-list {
@@ -1435,7 +1435,7 @@ button.workflow-card {
 .template-actions button {
   min-height: 2.4rem;
   padding: 0.52rem 0.82rem;
-  border: 1px solid rgba(10, 42, 102, 0.16);
+  border: 1px solid rgba(60, 46, 28, 0.16);
   border-radius: 8px;
   background: var(--plum);
   color: #ffffff;
@@ -1462,7 +1462,7 @@ button.workflow-card {
   padding: 1rem;
   border: 1px solid rgba(0, 17, 88, 0.12);
   border-radius: 8px;
-  background: #EFF5FC;
+  background: #F3EFE6;
   color: var(--text);
   white-space: pre-wrap;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
@@ -1471,8 +1471,8 @@ button.workflow-card {
 }
 
 .method-card-feature {
-  border-color: rgba(26, 79, 156, 0.28);
-  background: linear-gradient(180deg, #ffffff, #EFF5FC);
+  border-color: rgba(138, 106, 59, 0.28);
+  background: linear-gradient(180deg, #ffffff, #F3EFE6);
 }
 
 .method-filter-bar {
@@ -1485,7 +1485,7 @@ button.workflow-card {
 .method-filter-bar button {
   min-height: 2.2rem;
   padding: 0.48rem 0.78rem;
-  border: 1px solid rgba(10, 42, 102, 0.14);
+  border: 1px solid rgba(60, 46, 28, 0.14);
   border-radius: 8px;
   background: var(--white);
   color: var(--plum);
@@ -1496,7 +1496,7 @@ button.workflow-card {
 }
 
 .method-filter-bar button:hover {
-  border-color: rgba(47, 111, 208, 0.7);
+  border-color: rgba(138, 106, 59, 0.7);
 }
 
 .method-filter-bar button.is-active {
@@ -1518,9 +1518,9 @@ button.workflow-card {
 .has-js .method-visual-large {
   display: block;
   overflow: hidden;
-  border: 1px solid rgba(26, 79, 156, 0.16);
+  border: 1px solid rgba(138, 106, 59, 0.16);
   border-radius: 8px;
-  background: #EFF5FC;
+  background: #F3EFE6;
 }
 
 .has-js .method-visual {
@@ -1554,7 +1554,7 @@ button.workflow-card {
   align-items: start;
   margin: 1.5rem 0 2rem;
   padding: 1rem;
-  border: 1px solid rgba(26, 79, 156, 0.28);
+  border: 1px solid rgba(138, 106, 59, 0.28);
   border-radius: 8px;
   background: #ffffff;
   box-shadow: var(--shadow-soft);
@@ -1616,9 +1616,9 @@ button.workflow-card {
 .router-result {
   grid-column: 1 / -1;
   padding: 1rem;
-  border: 1px solid rgba(47, 111, 208, 0.38);
+  border: 1px solid rgba(138, 106, 59, 0.38);
   border-radius: 8px;
-  background: #EAF0F8;
+  background: #EEE9DF;
 }
 
 .router-result h3 {
@@ -1669,8 +1669,8 @@ button.workflow-card {
 }
 
 .workflow-card.is-active {
-  border-color: rgba(47, 111, 208, 0.9);
-  box-shadow: 0 0 0 3px rgba(47, 111, 208, 0.18), var(--shadow-soft);
+  border-color: rgba(138, 106, 59, 0.9);
+  box-shadow: 0 0 0 3px rgba(138, 106, 59, 0.18), var(--shadow-soft);
 }
 
 .prompt-card {
@@ -1680,8 +1680,8 @@ button.workflow-card {
 }
 
 .prompt-card.is-highlighted {
-  border-color: rgba(47, 111, 208, 0.9);
-  box-shadow: 0 0 0 3px rgba(47, 111, 208, 0.18), 0 12px 24px rgba(10, 42, 102, 0.08);
+  border-color: rgba(138, 106, 59, 0.9);
+  box-shadow: 0 0 0 3px rgba(138, 106, 59, 0.18), 0 12px 24px rgba(60, 46, 28, 0.08);
 }
 
 .prompt-card-header {
@@ -1702,7 +1702,7 @@ button.workflow-card {
 .copy-button {
   flex: 0 0 auto;
   padding: 0.45rem 0.65rem;
-  border: 1px solid rgba(10, 42, 102, 0.16);
+  border: 1px solid rgba(60, 46, 28, 0.16);
   border-radius: 8px;
   background: var(--white);
   color: var(--plum);
@@ -1713,14 +1713,14 @@ button.workflow-card {
 }
 
 .copy-button:hover {
-  background: rgba(26, 79, 156, 0.1);
+  background: rgba(138, 106, 59, 0.1);
 }
 
 .prompt-card pre {
   margin: 0;
   border: 0;
   border-radius: 0;
-  background: #F7FAFE;
+  background: #FAF8F2;
 }
 
 .program-cards {
@@ -1744,7 +1744,7 @@ button.workflow-card {
 
 .program-card:hover {
   border-color: var(--accent);
-  box-shadow: 0 12px 24px rgba(10, 42, 102, 0.08);
+  box-shadow: 0 12px 24px rgba(60, 46, 28, 0.08);
   transform: translateY(-1px);
 }
 
@@ -1772,12 +1772,12 @@ button.workflow-card {
 }
 
 .card-level.ba {
-  background: #DCE8F5;
+  background: #E4DCCD;
   color: #14274D;
 }
 
 .card-level.ma {
-  background: #CFE0F2;
+  background: #DACFBD;
   color: #14274D;
 }
 
@@ -1786,7 +1786,7 @@ button.workflow-card {
 }
 
 .card-level.start {
-  background: rgba(26, 79, 156, 0.12);
+  background: rgba(138, 106, 59, 0.12);
   color: var(--teal);
   border-radius: 8px;
   padding-inline: 0.7rem;
@@ -1870,7 +1870,7 @@ main details:not(.nav-dropdown)[open] > summary::before {
 }
 
 main details:not(.nav-dropdown) > summary:hover {
-  background: #DCE6F4;
+  background: #E4DCCD;
 }
 
 .details-content {
@@ -1892,7 +1892,7 @@ main details:not(.nav-dropdown) > summary:hover {
   align-items: center;
   gap: 1rem 1.25rem;
   background: #ffffff;
-  border: 1px solid rgba(26, 79, 156, 0.35);
+  border: 1px solid rgba(138, 106, 59, 0.35);
   border-radius: 8px;
   padding: 1rem 1.2rem;
   margin: 1.5rem 0;
@@ -1920,8 +1920,8 @@ main details:not(.nav-dropdown) > summary:hover {
   justify-content: center;
   padding: 0.75rem 1rem;
   border-radius: 8px;
-  background: rgba(10, 42, 102, 0.08);
-  border: 1px solid rgba(10, 42, 102, 0.12);
+  background: rgba(60, 46, 28, 0.08);
+  border: 1px solid rgba(60, 46, 28, 0.12);
   color: var(--plum);
   font-weight: 700;
   text-decoration: none;
@@ -1929,7 +1929,7 @@ main details:not(.nav-dropdown) > summary:hover {
 }
 
 .question-banner a:hover {
-  background: rgba(10, 42, 102, 0.14);
+  background: rgba(60, 46, 28, 0.14);
   color: var(--plum);
 }
 
@@ -1950,7 +1950,7 @@ main details:not(.nav-dropdown) > summary:hover {
 /* ── Getting-started guide: styled blocks ── */
 
 .step-objectives {
-  background: #EAF1FB;
+  background: #EFEAE0;
   border-radius: 8px;
   padding: 1rem 1.25rem;
   margin: 0 0 1.25rem;
@@ -2004,7 +2004,7 @@ main details:not(.nav-dropdown) > summary:hover {
 }
 
 .exercise-box {
-  background: #EAF1FB;
+  background: #EFEAE0;
   border-left: 4px solid var(--teal);
   border-radius: 0 8px 8px 0;
   padding: 1rem 1.25rem;
@@ -2031,7 +2031,7 @@ main details:not(.nav-dropdown) > summary:hover {
 }
 
 .tip-box {
-  background: #EAF0F8;
+  background: #EEE9DF;
   border-left: 4px solid var(--accent);
   border-radius: 0 8px 8px 0;
   padding: 0.75rem 1.25rem;
@@ -2102,7 +2102,7 @@ a.github-link:hover::before {
 /* ── Footer license link ── */
 
 .site-footer a {
-  color: #CFE0F5;
+  color: #DACFBD;
   text-decoration: underline;
   text-decoration-color: rgba(255, 255, 255, 0.4);
   text-underline-offset: 2px;
@@ -2121,13 +2121,13 @@ a.github-link:hover::before {
 
 .cb-mini-wizard {
   --cb-plum: #14274D;
-  --cb-teal: #1A5499;
-  --cb-accent: #2F6FD0;
-  --cb-bg: #FAFBFC;
+  --cb-teal: #34557A;
+  --cb-accent: #8A6A3B;
+  --cb-bg: #FAF8F2;
   --cb-border: rgba(0, 17, 88, 0.12);
-  --cb-muted: #4C5B75;
+  --cb-muted: #6B6459;
 
-  background: linear-gradient(180deg, #fff, #EFF5FC);
+  background: linear-gradient(180deg, #fff, #F3EFE6);
   border: 1px solid var(--cb-border);
   border-radius: 8px;
   padding: 1.2rem 1.25rem 1.25rem;
@@ -2363,7 +2363,7 @@ a.github-link:hover::before {
     border: 1px solid var(--line);
     border-radius: 8px;
     padding: 1rem 1rem 0.95rem;
-    box-shadow: 0 10px 22px rgba(10, 42, 102, 0.05);
+    box-shadow: 0 10px 22px rgba(60, 46, 28, 0.05);
   }
 
   .program-fact-card-header {
