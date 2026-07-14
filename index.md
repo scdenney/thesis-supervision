@@ -103,8 +103,6 @@ title: Home
   </div>
   <div class="methods-feature-links">
     <a class="methods-feature-primary" href="{{ '/methods/' | relative_url }}">Use the method chooser <span aria-hidden="true">&rarr;</span></a>
-    <a href="{{ '/methods/qualitative/' | relative_url }}">Qualitative</a>
-    <a href="{{ '/methods/quantitative/' | relative_url }}">Computational</a>
   </div>
 </aside>
 

@@ -1211,13 +1211,41 @@ main p {
 }
 
 .journey-links a {
+  display: inline-flex;
+  min-height: 2rem;
+  align-items: center;
+  margin-left: -0.4rem;
+  padding: 0.25rem 0.4rem;
+  border-radius: 5px;
   font-size: 0.86rem;
   font-weight: 650;
   text-decoration: none;
+  transition: background-color 0.16s ease, color 0.16s ease,
+    box-shadow 0.16s ease, transform 0.16s ease;
 }
 
 .journey-links a::after {
   content: " →";
+  margin-left: 0.18rem;
+  transition: transform 0.16s ease;
+}
+
+.journey-links a:hover,
+.journey-links a:focus-visible {
+  background: rgba(138, 106, 59, 0.1);
+  color: var(--blue-hover);
+  box-shadow: inset 0 0 0 1px rgba(138, 106, 59, 0.12);
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.journey-links a:hover::after,
+.journey-links a:focus-visible::after {
+  transform: translateX(2px);
+}
+
+.journey-links a:active {
+  transform: translateY(0);
 }
 
 .methods-feature {
@@ -2604,7 +2632,9 @@ a.github-link:hover::before {
     scroll-behavior: auto;
   }
 
-  .program-card {
+  .program-card,
+  .journey-links a,
+  .journey-links a::after {
     animation: none;
     transition: none;
     transform: none;
