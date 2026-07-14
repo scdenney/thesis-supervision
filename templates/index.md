@@ -7,7 +7,7 @@ title: Templates & Checklists
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
 <h4 class="page-sidebar-title">Contents</h4>
-<nav class="page-toc">
+<nav class="page-toc" aria-label="On this page">
 <ul>
 <li><a href="#fill-out-a-template">Fill Out a Template</a></li>
 <li><a href="#how-to-use-these">How To Use These</a></li>
@@ -164,7 +164,7 @@ Pick the template that matches your current problem. Keep each one short enough 
 
 ---
 
-## Data / Corpus Plan
+## Data / Corpus Plan {#data-corpus-plan}
 
 **Purpose:** Make source collection transparent before analysis begins.
 

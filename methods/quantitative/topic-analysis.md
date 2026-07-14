@@ -7,7 +7,7 @@ title: Topic Analysis
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
 <h4 class="page-sidebar-title">Contents</h4>
-<nav class="page-toc">
+<nav class="page-toc" aria-label="On this page">
 <ul>
 <li><a href="#what-it-is">What it is</a></li>
 <li><a href="#what-you-learn-in-the-dh-course">What you learn in the DH course</a></li>

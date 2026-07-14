@@ -7,7 +7,7 @@ title: Building a Corpus
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
 <h4 class="page-sidebar-title">Contents</h4>
-<nav class="page-toc">
+<nav class="page-toc" aria-label="On this page">
 <ul>
 <li><a href="#what-is-a-corpus">What Is a Corpus?</a></li>
 <li><a href="#planning-your-corpus">Planning Your Corpus</a></li>

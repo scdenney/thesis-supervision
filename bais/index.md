@@ -9,7 +9,7 @@ title: BAIS
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
 <h4 class="page-sidebar-title">Contents</h4>
-<nav class="page-toc">
+<nav class="page-toc" aria-label="On this page">
 <ul>
 <li><a href="#key-requirements">Key Requirements</a></li>
 <li><a href="#key-deadlines">Key Deadlines</a></li>
@@ -67,7 +67,7 @@ The content below is adapted from the BAIS thesis seminar guidelines and grading
 
 ---
 
-## Key Deadlines (2025–2026, Semester 2)
+## Key Deadlines (2025–2026, Semester 2) {#key-deadlines}
 
 | Milestone | Deadline |
 |-----------|----------|

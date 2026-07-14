@@ -20,7 +20,7 @@ Start here when the method is still unsettled. Choose the method by asking what 
   </div>
 
   <div class="method-router-controls">
-    <form class="method-router-form" data-method-router>
+    <div class="method-router-form" data-method-router role="group" aria-label="Method questions">
       <label>
         <span>What is your main material?</span>
         <select name="material">
@@ -53,7 +53,7 @@ Start here when the method is still unsettled. Choose the method by asking what 
           <option value="comfortable">Comfortable with Python, R, or command line</option>
         </select>
       </label>
-    </form>
+    </div>
 
     <div class="router-result" data-router-result aria-live="polite">
       <span class="result-label">Your starting point</span>

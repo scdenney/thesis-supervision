@@ -9,7 +9,7 @@ title: BAKS
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
 <h4 class="page-sidebar-title">Contents</h4>
-<nav class="page-toc">
+<nav class="page-toc" aria-label="On this page">
 <ul>
 <li><a href="#key-requirements">Key Requirements</a></li>
 <li><a href="#key-deadlines">Key Deadlines</a></li>
@@ -62,7 +62,7 @@ The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper t
 
 ---
 
-## Key Deadlines (2025–2026)
+## Key Deadlines (2025–2026) {#key-deadlines}
 
 | Assignment | Deadline |
 |------------|----------|

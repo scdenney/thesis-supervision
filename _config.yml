@@ -11,6 +11,7 @@ kramdown:
 exclude:
   - ai-for-research-export/
   - private/
+  - temp_ignore/
   - README.md
   - _local/
   - vendor/

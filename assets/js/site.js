@@ -345,10 +345,11 @@ document.addEventListener("DOMContentLoaded", () => {
     };
 
     const chooseRoute = () => {
-      const form = new FormData(methodRouterForm);
-      const material = form.get("material");
-      const goal = form.get("goal");
-      const code = form.get("code");
+      const material = methodRouterForm.querySelector(
+        "[name='material']",
+      )?.value;
+      const goal = methodRouterForm.querySelector("[name='goal']")?.value;
+      const code = methodRouterForm.querySelector("[name='code']")?.value;
 
       if (!material && !goal && !code) return null;
 

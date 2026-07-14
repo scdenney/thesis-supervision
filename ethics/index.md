@@ -7,7 +7,7 @@ title: Ethics & AI
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
 <h4 class="page-sidebar-title">Contents</h4>
-<nav class="page-toc">
+<nav class="page-toc" aria-label="On this page">
 <ul>
 <li><a href="#ethics-review">Ethics Review</a></li>
 <li><a href="#code-of-ethics">Code of Ethics</a></li>

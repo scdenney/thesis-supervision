@@ -7,7 +7,7 @@ title: Process Tracing
 <aside class="page-sidebar">
 <div class="page-sidebar-inner">
 <h4 class="page-sidebar-title">Contents</h4>
-<nav class="page-toc">
+<nav class="page-toc" aria-label="On this page">
 <ul>
 <li><a href="#what-is-process-tracing">What Is Process Tracing?</a></li>
 <li><a href="#key-concepts">Key Concepts</a></li>

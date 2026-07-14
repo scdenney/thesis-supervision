@@ -7,130 +7,114 @@ title: Home
 
 <section class="home-hero" markdown="0">
   <div class="home-hero-copy">
-    <p class="home-kicker">Leiden thesis support + public methods resources</p>
+    <p class="home-kicker">Thesis supervision at Leiden University</p>
     <h1>Thesis &amp; Research Supervision</h1>
-    <p class="home-lede">A practical resource for shaping a topic into a research design, choosing methods, organizing evidence, and writing the thesis. Leiden students start with their program. Everyone else can go straight to the methods guides.</p>
+    <p class="home-lede">Practical guidance for turning a topic into a researchable question, choosing a method, organizing evidence, and completing the thesis with confidence.</p>
     <div class="home-hero-actions">
-      <a class="is-primary" href="#find-your-program">I&rsquo;m a Leiden student</a>
-      <a class="is-secondary" href="{{ '/methods/' | relative_url }}">I want methods help</a>
+      <a class="is-primary" href="#find-your-program">Start with your programme</a>
+      <a class="is-secondary" href="{{ '/methods/' | relative_url }}">Browse the methods library</a>
     </div>
     <div class="home-contact">
-      <span><strong>Supervisor</strong> Dr. Steven Denney</span>
+      <span><strong>Dr. Steven Denney</strong> &middot; Faculty of Humanities</span>
       <a href="mailto:s.c.denney@hum.leidenuniv.nl">s.c.denney@hum.leidenuniv.nl</a>
       <a class="github-link" href="https://github.com/scdenney/thesis-supervision">View on GitHub</a>
     </div>
   </div>
 </section>
 
-<section class="resource-paths" aria-labelledby="resource-paths-title" markdown="0">
+<section class="home-start" id="find-your-program" aria-labelledby="programme-title" markdown="0">
   <div class="section-heading">
-    <p class="section-kicker">Choose your path</p>
-    <h2 id="resource-paths-title">Where do you want to start?</h2>
+    <p class="section-kicker">Your first stop</p>
+    <h2 id="programme-title">Choose your programme</h2>
+    <p>Programme pages collect the requirements, deadlines, submission rules, and official documents that apply to your thesis.</p>
   </div>
 
-  <div class="home-lanes">
-    <div class="lane">
-      <div class="lane-header">
-        <span class="lane-eyebrow">Leiden students</span>
-        <h3>Plan and submit your thesis</h3>
-      </div>
-      <ol class="lane-list">
-        <li>
-          <a href="#find-your-program">
-            <span class="lane-step-num" aria-hidden="true">1</span>
-            <strong>Find your program</strong>
-            <span>Requirements, deadlines, and assessment for BAIS, BAKS, MAAS, or MAIR.</span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ '/getting-started/' | relative_url }}">
-            <span class="lane-step-num" aria-hidden="true">2</span>
-            <strong>Plan your research</strong>
-            <span>The five-step Getting Started guide, from research question to writing.</span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ '/templates/' | relative_url }}">
-            <span class="lane-step-num" aria-hidden="true">3</span>
-            <strong>Use a template</strong>
-            <span>Working documents for memos, proposals, meetings, and submission.</span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ '/assessment-standards/' | relative_url }}">
-            <span class="lane-step-num" aria-hidden="true">4</span>
-            <strong>Check how it&rsquo;s graded</strong>
-            <span>Assessment criteria, grade descriptors, and BA/MA expectations.</span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ '/ethics/' | relative_url }}">
-            <span class="lane-step-num" aria-hidden="true">5</span>
-            <strong>Read Ethics &amp; AI</strong>
-            <span>Ethics review, plagiarism, and the generative-AI policy for your thesis.</span>
-          </a>
-        </li>
-      </ol>
-    </div>
-
-    <div class="lane">
-      <div class="lane-header">
-        <span class="lane-eyebrow">Methods</span>
-        <h3>Choose a method and plan your analysis</h3>
-      </div>
-      <ol class="lane-list">
-        <li>
-          <a href="{{ '/methods/' | relative_url }}">
-            <span class="lane-step-num" aria-hidden="true">1</span>
-            <strong>Choose a method</strong>
-            <span>Use the chooser, then browse every method card in one place.</span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ '/methods/qualitative/' | relative_url }}">
-            <span class="lane-step-num" aria-hidden="true">2</span>
-            <strong>Qualitative approaches</strong>
-            <span>Comparative case study, process tracing, framing, and discourse analysis.</span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ '/methods/quantitative/' | relative_url }}">
-            <span class="lane-step-num" aria-hidden="true">3</span>
-            <strong>Computational approaches</strong>
-            <span>Preprocessing, topic and sentiment analysis, and word embeddings.</span>
-          </a>
-        </li>
-        <li>
-          <a href="{{ '/methods/building-a-corpus' | relative_url }}">
-            <span class="lane-step-num" aria-hidden="true">4</span>
-            <strong>Building a corpus</strong>
-            <span>Plan a defensible corpus and document how you collected it.</span>
-          </a>
-        </li>
-      </ol>
-    </div>
+  <div class="program-cards program-overview-grid">
+    {% for p in programs %}
+    <a class="program-card" href="{{ p.url | relative_url }}">
+      <span class="program-card-topline">
+        <strong>{{ p.code }}</strong>
+        <span class="card-level {{ p.level | downcase }}">{{ p.level }}</span>
+      </span>
+      <span class="program-card-name">{{ p.name }}</span>
+      <span class="program-card-detail">{{ p.words }} &middot; due {{ p.deadline }}</span>
+      <span class="program-card-link">Open programme guide <span aria-hidden="true">&rarr;</span></span>
+    </a>
+    {% endfor %}
   </div>
 </section>
 
-<div id="find-your-program"></div>
+<section class="home-journey" aria-labelledby="journey-title" markdown="0">
+  <div class="section-heading">
+    <p class="section-kicker">The thesis journey</p>
+    <h2 id="journey-title">Move from requirements to submission</h2>
+    <p>Use this shared route alongside the rules on your programme page.</p>
+  </div>
 
-## Leiden Student? Find Your Program
+  <ol class="journey-list">
+    <li>
+      <span class="journey-number" aria-hidden="true">01</span>
+      <div>
+        <h3>Confirm the rules</h3>
+        <p>Check your word count, milestones, deadline, submission route, and assessment criteria.</p>
+        <p class="journey-links"><a href="#find-your-program">Programme requirements</a><a href="{{ '/assessment-standards/' | relative_url }}">Assessment standards</a></p>
+      </div>
+    </li>
+    <li>
+      <span class="journey-number" aria-hidden="true">02</span>
+      <div>
+        <h3>Shape the project</h3>
+        <p>Turn the topic into a research question, map the literature, and make a workable plan.</p>
+        <p class="journey-links"><a href="{{ '/getting-started/' | relative_url }}">Getting started</a><a href="{{ '/templates/' | relative_url }}">Templates &amp; checklists</a></p>
+      </div>
+    </li>
+    <li>
+      <span class="journey-number" aria-hidden="true">03</span>
+      <div>
+        <h3>Choose evidence and method</h3>
+        <p>Decide what evidence can answer the question and how you will analyze it.</p>
+        <p class="journey-links"><a href="{{ '/methods/' | relative_url }}">Methods guide</a><a href="{{ '/methods/building-a-corpus' | relative_url }}">Build a corpus</a></p>
+      </div>
+    </li>
+    <li>
+      <span class="journey-number" aria-hidden="true">04</span>
+      <div>
+        <h3>Work responsibly</h3>
+        <p>Address ethics, source handling, research integrity, and the rules for generative AI.</p>
+        <p class="journey-links"><a href="{{ '/ethics/' | relative_url }}">Ethics &amp; AI</a><a href="{{ '/templates/' | relative_url }}">Meeting tools</a></p>
+      </div>
+    </li>
+    <li>
+      <span class="journey-number" aria-hidden="true">05</span>
+      <div>
+        <h3>Review and submit</h3>
+        <p>Check the argument against the rubric, complete the final review, and follow your programme&rsquo;s submission instructions.</p>
+        <p class="journey-links"><a href="{{ '/assessment-standards/' | relative_url }}">How work is graded</a><a href="#program-snapshot">Compare programme facts</a></p>
+      </div>
+    </li>
+  </ol>
+</section>
 
-If you are writing in one of the Leiden programs I supervise, start with your program page. For broader research support, use the methods paths above.
+<aside class="methods-feature" aria-labelledby="methods-feature-title" markdown="0">
+  <div>
+    <p class="section-kicker">Open research resource</p>
+    <h2 id="methods-feature-title">Need help choosing a method?</h2>
+    <p>The methods library explains qualitative and computational approaches, from building a corpus to process tracing and text analysis.</p>
+  </div>
+  <div class="methods-feature-links">
+    <a class="methods-feature-primary" href="{{ '/methods/' | relative_url }}">Use the method chooser <span aria-hidden="true">&rarr;</span></a>
+    <a href="{{ '/methods/qualitative/' | relative_url }}">Qualitative</a>
+    <a href="{{ '/methods/quantitative/' | relative_url }}">Computational</a>
+  </div>
+</aside>
 
-<div class="program-cards program-overview-grid" markdown="0">
-  {% for p in programs %}
-  <a class="program-card" href="{{ p.url | relative_url }}">
-    <span class="card-level {{ p.level | downcase }}">{{ p.level }}</span>
-    <h3>{{ p.code }}</h3>
-    <p>{{ p.name }}</p>
-  </a>
-  {% endfor %}
+<section id="program-snapshot" class="program-snapshot" aria-labelledby="program-snapshot-title" markdown="0">
+<div class="section-heading">
+  <p class="section-kicker">At a glance</p>
+  <h2 id="program-snapshot-title">Programme snapshot</h2>
 </div>
 
-## Program Snapshot
-
-<div class="program-facts-table" markdown="0">
+<div class="program-facts-table">
 <table>
 <thead>
 <tr><th scope="col"><span class="sr-only">Requirement</span></th>{% for p in programs %}<th scope="col">{{ p.code }}</th>{% endfor %}</tr>
@@ -144,7 +128,7 @@ If you are writing in one of the Leiden programs I supervise, start with your pr
 </table>
 </div>
 
-<div class="program-facts-mobile" markdown="0">
+<div class="program-facts-mobile">
   {% for p in programs %}
   <article class="program-fact-card">
     <div class="program-fact-card-header">
@@ -169,11 +153,18 @@ If you are writing in one of the Leiden programs I supervise, start with your pr
   {% endfor %}
 </div>
 
-All dates are for the **{{ site.data.programs.academic_year }} academic year**. Always confirm deadlines with your supervisor and program coordinator.
+<p class="snapshot-note">All dates are for the <strong>{{ site.data.programs.academic_year }} academic year</strong>. Always confirm deadlines with your supervisor and programme coordinator.</p>
+</section>
 
-## Useful External Links
-
-- [Leiden University Library: Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis)
-- [Leiden University Library: Citing](https://www.library.universiteitleiden.nl/students/citing)
-- [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab)
-- [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/)
+<section class="external-resources" aria-labelledby="external-resources-title" markdown="0">
+  <div class="section-heading">
+    <p class="section-kicker">Leiden resources</p>
+    <h2 id="external-resources-title">More student support</h2>
+  </div>
+  <ul class="external-link-list">
+    <li><a href="https://www.library.universiteitleiden.nl/students/writing-a-thesis">Writing a thesis <span>University Library</span></a></li>
+    <li><a href="https://www.library.universiteitleiden.nl/students/citing">Citing sources <span>University Library</span></a></li>
+    <li><a href="https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab">Writing Lab <span>Faculty of Humanities</span></a></li>
+    <li><a href="https://studenttheses.universiteitleiden.nl/">Student Thesis Repository <span>Browse and submit</span></a></li>
+  </ul>
+</section>
