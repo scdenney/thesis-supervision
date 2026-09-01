@@ -53,7 +53,7 @@ I teach these methods in two Leiden courses. If you are enrolled in either one, 
     <h3>Digital Korea</h3>
     <p>12-session course in computational text analysis with Orange Data Mining and R, aimed mainly at Korean Studies students. It starts with preprocessing and ends with topic modeling.</p>
   </a>
-  <a class="program-card" href="https://scdenney.github.io/ba3_text_as_data/" target="_blank" rel="noopener">
+  <a class="program-card" href="https://scdenney.github.io/ba3tad-26/" target="_blank" rel="noopener">
     <span class="card-level ba">BA3</span>
     <h3>Text as Data (DH strand)</h3>
     <p>Six-seminar digital-humanities strand of the BA3 <em>Contemporary Korea and Digital Humanities</em> course. No programming required. Students work with prepared Korean corpora and learn how the main text-as-data tools behave.</p>
