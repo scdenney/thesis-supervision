@@ -27,7 +27,6 @@ description: "Where I stand on AI in research and writing, my policy for supervi
 </nav>
 <div class="page-route-card">
 <span class="page-route-eyebrow">Looking for the rules?</span>
-<p>Agreement, disclosure, a Pangram check, verified sources.</p>
 <a class="page-route-link" href="#the-policy">Jump to the policy &rarr;</a>
 </div>
 </div>
