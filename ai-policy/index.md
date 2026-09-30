@@ -103,11 +103,9 @@ Research on the learning and cognitive effects of AI use is still new and findin
 </summary>
 <div class="drawer-body" markdown="1">
 
-One of the more consistent findings in this nascent literature is that there is a gap between performance and learning with AI. In experimental settings, when people use AI to complete a task, the quality of their work usually improves and sometimes substantially so compared to the control group, but when you take away AI and have people do the same or similar tasks without the assistance of AI, the gains observed in performance usually disappear, and in some cases worsen. Two meta-analyses of student learning find AI performance effects of around two-thirds of a standard deviation ([Deng et al. 2025](#src-deng) and [Wu et al. 2026](#src-wu)). But these estimates do not measure whether students are durably learning anything. Deng and colleagues note that students were allowed to use ChatGPT during the post-test in nine of their sixty-two studies, while another thirty-three did not report whether students still had access to it. Much of the "AI improves learning" literature is therefore only really capturing improved performance with AI.
+One of the most consistent findings in the literature so far is a gap between performance and learning. In experimental settings, when people use AI to perform a task, their work often improves substantially compared to a control group without AI. But when people are then asked to perform the same or a similar task without AI, the prior performance gains tend to disappear, and sometimes reverse, relative to the control group. Indeed, two meta-analyses of the impact of AI on student learning found large impacts on performance, on the order of two-thirds of a standard deviation ([Deng et al. 2025](#src-deng); [Wu et al. 2026](#src-wu)). But the estimates from these meta-analyses do not reflect durable learning. [Deng et al.](#src-deng) note that students had access to ChatGPT during the post-test in 9 of the 62 studies they reviewed,, and did not report whether students had access to ChatGPT during the post-test in 33 of the studies. In other words, much of the literature claiming that “AI improves learning” is really just showing that “AI improves performance of tasks when using AI.”
 
-The cleanest demonstration is a randomized experiment in high-school mathematics ([Bastani et al. 2025](#src-bastani)). Roughly a thousand students practiced under one of three conditions, either unrestricted GPT-4 access, a guardrailed tutor built on the same model that gave hints without answers, or no AI. Then everyone sat an exam without AI.
-
-The unrestricted group did better while the tool was there and worse once it was gone. And the tutor group kept the entire practice gain with no exam penalty, using the same model, with the only difference being that it withheld answers. The moderator was the design of the use, not the ability of the student.
+One of the cleanest demonstrations of the difference between performance and learning comes from a randomized experiment in high-school math classes ([Bastani et al. 2025](#src-bastani)). Around a thousand students were randomly assigned to practice math problems either with access to (i) GPT-4, without restrictions, (ii) a “guardrailed” version of GPT-4 that could provide hints but not answers, or (iii) no AI. After the practice period, all students took an exam without AI. Students in condition (i) performed better during the practice period but performed worse on the final exam. Students in condition (ii), using the same underlying language model, improved even more during practice and did no worse than the no-AI group on the exam. Remarkably, the difference in outcomes between these two groups came down entirely to how the AI was set up: one gave answers, the other only hints.
 
 <figure class="evidence-chart" markdown="0">
 <figcaption id="fig-bastani-title">
@@ -116,7 +114,7 @@ The unrestricted group did better while the tool was there and worse once it was
 </figcaption>
 <div class="evidence-chart-scroll">
 <svg class="evidence-chart-svg" viewBox="0 0 680 330" role="img" aria-labelledby="fig-bastani-title fig-bastani-desc">
-<desc id="fig-bastani-desc">Two panels. In the left panel, practice with AI, unrestricted ChatGPT raised practice scores by 13.7 points and the guardrailed tutor by 36.1 points, both clearly above zero. In the right panel, exam without AI, unrestricted ChatGPT lowered exam scores by 5.4 points, with the interval below zero, and the guardrailed tutor changed them by minus 0.4 points, indistinguishable from zero.</desc>
+<desc id="fig-bastani-desc">Relative impact of generative AI on students’ performance. (Left) Relative to the group of students who do not use AI, letting students use ChatGPT without any restriction or a guardrailed AI tutor improves the performance by 13.7 and 36.1 points respectively, in the practice setting. (Right) However, during the exam (without AI), the group of students who practiced with unrestricted ChatGPT underperforms the no AI group by 5.4 points, and the group who practiced with guardrailed AI tutor shows similar performance (−0.4 points).</desc>
 <g class="chart-grid">
 <line x1="60" y1="241.7" x2="320" y2="241.7"/><line x1="60" y1="168.3" x2="320" y2="168.3"/><line x1="60" y1="131.7" x2="320" y2="131.7"/><line x1="60" y1="95" x2="320" y2="95"/><line x1="60" y1="58.3" x2="320" y2="58.3"/>
 <line x1="380" y1="241.7" x2="640" y2="241.7"/><line x1="380" y1="168.3" x2="640" y2="168.3"/><line x1="380" y1="131.7" x2="640" y2="131.7"/><line x1="380" y1="95" x2="640" y2="95"/><line x1="380" y1="58.3" x2="640" y2="58.3"/>
@@ -174,11 +172,11 @@ The unrestricted group did better while the tool was there and worse once it was
 <p class="evidence-chart-note">The control group averaged 28.4% on practice and 32.1% on the exam. The unrestricted group scored 48% higher in practice and 17% lower on the exam than the control. The tutor group scored 127% higher in practice with no measurable exam penalty. One selective school in Turkey, autumn 2023, one subject.</p>
 </figure>
 
-Programming students in an introductory course who used AI scored substantially better on the exercise and showed no greater knowledge gain than students without it ([Bassner et al. 2026](#src-bassner)). University students who revised essays with ChatGPT improved the essays more than any other group and showed no difference in knowledge gain or transfer ([Fan et al. 2025](#src-fan)). Across seven experiments with more than ten thousand participants, people who learned a topic from an LLM synthesis came away with shallower knowledge than people who learned the same facts from search results, and gave worse advice as a result ([Melumad and Yun 2025](#src-melumad)).
+Students learning programming in an introductory college course performed much better on an exercise when using AI, but didn't gain any more knowledge than other students ([Bassner et al. 2026](#src-bassner)). University students re-writing essays to improve them did a better job when using ChatGPT than any other group of students, but they gained no more knowledge and transferred it no better ([Fan et al. 2025](#src-fan)). Across a series of 7 experiments with over 10,000 participants in total, people who learned about a new topic from an LLM synthesis ended up with more shallow knowledge of the topic (despite learning all the same facts as the other groups) and gave worse advice about the topic afterwards compared to people who had learned from search results ([Melumad and Yun 2025](#src-melumad)).
 
-If there is a single practical lesson in the evidence, it is that the mode of use matters more than the tool. In the Bastani experiment the entire difference between harm and no harm was whether the model gave answers or withheld them. A systematic review of the classroom literature finds the same split between scaffolded and substitutive use ([Li, Cui and Hagedorn 2026](#src-li)).
+The way AI is used matters. In Bastani's experiment, the only thing that separated the condition that harmed learning from the one that didn't was whether or not the AI model was allowed to give answers. This matches a systematic review of how AI has been used in classrooms ([Li, Cui and Hagedorn 2026](#src-li)).
 
-The three modes in [Use AI boldly](#use-ai-boldly) below (automate, protect, collaborate) turn this finding into a working rule.
+[Use AI boldly](#use-ai-boldly), below, sets out three modes for using AI.
 
 </div>
 </details>
@@ -194,7 +192,7 @@ The three modes in [Use AI boldly](#use-ai-boldly) below (automate, protect, col
 </summary>
 <div class="drawer-body" markdown="1">
 
-Studies of professionals help answer who gains. In a field experiment with patent lawyers ([Autor et al. 2026](#src-autor)), lawyers drafted patents with an AI assistant for ninety days and were then asked to review patents without it.
+Studies of professional work help answer who gains. In a field experiment, [Autor et al. (2026)](#src-autor) had patent lawyers draft patents with an AI assistant for 90 days and then asked them to review patents without it.
 
 <figure class="evidence-chart" markdown="0">
 <figcaption id="fig-autor-title">
@@ -262,11 +260,11 @@ Studies of professionals help answer who gains. In a field experiment with paten
 <p class="evidence-chart-note">Expert ratings. The junior/senior difference on unaided review is a subgroup pattern and is not itself statistically significant. The pooled unaided effect is 0.32 SD.</p>
 </figure>
 
-I include this study with its caveats because the pattern is the one I see in supervision. The people who gain durably from AI assistance are those who already know the domain well enough to direct the tool and catch its errors.
+I'll include this study with all its caveats, as it goes in the direction of what I've seen when supervising. That is, the people who get a durable boost from AI are people who already know a lot about the domain, enough to direct the tool and catch its errors.
 
-The strongest evidence on the other side comes from customer-support work, where a generative assistant raised productivity most for the least experienced agents and, during software outages, those agents kept part of their gain ([Brynjolfsson, Li and Raymond 2025](#src-brynjolfsson)). That is a real finding and I do not want to hide it. But the task was scripted, the outages were brief, and the tool's job was to codify what top performers already did. It shows that a well-designed assistant can teach a routine. It does not show that unrestricted use teaches you to think.
+The strongest evidence against this comes from a customer support study, where a generative AI assistant raised productivity most for the least experienced agents, and part of that gain held up when the software was temporarily down ([Brynjolfsson, Li and Raymond 2025](#src-brynjolfsson)). But the agents were essentially following a script when helping customers, the outages were short, and a large part of what the tool did was codify the knowledge of the best agents. It shows that a well-designed assistant can teach a routine. It doesn't show that unrestricted use teaches you to think.
 
-Other workplace experiments find that AI helps less experienced workers most while they are using it. College-educated professionals completed writing tasks 40% faster and with 18% higher quality when given ChatGPT, and the gap between stronger and weaker writers narrowed ([Noy and Zhang 2023](#src-noy)). Consultants at Boston Consulting Group completed 12% more tasks, faster and at higher quality, when the tasks were within AI's capabilities, but were 19 percentage points less likely to get a task right when it fell just outside them, on the other side of the [jagged frontier](#terms) ([Dell'Acqua et al. 2026](#src-dellacqua)). These findings do not contradict Autor's. They measure performance with AI in hand, where AI substitutes for skill the novice lacks. The question for a student is what remains when the tool is gone, and there the evidence favors those who already know enough to evaluate what the tool produces.
+Some experiments in other workplaces have found that AI helps less experienced workers more while they're using it. College-educated professionals completed writing tasks 40% faster and with 18% better quality when using ChatGPT, and the gap between stronger and weaker writers narrowed ([Noy and Zhang 2023](#src-noy)). In another experiment, BCG consultants completed 12% more tasks, and did them faster and better, when those tasks were on the near side of AI's [jagged frontier](#terms); but the same consultants were 19 percentage points less likely to get a task right when it was on the far side ([Dell'Acqua et al. 2026](#src-dellacqua)). These findings are not at odds with Autor's, because these papers measure performance while people are using AI, while Autor also measures what the lawyers could do once the AI was taken away. For a student, that second question is the one that matters, and there the evidence favors those who already know enough to judge what the tool produces.
 
 </div>
 </details>
@@ -282,7 +280,7 @@ Other workplace experiments find that AI helps less experienced workers most whi
 </summary>
 <div class="drawer-body" markdown="1">
 
-The last piece of evidence is the one I most want you to sit with. When experienced open-source developers were randomly allowed or forbidden to use AI tools on real tasks in their own codebases, they took 19% longer with AI. Before starting, they had predicted AI would make them 24% faster. Afterwards, they believed it had made them 20% faster ([Becker et al. 2025](#src-metr)).
+Finally, in a study by [Becker et al. (2025)](#src-metr), experienced open-source developers working on real tasks in their own code bases were randomly allowed or not allowed to use AI. They took 19% longer to complete their tasks with AI. Before the tasks, the developers thought they would be 24% faster with AI, and afterwards they thought they had been 20% faster.
 
 <figure class="evidence-chart" markdown="0">
 <figcaption id="fig-metr-title">
@@ -335,7 +333,7 @@ The last piece of evidence is the one I most want you to sit with. When experien
 <p class="evidence-chart-note">Sixteen experienced maintainers, 246 real issues, early-2025 tools. The authors are explicit that this is a snapshot of one demanding setting and not a claim that AI slows most programmers. The point here is the gap between belief and measurement, from people whose other forecasts were well calibrated.</p>
 </figure>
 
-The same inversion appears with students. In one experiment, the condition that produced the highest self-reported understanding produced the lowest measured learning ([Eleftheriou et al. 2026](#src-eleftheriou), a preprint), and the programming students in Bassner's study preferred the unrestricted tool that taught them least. A survey of knowledge workers points the same way: the more they trusted AI, the less effort they reported putting into critical thinking ([Lee et al. 2025](#src-lee)), although this is self-report rather than a measure of thinking itself. You should assume that your own sense of how much AI is helping you learn is unreliable, and build your workflow so that it does not depend on that sense.
+This effect seems to show up with students too. [Eleftheriou et al. (2026)](#src-eleftheriou), a preprint, found that the condition that led to the highest self-reported understanding led to the lowest measured learning, and in Bassner's experiment the students, who were learning programming, preferred the condition where they could use the tool without restriction, which was also the condition where they learned the least. In a survey of knowledge workers, [Lee et al. (2025)](#src-lee) found that the more people trusted AI, the less effort they reported putting into critical thinking; this is self-report, not a direct measure of critical thinking, but it is suggestive. In general, you should expect your intuition about whether AI is helping you learn to be unreliable, and you should structure your workflow accordingly.
 
 </div>
 </details>
@@ -372,9 +370,9 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 <span class="policy-rule-number" aria-hidden="true">3</span>
 <div>
 <h4>Expect a Pangram check</h4>
-<p class="policy-rule-gloss">I will use <a href="https://www.pangram.com/">Pangram</a> to check for AI-generated text. Pangram classifies passages as human, AI-assisted, or AI-generated and reports the share of the document falling into each category. For classes, I will scan a random selection of manuscripts per written assignment. For theses, you can expect all written manuscripts (draft or full) to be checked. AI-generated prose is highly detectable, particularly when a document is predominantly or entirely machine-written (<a href="#src-jabarian">Jabarian and Imas 2025</a>; <a href="#src-vub">Van Vlasselaer, Van Droogenbroeck and Spruyt 2026</a>), and watermarking of model output is being deployed at scale (<a href="#src-dathathri">Dathathri et al. 2024</a>). AI-detection software was unreliable in the past, but this is no longer the case. If you are mainly or entirely outsourcing the writing process to the machine, this is accurately and reliably measurable. Pangram's <a href="https://arxiv.org/abs/2607.27183">technical report</a> shows extremely high detection rates for fully AI-generated text (<a href="#src-pangram4">Glickenhaus et al. 2026</a>). Pangram also provides an overall document-level verdict. I use the share of text flagged as a measure of the extent to which any AI-generated prose has been used. All documents are given a score from 0 (fully human) to 100 (fully AI-generated).</p>
+<p class="policy-rule-gloss">I will use <a href="https://www.pangram.com/">Pangram</a> to check for AI-generated text. Pangram classifies passages as human, AI-assisted, or AI-generated and reports the share of the document falling into each category. For classes, I will scan a random selection of manuscripts per written assignment. For theses, you can expect all written manuscripts (draft or full) to be checked. AI-generated prose is highly detectable, particularly when a document is predominantly or entirely machine-written (<a href="#src-jabarian">Jabarian and Imas 2025</a>; <a href="#src-vub">Van Vlasselaer, Van Droogenbroeck and Spruyt 2026</a>), and watermarking of model output is being deployed at scale (<a href="#src-dathathri">Dathathri et al. 2024</a>). AI-detection software was unreliable in the past, but this is no longer the case. If you are mainly or entirely outsourcing the writing process to the machine, this is accurately and reliably measurable. Pangram's <a href="https://arxiv.org/abs/2607.27183">technical report</a> shows extremely high detection rates for fully AI-generated text (<a href="#src-pangram4">Glickenhaus et al. 2026</a>). Pangram also gives each document an overall verdict, but I work from the share of text it flags as AI-generated, which runs from 0 (fully human) to 100 (fully AI-generated).</p>
 
-<p class="policy-rule-gloss">My standards are deliberately generous. If your AI-generated score is <strong>less than 25%</strong>, you may carry on. This margin leaves substantial room for text affected by grammar and typographical checks, editing tools, and other limited uses of AI, including some unintended influence on writing. Manuscripts that score <strong>from 25% to 50%</strong> will not be graded. If you had permission to use AI in the research process, a meeting follows to discuss proper AI use. At my discretion, the meeting will also include an oral defense. The manuscript must be resubmitted after revisions. If you did not disclose your intention to use AI, the manuscript will be failed and can only be redone under resit conditions. Pangram scores <strong>greater than 50% and up to 75%</strong> will result in automatic failure and a meeting will follow. Resubmission can only come through the resit process. Scores <strong>greater than 75%</strong> are treated as cases of research fraud. The manuscript will be failed and the case referred to the Board of Examiners for further consideration.</p>
+<p class="policy-rule-gloss">My standards are deliberately generous. Below <strong>25%</strong>, nothing happens. That margin is there for grammar and spelling checks, editing tools, and other light uses of AI, including influence on your writing you may not have intended. From <strong>25% to 50%</strong>, I will not grade the manuscript. If you had my permission to use AI, we meet to talk about how you used it, and I may ask you to defend the work orally; you then revise and resubmit. If you used AI without telling me, the manuscript fails and can only be redone as a resit. Between <strong>50% and 75%</strong>, the manuscript fails automatically, we meet, and you resubmit through the resit. Above <strong>75%</strong>, I treat the case as research fraud: the manuscript fails and I refer it to the Board of Examiners.</p>
 
 <div class="ai-screening-scale" aria-hidden="true">
 <span class="ai-screening-marker ai-screening-marker-25"><b>25%</b></span>
@@ -388,7 +386,7 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 <span>Fail, Board of Examiners</span>
 </div>
 
-<p class="policy-rule-gloss">Regarding privacy, please note that text submitted to Pangram is not used to train models, is processed in an encrypted environment, is never shared or sold, and is SOC 2 Type 2 certified (see <a href="https://www.pangram.com/data-privacy">Pangram's data privacy page</a>). I consider my use of this program consistent with GDPR principles and faculty guidelines.</p>
+<p class="policy-rule-gloss">On privacy: Pangram does not train its models on submitted text, never shares or sells it, encrypts it, and holds SOC 2 Type 2 certification (see <a href="https://www.pangram.com/data-privacy">Pangram's data privacy page</a>). I remove names before uploading anything. In my judgment, this use is consistent with the GDPR and the Faculty guidelines.</p>
 </div>
 </li>
 
@@ -396,8 +394,7 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 <span class="policy-rule-number" aria-hidden="true">4</span>
 <div>
 <h4>Verify every source, because I will</h4>
-<p class="policy-rule-gloss">You are responsible for every source you cite. I will use an AI-based research skill to do a verification check of your references list and your in-text citations. Detection of fabricated sources is grounds for failure and referral to the Board of Examiners under the university's academic integrity regulations. The same principle applies to fabricated quotations, passages, page references, or other evidence attributed to sources that do not exist. I will exercise reasonable judgment in deciding whether a problem is actionable or if it is the result of an honest or ordinary mistake. Nevertheless, you should treat any source that you cite or that you include as something that needs to be verified prior to submission.
-</p>
+<p class="policy-rule-gloss">Every source you cite is your responsibility, and I check. I run reference lists and in-text citations through an AI-based research skill. A fabricated source is grounds for failure and referral to the Board of Examiners under the university's academic integrity regulations, and so is a quotation, passage, page reference or other evidence attributed to a source that does not exist. Honest, ordinary mistakes happen, and I will treat them as such. But check every source yourself before you hand anything in.</p>
 </div>
 </li>
 </ol>
@@ -408,32 +405,32 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 
 ## Disclosure statement {#disclosure}
 
-Include a statement like this in the thesis, immediately before the bibliography/references. If you used no AI tools, say so anyway.
+Put a statement like this in your thesis, right before the bibliography. If you used no AI tools, say so; the statement is still required.
 
 <div class="disclosure-template" markdown="0">
 <p class="disclosure-template-label">Template: AI-use statement</p>
-<p>In preparing this thesis I used the following tools: <span class="tpl-slot">[Tool and version, for example Claude Code, ChatGPT (GPT-5), Grammarly, and Zotero's AI features.]</span></p>
-<p>I used them for the following tasks: <span class="tpl-slot">[Task by task, for example converting PDF sources to text, suggesting search terms, debugging the R script in Appendix B, checking my reference list against Crossref, and sentence-level grammar correction in Chapters 2 and 3.]</span></p>
-<p>All outputs were carefully checked and validated by me. Prompts and outputs are retained and available on request. AI use as described here was agreed upon with my supervisor on <span class="tpl-slot">[date]</span>. A Pangram report is attached as Appendix <span class="tpl-slot">[X]</span>.</p>
+<p>In preparing this thesis I used the following tools: <span class="tpl-slot">[Tool and version, e.g. ChatGPT (GPT-5), Claude Code, Grammarly.]</span></p>
+<p>I used them for the following tasks: <span class="tpl-slot">[Each task, e.g. converting PDF sources to text, debugging the R script in Appendix B, grammar correction in Chapter 2.]</span></p>
+<p>I checked all outputs myself. I have kept my prompts and the outputs, and can share them on request. My supervisor and I agreed on this use of AI on <span class="tpl-slot">[date]</span>. A Pangram report is attached as Appendix <span class="tpl-slot">[X]</span>.</p>
 </div>
 
 Before you submit, run through this checklist.
 
 <ul class="submit-checklist" markdown="0">
-<li>Every reference exists, can be confirmed, and matches the source it points to.</li>
-<li>Every quoted or paraphrased passage says what it claims to say in the manuscript.</li>
-<li>The AI-use statement lists every tool and every task, including grammar and translation tools.</li>
-<li>My AI prompts and outputs are saved and available upon request.</li>
-<li>I am able to defend, using my own words and without notes, all the major choices and claims I have made in my manuscript.</li>
+<li>Every reference exists, and I have checked it against the source it points to.</li>
+<li>Every quotation and paraphrase says what my manuscript claims it says.</li>
+<li>My AI-use statement lists every tool and task, including grammar and translation tools.</li>
+<li>I have saved my AI prompts and outputs.</li>
+<li>I can explain and defend every major choice and claim in my manuscript, in my own words and without notes.</li>
 </ul>
 
 ---
 
 ## Use AI boldly
 
-All the reasons provided above are reasons to exercise care in using AI, not reasons to avoid AI altogether. Within reason and within the rules, I want you to use these tools creatively and even aggressively. I am interested in ambitious and even strange uses of this new technology.
+Do not let the reasons above put you off using AI. Within reason and within the rules, I want you to think creatively about how you can use it, even aggressively. I am excited to see how you might use this new technology, even in strange ways.
 
-Before you use AI, I encourage you to sort its use into one of the three modes listed below. It will help you think about whether it is appropriate to use, and, if so, how you might best use it.
+When you do use AI, try to work out which of the three modes below you are using it in. This will help you think about whether you should be using it at all, and how best to use it if you do.
 
 | Mode | Use it when | Examples |
 |---|---|---|
@@ -441,15 +438,15 @@ Before you use AI, I encourage you to sort its use into one of the three modes l
 | **Protect** | Relates to core skills that should not be cognitively offloaded or automated. | Reading your sources, forming the core argument, writing the analysis. |
 | **Collaborate** | Things that can be augmented by the machine. | Finding literature, checking a claim against a source, debugging code, adversarial reviews of analysis. |
 
-Here is some of what I would love to see in a paper or thesis project.
+Here are some ideas I would love to see students try in a paper or thesis.
 
-- **Build a knowledge base.** Convert your sources to readable text, file them with stable identifiers, and let an agent search, cite, and cross-check across them. Then check the agent. The [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) page covers the design decisions.
-- **Verify your own claims.** Before you submit, run every empirical claim in your draft against the filed source and every reference against a bibliographic index. Then, update, modify, or improve what you wrote. The [Open Science Skills](https://github.com/scdenney/open-science-skills) library has procedures for this.
-- **Scale up what a BA or MA thesis can even do.** Create a corpus of thousands of documents (rather than a dozen), run a classification you could not have run by hand, and spend the saved time on interpretation and better or additional analysis. Use the [Methods guide]({{ '/methods/' | relative_url }}) to choose the approach.
-- **Get an adversarial critique.** Ask a model to attack your argument or audit your analysis, find counter-evidence, and find out where you are going wrong or where your argument and analysis are weakest. Then revise, using your own words and ideas.
-- **Do something I have not thought of.** If you can explain what you did and why it was a legitimate use of AI, I will likely back it.
+- **Build a knowledge base.** Make all your sources available as searchable text files with stable names, then have an agent search and cite them. The agent can even cross-check the sources. You still need to check its work. See [Building a Corpus]({{ '/methods/building-a-corpus' | relative_url }}) for the design.
+- **Self-check.** Before submission, go over your draft and have an agent check each claim against your sources to make sure you got it right. Then confirm that each reference can be found in a bibliographic index. See the procedures in the [Open Science Skills](https://github.com/scdenney/open-science-skills) library.
+- **Scale up.** An AI-assisted thesis can work with thousands of documents instead of a dozen, and perform classifications that would not be possible by hand. That leaves more time for interpretation. See the [Methods guide]({{ '/methods/' | relative_url }}).
+- **Devil's advocate.** Have an AI model critique your work: look for evidence against your argument, or pick apart your analysis. Then respond to the critique in your own words.
+- **Something I haven't thought of.** If you can explain what you did and argue that it was an appropriate use of AI, I will likely support it.
 
-I will seek to develop better tooling, starter prompts, and demonstrations on [AI for Research](https://scdenney.github.io/ai-for-research/), which I am developing for students and faculty. Let me know what you want to know and what more I can do to help.
+I am working on better tools, starter prompts and demonstrations of these ideas at [AI for Research](https://scdenney.github.io/ai-for-research/), a site for students and faculty. Let me know what you would like to see there.
 
 ---
 
