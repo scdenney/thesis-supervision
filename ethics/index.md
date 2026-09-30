@@ -55,6 +55,12 @@ All thesis research must comply with the principles outlined in the Code of Ethi
 
 ## Generative AI Policy
 
+<div class="info-box" markdown="1">
+
+**My own rules for AI use in supervised and take-home written work, and the evidence behind them, are on the [Working with AI]({{ '/ai-policy/' | relative_url }}) page.** The Faculty guidelines below apply to all assessed work; my policy adds to them.
+
+</div>
+
 The Faculty of Humanities has established guidelines governing the use of generative AI (GenAI) tools in academic assessment. Key points:
 
 - GenAI products or outputs may not be used in assessed work unless your teacher or supervisor has explicitly allowed the specific use under clear conditions

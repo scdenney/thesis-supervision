@@ -159,8 +159,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
-  const openDetailsForHash = () => {
-    const hash = window.location.hash;
+  const openDetailsForHash = (hash = window.location.hash) => {
     if (!hash) return;
 
     let targetId = hash.slice(1);
@@ -173,20 +172,40 @@ document.addEventListener("DOMContentLoaded", () => {
     const target = document.getElementById(targetId);
     if (!target) return;
 
-    const details =
-      target.tagName.toLowerCase() === "details"
+    // Open every enclosing <details>, not just the nearest, so nested
+    // targets (e.g. a citation inside the Sources drawer) are reachable.
+    const closed = [];
+    for (
+      let node = target.tagName.toLowerCase() === "details"
         ? target
         : target.closest("details");
-    if (!details) return;
+      node;
+      node = node.parentElement && node.parentElement.closest("details")
+    ) {
+      if (!node.open) closed.push(node);
+    }
+    if (!closed.length) return;
 
-    details.open = true;
+    // Skip the drawer animation so the page is full height before scrolling.
+    closed.forEach((node) => {
+      node.classList.add("is-instant");
+      node.open = true;
+    });
     window.requestAnimationFrame(() => {
       target.scrollIntoView({ block: "start" });
+      closed.forEach((node) => node.classList.remove("is-instant"));
     });
   };
 
   openDetailsForHash();
-  window.addEventListener("hashchange", openDetailsForHash);
+  window.addEventListener("hashchange", () => openDetailsForHash());
+
+  // hashchange does not fire when the link repeats the current hash.
+  document.addEventListener("click", (event) => {
+    const link = event.target.closest("a[href^='#']");
+    if (!link || link.getAttribute("href") !== window.location.hash) return;
+    openDetailsForHash(link.getAttribute("href"));
+  });
 
   const methodVisuals = {
     chooser: `

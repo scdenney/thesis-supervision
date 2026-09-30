@@ -15,6 +15,7 @@
   {% assign is_methods = false %}
   {% assign is_assessment = false %}
   {% assign is_ethics = false %}
+  {% assign is_ai_policy = false %}
   {% assign is_program = false %}
 
   {% if page.url == '/' or page.url == '/index.html' %}
@@ -34,6 +35,9 @@
   {% endif %}
   {% if page.url contains '/ethics/' %}
     {% assign is_ethics = true %}
+  {% endif %}
+  {% if page.url contains '/ai-policy/' %}
+    {% assign is_ai_policy = true %}
   {% endif %}
   {% if page.url contains '/bais/' or page.url contains '/baks/' or page.url contains '/maas/' or page.url contains '/mair/' %}
     {% assign is_program = true %}
@@ -105,7 +109,8 @@
               </div>
             </details>
             <a href="{{ '/assessment-standards/' | relative_url }}"{% if is_assessment %} class="is-active" aria-current="page"{% endif %}>Assessment</a>
-            <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Ethics &amp; AI</a>
+            <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Ethics</a>
+            <a href="{{ '/ai-policy/' | relative_url }}"{% if is_ai_policy %} class="is-active" aria-current="page"{% endif %}>AI Policy</a>
           </nav>
         </div>
       </div>
@@ -123,6 +128,9 @@
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>
         {% elsif is_ethics %}
+          <span class="crumb-sep">/</span>
+          <span class="crumb-current">{{ page.title }}</span>
+        {% elsif is_ai_policy %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>
         {% elsif page.url contains '/methods/building-a-corpus' %}

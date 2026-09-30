@@ -2640,3 +2640,563 @@ a.github-link:hover::before {
     transform: none;
   }
 }
+
+/* ── Working with AI page: evidence figures, policy card, screening line ── */
+
+:root {
+  --chart-assisted: #2B5FA3; /* validated chart blue: "with AI" series */
+  --chart-unaided: #A06A2A;  /* validated chart bronze: "without AI" series */
+}
+
+.page-toc a.page-toc-policy {
+  font-weight: 700;
+  color: var(--plum);
+  border-left: 3px solid var(--accent);
+  padding-left: 0.5rem;
+  margin-left: -0.5rem;
+}
+
+.evidence-chart {
+  margin: var(--space-6) 0;
+  padding: var(--space-4) var(--space-4) var(--space-3);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--white);
+  box-shadow: var(--shadow-soft);
+}
+
+.evidence-chart figcaption {
+  margin: 0 0 var(--space-3);
+}
+
+.evidence-chart figcaption strong {
+  display: block;
+  color: var(--plum);
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.evidence-chart figcaption span,
+.evidence-chart-note {
+  display: block;
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.evidence-chart figcaption span {
+  margin-top: 0.3rem;
+}
+
+.evidence-chart-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  contain: inline-size; /* keep the SVG's min-width from widening the page on phones */
+  min-width: 0;
+}
+
+.evidence-chart {
+  min-width: 0;
+  max-width: 100%;
+}
+
+.evidence-chart-svg {
+  display: block;
+  width: 100%;
+  min-width: 34rem;
+  height: auto;
+  font-family: var(--font-sans);
+}
+
+.evidence-chart-svg .chart-grid line {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+
+.evidence-chart-svg .chart-zero line {
+  stroke: var(--muted);
+  stroke-width: 1.25;
+}
+
+.evidence-chart-svg .chart-axis-labels text {
+  fill: var(--muted);
+  font-size: 12px;
+  text-anchor: end;
+}
+
+.evidence-chart-svg .chart-panel-title text {
+  fill: var(--plum);
+  font-size: 15px;
+  font-weight: 700;
+  text-anchor: middle;
+}
+
+.evidence-chart-svg .chart-series-assisted rect {
+  fill: var(--chart-assisted);
+}
+
+.evidence-chart-svg .chart-series-unaided rect {
+  fill: var(--chart-unaided);
+}
+
+.evidence-chart-svg .chart-ci line {
+  stroke: var(--plum);
+  stroke-width: 1.75;
+  stroke-linecap: round;
+}
+
+.evidence-chart-svg .chart-values text {
+  fill: var(--text);
+  font-size: 14px;
+  font-weight: 700;
+  text-anchor: middle;
+}
+
+.evidence-chart-svg .chart-cat-labels text {
+  fill: var(--muted);
+  font-size: 12.5px;
+  text-anchor: middle;
+}
+
+.evidence-chart-svg .chart-annotation rect {
+  fill: var(--surface-soft);
+  stroke: var(--accent);
+  stroke-width: 1;
+}
+
+.evidence-chart-svg .chart-annotation text {
+  fill: var(--plum);
+  font-size: 12.5px;
+  font-style: italic;
+}
+
+.evidence-chart-table {
+  margin: var(--space-3) 0 var(--space-2);
+  font-size: 0.9rem;
+}
+
+.evidence-chart-table summary {
+  cursor: pointer;
+  color: var(--teal);
+  font-weight: 600;
+}
+
+.evidence-chart-table table {
+  margin-top: var(--space-2);
+  font-size: 0.88rem;
+}
+
+.evidence-chart-note {
+  margin: var(--space-2) 0 0;
+}
+
+.policy-card {
+  margin: var(--space-5) 0;
+  border: 1px solid rgba(0, 17, 88, 0.22);
+  border-radius: 10px;
+  background: var(--white);
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+}
+
+.policy-card-head {
+  padding: var(--space-5) var(--space-5) var(--space-4);
+  background: var(--navy-deep);
+  border-bottom: 3px solid var(--accent-hi);
+}
+
+.policy-card-kicker {
+  margin: 0 0 0.35rem;
+  color: var(--accent-hi);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+main .policy-card-title {
+  margin: 0;
+  color: var(--white);
+  font-size: 1.75rem;
+}
+
+.policy-rule-list {
+  margin: 0;
+  padding: 0 var(--space-5);
+  list-style: none;
+}
+
+.policy-rule:first-child {
+  border-top: 0;
+}
+
+.policy-rule {
+  display: grid;
+  grid-template-columns: 2.4rem minmax(0, 1fr);
+  gap: var(--space-3);
+  padding: var(--space-4) 0;
+  border-top: 1px solid var(--line);
+}
+
+.policy-rule-number {
+  display: grid;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border-radius: 50%;
+  background: var(--navy-deep);
+  color: var(--white);
+  font-size: 1.05rem;
+  font-weight: 700;
+  font-family: var(--font-serif);
+}
+
+.policy-rule h4 {
+  margin: 0 0 var(--space-2);
+  font-size: 1.1rem;
+  color: var(--plum);
+}
+
+.policy-rule-gloss {
+  margin: 0;
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.policy-rule-gloss + .policy-rule-gloss,
+.ai-screening-zones + .policy-rule-gloss {
+  margin-top: var(--space-3);
+}
+
+.policy-rule-gloss strong {
+  color: var(--plum);
+}
+
+/* Pangram score line inside rule 4: four zones split at 25/50/75 */
+.ai-screening-scale {
+  position: relative;
+  height: 0.75rem;
+  margin: 2.4rem 0 var(--space-2);
+  background: linear-gradient(90deg,
+    var(--surface-soft) 0 25%,
+    var(--footer-bg) 25% 50%,
+    #DCD2BE 50% 75%,
+    #C9BBA0 75% 100%);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.ai-screening-marker {
+  position: absolute;
+  bottom: 100%;
+  padding: 0 0 0.4rem 0.45rem;
+  color: var(--plum);
+  font-size: 0.85rem;
+  border-left: 2px dashed var(--accent);
+  white-space: nowrap;
+}
+
+.ai-screening-marker-25 { left: 25%; }
+.ai-screening-marker-50 { left: 50%; }
+.ai-screening-marker-75 { left: 75%; }
+
+.ai-screening-zones {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: var(--space-2);
+  color: var(--muted);
+  font-size: 0.8rem;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.source-list {
+  padding-left: 1.4rem;
+  font-size: 0.92rem;
+}
+
+.source-list li {
+  margin-bottom: 0.6rem;
+  line-height: 1.5;
+}
+
+.source-list li:target {
+  background: var(--surface-soft);
+  border-radius: 4px;
+}
+
+/* Disclosure template and pre-submission checklist */
+.disclosure-template {
+  margin: var(--space-4) 0 var(--space-5);
+  padding: var(--space-4) var(--space-5);
+  border: 1px dashed rgba(138, 106, 59, 0.55);
+  border-radius: 8px;
+  background: var(--white);
+}
+
+.disclosure-template p {
+  margin: 0 0 var(--space-2);
+  line-height: 1.6;
+}
+
+.disclosure-template p:last-child {
+  margin-bottom: 0;
+}
+
+p.disclosure-template-label {
+  margin-bottom: var(--space-3);
+  color: var(--accent);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.tpl-slot {
+  padding: 0 0.2rem;
+  border-radius: 3px;
+  background: var(--surface-soft);
+  color: var(--muted);
+}
+
+main ul.submit-checklist {
+  margin: var(--space-3) 0 var(--space-5);
+  padding: 0;
+  list-style: none;
+}
+
+.submit-checklist li {
+  position: relative;
+  margin: 0;
+  padding: 0.55rem 0 0.55rem 2rem;
+  border-top: 1px solid var(--line);
+  line-height: 1.5;
+}
+
+.submit-checklist li:last-child {
+  border-bottom: 1px solid var(--line);
+}
+
+.submit-checklist li::before {
+  content: "";
+  position: absolute;
+  left: 0.2rem;
+  top: 0.75rem;
+  width: 0.95rem;
+  height: 0.95rem;
+  border: 1.5px solid var(--accent);
+  border-radius: 3px;
+  background: var(--white);
+}
+
+@media (max-width: 760px) {
+  .policy-rule {
+    grid-template-columns: 1.8rem minmax(0, 1fr);
+    gap: var(--space-2);
+  }
+  .policy-card-head {
+    padding-left: var(--space-4);
+    padding-right: var(--space-4);
+  }
+  .policy-rule-list {
+    padding: 0 var(--space-4);
+  }
+  .policy-rule-number {
+    width: 1.7rem;
+    height: 1.7rem;
+    font-size: 0.9rem;
+  }
+  .ai-screening-zones {
+    font-size: 0.72rem;
+  }
+  .disclosure-template {
+    padding: var(--space-3) var(--space-4);
+  }
+}
+
+.ai-jump-link {
+  margin: -0.25rem 0 1rem;
+  font-size: 0.95rem;
+}
+
+/* Drawers: collapsible evidence and sources. The summary previews the finding,
+   so a student who opens nothing still gets the argument. */
+main details.drawer {
+  margin: var(--space-4) 0;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--white);
+  box-shadow: var(--shadow-sm);
+  overflow: clip;
+  interpolate-size: allow-keywords;
+  scroll-margin-top: 5.5rem;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+main details.drawer[open] {
+  border-color: rgba(138, 106, 59, 0.45);
+  box-shadow: var(--shadow-md);
+}
+
+main details.drawer > summary {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-items: start;
+  gap: var(--space-4);
+  min-height: 0;
+  padding: var(--space-4) var(--space-5);
+  background: var(--white);
+  font-weight: 400;
+  list-style: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+main details.drawer > summary::before {
+  content: none;
+}
+
+main details.drawer > summary:hover {
+  background: #FBFAF6;
+}
+
+main details.drawer[open] > summary {
+  border-bottom: 1px solid var(--line);
+}
+
+.drawer-icon {
+  position: relative;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin-top: 0.1rem;
+  border: 1.5px solid var(--accent);
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.drawer-icon::before,
+.drawer-icon::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 0.7rem;
+  height: 1.5px;
+  background: var(--accent);
+  transform: translate(-50%, -50%);
+  transition: transform 0.25s ease, background-color 0.2s ease;
+}
+
+.drawer-icon::after {
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+details.drawer > summary:hover .drawer-icon {
+  background: var(--surface-soft);
+}
+
+details.drawer[open] .drawer-icon {
+  background: var(--accent);
+}
+
+details.drawer[open] .drawer-icon::before,
+details.drawer[open] .drawer-icon::after {
+  background: var(--white);
+}
+
+details.drawer[open] .drawer-icon::after {
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+
+.drawer-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  min-width: 0;
+}
+
+.drawer-kicker {
+  color: var(--accent);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+main .drawer-title {
+  display: block;
+  margin: 0;
+  color: var(--plum);
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+main .drawer-sources .drawer-title {
+  font-size: 1.35rem;
+}
+
+.drawer-takeaway {
+  color: var(--text);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+.drawer-body {
+  padding: var(--space-2) var(--space-5) var(--space-5);
+}
+
+.drawer-body .evidence-chart {
+  background: #FBFAF6;
+  box-shadow: none;
+}
+
+.drawer-body .source-list {
+  margin-top: var(--space-4);
+}
+
+/* Browsers without ::details-content drop these rules and open instantly. */
+details.drawer::details-content {
+  block-size: 0;
+  opacity: 0;
+  overflow: clip;
+  transition: block-size 0.35s ease, opacity 0.25s ease, content-visibility 0.35s allow-discrete;
+}
+
+details.drawer[open]::details-content {
+  block-size: auto;
+  opacity: 1;
+}
+
+details.drawer.is-instant::details-content {
+  transition: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  main details.drawer,
+  details.drawer::details-content,
+  .drawer-icon,
+  .drawer-icon::before,
+  .drawer-icon::after {
+    transition: none;
+  }
+}
+
+@media (max-width: 760px) {
+  main details.drawer > summary {
+    gap: var(--space-3);
+    padding: var(--space-3) var(--space-4);
+  }
+  .drawer-body {
+    padding: var(--space-2) var(--space-4) var(--space-4);
+  }
+}
+
+@media print {
+  details.drawer::details-content {
+    block-size: auto;
+    opacity: 1;
+    content-visibility: visible;
+  }
+}
