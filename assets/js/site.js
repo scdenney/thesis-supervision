@@ -177,13 +177,30 @@ document.addEventListener("DOMContentLoaded", () => {
           : 1,
       );
 
+    // Nested TOC entries that point at a collapsible drawer appear only
+    // while that drawer is open.
+    const drawerEntries = spyTargets.filter(
+      (target) =>
+        target.el.matches("details.drawer") && target.link.closest("ul ul"),
+    );
+    const syncDrawerEntries = () => {
+      drawerEntries.forEach((target) => {
+        target.link.closest("li").hidden = !target.el.open;
+      });
+      toc.querySelectorAll("ul ul").forEach((list) => {
+        list.hidden = !Array.from(list.children).some((item) => !item.hidden);
+      });
+    };
+
     if (spyTargets.length) {
       let ticking = false;
+      const isShown = (target) => !target.link.closest("[hidden]");
       const updateActive = () => {
         ticking = false;
         const offset = 120;
+        const shown = spyTargets.filter(isShown);
         let current = null;
-        spyTargets.forEach((target) => {
+        shown.forEach((target) => {
           if (target.el.getBoundingClientRect().top - offset <= 0) {
             current = target;
           }
@@ -191,7 +208,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const atBottom =
           window.innerHeight + window.scrollY >=
           document.documentElement.scrollHeight - 2;
-        if (atBottom) current = spyTargets[spyTargets.length - 1];
+        if (atBottom) current = shown[shown.length - 1];
         spyTargets.forEach((target) => {
           const isCurrent = target === current;
           target.link.classList.toggle("is-active", isCurrent);
@@ -206,6 +223,17 @@ document.addEventListener("DOMContentLoaded", () => {
       };
       window.addEventListener("scroll", requestUpdate, { passive: true });
       window.addEventListener("resize", requestUpdate);
+      // "toggle" does not bubble, so listen in the capture phase.
+      document.addEventListener(
+        "toggle",
+        (event) => {
+          if (!event.target.matches("details.drawer")) return;
+          syncDrawerEntries();
+          requestUpdate();
+        },
+        true,
+      );
+      syncDrawerEntries();
       updateActive();
     }
   }
