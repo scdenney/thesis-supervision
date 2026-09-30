@@ -90,7 +90,7 @@ Ultimately, what we are talking about here is the question of *what remains scar
 
 ## What does the research say? {#what-the-research-says}
 
-Research on the learning and cognitive effects of AI use is still new and findings are not yet definitive. Yet, there is enough now that we can draw more than preliminary conclusions. What we know is that integrating AI into your workflow and learning process does not, based on current evidence, guarantee better learning or better outcomes. The evidence we have from the best studies should make a student more than a little cautious about assuming the gains they might *feel* are real. No study yet measures what AI does to thesis-length, supervised research writing, or what students can do a year later without it. Sources are listed in full [at the bottom of the page](#sources).
+While the literature on learning and AI is still young, there is enough of it to move beyond basic conclusions. What we can conclude is that integrating AI into your workflow and learning doesn't necessarily help you learn, even when it produces better work. If you are a student considering using AI, the best current studies should make you cautious about assuming that the benefits you *feel* are real. And we still don't know what AI does to your ability to write a thesis-length piece of research under supervision, or to perform a year later without it. Sources are listed in full [at the bottom of the page](#sources).
 
 <details class="drawer drawer-evidence" id="performance-is-not-learning" markdown="1">
 <summary markdown="0">
@@ -372,7 +372,7 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 <h4>Expect a Pangram check</h4>
 <p class="policy-rule-gloss">I will use <a href="https://www.pangram.com/">Pangram</a> to check for AI-generated text. Pangram classifies passages as human, AI-assisted, or AI-generated and reports the share of the document falling into each category. For classes, I will scan a random selection of manuscripts per written assignment. For theses, you can expect all written manuscripts (draft or full) to be checked. AI-generated prose is highly detectable, particularly when a document is predominantly or entirely machine-written (<a href="#src-jabarian">Jabarian and Imas 2025</a>; <a href="#src-vub">Van Vlasselaer, Van Droogenbroeck and Spruyt 2026</a>), and watermarking of model output is being deployed at scale (<a href="#src-dathathri">Dathathri et al. 2024</a>). AI-detection software was unreliable in the past, but this is no longer the case. If you are mainly or entirely outsourcing the writing process to the machine, this is accurately and reliably measurable. Pangram's <a href="https://arxiv.org/abs/2607.27183">technical report</a> shows extremely high detection rates for fully AI-generated text (<a href="#src-pangram4">Glickenhaus et al. 2026</a>). Pangram also gives each document an overall verdict, but I work from the share of text it flags as AI-generated, which runs from 0 (fully human) to 100 (fully AI-generated).</p>
 
-<p class="policy-rule-gloss">My standards are deliberately generous. Below <strong>25%</strong>, nothing happens. That margin is there for grammar and spelling checks, editing tools, and other light uses of AI, including influence on your writing you may not have intended. From <strong>25% to 50%</strong>, I will not grade the manuscript. If you had my permission to use AI, we meet to talk about how you used it, and I may ask you to defend the work orally; you then revise and resubmit. If you used AI without telling me, the manuscript fails and can only be redone as a resit. Between <strong>50% and 75%</strong>, the manuscript fails automatically, we meet, and you resubmit through the resit. Above <strong>75%</strong>, I treat the case as research fraud: the manuscript fails and I refer it to the Board of Examiners.</p>
+<p class="policy-rule-gloss">My standards are deliberately generous. Below <strong>25%</strong>, nothing happens. That margin is there for grammar and spelling checks, editing tools, and other light uses of AI, including influence on your writing you may not have intended. From <strong>25% to 50%</strong>, I will not grade the manuscript. If you had my permission to use AI, we meet to talk about how you used it, and I may ask you to defend the work orally; you then revise and resubmit. If you used AI without informing me, the manuscript fails and you will need to redo it as a resit. If the score is between <strong>50% and 75%</strong>, the manuscript fails automatically; we will meet to talk about it, and you resubmit through the resit. If it is above <strong>75%</strong>, the manuscript not only fails, but I will treat it as a case of research fraud and refer it to the Board of Examiners.</p>
 
 <div class="ai-screening-scale" aria-hidden="true">
 <span class="ai-screening-marker ai-screening-marker-25"><b>25%</b></span>
@@ -386,15 +386,15 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 <span>Fail, Board of Examiners</span>
 </div>
 
-<p class="policy-rule-gloss">On privacy: Pangram does not train its models on submitted text, never shares or sells it, encrypts it, and holds SOC 2 Type 2 certification (see <a href="https://www.pangram.com/data-privacy">Pangram's data privacy page</a>). I remove names before uploading anything. In my judgment, this use is consistent with the GDPR and the Faculty guidelines.</p>
+<p class="policy-rule-gloss">On privacy: Pangram does not train on submitted text and does not share or sell it. Text is encrypted, and the service is SOC 2 Type 2 certified (see <a href="https://www.pangram.com/data-privacy">Pangram's data privacy page</a>). I remove names before uploading. I consider this use consistent with the GDPR and the Faculty guidelines.</p>
 </div>
 </li>
 
 <li class="policy-rule">
 <span class="policy-rule-number" aria-hidden="true">4</span>
 <div>
-<h4>Verify every source, because I will</h4>
-<p class="policy-rule-gloss">Every source you cite is your responsibility, and I check. I run reference lists and in-text citations through an AI-based research skill. A fabricated source is grounds for failure and referral to the Board of Examiners under the university's academic integrity regulations, and so is a quotation, passage, page reference or other evidence attributed to a source that does not exist. Honest, ordinary mistakes happen, and I will treat them as such. But check every source yourself before you hand anything in.</p>
+<h4>I will check your sources</h4>
+<p class="policy-rule-gloss">You are responsible for checking all your sources. I will use an AI-based research skill to check your reference list and in-text citations. If you cite a source that does not exist, your work will fail and I will refer you to the Board of Examiners under the university's academic integrity regulations. The same applies to a quotation, passage, page reference or other evidence attributed to a source that does not exist. I understand that mistakes can happen, but please check all your sources.</p>
 </div>
 </li>
 </ol>
@@ -411,16 +411,16 @@ Put a statement like this in your thesis, right before the bibliography. If you 
 <p class="disclosure-template-label">Template: AI-use statement</p>
 <p>In preparing this thesis I used the following tools: <span class="tpl-slot">[Tool and version, e.g. ChatGPT (GPT-5), Claude Code, Grammarly.]</span></p>
 <p>I used them for the following tasks: <span class="tpl-slot">[Each task, e.g. converting PDF sources to text, debugging the R script in Appendix B, grammar correction in Chapter 2.]</span></p>
-<p>I checked all outputs myself. I have kept my prompts and the outputs, and can share them on request. My supervisor and I agreed on this use of AI on <span class="tpl-slot">[date]</span>. A Pangram report is attached as Appendix <span class="tpl-slot">[X]</span>.</p>
+<p>I checked all outputs. I kept all prompts and outputs and can share them on request. I agreed this use of AI with my supervisor on <span class="tpl-slot">[date]</span>. The Pangram report is in Appendix <span class="tpl-slot">[X]</span>.</p>
 </div>
 
-Before you submit, run through this checklist.
+Checklist before you submit:
 
 <ul class="submit-checklist" markdown="0">
-<li>Every reference exists, and I have checked it against the source it points to.</li>
-<li>Every quotation and paraphrase says what my manuscript claims it says.</li>
-<li>My AI-use statement lists every tool and task, including grammar and translation tools.</li>
-<li>I have saved my AI prompts and outputs.</li>
+<li>All references exist and have been checked against the original source.</li>
+<li>All quotations and paraphrases accurately reflect the source.</li>
+<li>My AI-use statement lists every AI tool I used, including for grammar or translation.</li>
+<li>I have saved all prompts and outputs from these tools.</li>
 <li>I can explain and defend every major choice and claim in my manuscript, in my own words and without notes.</li>
 </ul>
 
