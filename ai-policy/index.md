@@ -19,7 +19,7 @@ description: "Where I stand on AI in research and writing, my policy for supervi
 <li><a href="#you-cannot-tell-from-the-inside">It is hard to judge how much AI helps you</a></li>
 </ul>
 </li>
-<li><a href="#the-policy" class="page-toc-policy">The policy</a></li>
+<li><a href="#the-policy">The policy</a></li>
 <li><a href="#disclosure">Disclosure statement</a></li>
 <li><a href="#use-ai-boldly">Use AI boldly</a></li>
 <li><a href="#sources">Sources</a></li>
@@ -27,9 +27,8 @@ description: "Where I stand on AI in research and writing, my policy for supervi
 </nav>
 <div class="page-route-card">
 <span class="page-route-eyebrow">Looking for the rules?</span>
-<h5>The policy in four points</h5>
-<p>Agreement in advance, full disclosure, a Pangram check, and verified sources.</p>
-<a class="page-route-link" href="#the-policy">Jump to the policy</a>
+<p>Agreement, disclosure, a Pangram check, verified sources.</p>
+<a class="page-route-link" href="#the-policy">Jump to the policy &rarr;</a>
 </div>
 </div>
 </aside>

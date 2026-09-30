@@ -157,6 +157,57 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
     });
+
+    // Highlight the TOC entry for the section currently in view.
+    const spyTargets = tocLinks
+      .map((link) => {
+        let id = link.hash.slice(1);
+        try {
+          id = decodeURIComponent(id);
+        } catch (error) {
+          return null;
+        }
+        const el = document.getElementById(id);
+        return el ? { link, el } : null;
+      })
+      .filter(Boolean)
+      .sort((a, b) =>
+        a.el.compareDocumentPosition(b.el) & Node.DOCUMENT_POSITION_FOLLOWING
+          ? -1
+          : 1,
+      );
+
+    if (spyTargets.length) {
+      let ticking = false;
+      const updateActive = () => {
+        ticking = false;
+        const offset = 120;
+        let current = null;
+        spyTargets.forEach((target) => {
+          if (target.el.getBoundingClientRect().top - offset <= 0) {
+            current = target;
+          }
+        });
+        const atBottom =
+          window.innerHeight + window.scrollY >=
+          document.documentElement.scrollHeight - 2;
+        if (atBottom) current = spyTargets[spyTargets.length - 1];
+        spyTargets.forEach((target) => {
+          const isCurrent = target === current;
+          target.link.classList.toggle("is-active", isCurrent);
+          if (isCurrent) target.link.setAttribute("aria-current", "location");
+          else target.link.removeAttribute("aria-current");
+        });
+      };
+      const requestUpdate = () => {
+        if (ticking) return;
+        ticking = true;
+        window.requestAnimationFrame(updateActive);
+      };
+      window.addEventListener("scroll", requestUpdate, { passive: true });
+      window.addEventListener("resize", requestUpdate);
+      updateActive();
+    }
   }
 
   const openDetailsForHash = (hash = window.location.hash) => {

@@ -2646,13 +2646,6 @@ a.github-link:hover::before {
   --chart-unaided: #A06A2A;  /* validated chart bronze: "without AI" series */
 }
 
-.page-toc a.page-toc-policy {
-  font-weight: 700;
-  color: var(--plum);
-  border-left: 3px solid var(--accent);
-  padding-left: 0.5rem;
-  margin-left: -0.5rem;
-}
 
 .evidence-chart {
   margin: var(--space-6) 0;
@@ -3598,9 +3591,37 @@ main details:not(.nav-dropdown):not(.drawer):not(.evidence-chart-table) {
 .router-result a:hover,
 .hero-action:hover { background: #0B1F6E; }
 
-.page-toc a.page-toc-policy {
-  margin-left: -1px;
-  padding-left: 1rem;
-  border-left: 2px solid var(--accent);
+
+/* Sidebar route card: a compact pointer, not a second callout */
+.page-route-card {
+  margin-top: 1.25rem;
+  padding: 0.75rem 0 0 1rem;
+  border: 0;
+  border-top: 1px solid var(--line);
+  border-radius: 0;
+  background: transparent;
+}
+
+.page-route-card p {
+  margin: 0.2rem 0 0.45rem;
+  font-size: 0.88rem;
+}
+
+main a.page-route-link {
+  display: inline;
+  width: auto;
+  min-height: 0;
+  padding: 0;
+  border-radius: 0;
+  background: transparent;
+  color: var(--teal);
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+main a.page-route-link:hover {
+  background: transparent;
   color: var(--navy-deep);
+  text-decoration: underline;
 }
