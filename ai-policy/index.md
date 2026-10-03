@@ -36,7 +36,7 @@ description: "Where I stand on AI in research and writing, my policy for supervi
 
 # Working with AI
 
-*Version 1, 3 October 2026. The positions and policy on this page are subject to change.*
+<p class="page-version"><span class="page-version-number">Version 1</span><span class="page-version-date">3 October 2026</span><span class="page-version-note">The positions and policy on this page are subject to change.</span></p>
 
 This page explains my positions on AI use in the research process and what some of the evidence says about AI and learning. It also specifies my AI policy for written work I assess at Leiden University, especially for thesis writers. It is thus written primarily for students, but it may be remixed and reused by other faculty or administrators.
 

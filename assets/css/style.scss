@@ -3701,3 +3701,37 @@ main a.page-route-link:hover {
   padding-left: calc(1rem - 1px);
   background: rgba(194, 168, 119, 0.12);
 }
+
+/* Version line under a page title (AI policy page) */
+.page-version {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: var(--space-1) var(--space-3);
+  margin: 0 0 var(--space-5);
+  padding: var(--space-2) 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 0.88rem;
+  line-height: 1.4;
+}
+
+.page-version-number {
+  color: var(--accent);
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.page-version-date {
+  padding-left: var(--space-3);
+  border-left: 1px solid var(--line);
+  color: var(--plum);
+  font-weight: 600;
+}
+
+.page-version-note {
+  font-style: italic;
+}
