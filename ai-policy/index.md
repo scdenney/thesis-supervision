@@ -354,7 +354,7 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 <span class="policy-rule-number" aria-hidden="true">1</span>
 <div>
 <h4>Agree on AI use in advance</h4>
-<p class="policy-rule-gloss">Before you accept AI into your research workflow -- whether a chatbot, an AI agent, or otherwise -- you need to discuss with me which tools you plan to use and for which tasks. I want you to show me that you understand what the tool does and demonstrate why you need to use it. We must agree on this use in writing. For thesis research, the agreement can form a short section of your proposal. Without prior authorization, no AI use in the research and writing process is permitted, which is the baseline Faculty policy.</p>
+<p class="policy-rule-gloss">Before you accept AI into your research workflow -- whether a chatbot, an AI agent, or otherwise -- you need to discuss with me which tools you plan to use and for which tasks. I want you to show me that you understand what the tool does and demonstrate why you need to use it. We must agree on this use in writing. No agreement will cover having AI write the prose of your manuscript. For thesis research, the agreement can form a short section of your proposal. Without prior authorization, no AI use in the research and writing process is permitted, which is the baseline Faculty policy.</p>
 </div>
 </li>
 
@@ -372,7 +372,15 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 <h4>Expect a Pangram check</h4>
 <p class="policy-rule-gloss">I will use <a href="https://www.pangram.com/">Pangram</a> to check for AI-generated text. Pangram classifies passages as human, AI-assisted, or AI-generated and reports the share of the document falling into each category. For classes, I will scan a random selection of manuscripts per written assignment. For theses, you can expect all written manuscripts (draft or full) to be checked. AI-generated prose is highly detectable, particularly when a document is predominantly or entirely machine-written (<a href="#src-jabarian">Jabarian and Imas 2025</a>; <a href="#src-vub">Van Vlasselaer, Van Droogenbroeck and Spruyt 2026</a>), and watermarking of model output is being deployed at scale (<a href="#src-dathathri">Dathathri et al. 2024</a>). AI-detection software was unreliable in the past, but this is no longer the case. If you are mainly or entirely outsourcing the writing process to the machine, this is accurately and reliably measurable. Pangram's <a href="https://arxiv.org/abs/2607.27183">technical report</a> shows extremely high detection rates for fully AI-generated text (<a href="#src-pangram4">Glickenhaus et al. 2026</a>). Pangram also gives each document an overall verdict, but I work from the share of text it flags as AI-generated, which runs from 0 (fully human) to 100 (fully AI-generated).</p>
 
-<p class="policy-rule-gloss">My standards are deliberately generous. Below <strong>25%</strong>, nothing happens. That margin is there for grammar and spelling checks, editing tools, and other light uses of AI, including influence on your writing you may not have intended. From <strong>25% to 50%</strong>, I will not grade the manuscript. If you had my permission to use AI, we will meet to talk about how you used it, and I may ask you to defend the work orally; you then revise and resubmit. If you used AI without informing me, the manuscript fails and you will need to redo it as a resit. If the score is between <strong>50% and 75%</strong>, the manuscript fails automatically; we will meet to talk about it, and you will resubmit through the resit. If it is above <strong>75%</strong>, the manuscript fails, and I will treat it as a case of research fraud and refer it to the Board of Examiners.</p>
+<p class="policy-rule-gloss">My standards are deliberately generous. The percentages refer only to the share of your work that Pangram flags as AI-generated, not including the share flagged as AI-assisted.</p>
+
+<p class="policy-rule-gloss">If less than <strong>25%</strong> of your work is flagged, nothing happens. This margin allows for grammar and spelling checks, editing tools, and other light uses of AI, including influence on your writing you may not have intended.</p>
+
+<p class="policy-rule-gloss">If between <strong>25% and 50%</strong> of your work is flagged, I will not grade your manuscript. If you had my permission to use AI tools, we will meet to discuss the nature and extent of your use of those tools. I might ask you to defend your work orally. You will then revise your manuscript and submit it again. If you did not inform me about your use of AI tools, your manuscript fails, and you will have to redo it as a resit.</p>
+
+<p class="policy-rule-gloss">If between <strong>50% and 75%</strong> of your work is flagged, we will meet, and you will have the opportunity to show me drafts, version history or other evidence that you wrote it yourself. Unless you can do that, your manuscript fails, and you will have to redo it as a resit. Informing me in advance does not help you here, since no agreement will allow AI to write your work for you.</p>
+
+<p class="policy-rule-gloss">If more than <strong>75%</strong> of your work is flagged, I will not grade your manuscript. I will consider it possible research fraud and refer it to the Board of Examiners.</p>
 
 <div class="ai-screening-scale" aria-hidden="true">
 <span class="ai-screening-marker ai-screening-marker-25"><b>25%</b></span>
@@ -381,9 +389,9 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 </div>
 <div class="ai-screening-zones" aria-hidden="true">
 <span>No action</span>
-<span>Not graded, meeting, resubmit</span>
-<span>Fail, resit</span>
-<span>Fail, Board of Examiners</span>
+<span>Not graded, meeting, revise<br>Undisclosed: fail, resit</span>
+<span>Meeting, then fail and resit</span>
+<span>Not graded, Board of Examiners</span>
 </div>
 
 <p class="policy-rule-gloss">On privacy: Pangram does not train on submitted text and does not share or sell it. Text is encrypted, and the service is SOC 2 Type 2 certified (see <a href="https://www.pangram.com/data-privacy">Pangram's data privacy page</a>). I remove names before uploading. I consider this use consistent with the GDPR and the Faculty guidelines.</p>
@@ -394,7 +402,9 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 <span class="policy-rule-number" aria-hidden="true">4</span>
 <div>
 <h4>I will check your sources</h4>
-<p class="policy-rule-gloss">You are responsible for checking all your sources. I will use an AI-based research skill to check your reference list and in-text citations. If you cite a source that does not exist, your work will fail and I will refer you to the Board of Examiners under the university's academic integrity regulations. The same applies to a quotation, passage, page reference or other evidence attributed to a source that does not exist. I understand that mistakes can happen, but please check all your sources.</p>
+<p class="policy-rule-gloss">You are responsible for checking all of your sources. I will use an AI-based research skill to ensure that your reference list and in-text citations are accurate and that there are no fabricated or hallucinated sources. If I find that you cited sources that do not exist, I will consider this research fraud.</p>
+
+<p class="policy-rule-gloss">I will, of course, do a careful human check of any problems that are flagged. At my discretion, I will also consider scheduling a meeting with you to discuss any issues found. Otherwise, you should submit a manuscript in which the sources you use are confirmed and accurate. The same logic applies to a quotation, page reference, or other evidence attributed to a source.</p>
 </div>
 </li>
 </ol>
