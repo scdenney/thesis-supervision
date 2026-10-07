@@ -58,11 +58,13 @@ This page is adapted from the MAIR thesis supervision guidelines. Confirm detail
 | **Citation style** | {{ program.citation_long }} |
 | **Language** | English |
 | **Specialization fit** | Thesis must fit your MAIR specialization track |
-| **Next deadline** | {{ program.deadline }} |
+| **Next deadline** | December 2026 (date TBD) |
 
 ---
 
 ## Deadlines
+
+*This site will be updated as new AY2026-2027 deadlines are published. Dates not yet announced are marked TBD.*
 
 MAIR has one thesis deadline per semester. If you miss it, your next opportunity is the following semester.
 

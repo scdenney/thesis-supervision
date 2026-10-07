@@ -11,7 +11,7 @@ title: Home
     <h1>Thesis &amp; Research Supervision</h1>
     <p class="home-lede">Guidance for turning a topic into a research question and carrying the project through to submission.</p>
     <div class="home-hero-actions">
-      <a class="is-primary" href="#find-your-program">Start with your programme</a>
+      <a class="is-primary" href="#find-your-program">Start with your program</a>
       <a class="is-secondary" href="{{ '/methods/' | relative_url }}">Browse the methods library</a>
     </div>
     <div class="home-contact">
@@ -22,11 +22,11 @@ title: Home
   </div>
 </section>
 
-<section class="home-start" id="find-your-program" aria-labelledby="programme-title" markdown="0">
+<section class="home-start" id="find-your-program" aria-labelledby="program-title" markdown="0">
   <div class="section-heading">
     <p class="section-kicker">Your first stop</p>
-    <h2 id="programme-title">Choose your programme</h2>
-    <p>Your programme page lists the rules and deadlines for your thesis and links the official documents.</p>
+    <h2 id="program-title">Choose your program</h2>
+    <p>Your program page lists the rules and deadlines for your thesis and links the official documents.</p>
   </div>
 
   <div class="program-cards program-overview-grid">
@@ -38,7 +38,7 @@ title: Home
       </span>
       <span class="program-card-name">{{ p.name }}</span>
       <span class="program-card-detail">{{ p.words }} &middot; due {{ p.deadline }}</span>
-      <a class="program-card-link" href="{{ p.url | relative_url }}" aria-label="Open {{ p.code }} programme guide">Open programme guide <span aria-hidden="true">&rarr;</span></a>
+      <a class="program-card-link" href="{{ p.url | relative_url }}" aria-label="Open {{ p.code }} program guide">Open program guide <span aria-hidden="true">&rarr;</span></a>
     </div>
     {% endfor %}
   </div>
@@ -48,7 +48,7 @@ title: Home
   <div class="section-heading">
     <p class="section-kicker">The thesis journey</p>
     <h2 id="journey-title">Plan your research</h2>
-    <p>Use this shared route alongside the rules on your programme page.</p>
+    <p>Use this shared route alongside the rules on your program page.</p>
   </div>
 
   <ol class="journey-list">
@@ -57,7 +57,7 @@ title: Home
       <div>
         <h3>Confirm the rules</h3>
         <p>Check the word count, deadlines, submission route, and assessment criteria.</p>
-        <p class="journey-links"><a href="#find-your-program">Programme requirements</a><a href="{{ '/assessment-standards/' | relative_url }}">Assessment standards</a></p>
+        <p class="journey-links"><a href="#find-your-program">Program requirements</a><a href="{{ '/assessment-standards/' | relative_url }}">Assessment standards</a></p>
       </div>
     </li>
     <li>
@@ -88,8 +88,8 @@ title: Home
       <span class="journey-number" aria-hidden="true">05</span>
       <div>
         <h3>Review and submit</h3>
-        <p>Check the draft against the assessment criteria, then follow your programme&rsquo;s submission instructions.</p>
-        <p class="journey-links"><a href="{{ '/assessment-standards/' | relative_url }}">How work is graded</a><a href="#program-snapshot">Compare programme facts</a></p>
+        <p>Check the draft against the assessment criteria, then follow your program&rsquo;s submission instructions.</p>
+        <p class="journey-links"><a href="{{ '/assessment-standards/' | relative_url }}">How work is graded</a><a href="#program-snapshot">Compare program facts</a></p>
       </div>
     </li>
   </ol>
@@ -109,7 +109,7 @@ title: Home
 <section id="program-snapshot" class="program-snapshot" aria-labelledby="program-snapshot-title" markdown="0">
 <div class="section-heading">
   <p class="section-kicker">At a glance</p>
-  <h2 id="program-snapshot-title">Programme snapshot</h2>
+  <h2 id="program-snapshot-title">Program snapshot</h2>
 </div>
 
 <div class="program-facts-table">
@@ -151,7 +151,7 @@ title: Home
   {% endfor %}
 </div>
 
-<p class="snapshot-note">All dates are for the <strong>{{ site.data.programs.academic_year }} academic year</strong>. Confirm deadlines with your supervisor and programme coordinator.</p>
+<p class="snapshot-note">All dates are for the <strong>{{ site.data.programs.academic_year }} academic year</strong>. Confirm deadlines with your supervisor and program coordinator. This site will be updated as new AY2026-2027 deadlines are published. Dates not yet announced are marked TBD.</p>
 </section>
 
 <section class="external-resources" aria-labelledby="external-resources-title" markdown="0">

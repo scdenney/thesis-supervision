@@ -62,6 +62,8 @@ This page is adapted from the MA Asian Studies thesis protocol. Confirm details 
 
 ## Timeline and Deadlines
 
+*This site will be updated as new AY2026-2027 deadlines are published. Dates not yet announced are marked TBD.*
+
 Your supervisor is assigned on the basis of the thesis distribution form you submit early in the program.
 
 | Milestone | Fall entry | Spring entry |
@@ -117,7 +119,8 @@ Every specialization expects broad knowledge of its region or field, including i
 - **East Asian Studies (MA60)**: the ability to locate, assess, and use original sources in modern or classical Chinese, Japanese, or Korean.
 - **South Asian Studies (MA60)**: if you took intermediate or advanced language electives, the ability to use original sources in Hindi, Sanskrit, or Classical Tibetan.
 - **Southeast Asian Studies (MA60)**: if you took intermediate or advanced language electives, the ability to use original sources in Malay/Indonesian.
-- **History, Arts and Culture (MA60)** and **Politics, Society, and Economy (MA60)**: knowledge of one or more Asian regions and familiarity with the relevant disciplinary theories and methods.
+- **Global Asian Studies (MA60)**: this specialization replaces History, Arts and Culture and Politics, Society, and Economy from September 2026. Its thesis requirements are TBD. Check the 2026-27 protocol on Brightspace.
+- **History, Arts and Culture (MA60)** and **Politics, Society, and Economy (MA60)**, for students who entered before September 2026: knowledge of one or more Asian regions and familiarity with the relevant disciplinary theories and methods.
 - **Chinese, Japanese, or Korean Studies (MA120)**: all of the above for your region, plus a command of the language good enough for academic and professional use, and the ability to design, conduct, and complete original research independently.
 
 ---

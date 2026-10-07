@@ -665,9 +665,9 @@ document.addEventListener("DOMContentLoaded", () => {
       "final-checklist": {
         title: "Final Submission Checklist",
         guidance:
-          "Use this before the final deadline. Confirm programme-specific rules in Brightspace or official programme materials.",
+          "Use this before the final deadline. Confirm program-specific rules in Brightspace or official program materials.",
         fields: [
-          "Programme",
+          "Program",
           "Final deadline and time",
           "Word-count rule",
           "Submission route and recipients",

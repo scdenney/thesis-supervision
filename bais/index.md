@@ -70,6 +70,8 @@ This page is adapted from the BAIS thesis seminar guidelines and grading rubric 
 
 ## Key Deadlines (2026–2027) {#key-deadlines}
 
+*This site will be updated as new AY2026-2027 deadlines are published. Dates not yet announced are marked TBD.*
+
 | Milestone | Fall 2026 | Spring 2027 |
 |-----------|-----------|-------------|
 | Thesis proposal (research question and plan) | Week 40 (Oct. 2) | Week 8 (Feb. 26) |

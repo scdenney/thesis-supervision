@@ -64,11 +64,13 @@ The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper t
 
 ## Key Deadlines (2026–2027) {#key-deadlines}
 
+*This site will be updated as new AY2026-2027 deadlines are published. Dates not yet announced are marked TBD.*
+
 | Deadline | Date |
 |----------|------|
 | Register for thesis supervision ([form](https://fd24.formdesk.com/universiteitleiden/KSBA3TS)) | February 1, 2027 |
-| Assignment #1: Revised Research Proposal | Announced on the [seminar site](https://scdenney.github.io/baks_thesis-seminar/) |
-| Assignment #2: Full Design Draft | Announced on the [seminar site](https://scdenney.github.io/baks_thesis-seminar/) |
+| Assignment #1: Revised Research Proposal | TBD (see the [seminar site](https://scdenney.github.io/baks_thesis-seminar/)) |
+| Assignment #2: Full Design Draft | TBD (see the [seminar site](https://scdenney.github.io/baks_thesis-seminar/)) |
 | Assignment #3: Empirical Draft | May 2, 2027 |
 | **Final thesis** | **{{ program.deadline }}** |
 
