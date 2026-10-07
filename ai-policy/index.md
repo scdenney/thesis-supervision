@@ -376,7 +376,7 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 
 <p class="policy-rule-gloss">If less than <strong>25%</strong> of your work is flagged, nothing happens. This margin allows for grammar and spelling checks, editing tools, and other light uses of AI, including influence on your writing you may not have intended.</p>
 
-<p class="policy-rule-gloss">If between <strong>25% and 50%</strong> of your work is flagged, I will not grade your manuscript. If you had my permission to use AI tools, we will meet to discuss the nature and extent of your use of those tools. I might ask you to defend your work orally. You will then revise your manuscript and submit it again. If you did not inform me about your use of AI tools, your manuscript fails, and you will have to redo it as a resit.</p>
+<p class="policy-rule-gloss">If between <strong>25% and 50%</strong> of your work is flagged, I will generally not grade your manuscript as submitted. If you had my permission to use AI tools, we will meet to discuss the nature and extent of your use and how it relates to the flagged material. Depending on that conversation, I might ask you to defend your work orally and then revise and resubmit your manuscript. If you did not inform me about your use of AI tools, your manuscript fails, and you will have to redo it as a resit.</p>
 
 <p class="policy-rule-gloss">If between <strong>50% and 75%</strong> of your work is flagged, we will meet, and you will have the opportunity to show me drafts, version history or other evidence that you wrote it yourself. Unless you can do that, your manuscript fails, and you will have to redo it as a resit. Informing me in advance does not help you here, since no agreement will allow AI to write your work for you.</p>
 
@@ -389,9 +389,9 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 </div>
 <div class="ai-screening-zones" aria-hidden="true">
 <span>No action</span>
-<span>Not graded, meeting, revise<br>Undisclosed: fail, resit</span>
-<span>Meeting, then fail and resit</span>
-<span>Not graded, Board of Examiners</span>
+<span>Meeting, then revise<br>Undisclosed: fail, resit</span>
+<span>Meeting, then resit</span>
+<span>Not graded, Board of Examiners notified</span>
 </div>
 
 <p class="policy-rule-gloss">On privacy: Pangram does not train on submitted text and does not share or sell it. Text is encrypted, and the service is SOC 2 Type 2 certified (see <a href="https://www.pangram.com/data-privacy">Pangram's data privacy page</a>). I remove names before uploading. I consider this use consistent with the GDPR and the Faculty guidelines.</p>
