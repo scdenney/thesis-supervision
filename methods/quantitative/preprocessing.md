@@ -10,7 +10,7 @@ title: Preprocessing
 <nav class="page-toc" aria-label="On this page">
 <ul>
 <li><a href="#what-it-is">What it is</a></li>
-<li><a href="#what-you-learn-in-the-dh-course">What you learn in the DH course</a></li>
+<li><a href="#what-the-courses-cover">What the courses cover</a></li>
 <li><a href="#what-you-need-to-learn-first">What you need to learn first</a></li>
 <li><a href="#what-you-can-do-with-it">What you can do with it</a></li>
 <li><a href="#related-methods">Related methods</a></li>
@@ -23,43 +23,41 @@ title: Preprocessing
 
 # Preprocessing
 
-Preprocessing is where a raw corpus becomes something a script can read. It looks routine until a small cleaning choice changes the result.
+Preprocessing turns a raw corpus into something a script can read. It looks routine until a small cleaning choice changes the result.
 
 ---
 
 ## What it is
 
-**Preprocessing** is the cleanup work done before analysis. You decide how to split text into units and which words to drop. You also decide how much case, spelling, or morphology should be normalized. Those choices are part of the method.
-
-Small decisions can matter. A stop-word list may remove discourse markers. Aggressive stemming can collapse distinctions your question depends on. Report the choices in the methodology chapter so the reader can see what the pipeline did to the corpus.
+**Preprocessing** is the cleanup done before analysis. You decide how to split text into units and which words to drop. You also decide how far to normalize case, spelling, or morphology. These choices are part of the method. A stop-word list may remove discourse markers, and aggressive stemming can collapse distinctions your question depends on. Report the choices in the methodology chapter so readers can see what the pipeline did to the corpus.
 
 ---
 
-## What you learn in the DH course
+## What the courses cover
 
-In the DH course, preprocessing is taught as a set of research decisions. The main skills are these.
+BA3 *Text as Data* gives preprocessing a full session on tokens, stop words, normalization, and the choices Korean text requires, worked in Orange with a supplied script. BA2 *Digital Korea* covers tokenization, part-of-speech tagging, and preprocessing workflows. A thesis often needs more.
 
 - Tokenization at word, subword, sentence, or character level
 - Unicode normalization and diacritic handling, especially for multilingual corpora
-- Stop-word decisions, including cases where no generic list is appropriate
+- Stop-word decisions, including cases where no generic list fits
 - Stemming, lemmatization, n-grams, and vocabulary filtering
-- Documenting preprocessing choices so they can be reported and reproduced
+- A record of each choice, so it can be reported and reproduced
 
 ---
 
 ## What you need to learn first
 
 - **Basic Python or R.** Most preprocessing is scripting work. Python users often start with `nltk`, `spaCy`, or `gensim`. R users usually reach for `tidytext` or `quanteda`.
-- **Unicode basics.** You need enough encoding knowledge to understand why Korean, Arabic, or historical scripts can break a pipeline that works on English.
-- **Your research question.** You cannot pick cleaning steps before you know what you plan to measure.
+- **Unicode basics.** Enough to see why Korean, Arabic, or historical scripts can break a pipeline that works on English.
+- **Your research question.** You cannot pick cleaning steps before you know what you will measure.
 
 ---
 
 ## What you can do with it
 
-Preprocessing is usually invisible in the final argument, but later steps often fail without it. In thesis work it commonly supports tasks like these.
+Preprocessing rarely shows in the final argument, but later steps fail without it. In theses it supports tasks like these.
 
-- Preparing a corpus for topic analysis after removing noise that would dominate the topics
+- Removing noise that would otherwise dominate a topic model
 - Building a feature matrix for a sentiment classifier
 - Cleaning scraped text before training word embeddings
 - Producing comparable descriptive statistics across a multilingual corpus

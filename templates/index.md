@@ -28,7 +28,7 @@ title: Templates & Checklists
 
 # Templates & Checklists
 
-Use these as working documents for supervision. They are extra assignments only if your program or supervisor asks for them. Their purpose is to turn a topic into something that can be discussed, revised, and assessed.
+Use these working documents to prepare for supervision. They count as assignments only if your program or supervisor requires them.
 
 ---
 
@@ -60,7 +60,7 @@ Use these as working documents for supervision. They are extra assignments only 
     <button type="button" data-template-action="print">Print</button>
   </div>
 
-  <p class="template-note">Nothing is submitted through this page. Use the buttons to keep a browser draft, copy the text, download a Markdown file, or print a meeting copy.</p>
+  <p class="template-note">Nothing you enter is submitted. Saved drafts stay in this browser only.</p>
   <p class="template-status" data-template-status aria-live="polite"></p>
 
   <article class="template-output" data-template-output aria-label="Generated template preview"></article>
@@ -74,22 +74,22 @@ Use the static templates below if JavaScript is unavailable.
 
 ## How To Use These
 
-Pick the template that matches your current problem. Keep each one short enough that your supervisor can read it before a meeting.
+Pick the template that fits where you are, and keep it short enough for your supervisor to read before a meeting.
 
-- If you are still choosing a topic, use the [Research Question Memo](#research-question-memo)
-- If your project is taking shape, use the [Thesis Proposal Outline](#thesis-proposal-outline)
-- If you are reading heavily but not yet writing, use the [Literature Review Matrix](#literature-review-matrix)
-- If you are collecting sources, data, or texts, use the [Data / Corpus Plan](#data-corpus-plan)
-- Before supervision meetings, use the [Supervision Meeting Packet](#supervision-meeting-packet)
-- After receiving comments, use the [Feedback and Revision Log](#feedback-and-revision-log)
-- If you use AI or code tools, use the [GenAI Methods Note](#genai-methods-note)
-- Before submission, use the [Final Submission Checklist](#final-submission-checklist)
+- [Research Question Memo](#research-question-memo) while you are still choosing a topic
+- [Thesis Proposal Outline](#thesis-proposal-outline) once the project takes shape
+- [Literature Review Matrix](#literature-review-matrix) while you are reading but not yet writing
+- [Data / Corpus Plan](#data-corpus-plan) when you collect sources, data, or texts
+- [Supervision Meeting Packet](#supervision-meeting-packet) before each meeting
+- [Feedback and Revision Log](#feedback-and-revision-log) after you receive comments
+- [GenAI Methods Note](#genai-methods-note) if you use approved AI or code tools
+- [Final Submission Checklist](#final-submission-checklist) before you submit
 
 ---
 
 ## Research Question Memo
 
-**Purpose:** Bring this to an early supervision meeting when you need help narrowing a topic into a researchable question.
+**Purpose:** Narrow a topic into a researchable question before an early supervision meeting.
 
 | Field | Working Answer |
 |---|---|
@@ -107,37 +107,37 @@ Pick the template that matches your current problem. Keep each one short enough 
 
 **Quality check:**
 
-- The question can be answered within the thesis word count and deadline
-- The question names a clear object of analysis
-- The question can be answered with sources or data you can realistically access
-- The question points toward both a method and a topic
-- The expected answer is not already obvious
+- It can be answered within the word count and deadline
+- It names a clear object of analysis
+- It can be answered with sources or data you can realistically access
+- It implies a method as well as a topic
+- The answer is not already obvious
 
 ---
 
 ## Thesis Proposal Outline
 
-**Purpose:** Turn the memo into a proposal or proposal draft.
+**Purpose:** Turn the memo into a proposal draft.
 
 1. **Tentative title**
 2. **Research question**
 3. **Research problem and motivation**
 4. **Academic debate**
-   Identify the literature, disagreement, gap, or unresolved problem your thesis enters.
+   The literature, disagreement, or gap your thesis enters.
 5. **Contribution**
-   State what your thesis may add, such as a case, source base, comparison, interpretation, method, or empirical finding.
+   What your thesis may add, such as a case, source base, comparison, interpretation, method, or empirical finding.
 6. **Research design**
-   Explain case selection, corpus boundaries, data/source selection, and method.
+   Case selection, corpus boundaries, source selection, and method.
 7. **Materials**
-   List the primary sources, secondary sources, dataset, archive, interviews, media texts, policy documents, or other evidence.
+   The primary and secondary sources, datasets, archives, interviews, or other evidence you will use.
 8. **Ethics and data considerations**
-   Note human participants, sensitive data, privacy risks, protected materials, data storage, and any planned AI/code assistance.
+   Human participants, sensitive or protected material, privacy risks, data storage, and any planned AI or code assistance.
 9. **Chapter outline**
-   Give a provisional structure with one sentence per chapter.
+   A provisional structure, one sentence per chapter.
 10. **Timeline**
     Work backward from your program deadline.
 11. **Questions for supervision**
-    List the 2-4 decisions where you need guidance.
+    The 2–4 decisions where you need guidance.
 
 **Before sending it:** Check the proposal requirements on your [program page]({{ '/#find-your-program' | relative_url }}) and in Brightspace.
 
@@ -145,7 +145,7 @@ Pick the template that matches your current problem. Keep each one short enough 
 
 ## Literature Review Matrix
 
-**Purpose:** Keep reading connected to the research question instead of building an annotated bibliography that is hard to use.
+**Purpose:** Keep your reading tied to the research question, in a form you can draw on when writing.
 
 | Source | Debate / Topic | Main Claim | Method / Evidence | How It Helps My Thesis | Limitation / Question |
 |---|---|---|---|---|---|
@@ -157,8 +157,7 @@ Pick the template that matches your current problem. Keep each one short enough 
 
 - Which sources define the main debate?
 - Which sources disagree with one another?
-- Which concepts or theories recur?
-- Which methods are commonly used?
+- Which concepts, theories, or methods recur?
 - What is missing, underdeveloped, or contested?
 - What does my thesis need to show before the reader will accept my argument?
 
@@ -204,19 +203,17 @@ Pick the template that matches your current problem. Keep each one short enough 
 
 **Quality checks:**
 
-- Sample collected files against the original sources
-- Check empty, duplicate, corrupted, or mislabeled files
+- Check a sample of collected files against the original sources
+- Look for empty, duplicate, corrupted, or mislabeled files
 - Record every filter, search query, and exclusion rule
-- Keep raw files separate from cleaned or translated files
+- Keep raw files separate from cleaned or translated versions
 - Discuss any planned machine translation, scraping, AI, or coding assistance with your supervisor
 
 ---
 
 ## Supervision Meeting Packet
 
-**Purpose:** Make supervision meetings decision-focused.
-
-Send a compact packet before the meeting if your supervisor requests materials in advance.
+**Purpose:** Make supervision meetings decision-focused. Send it ahead if your supervisor wants materials in advance.
 
 | Field | Notes |
 |---|---|
@@ -249,20 +246,13 @@ Send a compact packet before the meeting if your supervisor requests materials i
 |  |  | supervisor / peer / self-review |  | open / done / deferred |  |
 |  |  | supervisor / peer / self-review |  | open / done / deferred |  |
 
-**Use this when:**
-
-- You receive detailed comments on a draft
-- You need to show how you handled earlier feedback
-- You are deciding what to revise first
-- You are preparing a resubmission or final revision
+Use it when you receive detailed comments on a draft, need to show how you handled earlier feedback, or are deciding what to revise first before a resubmission or final revision.
 
 ---
 
 ## GenAI Methods Note
 
-**Purpose:** Document permitted tool/code assistance without implying that the tool produced the thesis.
-
-Use this only for AI or code assistance that has been discussed with your supervisor and is allowed under the relevant conditions.
+**Purpose:** Keep a record of approved AI or code assistance. Use it only for uses your supervisor has agreed to in advance (see the [AI Policy]({{ '/ai-policy/' | relative_url }})).
 
 | Field | Notes |
 |---|---|
@@ -278,11 +268,7 @@ Use this only for AI or code assistance that has been discussed with your superv
 | Errors corrected |  |
 | What was not delegated | interpretation, argument, final claims, source evaluation |
 
-**Short disclosure model:**
-
-> I used [tool/version] to assist with [specific procedural task]. I checked the output by [manual verification]. No confidential, personal, or protected source material was entered into the tool. The prompts/scripts and outputs are stored in [location]. The interpretation, argument, and final claims are my own.
-
-Adjust this wording to your actual use and citation style. Follow the Faculty GenAI guidance on disclosure and citation.
+The [AI Policy]({{ '/ai-policy/#disclosure' | relative_url }}) also requires an AI-use statement before the bibliography, even if you used no AI tools, and gives a template for it. Follow the Faculty [GenAI guidance]({{ '/ethics/#generative-ai-policy' | relative_url }}) on disclosure and citation.
 
 ---
 
@@ -290,13 +276,12 @@ Adjust this wording to your actual use and citation style. Follow the Faculty Ge
 
 **Purpose:** Catch avoidable submission problems before the deadline.
 
-### Programme Requirements
+### Program Requirements
 
 - Confirm the final deadline, time, and submission route in Brightspace or your program materials
-- Confirm the word-count rule for your program
-- Confirm required file format and file naming rules
+- Confirm the word-count rule and any file format or naming rules
 - Confirm who must receive the final version
-- Confirm whether Student Thesis Repository upload is required before or after assessment
+- Confirm whether a Student Thesis Repository upload is required before or after assessment
 
 ### Thesis File
 
@@ -304,8 +289,8 @@ Adjust this wording to your actual use and citation style. Follow the Faculty Ge
 - Word count is stated and calculated according to program rules
 - Table of contents matches headings and page numbers
 - Citations and bibliography use one style consistently
-- Figures, tables, appendices, and translations are labelled clearly
-- Any GenAI/code/tool assistance is disclosed as required
+- Figures, tables, appendices, and translations are labeled clearly
+- The AI-use statement is included and lists any AI, code, or tool assistance
 - Any ethics, consent, anonymization, or data-storage commitments are reflected in the methods section
 - PDF opens correctly and is not a scanned image unless explicitly required
 - File size is below the program limit, if one is stated
@@ -318,11 +303,11 @@ Adjust this wording to your actual use and citation style. Follow the Faculty Ge
 - Check page numbers, captions, appendix labels, and cross-references
 - Keep a local copy of exactly what you submitted
 
-### Programme-Specific Reminders
+### Program-Specific Reminders
 
-| Programme | Submission Reminder |
+| Program | Submission Reminder |
 |---|---|
-| BAIS | Follow Brightspace/supervisor instructions and email or CC [bathesis@hum.leidenuniv.nl](mailto:bathesis@hum.leidenuniv.nl) as required |
+| BAIS | Upload via Brightspace or email your supervisor (ask which they prefer), and send the file to [bathesis@hum.leidenuniv.nl](mailto:bathesis@hum.leidenuniv.nl) the same day or in CC. After a passing grade, upload it to the Student Thesis Repository |
 | BAKS | Submit both Word and PDF versions to the supervisor by email with [bathesis@hum.leidenuniv.nl](mailto:bathesis@hum.leidenuniv.nl) in CC, unless Brightspace gives updated instructions |
 | MAAS | Email the final thesis to your supervisor, second reader, and [MAthesis@hum.leidenuniv.nl](mailto:MAthesis@hum.leidenuniv.nl) |
 | MAIR | Email the final thesis to your supervisor with your second reader in CC and ask for confirmation of receipt |

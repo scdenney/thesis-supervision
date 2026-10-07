@@ -10,7 +10,7 @@ title: Sentiment Analysis
 <nav class="page-toc" aria-label="On this page">
 <ul>
 <li><a href="#what-it-is">What it is</a></li>
-<li><a href="#what-you-learn-in-the-dh-course">What you learn in the DH course</a></li>
+<li><a href="#what-the-courses-cover">What the courses cover</a></li>
 <li><a href="#what-you-need-to-learn-first">What you need to learn first</a></li>
 <li><a href="#what-you-can-do-with-it">What you can do with it</a></li>
 <li><a href="#related-methods">Related methods</a></li>
@@ -29,34 +29,32 @@ Sentiment analysis estimates tone numerically. It works only when the measure ma
 
 ## What it is
 
-**Sentiment analysis** usually means one of several tools. The important question is what the score is supposed to measure.
+**Sentiment analysis** covers several tools. Whichever you use, first ask what the score is supposed to measure.
 
-Dictionary methods count terms from a curated lexicon such as LIWC, VADER, NRC, or AFINN. They are transparent and easy to rerun. They struggle with sarcasm and negation, especially after domain shift.
+Dictionary-based methods count terms from curated sentiment lexicons such as LIWC, VADER, NRC, or AFINN. These methods are transparent and easy to rerun, but they handle sarcasm and negation poorly, especially on out-of-domain text. Supervised classifiers work best in-domain but require a plan for labeling and validation. Large language model (LLM) approaches can be set up quickly, but their ratings tend to vary with the prompt and the model version. Treat that route as experimental unless your supervisor has approved it and you can evaluate it properly under the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}).
 
-Supervised classifiers work best in-domain and require a labeling plan with validation. LLM-based ratings are quick to set up. Their scores can change with the prompt or model version. Treat that route as experimental unless your supervisor has approved it and you can evaluate it properly under the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}).
-
-The weak point depends on the material. Sarcasm-heavy social media breaks many dictionaries. Classifiers trained on movie reviews fail on policy documents. A thesis needs to show that the chosen measure is valid for the actual texts.
+The weak point depends on the material. Sarcasm-heavy social media breaks many dictionaries, and classifiers trained on movie reviews fail on policy documents. Your thesis has to show that the measure is valid for your texts.
 
 ---
 
-## What you learn in the DH course
+## What the courses cover
 
-In the DH course, the sentiment unit is mainly about validation. Students practice the following.
+BA3 *Text as Data* introduces classification through dictionary-based sentiment. You score a corpus in Orange and check unusually positive and negative cases against the passages, with attention to lexicon coverage, context, negation, and domain mismatch. BA2 *Digital Korea* adds rule-based classification and custom dictionaries. A thesis often needs more.
 
 - Comparing dictionary methods and checking where each one breaks
 - Building a supervised classifier from labeled examples
 - Handling negation, intensifiers, and other contextual modifiers
 - Inter-annotator agreement (Cohen's kappa, Krippendorff's alpha) for labeled data
-- Validating sentiment scores against human judgment
+- Validating scores against human judgment
 - Reporting limits without treating the score as self-explanatory
 
 ---
 
 ## What you need to learn first
 
-- **Preprocessing.** Dictionary methods depend heavily on tokenization and lemmatization. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
+- **Preprocessing.** Dictionary methods depend on tokenization and lemmatization. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
 - **Basic statistics.** You need agreement metrics, confidence intervals, and a working sense of reliability.
-- **Python or R.** Python options include `vaderSentiment`, `nltk`, and `transformers`. R users can start with `sentimentr` or `quanteda.sentiment`.
+- **Python or R.** Python options include `vaderSentiment`, `nltk`, and `transformers`. R users can start with `sentimentr` or `quanteda.sentiment` (installed from GitHub).
 
 ---
 

@@ -5,9 +5,9 @@ title: Qualitative Approaches
 
 # Qualitative Approaches
 
-These pages cover the close-reading and case-based methods I supervise most often. The analyst's judgment is central here: you decide what the evidence means, why a comparison is fair, and how far the claim can travel.
+These pages cover the close-reading and case-based methods I supervise most often. In each, your judgment does the analytical work. You decide what the evidence means and how far the claim can travel.
 
-Students often combine these methods with each other. They also pair them with computational tools for sampling or validation. For that side of the split, see [Computational Approaches]({{ '/methods/quantitative/' | relative_url }}).
+Students often combine these methods with each other or with computational tools for sampling and validation (see [Computational Approaches]({{ '/methods/quantitative/' | relative_url }})).
 
 ## Common qualitative methods
 
@@ -33,7 +33,7 @@ Students often combine these methods with each other. They also pair them with c
 <div class="question-banner" markdown="0">
   <div class="question-banner-copy">
     <strong>Most text-based projects begin with the corpus.</strong>
-    <p>If the source base is still unsettled, define and bound it first &mdash; the analysis rests on it.</p>
+    <p>If the source base is still unsettled, define and bound it first, since the analysis depends on it.</p>
   </div>
   <a href="{{ '/methods/building-a-corpus' | relative_url }}">Go to Building a Corpus</a>
 </div>
@@ -42,14 +42,12 @@ Students often combine these methods with each other. They also pair them with c
 
 ## Combining qualitative and computational approaches
 
-Qualitative and computational methods can be paired when each has a defined role. Common pairings include these.
+Qualitative and computational methods work together when each has a defined role. Common pairings include these.
 
 - **Framing analysis + topic analysis.** A topic model surfaces candidate frames in a large corpus, and you read closely within each cluster.
 - **Discourse analysis + keyword-in-context tooling.** The computational side locates passages worth reading, while the interpretive judgment stays with you.
 - **Comparative case study + descriptive corpus statistics.** Aggregate measures such as volume or keyword prevalence can support the cross-case interpretation.
 - **Process tracing + digital archives.** Computational search helps identify causal-process observations you might otherwise miss.
-
-The [Computational Approaches]({{ '/methods/quantitative/' | relative_url }}) page covers the methods on the other side of the split.
 
 ---
 

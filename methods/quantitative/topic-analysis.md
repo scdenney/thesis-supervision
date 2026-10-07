@@ -10,7 +10,7 @@ title: Topic Analysis
 <nav class="page-toc" aria-label="On this page">
 <ul>
 <li><a href="#what-it-is">What it is</a></li>
-<li><a href="#what-you-learn-in-the-dh-course">What you learn in the DH course</a></li>
+<li><a href="#what-the-courses-cover">What the courses cover</a></li>
 <li><a href="#what-you-need-to-learn-first">What you need to learn first</a></li>
 <li><a href="#what-you-can-do-with-it">What you can do with it</a></li>
 <li><a href="#related-methods">Related methods</a></li>
@@ -29,29 +29,29 @@ Topic analysis groups recurring word patterns in a large corpus. The interpretat
 
 ## What it is
 
-**Topic analysis** identifies clusters of co-occurring words across a corpus. LDA and STM are the standard models students encounter first. BERTopic and related embedding methods fill a similar role with different machinery. The output is usually a set of word lists and a topic proportion for each document.
+**Topic analysis** finds clusters of co-occurring words across a corpus. LDA and STM are the standard models. BERTopic and related embedding methods do a similar job with different machinery. The output is usually a set of word lists plus a topic proportion for each document.
 
-A topic model identifies statistical regularities. Naming the topics, deciding whether they are meaningful, and explaining what they do for the argument remain your responsibility.
+The model finds statistical regularities. You still have to name the topics and judge whether they mean anything, and then show what they contribute to the argument.
 
 ---
 
-## What you learn in the DH course
+## What the courses cover
 
-In the DH course, students treat topic models as aids to interpretation. The work centers on these tasks.
+BA3 *Text as Data* fits a small LDA model in Orange and inspects the topic-word output in LDAvis. Students then check their topic labels against the documents. Mathematical derivation and extensive tuning are left out. BA2 *Digital Korea* adds choosing the number of topics and validating the model. A thesis often needs more.
 
 - Reading LDA as mixed membership over word distributions
 - Reading STM as LDA plus covariates that shift topic prevalence and content
-- Embedding-based topic methods (BERTopic, Top2Vec) and how they differ from LDA
+- How embedding-based methods (BERTopic, Top2Vec) differ from LDA
 - Choosing K with diagnostics and interpretability checks
-- Validating topics through intruder tests and human coding on a sample
-- Reporting model choices in a methodology chapter
+- Validating topics with intruder tests and human coding of a sample
+- Reporting model choices in the methodology chapter
 
 ---
 
 ## What you need to learn first
 
-- **Preprocessing.** Topic models are notoriously sensitive to preprocessing. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
-- **Basic statistics and probability.** You need enough to understand "mixture over distributions" without treating the model as magic.
+- **Preprocessing.** Topic models are very sensitive to it. See [Preprocessing]({{ '/methods/quantitative/preprocessing' | relative_url }}).
+- **Basic statistics and probability.** Enough to understand "mixture over distributions" without treating the model as magic.
 - **R or Python.** STM is an R package. LDA and BERTopic have strong Python tooling (`gensim`, `scikit-learn`, `bertopic`).
 
 ---
@@ -62,7 +62,7 @@ In the DH course, students treat topic models as aids to interpretation. The wor
 - Compare how political parties frame the same issue
 - Identify candidate genres in a literary corpus
 - Choose passages for later close reading
-- Produce a descriptive map for a larger corpus that would otherwise be impossible to read end-to-end
+- Map a corpus too large to read end to end
 
 ---
 

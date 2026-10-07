@@ -25,21 +25,19 @@ title: Ethics & AI
 
 # Ethics & AI
 
-This page collects the ethical guidelines, university policies, and formal regulations you may need for thesis research.
+The ethics rules, university policies and regulations that apply to thesis research.
 
 ---
 
 ## Ethics Review
 
-**For BA and MA students:** Your thesis research is reviewed for ethical concerns by your supervisor, not by the faculty Ethics Committee. During supervision meetings, we will discuss any ethical dimensions of your research design, especially when your work involves human participants, sensitive data, vulnerable populations, or other risk factors.
+**BA and MA students:** your supervisor, not the Faculty Ethics Committee, reviews the ethics of your thesis research. We discuss the ethical side of your design in supervision meetings, especially if you work with human participants, sensitive data or vulnerable groups. If you are unsure whether your project raises ethical questions, ask early.
 
-**Exception:** Research Master students must submit their research for formal review by the [Faculty Ethics Committee](https://www.universiteitleiden.nl/en/humanities/research/ethical-review-research).
-
-If you are unsure whether your research requires formal ethical review, consult your supervisor early in the process.
+**Research Master students** may apply to the [Faculty Ethics Committee](https://www.universiteitleiden.nl/en/humanities/research/ethical-review-research) for formal review, with their supervisor's explicit approval.
 
 <div class="info-box" markdown="1">
 
-**Checklist:** BA and MA students should use the faculty's [Ethics Checklist and Flowchart (PDF)](https://www.universiteitleiden.nl/binaries/content/assets/geesteswetenschappen/commissies/flowchart-checklist-ethics-committee.pdf) with their supervisor as a risk-screening tool. If the checklist suggests formal review may be needed, your supervisor or program should determine the correct route.
+**Checklist:** use the faculty's [Ethics Checklist and Flowchart (PDF)](https://www.universiteitleiden.nl/binaries/content/assets/geesteswetenschappen/commissies/flowchart-checklist-ethics-committee.pdf) with your supervisor to screen for risks. If it points to formal review, your supervisor or program decides the route.
 
 </div>
 
@@ -47,7 +45,7 @@ If you are unsure whether your research requires formal ethical review, consult 
 
 ## Code of Ethics
 
-All thesis research must comply with the principles outlined in the Code of Ethics for research involving human participants. The code addresses informed consent, confidentiality, data storage, and the rights of research subjects.
+All thesis research must follow the Code of Ethics for research with human participants. It covers informed consent, confidentiality, data storage and the rights of participants.
 
 - [Code of Ethics for Social and Behavioural Sciences involving Human Participants (PDF)]({{ '/ethics/Code%20of%20Ethics%20for%20Social%20and%20Behavioural%20Sciences%20involving%20Human%20Participants.pdf' | relative_url }})
 
@@ -57,33 +55,30 @@ All thesis research must comply with the principles outlined in the Code of Ethi
 
 <div class="info-box" markdown="1">
 
-**My own rules for AI use in supervised and take-home written work, and the evidence behind them, are on the [Working with AI]({{ '/ai-policy/' | relative_url }}) page.** The Faculty guidelines below apply to all assessed work; my policy adds to them.
+**My own rules for AI use in supervised and take-home written work, and the evidence behind them, are on the [Working with AI]({{ '/ai-policy/' | relative_url }}) page.** They add to the Faculty guidelines below, which apply to all assessed work.
 
 </div>
 
-The Faculty of Humanities has established guidelines governing the use of generative AI (GenAI) tools in academic assessment. Key points:
+The Faculty of Humanities guidelines on generative AI (GenAI) in assessment come down to the following points.
 
-- GenAI products or outputs may not be used in assessed work unless your teacher or supervisor has explicitly allowed the specific use under clear conditions
-- Discuss any planned GenAI use with your supervisor before building it into your thesis workflow, so you can agree on which tasks are appropriate and what needs to be documented
-- Procedural support, such as file organization, scripting, corpus cleanup, checks, documentation, grammar support, or machine translation, still needs to be appropriate for the assignment and verified by you
-- You remain responsible for the thesis. The research question, evidence, interpretation, argument, and final claims must be work you can explain and defend
-- Any permitted use of GenAI in assessed work or research methodology must be disclosed and cited according to Faculty guidance, with prompts and outputs documented and available on request
-- Do not upload confidential, personal, copyrighted, or otherwise protected source material or research data to GenAI tools
+- You may not use GenAI in assessed work unless your supervisor has explicitly allowed that specific use and its conditions. Discuss any planned use before you build it into your workflow, and agree on what you will document.
+- Procedural help, such as file organization, scripting, corpus cleanup, documentation, grammar support or machine translation, must still suit the assignment, and you must check the output.
+- You remain responsible for the thesis. You must be able to explain and defend its research question, evidence, interpretation and claims.
+- Disclose and cite any permitted use as Faculty guidance requires. Keep your prompts and outputs and make them available on request.
+- Do not upload confidential, personal, copyrighted or otherwise protected sources or research data to GenAI tools.
 
 **Required resources:**
 
-- [Guidelines for the Use of GenAI in Assessment](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/guidelines-for-the-use-of-genai-in-assessment) — Faculty of Humanities policy
-- [GenAI E-Learning Module 1](https://rise.articulate.com/share/fVUI9_gzme2t_0elv1BTpCXl6M0EAYMn#/) — Introduction to GenAI and academic integrity
-- [GenAI E-Learning Module 2](https://rise.articulate.com/share/aPIvTmrEf7Dz_DBJ1jC3pwpdlv50l7fO#/) — Practical applications and boundaries
-- [ChatGPT Guide for Students](https://www.library.universiteitleiden.nl/students/chatgpt) — Leiden University Library
+- [Guidelines for the Use of GenAI in Assessment](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/guidelines-for-the-use-of-genai-in-assessment) (Faculty of Humanities)
+- [GenAI E-Learning Module 1](https://rise.articulate.com/share/fVUI9_gzme2t_0elv1BTpCXl6M0EAYMn#/) (introduction to GenAI and academic integrity)
+- [GenAI E-Learning Module 2](https://rise.articulate.com/share/aPIvTmrEf7Dz_DBJ1jC3pwpdlv50l7fO#/) (practical applications and limits)
+- [GenAI for Students](https://www.library.universiteitleiden.nl/students/genai) (Leiden University Library)
 
 ---
 
 ## Plagiarism
 
-Plagiarism is a serious academic offense. It includes presenting another person's work or ideas as your own without proper attribution. This applies equally to printed sources, internet sources, GenAI outputs, and any other unattributed material.
-
-Consequences range from a failing grade to referral to the Board of Examiners. All theses are checked for plagiarism.
+Plagiarism is presenting someone else's work or ideas as your own without attribution, from any source (printed, online, GenAI output or other). All theses are checked for plagiarism. The consequences range from failing your thesis to referral to the Board of Examiners.
 
 - [Regulations on Plagiarism](https://www.organisatiegids.universiteitleiden.nl/en/regulations/general/plagiarism) (Leiden University)
 
@@ -91,12 +86,14 @@ Consequences range from a failing grade to referral to the Board of Examiners. A
 
 ## Academic Integrity
 
-As a thesis student, you are expected to follow the university's academic integrity rules. This includes:
+You are expected to follow the university's academic integrity rules. In practice this means you:
 
-- Honest reporting of research methods and findings
-- Proper citation of all sources using a recognized style, applied consistently (see your [program overview]({{ '/#find-your-program' | relative_url }}) for specific requirements)
-- Transparent disclosure of any limitations, conflicts of interest, AI-tool use, or other relevant caveats
-- Respect for the intellectual property of others
+- report your methods and findings honestly
+- cite all sources in a recognized style, applied consistently (see your [program overview]({{ '/#find-your-program' | relative_url }}) for requirements)
+- disclose limitations, conflicts of interest, AI-tool use and other relevant caveats
+- respect the intellectual property of others
+
+The governing documents:
 
 - [Code of Conduct for Students](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/code-of-conduct-for-students-of-the-faculty-of-humanities) (Faculty of Humanities)
 - [Course and Examination Regulations Humanities, bachelor's programs](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/course-and-examination-regulations-humanities-bachelors-programmes)
@@ -107,7 +104,7 @@ As a thesis student, you are expected to follow the university's academic integr
 
 ## Disability Accommodation
 
-If you require academic accommodations due to a disability, contact your study advisor early in the process. Accommodations for thesis work (such as extended deadlines or alternative formats) are arranged through the formal university process.
+If you need accommodations because of a disability, contact your study advisor early. Thesis accommodations, such as extended deadlines or alternative formats, are arranged through the formal university process.
 
 - [Studying with a Disability](https://www.student.universiteitleiden.nl/en/support/study-support/studying-with-a-disability/studying-with-a-disability-1/humanities) (Leiden University)
 

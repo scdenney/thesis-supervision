@@ -5,11 +5,9 @@ title: Computational Approaches
 
 # Computational Approaches
 
-These pages are for projects where close reading alone cannot handle the corpus. Computational methods shift the interpretive work to collection, preprocessing, validation, and explanation.
+These pages are for projects whose corpus is too large for close reading alone. Computational methods still require interpretation, at the stages of collection, preprocessing, validation, and explanation. What separates them from the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is the claim you want to make, since the same speeches or posts can support either.
 
-The split with the [qualitative approaches]({{ '/methods/qualitative/' | relative_url }}) is about analytical posture. The same speeches or tweets can support several kinds of analysis, depending on the claim.
-
-Two steps come before any model: define your source base, then decide how to clean it.
+Before any model, define your source base and decide how to clean it.
 
 ## Preparation before analysis
 
@@ -45,28 +43,26 @@ Two steps come before any model: define your source base, then decide how to cle
 
 ## In the classroom
 
-I teach these methods in two Leiden courses. If you are enrolled in either one, these pages give you the methodological language that the weekly exercises do not always have time to spell out.
+I teach these methods in two Leiden courses. If your thesis draws on either, use these pages to turn the classroom workflow into methods-chapter prose.
 
 <div class="program-cards" markdown="0">
   <a class="program-card" href="https://scdenney.github.io/ba2_digital-korea/" target="_blank" rel="noopener">
     <span class="card-level ba">BA2</span>
     <h3>Digital Korea</h3>
-    <p>12-session course in computational text analysis with Orange Data Mining and R, aimed mainly at Korean Studies students. It starts with preprocessing and ends with topic modeling.</p>
+    <p>12-session course in computational text analysis with Orange Data Mining and R, mainly for Korean Studies students. It runs from preprocessing to topic modeling.</p>
   </a>
   <a class="program-card" href="https://scdenney.github.io/ba3tad-26/" target="_blank" rel="noopener">
     <span class="card-level ba">BA3</span>
     <h3>Text as Data (DH strand)</h3>
-    <p>Six-seminar digital-humanities strand of the BA3 <em>Contemporary Korea and Digital Humanities</em> course. No programming required. Students work with prepared Korean corpora and learn how the main text-as-data tools behave.</p>
+    <p>Six-class digital-humanities strand of the BA3 <em>Contemporary Korea and Digital Humanities</em> course, ending in a hackathon. No prior programming experience required. Students use Orange Data Mining with prepared Korean corpora, plus short R exercises.</p>
   </a>
 </div>
-
-If your thesis draws on either course, use these pages to turn the classroom workflow into methods-chapter prose.
 
 ---
 
 ## Combining with qualitative methods
 
-Many theses are stronger when a computational measure is checked through close reading. See [Qualitative Approaches]({{ '/methods/qualitative/' | relative_url }}) for that side of the split and for common pairings.
+Many theses are stronger when close reading checks a computational measure. See [Qualitative Approaches]({{ '/methods/qualitative/' | relative_url }}) for common pairings.
 
 ---
 
