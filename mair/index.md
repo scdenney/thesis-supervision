@@ -32,11 +32,11 @@ title: MAIR
 
 <span class="card-level ma">MA</span>
 
-The MA thesis in International Relations is a substantial research project that demonstrates the capacity for independent scholarly work. The thesis should reflect your specialization track and build on the knowledge, topics, methods, and skills gained from your coursework.
+The MA thesis in International Relations is an independent research project. It should fit your specialization track and build on the topics, methods, and skills from your coursework.
 
 <div class="info-box" markdown="1">
 
-The content below is adapted from the MAIR thesis supervision guidelines for students. Always confirm details with your supervisor and check Brightspace for the most current information.
+This page is adapted from the MAIR thesis supervision guidelines. Confirm details with your supervisor and check Brightspace for the current rules.
 
 **Download:** [MAIR Thesis Guidelines (PDF)]({{ '/mair/MAIR_Thesis_Guidelines.pdf' | relative_url }})
 
@@ -64,35 +64,35 @@ The content below is adapted from the MAIR thesis supervision guidelines for stu
 
 ## Deadlines
 
-MAIR has a single thesis submission deadline per semester. If you miss the deadline, the next opportunity is the following semester.
+MAIR has one thesis deadline per semester. If you miss it, your next opportunity is the following semester.
 
 | Deadline | Date |
 |----------|------|
-| **June 2026** | **Friday, {{ program.deadline }}** |
-| December 2026 | TBD (typically first Friday of December) |
+| **June** | **{{ program.deadline }}** |
+| December | TBD (typically first Friday of December) |
 
-**Extensions.** If you need an extension, discuss it with **both** your supervisor and second reader well before the deadline. Both must approve. Extensions may result in a later graduation date and could prevent participation in the graduation ceremony. If the extension is not approved, contact [stucomair@hum.leidenuniv.nl](mailto:stucomair@hum.leidenuniv.nl) and consult the Board of Examiners.
+**Extensions.** Discuss an extension with **both** your supervisor and your second reader well before the deadline, since both must approve it. An extension may delay your graduation date and keep you out of the graduation ceremony. If it is not approved, contact [stucomair@hum.leidenuniv.nl](mailto:stucomair@hum.leidenuniv.nl) and consult the Board of Examiners.
 
 ---
 
 ## Supervision
 
-Supervision begins upon assignment. You should meet your supervisor shortly after assignment to set goals, including a plan for the break period (supervisors are generally not available for supervision during winter and summer breaks).
+You receive a supervisor once you hand in the literature review assignment, or an abstract instead, in the Humanities-Based International Relations (HBIR) course. European Union Studies students get a supervisor after taking Thesis and Methods in International Relations Research or Thesis and Methods in European Union Studies. Meet your supervisor as soon as possible to set goals for the thesis, including for the break, since supervisors are generally not available during the winter and summer breaks.
 
-**Minimum meetings.** You should meet with your supervisor at least four times.
+Meet your supervisor at least four times:
 
 | Meeting | Focus |
 |---------|-------|
-| **1** | Introductory discussion of topic scope, research question, literature, sources, general approach, and timetable |
-| **2** | Discussion of the introduction, literature review, and research design |
-| **3** | Discussion of an empirical chapter at the intermediate stage |
-| **4** | Discussion of the final evaluation |
+| **1** | Topic scope, research question, literature, sources, general approach, and timetable |
+| **2** | Introduction, literature review, and research design |
+| **3** | An empirical chapter at the intermediate stage |
+| **4** | The final evaluation |
 
-**Feedback.** Your supervisor will provide oral or written feedback on the introduction/literature review/research design and at least one subsequent chapter. Supervisors are allowed but not required to read and provide feedback on an entire draft.
+Your supervisor gives oral or written feedback on the introduction, literature review and research design, and on at least one later chapter. They may read a full draft but are not required to.
 
 <div class="info-box" markdown="1">
 
-**Important:** Because there is no supervision during winter and summer breaks, you should not plan to write the thesis from start to finish over the break. Consult your supervisor throughout the research process. A thesis submitted without supervisory oversight will not be accepted for evaluation.
+**Important:** With no supervision over the breaks, do not plan to write the whole thesis during a break. A thesis submitted without supervisory oversight will not be accepted for evaluation.
 
 </div>
 
@@ -100,50 +100,32 @@ Supervision begins upon assignment. You should meet your supervisor shortly afte
 
 ## Research Ethics
 
-You and your supervisor should discuss any ethical implications of your research during your initial meeting or when they first arise. This is especially important when your research involves human participants or individually identifiable data.
-
-**If conducting interviews, you must do the following.**
+Discuss the ethical implications of your research with your supervisor at your first meeting, or as soon as they arise, especially if you work with human participants or identifiable data. If you conduct interviews, you must:
 
 - Obtain informed, voluntary consent from all participants
-- Provide participants with an information sheet explaining the nature, aims, and implications of the research
-- Protect the privacy and confidentiality of participants throughout the research
-- Not use identifying information unless the person has expressly agreed
-- Respect the right of individuals to refuse to participate or withdraw at any stage
+- Give participants an information sheet on the nature, aims, and implications of the research
+- Protect participants' privacy and confidentiality throughout
+- Use identifying information only with the person's express agreement
+- Respect each person's right to refuse or to withdraw at any stage
 
-Take particular care with vulnerable groups, such as asylum seekers or citizens of authoritarian regimes. The program will not allow research that could endanger the researcher or participants.
-
-See the [Ethics & AI]({{ '/ethics/' | relative_url }}) page for consent form templates, the Code of Ethics, and university ethics guidelines.
+Take particular care with vulnerable groups, such as asylum seekers or citizens of authoritarian regimes. The program will not allow research that could endanger you or your participants. The [Ethics & AI]({{ '/ethics/' | relative_url }}) page has consent form templates, the Code of Ethics, and the university's ethics guidelines.
 
 ---
 
 ## Assessment Criteria
 
-Both the supervisor and second reader assess the thesis independently. The assessment covers five criteria plus formal requirements.
+Your supervisor and second reader assess the thesis independently on the five Faculty criteria, explained on [Assessment Standards]({{ '/assessment-standards/' | relative_url }}). In MAIR, the learning skills criterion includes participation in the thesis group where there is one. The formal requirements (the 15,000-word maximum, formatting, and program rules) are also assessed.
 
-**Knowledge and Insight.** Research question based on a problem reflecting insight into key discussions and methods. The problem is clear and relevant, embedded in existing literature, and original.
-
-**Application of Knowledge.** The thesis critically analyzes primary sources, uses complex concepts and effective research methods, describes and justifies its methodology, and applies knowledge in broader or multidisciplinary contexts.
-
-**Reaching Conclusions.** The thesis uses logical and consistent reasoning, reaches well-founded conclusions, answers the research question, connects the findings to future research, and considers social and ethical responsibilities.
-
-**Communication.** The thesis shows language competence through readability, style, grammar, terminology, structure, layout, and correct use of citations and bibliography.
-
-**Learning Skills (Process).** This criterion covers independence, planning and time management, handling of supervisor feedback, and participation in the thesis group (if applicable).
-
-**Formal Requirements.** Word count (15,000 maximum), formatting, and adherence to program-specific requirements.
-
-A passing thesis should include the following.
+A passing thesis has:
 
 - A clearly formulated research question
 - A critical report on existing academic debates
-- An original contribution that goes beyond summary of the literature
+- An original contribution that goes beyond summarizing the literature
 - Primary sources where appropriate
-- Application of concepts and research methods
-- Clear structure and proper language
+- Applied concepts and research methods
+- Clear structure and correct language
 
 Fraud and plagiarism are knockout criteria.
-
-See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for the general framework and BA vs MA expectations.
 
 ---
 
@@ -151,13 +133,13 @@ See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for th
 
 | Grade | Level | Description |
 |-------|-------|-------------|
-| 9–10 | Distinction | Outstanding work with excellent understanding of issues and methodologies, original independent thinking, and a rigorous argument using a wide range of sources. At 10, the thesis could not be bettered at MA level |
+| 9–10 | Distinction | Outstanding work with excellent understanding of issues and methodologies, original independent thinking, and a rigorous argument using a wide range of sources. A 10 could not be bettered at MA level |
 | 8–8.9 | Merit | Excellent understanding, independent thought, and a strong, well-organized argument using a wide range of sources |
 | 7–7.9 | Merit | Good to very good work, meeting most but not necessarily all of the above |
-| 6–6.9 | Pass | Satisfactory understanding and a reasonable, reasonably well-organized argument using a standard range of sources. Some shortcomings, but no fundamental errors |
+| 6–6.9 | Pass | Satisfactory understanding and a reasonably well-organized argument using a standard range of sources. Some shortcomings, but no fundamental errors |
 | 5.1–5.9 | No grade issued | **The faculty does not issue grades in this range** |
 | 3–5.0 | Fail | Inadequate understanding, substantial omissions, irrelevant material, or a poorly conceived argument |
-| 2–2.9 | Fail | An attempt to answer, but without significant grasp of material or appropriate skills |
+| 2–2.9 | Fail | An attempt to answer, but without significant grasp of the material or appropriate skills |
 | 0–1.9 | Ungradable | No answer, totally irrelevant, fundamentally wrong, or plagiarized |
 
 ---
@@ -166,41 +148,41 @@ See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for th
 
 - Written in English, in Word format
 - 1.5 line spacing, standard margins, standard size 12 font
-- Title page must include student name, email, student number, and word count (including all elements)
-- Student number on all subsequent pages
+- Title page with your name, email, student number, and word count (including all elements)
+- Student number on every following page
 - Proofread for spelling and language errors
 
-If you are struggling with writing in English, contact the [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab).
+If writing in English is a struggle, contact the [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab).
 
 ---
 
 ## Submission
 
-Submit your thesis by email to your supervisor with CC to your second reader. Ask for confirmation of receipt. If you do not receive confirmation, follow up after one week.
+Email your thesis to your supervisor and second reader, with a copy to [MAthesis@hum.leidenuniv.nl](mailto:MAthesis@hum.leidenuniv.nl) (MA Course and Examination Regulations, Appendix A, Art. 6.1). Ask for confirmation of receipt, and follow up if none arrives within a week.
 
 ---
 
 ## Resubmission
 
-Students who fail their thesis are allowed a single retake. To graduate within the same semester:
+If you fail, you get one retake. To graduate in the same semester, meet these retake deadlines:
 
 | Original deadline | Retake deadline |
 |-------------------|----------------|
 | June deadline | Last workday of August |
 | December deadline | Last workday of January |
 
-Note that theses cannot be written in their entirety over the break. See supervision requirements above.
+The retake, too, cannot be written entirely over a break (see [Supervision](#supervision)).
 
 ---
 
 ## University Links
 
 - [MAIR Thesis & Papers page](https://www.student.universiteitleiden.nl/en/your-study-programme/thesis-and-papers/humanities/international-relations-ma) (official student portal)
-- [Thesis and Methods in International Relations Research Prospectus](https://studiegids.universiteitleiden.nl/en/courses/135206/thesis-and-methods-in-international-relations-research)
+- MA Thesis Prospectus entries by track: [Global Order in Historical Perspective](https://studiegids.universiteitleiden.nl/modules/5184VGO01Y?tab=info&year=2261), [Culture and Politics](https://studiegids.universiteitleiden.nl/modules/5184VCP01Y?tab=info&year=2261), [Global Conflict in the Modern Era](https://studiegids.universiteitleiden.nl/modules/5184VGC01Y?tab=info&year=2261), [Global Political Economy](https://studiegids.universiteitleiden.nl/modules/5184VGP01Y?tab=info&year=2261), [European Union Studies](https://studiegids.universiteitleiden.nl/modules/5504VTH01Y?tab=info&year=2261)
+- [MA Course and Examination Regulations 2026–27](https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/geesteswetenschappen/oer/2026-2027/ma-oer-2026-27_eng_def.pdf) (thesis rules in Appendix A)
 - [Getting Started Guide]({{ '/getting-started/' | relative_url }}) (step-by-step research guide)
 - [Ethics & AI]({{ '/ethics/' | relative_url }}) (ethics review, consent forms, and GenAI policy)
 - [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) (library resources)
-- [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) (thesis support and events)
 - [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) (browse past theses)
 - **Study coordinator:** [stucomair@hum.leidenuniv.nl](mailto:stucomair@hum.leidenuniv.nl)
 

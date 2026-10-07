@@ -33,17 +33,17 @@ title: BAKS
 
 <span class="card-level ba">BA</span>
 
-The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper that completes your undergraduate studies. It should demonstrate the knowledge and skills relevant to the discipline, including Korean-language ability, substantive knowledge of history, politics, or culture, command of theory and methodology, and academic writing.
+The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper that completes your degree. It should show your Korean-language ability, your knowledge of Korean history, politics or culture, and your command of theory, methodology and academic writing.
 
 <div class="info-box" markdown="1">
 
-**BAKS students take the Thesis Seminar.** For all seminar materials, assignments, the weekly schedule, and the style guide, visit the [BAKS Thesis Seminar website](https://scdenney.github.io/baks_thesis-seminar/).
+**BAKS students take the Thesis Seminar.** Seminar materials, assignments, the weekly schedule and the style guide are on the [BAKS Thesis Seminar website](https://scdenney.github.io/baks_thesis-seminar/).
 
 </div>
 
 <div class="info-box" markdown="1">
 
-**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or computational methods.
+**Your next step:** Check the rules below, then write a one-page working plan with your research question, likely sources, method, timeline and questions for your supervisor. The [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}) help with this. If your project involves data, participants, sensitive material or computational methods, also read the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}).
 
 </div>
 
@@ -55,23 +55,28 @@ The BA thesis in Korean Studies (Koreastudies) is a 10,000-word research paper t
 |-------------|---------|
 | **Word count** | {{ program.words_plain }} |
 | **Citation style** | {{ program.citation_long }} |
-| **Language** | English for this seminar. Official program rules allow Dutch or English, with another Western language only by Board of Examiners permission |
-| **Korean sources** | At least 10% of sources should be in Korean |
-| **Romanization** | McCune-Reischauer (MCR) system |
+| **Language** | English for this seminar. Program rules allow Dutch or English, or another Western language with Board of Examiners permission |
+| **Korean sources** | At least 10% of sources in Korean |
+| **Romanization** | McCune-Reischauer (MCR) |
 | **Final deadline** | {{ program.deadline }} |
 
 ---
 
-## Key Deadlines (2025–2026) {#key-deadlines}
+## Key Deadlines (2026–2027) {#key-deadlines}
 
-| Assignment | Deadline |
-|------------|----------|
-| Assignment #1: Revised Research Proposal | March 13, 2026 |
-| Assignment #2: Preliminary Draft | April 3, 2026 |
-| Assignment #3: Empirical Draft | May 6, 2026 |
-| **Final Manuscript** | **{{ program.deadline }}** |
+| Deadline | Date |
+|----------|------|
+| Register for thesis supervision ([form](https://fd24.formdesk.com/universiteitleiden/KSBA3TS)) | February 1, 2027 |
+| Assignment #1: Revised Research Proposal | Announced on the [seminar site](https://scdenney.github.io/baks_thesis-seminar/) |
+| Assignment #2: Full Design Draft | Announced on the [seminar site](https://scdenney.github.io/baks_thesis-seminar/) |
+| Assignment #3: Empirical Draft | May 2, 2027 |
+| **Final thesis** | **{{ program.deadline }}** |
 
-All assignments are submitted via Brightspace by 23:59 on the due date.
+Submit assignments through Brightspace by 23:59 on the due date. Late work can lose 0.5 points per day.
+
+There are two thesis deadlines, May 2 and June 1. If you hand in a draft by May 2, your supervisor returns feedback within three weeks, and you can revise and resubmit by June 1. If you do not hand in a draft by May 2, you can still submit a final version by June 1, but you lose the right to revise and resubmit. Email your thesis to your supervisor as Word and PDF files, with [bathesis@hum.leidenuniv.nl](mailto:bathesis@hum.leidenuniv.nl) in cc. Your thesis goes through Turnitin, and you receive your grade within six weeks.
+
+If you submit after June 1, your thesis is assessed only from September. If you have met the seminar's attendance and submission requirements, you may hand in your thesis until December 10, provided the Board of Examiners gives permission and you inform your study advisor. If you do not meet this deadline, you must write a new thesis, in principle on a different subject and with a different supervisor.
 
 ---
 
@@ -83,46 +88,41 @@ All assignments are submitted via Brightspace by 23:59 on the due date.
 |-----------|--------|
 | Participation (including peer review) | 10% |
 | Assignment #1: Revised Research Proposal | 20% |
-| Assignment #2: Preliminary Draft | 35% |
+| Assignment #2: Full Design Draft | 35% |
 | Assignment #3: Empirical Draft | 35% |
+
+For the thesis to be accepted, the thesis draft must itself earn a pass (5.50 or higher).
 
 ### Thesis Assessment
 
-The final thesis is graded separately by a thesis committee (first and second reader). The official Prospectus lists five criteria.
+A first and second reader grade the final thesis separately from the seminar. The [prospectus](https://studiegids.universiteitleiden.nl/modules/5723VSCRY?tab=info&year=2261) lists five criteria:
 
-1. **Academic literature and research question.** Knowledge of academic literature and formulation of a research question based on it
-2. **Methodology and primary sources.** Consistent application of a methodology to primary sources
-3. **Primary source processing.** Careful processing of primary source materials
-4. **Korean-language materials.** Substantive engagement with Korean-language materials
-5. **Communication.** Language use, thesis structure, and apparatus
+1. Knowledge of the academic literature and a research question based on it
+2. Consistent application of a methodology to primary sources
+3. Careful processing of primary source materials
+4. Substantive engagement with Korean-language materials
+5. Communication, including language use, thesis structure and apparatus
 
-See the [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) page for detailed criteria and grade descriptors.
+See [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) for detailed criteria and grade descriptors.
 
 ---
 
 ## What's Expected at BA Level
 
-A strong BA thesis should demonstrate these abilities.
-
-- Identify a clear research question and a gap in the existing literature
-- Engage seriously with relevant scholarship, including Korean-language sources
-- Apply a suitable methodology and present your findings clearly
-- Write in competent academic English with proper citations
-
-See [BA vs MA Expectations]({{ '/assessment-standards/#ba-vs-ma-expectations' | relative_url }}) for a detailed comparison.
+The five criteria above define a strong BA thesis. See [BA vs MA Expectations]({{ '/assessment-standards/#ba-vs-ma-expectations' | relative_url }}) for how this differs from MA work.
 
 ---
 
 ## Documents
 
-- [BAKS Thesis Seminar Website](https://scdenney.github.io/baks_thesis-seminar/) (seminar materials, assignments, schedule, and style guide)
-- [BA Final Paper Koreastudies Prospectus](https://studiegids.universiteitleiden.nl/en/courses/134317/ba-final-paper-koreastudies)
+- [BAKS Thesis Seminar Website](https://scdenney.github.io/baks_thesis-seminar/) (seminar materials, assignments, schedule and style guide)
+- [BA Final Paper Koreastudies (prospectus, 2026–27)](https://studiegids.universiteitleiden.nl/modules/5723VSCRY?tab=info&year=2261)
+- [BA Thesis Seminar (prospectus, 2026–27)](https://studiegids.universiteitleiden.nl/modules/5723VKO1Y?tab=info&year=2261)
 
 ---
 
 ## University Links
 
-- [Getting Started Guide]({{ '/getting-started/' | relative_url }}) (step-by-step research guide)
 - [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) (library resources)
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) (thesis support and events)
 - [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) (browse past theses)
