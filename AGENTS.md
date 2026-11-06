@@ -24,6 +24,8 @@ ethics/index.md             — Ethics: ethics review, Faculty GenAI guidelines,
 ai-policy/index.md          — Working with AI: stance, evidence (inline-SVG figures), and the supervision AI policy (sidebar layout)
 assessment-standards/index.md — Assessment standards (sidebar layout)
 methods/index.md            — Methods guide with interactive chooser and method cards
+methods/puzzles-and-questions.md, literature-review.md, analytical-framework.md — "Foundations": the deep versions of Getting Started Steps 1, 3, and 4 (sidebar layout)
+methods/llms-and-compute.md — When an LLM or GPU is needed, what may be uploaded, routes, and the request form (sidebar layout)
 methods/qualitative/*.md    — One page per qualitative method (there is no qualitative hub page)
 methods/quantitative/index.md — All computational methods on one page (sidebar layout); other files in this folder are redirect stubs
 ```
@@ -57,4 +59,9 @@ To rebuild PDFs: `cd <dir> && pdflatex <file>.tex && pdflatex <file>.tex`
 - Nav has three dropdowns — Programs, Guide, and Methods (a mega-menu); all use the `.nav-dropdown` pattern. Under Methods → "Corpus" there is one page, Building a Corpus (corpus-design methods). The Faculty GenAI guidelines live on the Ethics page; the supervisor's own AI policy is the separate "Working with AI" nav item (`ai-policy/`).
 - Moved pages keep their old URL as a stub: set `layout: redirect` and `redirect_to: /new/path/#anchor` in the front matter. Do not delete a published URL without one.
 - The home page route lists the Getting Started steps by name. If a step changes, update both.
+- Getting Started stays short and links to the Foundations pages. Put depth on those pages, not in the steps.
+- The Foundations pages are general guidance for all programs. Keep course-specific rules, such as MAIR assignment rules, on the program page and in Brightspace.
+- Site-wide stance on rationale: a gap is a starting point and the puzzle is the rationale, with a lower bar at BA level. Official rubric wording (BAIS page and PDF) is left as it is.
+- Eelco van der Maat's MAIR materials are cited and paraphrased, never reproduced. Do not publish the in-class statement sets or their keys, which are marked not for distribution. The practice set on the Literature Review page is separate and draws on Paglayan (2026).
+- The Corpus and LLM Request is a template builder on `methods/llms-and-compute.md`. Its button opens an email to Steven with Chris Handy in cc (`data-email-to`, `data-email-cc`), so no form data passes through a third party. Never publish the AI2 hostname.
 - AI/code workflow tooling (the former "AI & Code" page, starter prompts, the Corpus Wizard) has been extracted to a git-ignored `ai-for-research-export/` folder, staged for the separate **AI for Research** site (https://github.com/scdenney/ai-for-research). It is not published here; the methods site keeps only corpus-design methods and the Ethics GenAI policy. When that site is live, link to it from Methods/Ethics.

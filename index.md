@@ -56,8 +56,8 @@ title: Home
       <span class="journey-number" aria-hidden="true">01</span>
       <div>
         <h3>Developing Your Research Question</h3>
-        <p>Turn your topic into a working question and explain why it matters.</p>
-        <p class="journey-links"><a href="{{ '/getting-started/#step-1' | relative_url }}">Step 1</a><a href="{{ '/templates/#research-question-memo' | relative_url }}">Research question memo</a></p>
+        <p>Turn your topic into a puzzle and a working question.</p>
+        <p class="journey-links"><a href="{{ '/getting-started/#step-1' | relative_url }}">Step 1</a><a href="{{ '/methods/puzzles-and-questions' | relative_url }}">Puzzles and questions</a></p>
       </div>
     </li>
     <li>
@@ -72,8 +72,8 @@ title: Home
       <span class="journey-number" aria-hidden="true">03</span>
       <div>
         <h3>Conducting a Literature Review</h3>
-        <p>Map what scholars have established and show what they have left open.</p>
-        <p class="journey-links"><a href="{{ '/getting-started/#step-3' | relative_url }}">Step 3</a><a href="{{ '/templates/#literature-review-matrix' | relative_url }}">Literature review matrix</a></p>
+        <p>Group the literature by answer and weigh the strengths and weaknesses of each.</p>
+        <p class="journey-links"><a href="{{ '/getting-started/#step-3' | relative_url }}">Step 3</a><a href="{{ '/methods/literature-review' | relative_url }}">Literature review</a></p>
       </div>
     </li>
     <li>
@@ -81,7 +81,7 @@ title: Home
       <div>
         <h3>Building Your Analytical Framework</h3>
         <p>Link your question to your findings and choose methods that fit your data.</p>
-        <p class="journey-links"><a href="{{ '/getting-started/#step-4' | relative_url }}">Step 4</a><a href="{{ '/methods/' | relative_url }}">Methods guide</a></p>
+        <p class="journey-links"><a href="{{ '/getting-started/#step-4' | relative_url }}">Step 4</a><a href="{{ '/methods/analytical-framework' | relative_url }}">Analytical framework</a></p>
       </div>
     </li>
     <li>

@@ -73,6 +73,10 @@ body.toc-open {
 
 main { flex: 1; padding: 1.1rem 0 3.2rem; }
 
+/* Auto margins stop a flex item stretching, so main would grow to fit its
+   widest table on a phone. Hold its width so tables scroll inside themselves. */
+main.container { width: 100%; min-width: 0; }
+
 .container {
   max-width: 1100px;
   margin: 0 auto;
@@ -1433,6 +1437,10 @@ main p {
   border-radius: 8px;
   background: var(--white);
   box-shadow: var(--shadow-soft);
+}
+
+.template-builder-controls[hidden] {
+  display: none;
 }
 
 .template-builder-controls,

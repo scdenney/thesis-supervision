@@ -20,7 +20,7 @@ These five steps cover planning and writing a thesis in all four programs (BAIS,
 <div class="step-objectives">
 <p>Objectives</p>
 <ul>
-<li>Know what makes a good research question and how to identify a research gap</li>
+<li>Know what makes a good research question and how a puzzle justifies it</li>
 <li>Draft a working question for your first supervision meeting</li>
 </ul>
 </div>
@@ -34,9 +34,13 @@ These five steps cover planning and writing a thesis in all four programs (BAIS,
 <li><strong>Researchable</strong>: it can be answered with data and methods you can access</li>
 </ul>
 
-<h4>Research problem and research gap</h4>
+<h4>From topic to puzzle</h4>
 
-<p>The <strong>research problem</strong> is the broader issue behind your question and the reason it matters, such as an unresolved debate or an accepted view that deserves a fresh look. The <strong>research gap</strong> is the specific hole your thesis fills, such as an understudied case, an untested theory, a missing comparison, or new data.</p>
+<p>A <strong>puzzle</strong> is the reason your question is worth asking. Something happens despite what existing knowledge leads us to expect. A <strong>gap</strong> in the literature can be a useful starting point, but you still have to say why it matters. Your <strong>research question</strong> is then one simple why or how question, and the literature offers two or three <strong>rival answers</strong> to it.</p>
+
+<div class="info-box">
+<p><a href="{{ '/methods/puzzles-and-questions' | relative_url }}">Puzzles and Questions</a> explains each step, with examples and BA and MA expectations.</p>
+</div>
 
 <div class="tip-box">
 <p><strong>Your question will change.</strong> It almost always does as you read more. Start with a working question that gives you direction and expect to revise it.</p>
@@ -46,7 +50,7 @@ These five steps cover planning and writing a thesis in all four programs (BAIS,
 <p>Ask yourself</p>
 <ul>
 <li>Which topic interests you most?</li>
-<li>What do scholars already know about it, and what don't they know?</li>
+<li>What do scholars expect, and what doesn't fit?</li>
 <li>Can you answer the question with the data and methods available to you?</li>
 <li>Is the scope realistic for your program's word count?</li>
 </ul>
@@ -56,7 +60,8 @@ These five steps cover planning and writing a thesis in all four programs (BAIS,
 <p>Exercise</p>
 <p>Draft a working research question (1–2 sentences). Then write 150–250 words that explain the following.</p>
 <ol>
-<li>The research problem and the gap your question addresses</li>
+<li>The puzzle behind your question or, at BA level, the gap and why it matters</li>
+<li>Two or three possible answers from the literature</li>
 <li>How you might begin to answer it</li>
 </ol>
 <p>Bring this to your first supervision meeting.</p>
@@ -128,31 +133,25 @@ These five steps cover planning and writing a thesis in all four programs (BAIS,
 <div class="step-objectives">
 <p>Objectives</p>
 <ul>
-<li>Connect the literature to your research question and gap</li>
+<li>Connect the literature to your research question and rival answers</li>
 <li>Start an annotated bibliography</li>
 </ul>
 </div>
 
 <h4>What a literature review does</h4>
 
-<p>A literature review summarizes existing work on your topic and identifies what remains overlooked or contested. It then places your thesis within that scholarship and justifies your question and approach.</p>
+<p>A literature review is an argument about existing work. It shows that your question has more than one plausible answer and weighs the strengths and weaknesses of each. This justifies your question and approach.</p>
 
 <div class="tip-box">
 <p><strong>Stay focused.</strong> Engage closely with the few debates most relevant to your question instead of cataloging everything written on the topic.</p>
 </div>
 
 <h4>How to organize your review</h4>
-<p>You can organize a review by theme (the most common choice), by chronology, by method, or around competing theoretical perspectives. Many reviews combine more than one of these.</p>
+<p>Group sources by the answer they support, not one scholar after another. For some projects a theoretical, historical, or methodological structure fits better.</p>
 
-<h4>Building your review step by step</h4>
-<ol>
-<li>Choose search terms for your topic, question, and field</li>
-<li>Search widely in Google Scholar, JSTOR, Web of Science, and the specialist databases for your field</li>
-<li>Read abstracts and introductions first to judge relevance</li>
-<li>For each source, note the main argument, methods, findings, and relation to your research</li>
-<li>Group sources into themes or competing positions</li>
-<li>State what the existing literature does not address</li>
-</ol>
+<div class="info-box">
+<p><a href="{{ '/methods/literature-review' | relative_url }}">Literature Review</a> covers skimming, grouping by answer, and writing, and it has a practice exercise.</p>
+</div>
 
 <div class="reflection-box">
 <p>Ask yourself</p>
@@ -167,7 +166,7 @@ These five steps cover planning and writing a thesis in all four programs (BAIS,
 <div class="exercise-box">
 <p>Exercise</p>
 <p><strong>Part A:</strong> Create an annotated bibliography of 8–12 key sources. For each, write 3–4 sentences on its main argument or finding and its methods, and on how it relates to your research question.</p>
-<p><strong>Part B:</strong> Outline your literature review, organized by whichever principle best fits your sources.</p>
+<p><strong>Part B:</strong> Outline your literature review by answer, or by another principle if it fits your sources better.</p>
 </div>
 
 </div>
@@ -189,11 +188,11 @@ These five steps cover planning and writing a thesis in all four programs (BAIS,
 
 <h4>How it fits together</h4>
 
-<p>The framework should follow from your literature review. The gap you identified motivates your research design, and your methods should suit the type of data you are working with. The framework states <strong>what</strong> you are analyzing (your data or cases), <strong>how</strong> you will analyze it, and <strong>why</strong> that approach suits your question.</p>
+<p>The framework should follow from your literature review. Your rival answers motivate your research design, so ask what evidence could separate them. Your methods should suit the type of data you are working with. The framework states <strong>what</strong> you are analyzing (your data or cases), <strong>how</strong> you will analyze it, and <strong>why</strong> that approach suits your question.</p>
 
 <h4>Choosing a method</h4>
 
-<p>Use the <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> to match your project to a method. It has a chooser, a page on each method I supervise most often, and a list of other methods some projects need.</p>
+<p>Use the <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> to match your project to a method. It has a chooser, a page on each method I supervise most often, and a list of other methods some projects need. <a href="{{ '/methods/analytical-framework' | relative_url }}">Analytical Framework</a> sets out what your framework should contain.</p>
 
 <div class="tip-box">
 <p><strong>Mixed methods</strong> combine qualitative and quantitative approaches. They can strengthen an analysis but add complexity, so discuss with your supervisor whether they suit your project.</p>
