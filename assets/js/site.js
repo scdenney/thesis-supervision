@@ -477,14 +477,15 @@ document.addEventListener("DOMContentLoaded", () => {
       },
       qualitative: {
         title: "Qualitative approaches",
-        copy: "Your project depends on interpretation, case logic, frames, discourse, or causal explanation. Review the qualitative approaches and choose the design that best fits the evidence.",
-        label: "Open Qualitative Approaches",
-        href: methodRouter.dataset.routeQualitative,
+        copy: "Your project depends on interpretation, case logic, frames, discourse, or causal explanation. Review the qualitative methods and choose the design that best fits the evidence.",
+        label: "Show qualitative methods",
+        href: "#browse-method-cards",
+        filter: "qualitative",
       },
       computational: {
         title: "Computational methods",
         copy: "You need to measure or model patterns across many documents. Review preprocessing, then choose topic analysis, sentiment, or embeddings.",
-        label: "Open Computational & Quantitative",
+        label: "Open Computational Approaches",
         href: methodRouter.dataset.routeComputational,
       },
     };
@@ -530,7 +531,16 @@ document.addEventListener("DOMContentLoaded", () => {
       resultCopy.textContent = route.copy;
       resultLink.textContent = route.label;
       resultLink.href = route.href;
+      resultLink.dataset.routerFilter = route.filter || "";
     };
+
+    // A route can point at the card grid and apply one of its filters.
+    resultLink?.addEventListener("click", () => {
+      const filter = resultLink.dataset.routerFilter;
+      if (filter) {
+        document.querySelector(`[data-method-filter="${filter}"]`)?.click();
+      }
+    });
 
     methodRouterForm.addEventListener("change", updateRouter);
     updateRouter();

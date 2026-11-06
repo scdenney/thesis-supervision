@@ -9,7 +9,6 @@ Start here if you have not settled on a method. Choose one by asking what eviden
 
 <section class="method-router method-router-visual" aria-labelledby="method-router-title"
   data-route-corpus="{{ '/methods/building-a-corpus' | relative_url }}"
-  data-route-qualitative="{{ '/methods/qualitative/' | relative_url }}"
   data-route-computational="{{ '/methods/quantitative/' | relative_url }}"
   markdown="0">
   <div class="method-router-copy">
@@ -146,6 +145,15 @@ Start here if you have not settled on a method. Choose one by asking what eviden
     <span class="tag-list"><button type="button" data-method-tag="semantics" aria-pressed="false">semantics</button> · <button type="button" data-method-tag="vectors" aria-pressed="false">vectors</button> · <button type="button" data-method-tag="advanced" aria-pressed="false">advanced</button></span>
   </article>
 </div>
+
+## Combining Methods {#combining-methods}
+
+Qualitative and computational methods work together when each has a defined role. Common pairings include these.
+
+- **Framing analysis + topic analysis.** A topic model surfaces candidate frames in a large corpus, and you read closely within each cluster.
+- **Discourse analysis + keyword-in-context tooling.** The computational side locates passages worth reading, while the interpretive judgment stays with you.
+- **Comparative case study + descriptive corpus statistics.** Aggregate measures such as volume or keyword prevalence can support the cross-case interpretation.
+- **Process tracing + digital archives.** Computational search helps identify causal-process observations you might otherwise miss.
 
 ## Other Methods To Consider
 

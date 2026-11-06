@@ -136,29 +136,6 @@
         {% elsif is_ai_policy %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>
-        {% elsif page.url contains '/methods/building-a-corpus' %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/' | relative_url }}">Methods</a>
-          <span class="crumb-sep">/</span>
-          <span class="crumb-current">{{ page.title }}</span>
-        {% elsif page.url contains '/methods/qualitative/' %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/' | relative_url }}">Methods</a>
-          {% if page.title != 'Qualitative Approaches' %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/qualitative/' | relative_url }}">Qualitative Approaches</a>
-          {% endif %}
-          <span class="crumb-sep">/</span>
-          <span class="crumb-current">{{ page.title }}</span>
-        {% elsif page.url contains '/methods/quantitative/' %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/' | relative_url }}">Methods</a>
-          {% if page.title != 'Computational Approaches' %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/quantitative/' | relative_url }}">Computational</a>
-          {% endif %}
-          <span class="crumb-sep">/</span>
-          <span class="crumb-current">{{ page.title }}</span>
         {% elsif page.title == 'Methods Guide' %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">Methods</span>
