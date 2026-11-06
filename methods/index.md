@@ -117,7 +117,7 @@ Start here if you have not settled on a method. Choose one by asking what eviden
   <article class="method-card" data-method-groups="workflow computational" data-method-tags="cleanup text-as-data reproducibility">
     <span class="method-visual" data-method-visual="preprocess" aria-hidden="true"></span>
     <span class="method-type">Computational prep</span>
-    <h3><a href="{{ '/methods/quantitative/preprocessing' | relative_url }}">Preprocessing</a></h3>
+    <h3><a href="{{ '/methods/quantitative/#preprocessing' | relative_url }}">Preprocessing</a></h3>
     <p>Decide what counts as a token and what gets dropped. Document each choice.</p>
     <span class="tag-list"><button type="button" data-method-tag="cleanup" aria-pressed="false">cleanup</button> · <button type="button" data-method-tag="text-as-data" aria-pressed="false">text-as-data</button> · <button type="button" data-method-tag="reproducibility" aria-pressed="false">reproducibility</button></span>
   </article>
@@ -125,7 +125,7 @@ Start here if you have not settled on a method. Choose one by asking what eviden
   <article class="method-card" data-method-groups="computational texts" data-method-tags="themes scale validation">
     <span class="method-visual" data-method-visual="topics" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
-    <h3><a href="{{ '/methods/quantitative/topic-analysis' | relative_url }}">Topic Analysis</a></h3>
+    <h3><a href="{{ '/methods/quantitative/#topic-analysis' | relative_url }}">Topic Analysis</a></h3>
     <p>A first map of a large corpus. The model points to clusters. You still name them.</p>
     <span class="tag-list"><button type="button" data-method-tag="themes" aria-pressed="false">themes</button> · <button type="button" data-method-tag="scale" aria-pressed="false">scale</button> · <button type="button" data-method-tag="validation" aria-pressed="false">validation</button></span>
   </article>
@@ -133,7 +133,7 @@ Start here if you have not settled on a method. Choose one by asking what eviden
   <article class="method-card" data-method-groups="computational texts" data-method-tags="tone dictionaries classifiers">
     <span class="method-visual" data-method-visual="sentiment" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
-    <h3><a href="{{ '/methods/quantitative/sentiment-analysis' | relative_url }}">Sentiment Analysis</a></h3>
+    <h3><a href="{{ '/methods/quantitative/#sentiment-analysis' | relative_url }}">Sentiment Analysis</a></h3>
     <p>Useful when tone matters and the score can be checked against your own texts.</p>
     <span class="tag-list"><button type="button" data-method-tag="tone" aria-pressed="false">tone</button> · <button type="button" data-method-tag="dictionaries" aria-pressed="false">dictionaries</button> · <button type="button" data-method-tag="classifiers" aria-pressed="false">classifiers</button></span>
   </article>
@@ -141,7 +141,7 @@ Start here if you have not settled on a method. Choose one by asking what eviden
   <article class="method-card" data-method-groups="computational texts advanced" data-method-tags="semantics vectors advanced">
     <span class="method-visual" data-method-visual="embeddings" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
-    <h3><a href="{{ '/methods/quantitative/word-embeddings' | relative_url }}">Word Embeddings</a></h3>
+    <h3><a href="{{ '/methods/quantitative/#word-embeddings' | relative_url }}">Word Embeddings</a></h3>
     <p>For similarity, conceptual drift, or retrieval when keyword searches are too brittle.</p>
     <span class="tag-list"><button type="button" data-method-tag="semantics" aria-pressed="false">semantics</button> · <button type="button" data-method-tag="vectors" aria-pressed="false">vectors</button> · <button type="button" data-method-tag="advanced" aria-pressed="false">advanced</button></span>
   </article>
