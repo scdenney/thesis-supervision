@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ethics & AI
+title: Ethics
 ---
 
 <div class="page-layout">
@@ -23,7 +23,7 @@ title: Ethics & AI
 
 <div class="page-content" markdown="1">
 
-# Ethics & AI
+# Ethics
 
 The ethics rules, university policies and regulations that apply to thesis research.
 

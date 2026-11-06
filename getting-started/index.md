@@ -100,7 +100,7 @@ These five steps cover planning and writing a thesis in all four programs (BAIS,
 <ul>
 <li>What data do you need to answer your research question?</li>
 <li>Is it available and accessible, and does it require language skills?</li>
-<li>Does the project raise ethical issues, such as human participants or sensitive data? See the <a href="{{ '/ethics/' | relative_url }}">Ethics &amp; AI</a> page.</li>
+<li>Does the project raise ethical issues, such as human participants or sensitive data? See the <a href="{{ '/ethics/' | relative_url }}">Ethics</a> page.</li>
 <li>How will you collect the data and keep it organized throughout the project?</li>
 </ul>
 </div>
@@ -310,6 +310,6 @@ Your program page ([BAIS]({{ '/bais/' | relative_url }}), [BAKS]({{ '/baks/' | r
 **Other resources:**
 
 - [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) (how your thesis will be evaluated)
-- [Ethics & AI]({{ '/ethics/' | relative_url }}) (ethics review plus the plagiarism and GenAI policies that govern your thesis)
-- [AI Policy]({{ '/ai-policy/' | relative_url }}) (when AI use is permitted and how to disclose it)
+- [Ethics]({{ '/ethics/' | relative_url }}) (ethics review plus the plagiarism and GenAI policies that govern your thesis)
+- [Working with AI]({{ '/ai-policy/' | relative_url }}) (when AI use is permitted and how to disclose it)
 - [Writing Lab](https://www.student.universiteitleiden.nl/en/vr/humanities/writing-lab) (additional writing support)

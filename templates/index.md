@@ -252,7 +252,7 @@ Use it when you receive detailed comments on a draft, need to show how you handl
 
 ## GenAI Methods Note
 
-**Purpose:** Keep a record of approved AI or code assistance. Use it only for uses your supervisor has agreed to in advance (see the [AI Policy]({{ '/ai-policy/' | relative_url }})).
+**Purpose:** Keep a record of approved AI or code assistance. Use it only for uses your supervisor has agreed to in advance (see the [Working with AI]({{ '/ai-policy/' | relative_url }})).
 
 | Field | Notes |
 |---|---|
@@ -268,7 +268,7 @@ Use it when you receive detailed comments on a draft, need to show how you handl
 | Errors corrected |  |
 | What was not delegated | interpretation, argument, final claims, source evaluation |
 
-The [AI Policy]({{ '/ai-policy/#disclosure' | relative_url }}) also requires an AI-use statement before the bibliography, even if you used no AI tools, and gives a template for it. Follow the Faculty [GenAI guidance]({{ '/ethics/#generative-ai-policy' | relative_url }}) on disclosure and citation.
+The [Working with AI]({{ '/ai-policy/#disclosure' | relative_url }}) also requires an AI-use statement before the bibliography, even if you used no AI tools, and gives a template for it. Follow the Faculty [GenAI guidance]({{ '/ethics/#generative-ai-policy' | relative_url }}) on disclosure and citation.
 
 ---
 

@@ -49,7 +49,7 @@ This page is adapted from the BAIS thesis seminar guidelines and grading rubric 
 
 <div class="info-box" markdown="1">
 
-**Your next step:** Check the rules below, then write a one-page working plan with your research question, likely sources, method, timeline and questions for your supervisor. The [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}) help with this. If your project involves data, participants, sensitive material or computational methods, also read the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}).
+**Your next step:** Check the rules below, then write a one-page working plan with your research question, likely sources, method, timeline and questions for your supervisor. The [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}) help with this. If your project involves data, participants, sensitive material or computational methods, also read the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics]({{ '/ethics/' | relative_url }}).
 
 </div>
 
