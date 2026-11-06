@@ -20,10 +20,12 @@ bais/index.md               — BAIS program page (sidebar layout)
 baks/index.md               — BAKS program page (points to thesis seminar site)
 maas/index.md               — MAAS program page (sidebar layout)
 mair/index.md               — MAIR program page (sidebar layout)
-ethics/index.md             — Ethics & policies (sidebar layout)
-ai-policy/index.md          — Working with AI: stance, evidence (inline-SVG figures), and the supervision AI policy (sidebar layout); AI_Policy_Summary.md is the plain-Markdown colleague version
+ethics/index.md             — Ethics: ethics review, Faculty GenAI guidelines, integrity (sidebar layout)
+ai-policy/index.md          — Working with AI: stance, evidence (inline-SVG figures), and the supervision AI policy (sidebar layout)
 assessment-standards/index.md — Assessment standards (sidebar layout)
 methods/index.md            — Methods guide with interactive chooser and method cards
+methods/qualitative/*.md    — One page per qualitative method (there is no qualitative hub page)
+methods/quantitative/index.md — All computational methods on one page (sidebar layout); other files in this folder are redirect stubs
 ```
 
 ## PDF Documents
@@ -52,5 +54,7 @@ To rebuild PDFs: `cd <dir> && pdflatex <file>.tex && pdflatex <file>.tex`
 - Color variables defined in `:root` in `assets/css/style.scss`
 - Program facts (word count, citation style, deadline) live in `_data/programs.yml` — the single source of truth read by the landing-page snapshot and each program page. Edit facts there, not inline.
 - Methods page uses a small JavaScript chooser plus static fallback cards
-- Nav has three dropdowns — Programs, Guide, and Methods (a mega-menu); all use the `.nav-dropdown` pattern. Under Methods → "Corpus" there is one page, Building a Corpus (corpus-design methods). The Faculty GenAI guidelines live on the Ethics page; the supervisor's own AI policy is the separate "AI Policy" nav item (`ai-policy/`).
+- Nav has three dropdowns — Programs, Guide, and Methods (a mega-menu); all use the `.nav-dropdown` pattern. Under Methods → "Corpus" there is one page, Building a Corpus (corpus-design methods). The Faculty GenAI guidelines live on the Ethics page; the supervisor's own AI policy is the separate "Working with AI" nav item (`ai-policy/`).
+- Moved pages keep their old URL as a stub: set `layout: redirect` and `redirect_to: /new/path/#anchor` in the front matter. Do not delete a published URL without one.
+- The home page route lists the Getting Started steps by name. If a step changes, update both.
 - AI/code workflow tooling (the former "AI & Code" page, starter prompts, the Corpus Wizard) has been extracted to a git-ignored `ai-for-research-export/` folder, staged for the separate **AI for Research** site (https://github.com/scdenney/ai-for-research). It is not published here; the methods site keeps only corpus-design methods and the Ethics GenAI policy. When that site is live, link to it from Methods/Ethics.
