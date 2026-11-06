@@ -925,8 +925,7 @@ main h1 + p {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
-  .method-router,
-  .workflow-hero {
+  .method-router {
     grid-template-columns: 1fr;
   }
 }
@@ -1349,10 +1348,7 @@ main p {
 }
 
 .resource-path-grid,
-.route-card-grid,
 .method-card-grid,
-.workflow-grid,
-.prompt-grid,
 .link-panel-grid {
   display: grid;
   gap: 1rem;
@@ -1363,8 +1359,6 @@ main p {
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
 }
 
-.route-card-grid,
-.workflow-grid,
 .link-panel-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
@@ -1377,16 +1371,9 @@ main p {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.prompt-grid {
-  grid-template-columns: 1fr;
-}
-
 .resource-path-card,
-.route-card,
 .method-card,
-.workflow-card,
-.link-panel,
-.prompt-card {
+.link-panel {
   display: block;
   padding: 0.85rem;
   border: 1px solid var(--line);
@@ -1398,29 +1385,14 @@ main p {
   transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
 }
 
-.method-card,
-.workflow-card {
+.method-card {
   position: relative;
   overflow: hidden;
   transition: border-color 0.16s ease, box-shadow 0.16s ease, transform 0.16s ease;
 }
 
-.workflow-card {
-  width: 100%;
-  text-align: left;
-}
-
-button.workflow-card {
-  appearance: none;
-  font: inherit;
-  cursor: pointer;
-}
-
 .resource-path-card:hover,
-.route-card:hover,
 .method-card:hover,
-.workflow-card:hover,
-.workflow-card:focus-visible,
 .link-panel:hover {
   border-color: rgba(138, 106, 59, 0.55);
   box-shadow: var(--shadow-md);
@@ -1428,9 +1400,7 @@ button.workflow-card {
 }
 
 .resource-path-card h3,
-.route-card h3,
 .method-card h3,
-.workflow-card h3,
 .link-panel strong {
   display: block;
   margin: 0 0 0.45rem;
@@ -1440,9 +1410,7 @@ button.workflow-card {
 }
 
 .resource-path-card p,
-.route-card p,
 .method-card p,
-.workflow-card p,
 .link-panel span {
   display: block;
   margin: 0;
@@ -1451,18 +1419,9 @@ button.workflow-card {
   line-height: 1.55;
 }
 
-.accent-path-card,
-.accent-route-card {
+.accent-path-card {
   border-color: rgba(138, 106, 59, 0.32);
   background: linear-gradient(180deg, #ffffff, #F3EFE6);
-}
-
-.tag-list {
-  display: block;
-  margin-top: 0.75rem;
-  color: var(--muted);
-  font-size: 0.82rem;
-  line-height: 1.35;
 }
 
 .template-builder {
@@ -1638,8 +1597,7 @@ button.workflow-card {
   height: 100%;
 }
 
-.method-router,
-.workflow-hero {
+.method-router {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(16rem, 0.8fr);
   gap: 1rem;
@@ -1667,13 +1625,11 @@ button.workflow-card {
   flex-direction: column;
 }
 
-.method-router-copy h2,
-.workflow-hero h2 {
+.method-router-copy h2 {
   margin: 0 0 0.55rem;
 }
 
-.method-router-copy p,
-.workflow-hero p {
+.method-router-copy p {
   margin: 0;
   color: var(--muted);
 }
@@ -1722,8 +1678,7 @@ button.workflow-card {
   color: var(--muted);
 }
 
-.router-result a,
-.hero-action {
+.router-result a {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1735,84 +1690,9 @@ button.workflow-card {
   text-decoration: none;
 }
 
-.router-result a:hover,
-.hero-action:hover {
+.router-result a:hover {
   background: #06163F;
   color: var(--white);
-}
-
-.workflow-hero {
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: center;
-}
-
-.workflow-action-label {
-  display: inline-flex;
-  align-items: center;
-  margin-top: 0.85rem;
-  color: var(--teal);
-  font-size: 0.82rem;
-  font-weight: 800;
-}
-
-.workflow-action-label::after {
-  content: "→";
-  margin-left: 0.35rem;
-}
-
-.workflow-card.is-active {
-  border-color: rgba(138, 106, 59, 0.9);
-  box-shadow: 0 0 0 3px rgba(138, 106, 59, 0.18), var(--shadow-soft);
-}
-
-.prompt-card {
-  padding: 0;
-  overflow: hidden;
-  transition: border-color 0.16s ease, box-shadow 0.16s ease;
-}
-
-.prompt-card.is-highlighted {
-  border-color: rgba(138, 106, 59, 0.9);
-  box-shadow: 0 0 0 3px rgba(138, 106, 59, 0.18), 0 12px 24px rgba(60, 46, 28, 0.08);
-}
-
-.prompt-card-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 0.75rem;
-  padding: 0.85rem 1rem;
-  border-bottom: 1px solid var(--line);
-  background: var(--surface-soft);
-}
-
-.prompt-card-header h3 {
-  margin: 0;
-  font-size: 1rem;
-}
-
-.copy-button {
-  flex: 0 0 auto;
-  padding: 0.45rem 0.65rem;
-  border: 1px solid rgba(60, 46, 28, 0.16);
-  border-radius: 8px;
-  background: var(--white);
-  color: var(--plum);
-  font: inherit;
-  font-size: 0.85rem;
-  font-weight: 750;
-  cursor: pointer;
-}
-
-.copy-button:hover {
-  background: rgba(138, 106, 59, 0.1);
-}
-
-.prompt-card pre {
-  margin: 0;
-  border: 0;
-  border-radius: 0;
-  background: #FAF8F2;
 }
 
 .program-cards {
@@ -1939,43 +1819,6 @@ button.workflow-card {
   color: var(--teal);
   border-radius: 8px;
   padding-inline: 0.7rem;
-}
-
-.methods-alt-mobile {
-  display: none;
-}
-
-.method-summary-card {
-  background: var(--white);
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  padding: 1rem 1.05rem;
-  box-shadow: var(--shadow-soft);
-}
-
-.method-summary-card + .method-summary-card {
-  margin-top: 0.85rem;
-}
-
-.method-summary-card h3 {
-  margin: 0 0 0.5rem;
-  font-size: 1.08rem;
-  line-height: 1.2;
-}
-
-.method-summary-card strong {
-  display: block;
-  margin-top: 0.8rem;
-  font-size: 0.75rem;
-  color: var(--muted);
-  letter-spacing: 0;
-  text-transform: uppercase;
-}
-
-.method-summary-card p {
-  margin: 0;
-  font-size: 0.96rem;
-  line-height: 1.55;
 }
 
 /* ── Details / summary (getting-started guide) ── */
@@ -2263,104 +2106,6 @@ a.github-link:hover::before {
   text-decoration-color: #ffffff;
 }
 
-/* ── Shared corpus-building embeds ── */
-
-.cb-mini-wizard {
-  margin: 1.5rem 0;
-}
-
-.cb-mini-wizard {
-  --cb-plum: #14274D;
-  --cb-teal: #34557A;
-  --cb-accent: #8A6A3B;
-  --cb-bg: #FAF8F2;
-  --cb-border: rgba(0, 17, 88, 0.12);
-  --cb-muted: #6B6459;
-
-  background: linear-gradient(180deg, #fff, #F3EFE6);
-  border: 1px solid var(--cb-border);
-  border-radius: 8px;
-  padding: 1.2rem 1.25rem 1.25rem;
-  box-shadow: var(--shadow);
-}
-
-.cb-mini-wizard .cb-mini-eyebrow {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
-  font-size: 0.72rem;
-  font-weight: 700;
-  color: var(--cb-plum);
-  text-transform: uppercase;
-  letter-spacing: 0;
-}
-
-.cb-mini-wizard .cb-mini-eyebrow::before {
-  content: "";
-  width: 0.65rem;
-  height: 0.65rem;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--cb-accent), var(--cb-teal));
-}
-
-.cb-mini-wizard h3 {
-  margin: 0.35rem 0 0.3rem;
-  color: var(--cb-plum);
-  font-size: 1.22rem;
-}
-
-.cb-mini-wizard > p {
-  margin: 0 0 0.95rem;
-  color: var(--cb-muted);
-  font-size: 0.95rem;
-}
-
-.cb-mini-wizard form {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.8rem 0.85rem;
-}
-
-.cb-mini-wizard label {
-  display: flex;
-  flex-direction: column;
-  gap: 0.35rem;
-}
-
-.cb-mini-wizard label span {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--cb-plum);
-  letter-spacing: 0;
-}
-
-.cb-mini-wizard select {
-  padding: 0.55rem 0.65rem;
-  font: inherit;
-  font-size: 0.95rem;
-  border: 1px solid var(--cb-border);
-  border-radius: 8px;
-  background: #fff;
-}
-
-.cb-mini-wizard button {
-  grid-column: 1 / -1;
-  justify-self: start;
-  margin-top: 0.2rem;
-  padding: 0.75rem 1.1rem;
-  border: 0;
-  border-radius: 8px;
-  background: var(--cb-plum);
-  color: #fff;
-  font: inherit;
-  font-weight: 700;
-  cursor: pointer;
-}
-
-.cb-mini-wizard button:hover {
-  background: #06163F;
-}
-
 @media (max-width: 760px) {
   body {
     font-size: 16px;
@@ -2455,23 +2200,17 @@ a.github-link:hover::before {
   }
 
   .resource-path-grid,
-  .route-card-grid,
   .method-card-grid,
-  .workflow-grid,
-  .prompt-grid,
   .link-panel-grid,
-  .method-router,
-  .workflow-hero {
+  .method-router {
     grid-template-columns: 1fr;
   }
 
-  .method-router,
-  .workflow-hero {
+  .method-router {
     padding: 0.9rem;
   }
 
-  .hero-action,
-  .router-result a {
+    .router-result a {
     width: 100%;
   }
 
@@ -2597,22 +2336,10 @@ a.github-link:hover::before {
     color: var(--text);
   }
 
-  .methods-alt-table {
-    display: none;
-  }
-
-  .methods-alt-mobile {
-    display: block;
-    margin: 1rem 0 1.2rem;
-  }
-
   .page-route-card {
     padding: 0.9rem;
   }
 
-  .cb-mini-wizard form {
-    grid-template-columns: 1fr;
-  }
 }
 
 @media (min-width: 761px) {
@@ -2620,9 +2347,6 @@ a.github-link:hover::before {
     display: none;
   }
 
-  .methods-alt-mobile {
-    display: none;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -2645,7 +2369,6 @@ a.github-link:hover::before {
   --chart-assisted: #2B5FA3; /* validated chart blue: "with AI" series */
   --chart-unaided: #A06A2A;  /* validated chart bronze: "without AI" series */
 }
-
 
 .evidence-chart {
   margin: var(--space-6) 0;
@@ -3467,12 +3190,8 @@ select:focus-visible {
 /* Cards: one flat language, no lifts */
 .program-card,
 .method-card,
-.workflow-card,
 .link-panel,
-.prompt-card,
-.method-router,
-.workflow-hero,
-.method-summary-card {
+.method-router {
   border: 1px solid var(--line);
   border-radius: 6px;
   box-shadow: none;
@@ -3480,15 +3199,11 @@ select:focus-visible {
 
 .program-card,
 .method-card,
-.workflow-card,
 .link-panel { padding: 1.15rem 1.2rem; }
 
 .program-card:hover,
 .resource-path-card:hover,
-.route-card:hover,
 .method-card:hover,
-.workflow-card:hover,
-.workflow-card:focus-visible,
 .link-panel:hover {
   transform: none;
   box-shadow: none;
@@ -3503,8 +3218,6 @@ select:focus-visible {
 .program-card-link { font-size: 0.92rem; }
 
 .method-card h3,
-.workflow-card h3,
-.route-card h3,
 .resource-path-card h3 {
   font-family: var(--font-serif);
   font-weight: 600;
@@ -3646,17 +3359,14 @@ main details:not(.nav-dropdown):not(.drawer):not(.evidence-chart-table) {
   padding: 1rem 1.2rem;
 }
 
-.router-result a,
-.hero-action {
+.router-result a {
   min-height: 2.75rem;
   border-radius: 6px;
   background: var(--navy-deep);
   font-weight: 600;
 }
 
-.router-result a:hover,
-.hero-action:hover { background: #0B1F6E; }
-
+.router-result a:hover { background: #0B1F6E; }
 
 /* Sidebar route card: a compact pointer, not a second callout */
 .page-route-card {
@@ -3747,21 +3457,4 @@ a.program-card-link:hover { color: var(--navy-deep); }
 .method-card h3 a:focus-visible { text-decoration: underline; text-underline-offset: 0.18em; }
 .method-card:hover { transform: none; box-shadow: none; border-color: var(--line); }
 .method-card:has(h3 a:hover) { border-color: #B9B2A4; }
-.tag-list button {
-  appearance: none;
-  padding: 0;
-  border: 0;
-  background: none;
-  color: var(--teal);
-  font: inherit;
-  text-decoration: underline dotted;
-  text-underline-offset: 0.2em;
-  cursor: pointer;
-}
-.tag-list button:hover,
-.tag-list button:focus-visible { color: var(--navy-deep); text-decoration-style: solid; }
-.tag-list button.is-active {
-  color: var(--navy-deep);
-  font-weight: 600;
-  text-decoration-style: solid;
-}
+
