@@ -89,17 +89,16 @@ Pick the template that fits where you are, and keep it short enough for your sup
 
 ## Research Question Memo
 
-**Purpose:** Narrow a topic into a researchable question before an early supervision meeting.
+**Purpose:** Narrow a topic into a [puzzle and a researchable question]({{ '/methods/puzzles-and-questions' | relative_url }}) before an early supervision meeting.
 
 | Field | Working Answer |
 |---|---|
 | Topic area |  |
 | Case, region, corpus, or population |  |
 | Time period |  |
-| Research problem |  |
+| Puzzle (why x despite y?) |  |
 | Provisional research question |  |
-| Why this question matters academically |  |
-| Key literature or debate |  |
+| Rival answers from the literature |  |
 | Likely sources or data |  |
 | Likely method |  |
 | Main feasibility concern |  |
@@ -107,6 +106,7 @@ Pick the template that fits where you are, and keep it short enough for your sup
 
 **Quality check:**
 
+- It is one simple question, with the answer kept out of it
 - It can be answered within the word count and deadline
 - It names a clear object of analysis
 - It can be answered with sources or data you can realistically access
@@ -121,9 +121,9 @@ Pick the template that fits where you are, and keep it short enough for your sup
 
 1. **Tentative title**
 2. **Research question**
-3. **Research problem and motivation**
+3. **Puzzle and motivation**
 4. **Academic debate**
-   The literature, disagreement, or gap your thesis enters.
+   The literature and disagreement your thesis enters, with the rival answers.
 5. **Contribution**
    What your thesis may add, such as a case, source base, comparison, interpretation, method, or empirical finding.
 6. **Research design**
@@ -145,9 +145,9 @@ Pick the template that fits where you are, and keep it short enough for your sup
 
 ## Literature Review Matrix
 
-**Purpose:** Keep your reading tied to the research question, in a form you can draw on when writing.
+**Purpose:** Keep your reading tied to the research question and its [rival answers]({{ '/methods/literature-review#group-by-answer' | relative_url }}), in a form you can draw on when writing.
 
-| Source | Debate / Topic | Main Claim | Method / Evidence | How It Helps My Thesis | Limitation / Question |
+| Source | Answer It Supports or Challenges | Main Claim | Method / Evidence | How It Helps My Thesis | Limitation / Question |
 |---|---|---|---|---|---|
 |  |  |  |  |  |  |
 |  |  |  |  |  |  |
@@ -155,10 +155,10 @@ Pick the template that fits where you are, and keep it short enough for your sup
 
 **Synthesis prompts:**
 
-- Which sources define the main debate?
-- Which sources disagree with one another?
+- Which sources define the main answers?
+- Which sources disagree with one another, and why?
 - Which concepts, theories, or methods recur?
-- What is missing, underdeveloped, or contested?
+- What are the strengths and weaknesses of each answer?
 - What does my thesis need to show before the reader will accept my argument?
 
 ---

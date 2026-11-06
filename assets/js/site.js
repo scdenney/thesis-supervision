@@ -353,6 +353,33 @@ document.addEventListener("DOMContentLoaded", () => {
 	        <path d="M117 76l10 8-10 8M211 76l10 8-10 8" fill="none" stroke="#C2A877" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
 	        <path d="M52 70h28M52 91h20M146 70h28M146 91h28M240 70h28M240 91h16" stroke="#6B6459" stroke-width="6" stroke-linecap="round"/>
 	      </svg>`,
+    puzzle: `
+	      <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" focusable="false">
+	        <rect width="320" height="180" fill="#F3EFE6"/>
+	        <rect x="50" y="46" width="88" height="88" rx="8" fill="#ffffff" stroke="#E0D8C8" stroke-width="3"/>
+	        <rect x="182" y="46" width="88" height="88" rx="8" fill="#14274D"/>
+	        <path d="M146 90h28" stroke="#C2A877" stroke-width="7" stroke-linecap="round" stroke-dasharray="1 12"/>
+	        <text x="94" y="106" font-family="Georgia, serif" font-size="46" text-anchor="middle" fill="#34557A">x</text>
+	        <text x="226" y="104" font-family="Georgia, serif" font-size="46" text-anchor="middle" fill="#F3EFE6">y</text>
+	      </svg>`,
+    review: `
+	      <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" focusable="false">
+	        <rect width="320" height="180" fill="#F3EFE6"/>
+	        <rect x="44" y="42" width="66" height="14" rx="4" fill="#14274D"/>
+	        <rect x="127" y="42" width="66" height="14" rx="4" fill="#34557A"/>
+	        <rect x="210" y="42" width="66" height="14" rx="4" fill="#C2A877"/>
+	        <path d="M44 76h66M44 96h66M44 116h44M127 76h66M127 96h46M210 76h66M210 96h66M210 116h66M210 136h30" stroke="#6B6459" stroke-width="6" stroke-linecap="round"/>
+	      </svg>`,
+    framework: `
+	      <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" focusable="false">
+	        <rect width="320" height="180" fill="#F3EFE6"/>
+	        <circle cx="66" cy="90" r="24" fill="#14274D"/>
+	        <path d="M92 90h34M132 90l-10-8v16z" stroke="#C2A877" stroke-width="5" fill="#C2A877" stroke-linejoin="round"/>
+	        <rect x="140" y="62" width="58" height="56" rx="7" fill="#ffffff" stroke="#34557A" stroke-width="4"/>
+	        <path d="M152 80h34M152 92h34M152 104h20" stroke="#6B6459" stroke-width="5" stroke-linecap="round"/>
+	        <path d="M204 90h30M240 90l-10-8v16z" stroke="#C2A877" stroke-width="5" fill="#C2A877" stroke-linejoin="round"/>
+	        <rect x="248" y="66" width="44" height="48" rx="7" fill="#EFE7D9" stroke="#C2A877" stroke-width="4"/>
+	      </svg>`,
     topics: `
 	      <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" focusable="false">
 	        <rect width="320" height="180" fill="#F3EFE6"/>
@@ -428,6 +455,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const resultCopy = methodRouter.querySelector("[data-router-copy]");
     const resultLink = methodRouter.querySelector("[data-router-link]");
     const routes = {
+      question: {
+        title: "Puzzle and research question",
+        copy: "Before choosing a method, work out what is puzzling about your topic. Then state one simple question with two or three rival answers from the literature.",
+        label: "Open Puzzles and Questions",
+        href: methodRouter.dataset.routeQuestion,
+      },
+      review: {
+        title: "Literature review",
+        copy: "Find sources and group them by the answer they support, then weigh the strengths and weaknesses of each answer.",
+        label: "Open Literature Review",
+        href: methodRouter.dataset.routeReview,
+      },
       corpus: {
         title: "Corpus planning",
         copy: "Define what you will collect, how you will bound it, and how you will document it. This section is most useful for text-based projects where the source base still needs to be made explicit.",
@@ -458,6 +497,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (!material && !goal && !code) return null;
 
+      if (goal === "question") return routes.question;
+      if (goal === "review") return routes.review;
       if (goal === "measure" || material === "numbers")
         return routes.computational;
       if (
@@ -528,10 +569,9 @@ document.addEventListener("DOMContentLoaded", () => {
           "Topic area",
           "Case, region, corpus, or population",
           "Time period",
-          "Research problem",
+          "Puzzle (why x despite y?)",
           "Provisional research question",
-          "Why this question matters academically",
-          "Key literature or debate",
+          "Rival answers from the literature",
           "Likely sources or data",
           "Likely method",
           "Main feasibility concern",
@@ -543,8 +583,8 @@ document.addEventListener("DOMContentLoaded", () => {
         fields: [
           "Tentative title",
           "Research question",
-          "Research problem and motivation",
-          "Academic debate",
+          "Puzzle and motivation",
+          "Academic debate and rival answers",
           "Contribution",
           "Research design",
           "Materials",
@@ -559,12 +599,12 @@ document.addEventListener("DOMContentLoaded", () => {
         guidance:
           "Use one row per source. Add more rows in your own document if needed.",
         fields: [
-          "Source 1: debate, claim, method/evidence, use for thesis, limitation",
-          "Source 2: debate, claim, method/evidence, use for thesis, limitation",
-          "Source 3: debate, claim, method/evidence, use for thesis, limitation",
+          "Source 1: answer it supports or challenges, claim, method/evidence, use for thesis, limitation",
+          "Source 2: answer it supports or challenges, claim, method/evidence, use for thesis, limitation",
+          "Source 3: answer it supports or challenges, claim, method/evidence, use for thesis, limitation",
           "Synthesis: what the literature agrees on",
-          "Synthesis: what the literature disagrees about",
-          "Synthesis: gap or unresolved problem",
+          "Synthesis: the rival answers",
+          "Synthesis: strengths and weaknesses of each answer",
         ],
       },
       "data-corpus": {

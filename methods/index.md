@@ -7,7 +7,17 @@ title: Methods Guide
 
 Start here if you have not settled on a method. Choose one by asking what evidence you have and what claim you want to make.
 
+<div class="question-banner" markdown="0">
+  <div class="question-banner-copy">
+    <strong>No research question yet?</strong>
+    <p>A method answers a question, so start with your puzzle, your question, and its rival answers.</p>
+  </div>
+  <a href="{{ '/methods/puzzles-and-questions' | relative_url }}">Go to Puzzles and Questions</a>
+</div>
+
 <section class="method-router method-router-visual" aria-labelledby="method-router-title"
+  data-route-question="{{ '/methods/puzzles-and-questions' | relative_url }}"
+  data-route-review="{{ '/methods/literature-review' | relative_url }}"
   data-route-corpus="{{ '/methods/building-a-corpus' | relative_url }}"
   data-route-computational="{{ '/methods/quantitative/' | relative_url }}"
   markdown="0">
@@ -36,6 +46,8 @@ Start here if you have not settled on a method. Choose one by asking what eviden
         <span>What is your main analytical task?</span>
         <select name="goal">
           <option value="">Choose one</option>
+          <option value="question">Turn a topic into a research question</option>
+          <option value="review">Organize and write up the literature</option>
           <option value="collect">Collect and bound sources</option>
           <option value="interpret">Interpret meaning, frames, discourse, or themes</option>
           <option value="explain">Explain why something happened</option>
@@ -67,12 +79,34 @@ Start here if you have not settled on a method. Choose one by asking what eviden
 
 <div class="method-filter-bar" role="group" aria-label="Filter method cards" markdown="0">
   <button class="is-active" type="button" data-method-filter="all">All</button>
+  <button type="button" data-method-filter="foundations">Foundations</button>
   <button type="button" data-method-filter="workflow">Workflow</button>
   <button type="button" data-method-filter="qualitative">Qualitative</button>
   <button type="button" data-method-filter="computational">Computational</button>
 </div>
 
 <div class="method-card-grid method-card-grid-expanded" markdown="0">
+  <article class="method-card" data-method-groups="foundations">
+    <span class="method-visual" data-method-visual="puzzle" aria-hidden="true"></span>
+    <span class="method-type">Foundations</span>
+    <h3><a href="{{ '/methods/puzzles-and-questions' | relative_url }}">Puzzles and Questions</a></h3>
+    <p>Move from a topic to a puzzle, a simple research question, and rival answers.</p>
+  </article>
+
+  <article class="method-card" data-method-groups="foundations">
+    <span class="method-visual" data-method-visual="review" aria-hidden="true"></span>
+    <span class="method-type">Foundations</span>
+    <h3><a href="{{ '/methods/literature-review' | relative_url }}">Literature Review</a></h3>
+    <p>Group sources by the answer they support and write an argument about them.</p>
+  </article>
+
+  <article class="method-card" data-method-groups="foundations">
+    <span class="method-visual" data-method-visual="framework" aria-hidden="true"></span>
+    <span class="method-type">Foundations</span>
+    <h3><a href="{{ '/methods/analytical-framework' | relative_url }}">Analytical Framework</a></h3>
+    <p>Link your question and answers to the evidence and method that can weigh them.</p>
+  </article>
+
   <article class="method-card method-card-feature" data-method-groups="workflow corpus computational">
     <span class="method-visual" data-method-visual="corpus" aria-hidden="true"></span>
     <span class="method-type">Workflow</span>

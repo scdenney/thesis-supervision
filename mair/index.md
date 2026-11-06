@@ -81,6 +81,8 @@ MAIR has one thesis deadline per semester. If you miss it, your next opportunity
 
 You receive a supervisor once you hand in the literature review assignment, or an abstract instead, in the Humanities-Based International Relations (HBIR) course. European Union Studies students get a supervisor after taking Thesis and Methods in International Relations Research or Thesis and Methods in European Union Studies. Meet your supervisor as soon as possible to set goals for the thesis, including for the break, since supervisors are generally not available during the winter and summer breaks.
 
+[Puzzles and Questions]({{ '/methods/puzzles-and-questions' | relative_url }}) and [Literature Review]({{ '/methods/literature-review' | relative_url }}) explain the approach behind this assignment. Its form and rubric are on Brightspace and take priority.
+
 Meet your supervisor at least four times:
 
 | Meeting | Focus |

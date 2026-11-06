@@ -90,6 +90,12 @@
 
                   <div class="methods-menu-columns methods-menu-columns-3">
                     <div class="methods-menu-group">
+                      <p>Foundations</p>
+                      <a href="{{ '/methods/puzzles-and-questions' | relative_url }}"{% if page.url contains '/methods/puzzles-and-questions' %} aria-current="page"{% endif %}>Puzzles and Questions</a>
+                      <a href="{{ '/methods/literature-review' | relative_url }}"{% if page.url contains '/methods/literature-review' %} aria-current="page"{% endif %}>Literature Review</a>
+                      <a href="{{ '/methods/analytical-framework' | relative_url }}"{% if page.url contains '/methods/analytical-framework' %} aria-current="page"{% endif %}>Analytical Framework</a>
+                    </div>
+                    <div class="methods-menu-group">
                       <p>Qualitative</p>
                       <a href="{{ '/methods/qualitative/comparative-case-study' | relative_url }}"{% if page.url contains '/methods/qualitative/comparative-case-study' %} aria-current="page"{% endif %}>Comparative Case Study</a>
                       <a href="{{ '/methods/qualitative/process-tracing' | relative_url }}"{% if page.url contains '/methods/qualitative/process-tracing' %} aria-current="page"{% endif %}>Process Tracing</a>
@@ -97,15 +103,9 @@
                       <a href="{{ '/methods/qualitative/discourse-analysis' | relative_url }}"{% if page.url contains '/methods/qualitative/discourse-analysis' %} aria-current="page"{% endif %}>Discourse Analysis</a>
                     </div>
                     <div class="methods-menu-group">
-                      <p>Computational</p>
-                      <a href="{{ '/methods/quantitative/#preprocessing' | relative_url }}">Preprocessing</a>
-                      <a href="{{ '/methods/quantitative/#topic-analysis' | relative_url }}">Topic Analysis</a>
-                      <a href="{{ '/methods/quantitative/#sentiment-analysis' | relative_url }}">Sentiment Analysis</a>
-                      <a href="{{ '/methods/quantitative/#word-embeddings' | relative_url }}">Word Embeddings</a>
-                    </div>
-                    <div class="methods-menu-group">
-                      <p>Corpus</p>
+                      <p>Corpus and computation</p>
                       <a href="{{ '/methods/building-a-corpus' | relative_url }}"{% if page.url contains '/methods/building-a-corpus' %} aria-current="page"{% endif %}>Building a Corpus</a>
+                      <a href="{{ '/methods/quantitative/' | relative_url }}"{% if page.url contains '/methods/quantitative/' %} aria-current="page"{% endif %}>Computational Approaches</a>
                     </div>
                   </div>
                 </div>
