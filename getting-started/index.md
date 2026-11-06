@@ -191,36 +191,12 @@ These five steps cover planning and writing a thesis in all four programs (BAIS,
 
 <p>The framework should follow from your literature review. The gap you identified motivates your research design, and your methods should suit the type of data you are working with. The framework states <strong>what</strong> you are analyzing (your data or cases), <strong>how</strong> you will analyze it, and <strong>why</strong> that approach suits your question.</p>
 
-<h4>Common approaches</h4>
+<h4>Choosing a method</h4>
 
-<p><strong>Qualitative methods</strong></p>
-<table>
-<thead><tr><th>Method</th><th>When to use it</th></tr></thead>
-<tbody>
-<tr><td>Thematic analysis</td><td>Identifying patterns and themes in textual data</td></tr>
-<tr><td>Content analysis</td><td>Consistent coding and categorization of textual material</td></tr>
-<tr><td>Discourse analysis</td><td>Examining how language constructs meaning</td></tr>
-<tr><td>Case study analysis</td><td>In-depth examination of one or more cases</td></tr>
-<tr><td>Process tracing</td><td>Tracking causal mechanisms through detailed evidence</td></tr>
-</tbody>
-</table>
-
-<p><strong>Quantitative methods</strong></p>
-<table>
-<thead><tr><th>Method</th><th>When to use it</th></tr></thead>
-<tbody>
-<tr><td>Descriptive statistics</td><td>Summarizing patterns in numerical data</td></tr>
-<tr><td>Inferential statistics</td><td>Testing hypotheses about relationships between variables</td></tr>
-<tr><td>Comparative analysis</td><td>Comparison across cases or datasets</td></tr>
-</tbody>
-</table>
+<p>Use the <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> to match your project to a method. It has a chooser, a page on each method I supervise most often, and a list of other methods some projects need.</p>
 
 <div class="tip-box">
 <p><strong>Mixed methods</strong> combine qualitative and quantitative approaches. They can strengthen an analysis but add complexity, so discuss with your supervisor whether they suit your project.</p>
-</div>
-
-<div class="info-box">
-<p>The <a href="{{ '/methods/' | relative_url }}">Methods Guide</a> covers comparative case studies, process tracing, framing analysis, discourse analysis, and corpus building in more depth.</p>
 </div>
 
 <h4>Justifying your choices</h4>
