@@ -229,7 +229,7 @@ A framing thesis follows the standard structure. The method-specific content is 
 Present the issue, explain why its framing matters, and state your research question.
 
 ### Literature Review
-Cover the substantive debate as well as framing theory. Say what is known about how this issue is framed and what gaps remain. Introduce any frames you take from prior research and where they come from.
+Cover the substantive debate as well as framing theory. Say what is known about how this issue is framed and what remains unresolved. Introduce any frames you take from prior research and where they come from.
 
 ### Analytical Framework / Methodology
 Explain every decision well enough for another researcher to replicate the analysis.

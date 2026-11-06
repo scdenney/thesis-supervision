@@ -44,7 +44,7 @@ There are five criteria in the Faculty assessment form. The first four, which re
 **Thesis sections:** Introduction, Literature Review
 
 - A clear, well-motivated research question that shows insight into the key debates and methods of the field
-- A critical review of existing research that identifies a gap and shows originality
+- A critical review of existing research that shows what remains unresolved and shows originality
 
 ### Application of Knowledge
 
@@ -89,13 +89,13 @@ Adapt this structure to your topic and method.
 
 **I. Introduction**
 - Research question
-- Research problem, gap and motivation
+- Puzzle and motivation
 - Proposed research plan
 - Roadmap of the chapters
 
 **II. Literature Review**
-- Thematic or chronological review of relevant scholarship
-- The gap your research addresses
+- Review of relevant scholarship, organized by answer where possible
+- What remains unresolved and why it matters
 
 **III. Analytical Framework**
 - Research design, data sources and methods
@@ -137,8 +137,8 @@ The criteria are the same at both levels. The expected depth is not.
 
 | Dimension | BA (BAIS, BAKS) | MA (MAAS, MAIR) |
 |-----------|-----------------|-----------------|
-| **Research question** | Clear and focused, addressing an identifiable gap | Situated in the field's theoretical debates, with advanced understanding of them |
-| **Literature review** | Engages with key scholarship and identifies a gap | Synthesizes a broader literature within theoretical frameworks |
+| **Research question** | Clear and focused, with a reason from the literature that the answer is not obvious | Situated in the field's theoretical debates, with advanced understanding of them |
+| **Literature review** | Engages with key scholarship and shows what remains unresolved | Synthesizes a broader literature within theoretical frameworks |
 | **Methodology** | Appropriate and clearly explained | More sophisticated and well justified, with methodological reflexivity |
 | **Analysis** | Sound application of chosen methods | Deeper analysis and careful interpretation of findings |
 | **Independent contribution** | Shows capacity for independent research | Sustained independent inquiry at an advanced scholarly level |

@@ -157,7 +157,7 @@ Chapter titles vary, but a comparative case study thesis should map to this logi
 | Chapter | Content | What it does |
 |---------|---------|--------------|
 | **1. Introduction** | Research question, puzzle, contribution, roadmap | Sets up the comparison and why it matters |
-| **2. Literature review** | Existing scholarship and the gap | Shows where your thesis intervenes |
+| **2. Literature review** | Existing scholarship, rival answers, and the puzzle | Shows where your thesis intervenes |
 | **3. Analytical framework** | Theory, variables, case selection rationale, method | Explains *how* you will answer the question and *why* these cases |
 | **4. Case 1 findings** | Structured analysis of the first case | Applies the framework, organized by your variables |
 | **5. Case 2 findings** | Structured analysis of the second case | Applies the framework in parallel structure |
