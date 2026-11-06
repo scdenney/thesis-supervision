@@ -60,6 +60,7 @@ To rebuild PDFs: `cd <dir> && pdflatex <file>.tex && pdflatex <file>.tex`
 - Moved pages keep their old URL as a stub: set `layout: redirect` and `redirect_to: /new/path/#anchor` in the front matter. Do not delete a published URL without one.
 - The home page route lists the Getting Started steps by name. If a step changes, update both.
 - Getting Started stays short and links to the Foundations pages. Put depth on those pages, not in the steps.
+- The Foundations pages are general guidance for all programs. Keep course-specific rules, such as MAIR assignment rules, on the program page and in Brightspace.
 - Site-wide stance on rationale: a gap is a starting point and the puzzle is the rationale, with a lower bar at BA level. Official rubric wording (BAIS page and PDF) is left as it is.
 - Eelco van der Maat's MAIR materials are cited and paraphrased, never reproduced. Do not publish the in-class statement sets or their keys, which are marked not for distribution. The practice set on the Literature Review page is separate and draws on Paglayan (2026).
 - The Corpus and LLM Request is a template builder on `methods/llms-and-compute.md`. Its button opens an email to Steven with Chris Handy in cc (`data-email-to`, `data-email-cc`), so no form data passes through a third party. Never publish the AI2 hostname.

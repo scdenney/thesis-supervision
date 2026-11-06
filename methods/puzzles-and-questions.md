@@ -145,7 +145,7 @@ The logic is the same at both levels, but the bar differs. Your supervisor and p
 | **Question** | One clear how or why question. How questions often suit a BA thesis, since a causal why question can be too ambitious. | One simple why or how question. |
 | **Answers** | Two plausible answers from the literature. | Two or three rival answers, each with a variety of academic sources. |
 
-MAIR students complete the literature review assignment in *Humanities-Based International Relations*. The form and rubric are on Brightspace, and they take priority over this page.
+If a course or program sets its own form or rubric for this work, follow that first.
 
 ---
 
@@ -184,13 +184,13 @@ Write your puzzle in two or three sentences and your research question in one. T
 
 ## Sources {#sources}
 
-This page draws on Eelco van der Maat's literature review materials for the MAIR program, used here with credit. The wording and the running example are mine.
+This page adapts for general use the approach Eelco van der Maat teaches in the MAIR program. The wording and the running example are mine.
 
 - Gustafsson, K., & Hagström, L. (2018). What is the point? Teaching graduate students how to construct political science research puzzles. *European Political Science*, 17(4), 634–648. [DOI: 10.1057/s41304-017-0130-y](https://doi.org/10.1057/s41304-017-0130-y){:target="_blank"}. Open access. Start here.
 - Hofius, M. (2022). Diplomats on the frontlines: Knowing and ordering in crisis. *The Hague Journal of Diplomacy*, 18(1), 1–34. [DOI: 10.1163/1871191x-bja10142](https://doi.org/10.1163/1871191x-bja10142){:target="_blank"}.
 - McCauley, A., & Ruggeri, A. (2020). From questions and puzzles to research project. In L. Curini & R. Franzese (Eds.), *The SAGE Handbook of Research Methods in Political Science and International Relations* (pp. 26–43). Sage. [DOI: 10.4135/9781526486387.n5](https://doi.org/10.4135/9781526486387.n5){:target="_blank"}.
 - Paglayan, A. S. (2026). Education as a political institution. *Annual Review of Political Science*, 29, 525–546. [DOI: 10.1146/annurev-polisci-042623-034027](https://doi.org/10.1146/annurev-polisci-042623-034027){:target="_blank"}. Open access.
-- van der Maat, E. (2026). Literature review materials for *Humanities-Based International Relations*: seminar slides, explanation video, and submission form. MA International Relations, Leiden University. Course materials on Brightspace.
+- van der Maat, E. (2026). Literature review materials for *Humanities-Based International Relations*: seminar slides, explanation video, and submission form. MA International Relations, Leiden University. Unpublished course materials.
 
 </div>
 </div>

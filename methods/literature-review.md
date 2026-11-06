@@ -127,7 +127,7 @@ These points follow van der Maat (2026) and apply to any part of a thesis.
 
 ## Cite Precisely {#cite-precisely}
 
-Give page numbers for your claims, and check that each cited page says what you claim. In the MAIR literature review assignment, a citation without a page number is not marked, and a cited page that does not support the claim is treated as suspected fraud (van der Maat 2026). Your program may not set the same rule, but the habit makes you check your sources. [Working with AI]({{ '/ai-policy/#the-policy' | relative_url }}) explains how I check references and page citations.
+Give page numbers for your claims, and check that each cited page says what you claim. Some courses will not mark a citation without a page number, and a cited page that does not support the claim can be treated as suspected fraud. Even where this is not a rule, the habit makes you check your sources. [Working with AI]({{ '/ai-policy/#the-policy' | relative_url }}) explains how I check references and page citations.
 
 You do not need prior agreement to brainstorm with AI, but the text and claims must be yours. Do not paste copyrighted sources into AI tools, as the [Faculty guidelines]({{ '/ethics/#generative-ai-policy' | relative_url }}) prohibit this.
 
@@ -182,7 +182,7 @@ The format follows an in-class assignment by van der Maat (2026), with new state
 
 ## Sources {#sources}
 
-This page draws on Eelco van der Maat's literature review materials for the MAIR program, used here with credit. The wording, statements, and examples are mine. My BAKS thesis seminar has [a lecture on literature review types](https://scdenney.github.io/baks_thesis-seminar/presentations/week03/week03-literature-review.pdf){:target="_blank"}.
+This page adapts for general use the approach Eelco van der Maat teaches in the MAIR program. The wording, statements, and examples are mine. My BAKS thesis seminar has [a lecture on literature review types](https://scdenney.github.io/baks_thesis-seminar/presentations/week03/week03-literature-review.pdf){:target="_blank"}.
 
 - Knopf, J. W. (2006). Doing a literature review. *PS: Political Science & Politics*, 39(1), 127–132. [DOI: 10.1017/S1049096506060264](https://doi.org/10.1017/S1049096506060264){:target="_blank"}. Start here.
 - Lee, M. (2024). Authoritarianism at school: Indoctrination education, political socialisation, and citizenship in North Korea. *Asian Studies Review*, 48(2), 231–249. [DOI: 10.1080/10357823.2023.2300631](https://doi.org/10.1080/10357823.2023.2300631){:target="_blank"}.
@@ -190,7 +190,7 @@ This page draws on Eelco van der Maat's literature review materials for the MAIR
 - McMenamin, I. (2006). Process and text: Teaching students to review the literature. *PS: Political Science & Politics*, 39(1), 133–135. [DOI: 10.1017/S1049096506060306](https://doi.org/10.1017/S1049096506060306){:target="_blank"}.
 - Neundorf, A., Gerschewski, J., & Olar, R.-G. (2020). How do inclusionary and exclusionary autocracies affect ordinary people? *Comparative Political Studies*, 53(12), 1890–1925. [DOI: 10.1177/0010414019858958](https://doi.org/10.1177/0010414019858958){:target="_blank"}.
 - Paglayan, A. S. (2026). Education as a political institution. *Annual Review of Political Science*, 29, 525–546. [DOI: 10.1146/annurev-polisci-042623-034027](https://doi.org/10.1146/annurev-polisci-042623-034027){:target="_blank"}. Open access.
-- van der Maat, E. (2026). Literature review materials for *Humanities-Based International Relations*: seminar slides, explanation video, and submission form. MA International Relations, Leiden University. Course materials on Brightspace.
+- van der Maat, E. (2026). Literature review materials for *Humanities-Based International Relations*: seminar slides, explanation video, and submission form. MA International Relations, Leiden University. Unpublished course materials.
 
 The studies named in the serial review example, and those marked "cited in Paglayan 2026," are listed in that article's bibliography.
 
