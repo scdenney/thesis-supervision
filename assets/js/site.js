@@ -395,23 +395,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("[data-method-groups]"),
   );
 
-  const methodTagButtons = Array.from(
-    document.querySelectorAll("[data-method-tag]"),
-  );
-
   const showMethodCards = (isVisible) => {
     methodCards.forEach((card) => {
       const visible = isVisible(card);
       card.hidden = !visible;
       card.classList.toggle("is-filtered-out", !visible);
-    });
-  };
-
-  const setActiveTag = (tag) => {
-    methodTagButtons.forEach((other) => {
-      const active = other.dataset.methodTag === tag;
-      other.classList.toggle("is-active", active);
-      other.setAttribute("aria-pressed", active ? "true" : "false");
     });
   };
 
@@ -423,7 +411,6 @@ document.addEventListener("DOMContentLoaded", () => {
         methodFilterButtons.forEach((other) => {
           other.classList.toggle("is-active", other === button);
         });
-        setActiveTag(null);
 
         showMethodCards((card) => {
           const groups = (card.dataset.methodGroups || "").split(/\s+/);
@@ -432,34 +419,6 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     });
   }
-
-  // Tag buttons on each card filter the grid to cards sharing that tag;
-  // clicking the active tag again shows every card.
-  methodTagButtons.forEach((button) => {
-    button.addEventListener("click", () => {
-      const tag = button.dataset.methodTag;
-      const clearing = button.classList.contains("is-active");
-
-      setActiveTag(clearing ? null : tag);
-      methodFilterButtons.forEach((other) => {
-        other.classList.toggle(
-          "is-active",
-          clearing && other.dataset.methodFilter === "all",
-        );
-      });
-
-      showMethodCards((card) => {
-        if (clearing) return true;
-        const tags = (card.dataset.methodTags || "").split(/\s+/);
-        return tags.includes(tag);
-      });
-
-      const grid = button.closest(".method-card-grid");
-      if (grid && !clearing) {
-        grid.scrollIntoView({ behavior: "smooth", block: "start" });
-      }
-    });
-  });
 
   const methodRouter = document.querySelector(".method-router");
   const methodRouterForm = document.querySelector("[data-method-router]");

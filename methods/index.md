@@ -73,76 +73,67 @@ Start here if you have not settled on a method. Choose one by asking what eviden
 </div>
 
 <div class="method-card-grid method-card-grid-expanded" markdown="0">
-  <article class="method-card method-card-feature" data-method-groups="workflow corpus computational" data-method-tags="sources metadata sampling">
+  <article class="method-card method-card-feature" data-method-groups="workflow corpus computational">
     <span class="method-visual" data-method-visual="corpus" aria-hidden="true"></span>
     <span class="method-type">Workflow</span>
     <h3><a href="{{ '/methods/building-a-corpus' | relative_url }}">Building a Corpus</a></h3>
     <p>Start here if the archive, search terms, or inclusion rules are still fuzzy.</p>
-    <span class="tag-list"><button type="button" data-method-tag="sources" aria-pressed="false">sources</button> · <button type="button" data-method-tag="metadata" aria-pressed="false">metadata</button> · <button type="button" data-method-tag="sampling" aria-pressed="false">sampling</button></span>
   </article>
 
-  <article class="method-card" data-method-groups="qualitative cases" data-method-tags="cases comparison ba-ma">
+  <article class="method-card" data-method-groups="qualitative cases">
     <span class="method-visual" data-method-visual="compare" aria-hidden="true"></span>
     <span class="method-type">Qualitative</span>
     <h3><a href="{{ '/methods/qualitative/comparative-case-study' | relative_url }}">Comparative Case Study</a></h3>
     <p>For two or more cases that share enough context to make their differences count.</p>
-    <span class="tag-list"><button type="button" data-method-tag="cases" aria-pressed="false">cases</button> · <button type="button" data-method-tag="comparison" aria-pressed="false">comparison</button> · <button type="button" data-method-tag="ba-ma" aria-pressed="false">BA/MA</button></span>
   </article>
 
-  <article class="method-card" data-method-groups="qualitative cases causal" data-method-tags="causal evidence-tests ma-ready">
+  <article class="method-card" data-method-groups="qualitative cases causal">
     <span class="method-visual" data-method-visual="trace" aria-hidden="true"></span>
     <span class="method-type">Qualitative</span>
     <h3><a href="{{ '/methods/qualitative/process-tracing' | relative_url }}">Process Tracing</a></h3>
     <p>For questions where timing matters and each link in the causal chain needs evidence.</p>
-    <span class="tag-list"><button type="button" data-method-tag="causal" aria-pressed="false">causal</button> · <button type="button" data-method-tag="evidence-tests" aria-pressed="false">evidence tests</button> · <button type="button" data-method-tag="ma-ready" aria-pressed="false">MA-ready</button></span>
   </article>
 
-  <article class="method-card" data-method-groups="qualitative texts" data-method-tags="media texts coding">
+  <article class="method-card" data-method-groups="qualitative texts">
     <span class="method-visual" data-method-visual="frame" aria-hidden="true"></span>
     <span class="method-type">Qualitative / mixed</span>
     <h3><a href="{{ '/methods/qualitative/framing-analysis' | relative_url }}">Framing Analysis</a></h3>
     <p>For projects about how an issue is packaged in headlines, speeches, or policy text.</p>
-    <span class="tag-list"><button type="button" data-method-tag="media" aria-pressed="false">media</button> · <button type="button" data-method-tag="texts" aria-pressed="false">texts</button> · <button type="button" data-method-tag="coding" aria-pressed="false">coding</button></span>
   </article>
 
-  <article class="method-card" data-method-groups="qualitative texts theory" data-method-tags="interpretive theory-heavy texts">
+  <article class="method-card" data-method-groups="qualitative texts theory">
     <span class="method-visual" data-method-visual="discourse" aria-hidden="true"></span>
     <span class="method-type">Qualitative</span>
     <h3><a href="{{ '/methods/qualitative/discourse-analysis' | relative_url }}">Discourse Analysis</a></h3>
     <p>For claims about how language builds identities or turns one view into common sense.</p>
-    <span class="tag-list"><button type="button" data-method-tag="interpretive" aria-pressed="false">interpretive</button> · <button type="button" data-method-tag="theory-heavy" aria-pressed="false">theory-heavy</button> · <button type="button" data-method-tag="texts" aria-pressed="false">texts</button></span>
   </article>
 
-  <article class="method-card" data-method-groups="workflow computational" data-method-tags="cleanup text-as-data reproducibility">
+  <article class="method-card" data-method-groups="workflow computational">
     <span class="method-visual" data-method-visual="preprocess" aria-hidden="true"></span>
     <span class="method-type">Computational prep</span>
     <h3><a href="{{ '/methods/quantitative/#preprocessing' | relative_url }}">Preprocessing</a></h3>
     <p>Decide what counts as a token and what gets dropped. Document each choice.</p>
-    <span class="tag-list"><button type="button" data-method-tag="cleanup" aria-pressed="false">cleanup</button> · <button type="button" data-method-tag="text-as-data" aria-pressed="false">text-as-data</button> · <button type="button" data-method-tag="reproducibility" aria-pressed="false">reproducibility</button></span>
   </article>
 
-  <article class="method-card" data-method-groups="computational texts" data-method-tags="themes scale validation">
+  <article class="method-card" data-method-groups="computational texts">
     <span class="method-visual" data-method-visual="topics" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
     <h3><a href="{{ '/methods/quantitative/#topic-analysis' | relative_url }}">Topic Analysis</a></h3>
     <p>A first map of a large corpus. The model points to clusters. You still name them.</p>
-    <span class="tag-list"><button type="button" data-method-tag="themes" aria-pressed="false">themes</button> · <button type="button" data-method-tag="scale" aria-pressed="false">scale</button> · <button type="button" data-method-tag="validation" aria-pressed="false">validation</button></span>
   </article>
 
-  <article class="method-card" data-method-groups="computational texts" data-method-tags="tone dictionaries classifiers">
+  <article class="method-card" data-method-groups="computational texts">
     <span class="method-visual" data-method-visual="sentiment" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
     <h3><a href="{{ '/methods/quantitative/#sentiment-analysis' | relative_url }}">Sentiment Analysis</a></h3>
     <p>Useful when tone matters and the score can be checked against your own texts.</p>
-    <span class="tag-list"><button type="button" data-method-tag="tone" aria-pressed="false">tone</button> · <button type="button" data-method-tag="dictionaries" aria-pressed="false">dictionaries</button> · <button type="button" data-method-tag="classifiers" aria-pressed="false">classifiers</button></span>
   </article>
 
-  <article class="method-card" data-method-groups="computational texts advanced" data-method-tags="semantics vectors advanced">
+  <article class="method-card" data-method-groups="computational texts advanced">
     <span class="method-visual" data-method-visual="embeddings" aria-hidden="true"></span>
     <span class="method-type">Computational</span>
     <h3><a href="{{ '/methods/quantitative/#word-embeddings' | relative_url }}">Word Embeddings</a></h3>
     <p>For similarity, conceptual drift, or retrieval when keyword searches are too brittle.</p>
-    <span class="tag-list"><button type="button" data-method-tag="semantics" aria-pressed="false">semantics</button> · <button type="button" data-method-tag="vectors" aria-pressed="false">vectors</button> · <button type="button" data-method-tag="advanced" aria-pressed="false">advanced</button></span>
   </article>
 </div>
 
@@ -159,45 +150,9 @@ Qualitative and computational methods work together when each has a defined role
 
 This guide does not cover these methods in depth, but some projects need them.
 
-<div class="methods-alt-table" markdown="1">
-
-| Method | Brief description | Common in |
-|--------|-------------------|-----------|
-| **Qualitative interviewing + thematic analysis** | Semi-structured interviews coded for repeated themes | All programs, especially fieldwork-based theses |
-| **Content analysis** | Rule-based coding of textual material, quantitative or qualitative | IR, media-adjacent topics |
-| **Survey methods / quantitative analysis** | Statistical analysis of original or secondary survey data | MAIR especially, BAIS with quantitative focus |
-| **Archival research** | Close reading of historical documents and official records | Korean Studies, history-focused MAAS theses |
-
-</div>
-
-<div class="methods-alt-mobile" markdown="0">
-  <article class="method-summary-card">
-    <h3>Qualitative interviewing + thematic analysis</h3>
-    <p>Semi-structured interviews coded for repeated themes.</p>
-    <strong>Common in</strong>
-    <p>All programs, especially fieldwork-based theses.</p>
-  </article>
-
-  <article class="method-summary-card">
-    <h3>Content analysis</h3>
-    <p>Rule-based coding of textual material. Can be quantitative or qualitative.</p>
-    <strong>Common in</strong>
-    <p>IR, media-adjacent topics.</p>
-  </article>
-
-  <article class="method-summary-card">
-    <h3>Survey methods / quantitative analysis</h3>
-    <p>Statistical analysis of original or secondary survey data.</p>
-    <strong>Common in</strong>
-    <p>MAIR especially, BAIS with quantitative focus.</p>
-  </article>
-
-  <article class="method-summary-card">
-    <h3>Archival research</h3>
-    <p>Close reading of historical documents and official records.</p>
-    <strong>Common in</strong>
-    <p>Korean Studies, history-focused MAAS theses.</p>
-  </article>
-</div>
+- **Qualitative interviewing + thematic analysis.** Semi-structured interviews coded for repeated themes. Common in all programs, especially fieldwork-based theses.
+- **Content analysis.** Rule-based coding of textual material, quantitative or qualitative. Common in IR and media-adjacent topics.
+- **Survey methods and quantitative analysis.** Statistical analysis of original or secondary survey data. Common in MAIR especially, and in BAIS theses with a quantitative focus.
+- **Archival research.** Close reading of historical documents and official records. Common in Korean Studies and history-focused MAAS theses.
 
 For general planning, see [Getting Started, Step 4: Building Your Analytical Framework]({{ '/getting-started/#step-4' | relative_url }}). For assessment, see [Assessment Standards, Application of Knowledge]({{ '/assessment-standards/#application-of-knowledge' | relative_url }}).
