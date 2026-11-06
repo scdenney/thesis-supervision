@@ -19,6 +19,7 @@ Start here if you have not settled on a method. Choose one by asking what eviden
   data-route-question="{{ '/methods/puzzles-and-questions' | relative_url }}"
   data-route-review="{{ '/methods/literature-review' | relative_url }}"
   data-route-corpus="{{ '/methods/building-a-corpus' | relative_url }}"
+  data-route-llm="{{ '/methods/llms-and-compute' | relative_url }}"
   data-route-computational="{{ '/methods/quantitative/' | relative_url }}"
   markdown="0">
   <div class="method-router-copy">
@@ -52,6 +53,7 @@ Start here if you have not settled on a method. Choose one by asking what eviden
           <option value="interpret">Interpret meaning, frames, discourse, or themes</option>
           <option value="explain">Explain why something happened</option>
           <option value="measure">Measure patterns across many documents</option>
+          <option value="llm">Process many documents with OCR or an LLM</option>
         </select>
       </label>
 
@@ -112,6 +114,13 @@ Start here if you have not settled on a method. Choose one by asking what eviden
     <span class="method-type">Workflow</span>
     <h3><a href="{{ '/methods/building-a-corpus' | relative_url }}">Building a Corpus</a></h3>
     <p>Start here if the archive, search terms, or inclusion rules are still fuzzy.</p>
+  </article>
+
+  <article class="method-card" data-method-groups="workflow computational">
+    <span class="method-visual" data-method-visual="compute" aria-hidden="true"></span>
+    <span class="method-type">Workflow</span>
+    <h3><a href="{{ '/methods/llms-and-compute' | relative_url }}">LLMs and Compute</a></h3>
+    <p>Decide whether you need OCR, an LLM, or a GPU, and request help with setup.</p>
   </article>
 
   <article class="method-card" data-method-groups="qualitative cases">

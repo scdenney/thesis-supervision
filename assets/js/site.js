@@ -380,6 +380,14 @@ document.addEventListener("DOMContentLoaded", () => {
 	        <path d="M204 90h30M240 90l-10-8v16z" stroke="#C2A877" stroke-width="5" fill="#C2A877" stroke-linejoin="round"/>
 	        <rect x="248" y="66" width="44" height="48" rx="7" fill="#EFE7D9" stroke="#C2A877" stroke-width="4"/>
 	      </svg>`,
+    compute: `
+	      <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" focusable="false">
+	        <rect width="320" height="180" fill="#F3EFE6"/>
+	        <path d="M126 36v18M160 36v18M194 36v18M126 126v18M160 126v18M194 126v18M88 74h18M88 106h18M214 74h18M214 106h18" stroke="#C2A877" stroke-width="6" stroke-linecap="round"/>
+	        <rect x="106" y="54" width="108" height="72" rx="8" fill="#14274D"/>
+	        <rect x="130" y="72" width="60" height="36" rx="5" fill="#ffffff" stroke="#34557A" stroke-width="3"/>
+	        <path d="M142 84h36M142 96h22" stroke="#6B6459" stroke-width="5" stroke-linecap="round"/>
+	      </svg>`,
     topics: `
 	      <svg viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg" focusable="false">
 	        <rect width="320" height="180" fill="#F3EFE6"/>
@@ -467,6 +475,12 @@ document.addEventListener("DOMContentLoaded", () => {
         label: "Open Literature Review",
         href: methodRouter.dataset.routeReview,
       },
+      llm: {
+        title: "LLMs and compute",
+        copy: "Check whether you need an LLM or a GPU and which route fits your material. You can also request help with setup.",
+        label: "Open LLMs and Compute",
+        href: methodRouter.dataset.routeLlm,
+      },
       corpus: {
         title: "Corpus planning",
         copy: "Define what you will collect, how you will bound it, and how you will document it. This section is most useful for text-based projects where the source base still needs to be made explicit.",
@@ -499,6 +513,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (goal === "question") return routes.question;
       if (goal === "review") return routes.review;
+      if (goal === "llm") return routes.llm;
       if (goal === "measure" || material === "numbers")
         return routes.computational;
       if (
@@ -625,6 +640,24 @@ document.addEventListener("DOMContentLoaded", () => {
           "Ethical/privacy risks",
           "AI/code tools planned",
           "Disclosure needed",
+        ],
+      },
+      "compute-request": {
+        title: "Corpus and LLM Request",
+        fields: [
+          "Name",
+          "ULCN username and Leiden email",
+          "Program and level",
+          "Thesis or course paper, and your supervisor or course instructor",
+          "Deadline",
+          "Research question",
+          "What you want the tool to do (OCR, classification, extraction, embeddings, other)",
+          "Your documents: type, number of documents and pages, languages and scripts",
+          "Copyright or license status of the documents, if you know it",
+          "Personal or sensitive data (yes or no; if yes, what)",
+          "How you will check the results",
+          "Coding experience, and any compute or budget you already have",
+          "Has your supervisor agreed to this use of AI? (date, or not yet)",
         ],
       },
       "meeting-packet": {
@@ -824,6 +857,32 @@ document.addEventListener("DOMContentLoaded", () => {
       setTemplateStatus("Downloaded.");
     };
 
+    // A mailto link cannot reliably carry a long body, so a long request goes
+    // to the clipboard and the email opens with a note to paste it.
+    const emailTemplateMarkdown = async () => {
+      const { emailTo, emailCc } = templateBuilder.dataset;
+      const encodeBody = (text) =>
+        encodeURIComponent(text.replace(/\n/g, "\r\n"));
+      const name = collectTemplateValues().Name;
+      const subject = `${getCurrentDefinition().title}${name ? `: ${name}` : ""}`;
+      const base =
+        `mailto:${emailTo}?cc=${encodeURIComponent(emailCc)}` +
+        `&subject=${encodeURIComponent(subject)}`;
+      const fullLink = `${base}&body=${encodeBody(buildTemplateMarkdown())}`;
+
+      if (fullLink.length <= 1800) {
+        window.location.href = fullLink;
+        setTemplateStatus("Email opened. Check it, then press send.");
+        return;
+      }
+
+      await copyTemplateMarkdown();
+      window.location.href = `${base}&body=${encodeBody(
+        "Please paste your request here. It was copied to your clipboard.",
+      )}`;
+      setTemplateStatus("Request copied. Paste it into the email.");
+    };
+
     const printTemplateMarkdown = () => {
       const definition = getCurrentDefinition();
       const printWindow = window.open("", "_blank");
@@ -866,6 +925,7 @@ document.addEventListener("DOMContentLoaded", () => {
           if (action === "copy") copyTemplateMarkdown();
           if (action === "download") downloadTemplateMarkdown();
           if (action === "print") printTemplateMarkdown();
+          if (action === "email") emailTemplateMarkdown();
         });
       });
 

@@ -214,7 +214,7 @@ Converting PDFs to plain text, batch renaming, extracting text from HTML, removi
 - **R** users can do the same with `pdftools`, `rvest`, and `readtext`.
 - **Command-line tools** such as `pdftotext`, `pandoc`, and standard Unix utilities (`rename`, `sed`, `awk`) work well for batch operations.
 
-If you use any code or tool assistance for these procedural steps, test the result on a small sample first, and disclose the use under the [Faculty GenAI guidelines]({{ '/ethics/#generative-ai-policy' | relative_url }}).
+If your documents are scanned, or the corpus is too large to process this way, see [LLMs and Compute]({{ '/methods/llms-and-compute' | relative_url }}). If you use any code or tool assistance for these procedural steps, test the result on a small sample first, and disclose the use under the [Faculty GenAI guidelines]({{ '/ethics/#generative-ai-policy' | relative_url }}).
 
 ### What not to automate
 

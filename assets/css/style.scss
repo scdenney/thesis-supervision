@@ -1439,6 +1439,10 @@ main p {
   box-shadow: var(--shadow-soft);
 }
 
+.template-builder-controls[hidden] {
+  display: none;
+}
+
 .template-builder-controls,
 .template-field {
   display: grid;

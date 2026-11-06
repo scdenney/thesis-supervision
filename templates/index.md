@@ -83,6 +83,7 @@ Pick the template that fits where you are, and keep it short enough for your sup
 - [Supervision Meeting Packet](#supervision-meeting-packet) before each meeting
 - [Feedback and Revision Log](#feedback-and-revision-log) after you receive comments
 - [GenAI Methods Note](#genai-methods-note) if you use approved AI or code tools
+- [Corpus and LLM Request]({{ '/methods/llms-and-compute#request-help' | relative_url }}) if you need help with OCR, an LLM, or a GPU
 - [Final Submission Checklist](#final-submission-checklist) before you submit
 
 ---
