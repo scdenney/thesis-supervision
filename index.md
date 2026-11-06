@@ -48,48 +48,48 @@ title: Home
   <div class="section-heading">
     <p class="section-kicker">The thesis journey</p>
     <h2 id="journey-title">Plan your research</h2>
-    <p>Use this shared route alongside the rules on your program page.</p>
+    <p>These are the five steps in <a href="{{ '/getting-started/' | relative_url }}">Getting Started</a>. Use them alongside the rules on your program page, and follow the <a href="{{ '/ethics/' | relative_url }}">Ethics</a> and <a href="{{ '/ai-policy/' | relative_url }}">Working with AI</a> pages throughout.</p>
   </div>
 
   <ol class="journey-list">
     <li>
       <span class="journey-number" aria-hidden="true">01</span>
       <div>
-        <h3>Confirm the rules</h3>
-        <p>Check the word count, deadlines, submission route, and assessment criteria.</p>
-        <p class="journey-links"><a href="#find-your-program">Program requirements</a><a href="{{ '/assessment-standards/' | relative_url }}">Assessment standards</a></p>
+        <h3>Developing Your Research Question</h3>
+        <p>Turn your topic into a working question and explain why it matters.</p>
+        <p class="journey-links"><a href="{{ '/getting-started/#step-1' | relative_url }}">Step 1</a><a href="{{ '/templates/#research-question-memo' | relative_url }}">Research question memo</a></p>
       </div>
     </li>
     <li>
       <span class="journey-number" aria-hidden="true">02</span>
       <div>
-        <h3>Shape the project</h3>
-        <p>Turn the topic into a research question and a workable plan grounded in the literature.</p>
-        <p class="journey-links"><a href="{{ '/getting-started/' | relative_url }}">Getting started</a><a href="{{ '/templates/' | relative_url }}">Templates &amp; checklists</a></p>
+        <h3>Data and Sources</h3>
+        <p>Work out where your evidence will come from and how you will manage it.</p>
+        <p class="journey-links"><a href="{{ '/getting-started/#step-2' | relative_url }}">Step 2</a><a href="{{ '/methods/building-a-corpus' | relative_url }}">Build a corpus</a></p>
       </div>
     </li>
     <li>
       <span class="journey-number" aria-hidden="true">03</span>
       <div>
-        <h3>Choose evidence and method</h3>
-        <p>Decide what evidence can answer the question and how you will analyze it.</p>
-        <p class="journey-links"><a href="{{ '/methods/' | relative_url }}">Methods guide</a><a href="{{ '/methods/building-a-corpus' | relative_url }}">Build a corpus</a></p>
+        <h3>Conducting a Literature Review</h3>
+        <p>Map what scholars have established and show what they have left open.</p>
+        <p class="journey-links"><a href="{{ '/getting-started/#step-3' | relative_url }}">Step 3</a><a href="{{ '/templates/#literature-review-matrix' | relative_url }}">Literature review matrix</a></p>
       </div>
     </li>
     <li>
       <span class="journey-number" aria-hidden="true">04</span>
       <div>
-        <h3>Work responsibly</h3>
-        <p>Address ethics, source handling, research integrity, and the rules for generative AI.</p>
-        <p class="journey-links"><a href="{{ '/ethics/' | relative_url }}">Ethics &amp; AI</a><a href="{{ '/ai-policy/' | relative_url }}">AI policy</a></p>
+        <h3>Building Your Analytical Framework</h3>
+        <p>Link your question to your findings and choose methods that fit your data.</p>
+        <p class="journey-links"><a href="{{ '/getting-started/#step-4' | relative_url }}">Step 4</a><a href="{{ '/methods/' | relative_url }}">Methods guide</a></p>
       </div>
     </li>
     <li>
       <span class="journey-number" aria-hidden="true">05</span>
       <div>
-        <h3>Review and submit</h3>
-        <p>Check the draft against the assessment criteria, then follow your program&rsquo;s submission instructions.</p>
-        <p class="journey-links"><a href="{{ '/assessment-standards/' | relative_url }}">How work is graded</a><a href="#program-snapshot">Compare program facts</a></p>
+        <h3>Writing and Reporting Findings</h3>
+        <p>Structure your findings and conclusion, then check the draft against the assessment criteria.</p>
+        <p class="journey-links"><a href="{{ '/getting-started/#step-5' | relative_url }}">Step 5</a><a href="{{ '/assessment-standards/' | relative_url }}">How work is graded</a></p>
       </div>
     </li>
   </ol>

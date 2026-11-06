@@ -154,7 +154,7 @@ Area studies and international relations projects often need texts in more than 
 - **Are search terms equivalent?** A direct translation of a keyword may miss the concept. Use native-language scholarship to choose terms.
 - **How will you handle mixed-language texts?** (e.g., Korean articles with English loanwords)
 
-Keep original-language texts as your primary data and store clearly labeled translations separately. Add a "Language" column to your metadata spreadsheet (see below). If you want to use machine translation as a research aid, discuss it with your supervisor first. If it is permitted, record the tool, version, and quality checks, and disclose the use under the [Ethics & AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}).
+Keep original-language texts as your primary data and store clearly labeled translations separately. Add a "Language" column to your metadata spreadsheet (see below). If you want to use machine translation as a research aid, discuss it with your supervisor first. If it is permitted, record the tool, version, and quality checks, and disclose the use under the [Faculty GenAI guidelines]({{ '/ethics/#generative-ai-policy' | relative_url }}).
 
 ---
 
@@ -214,7 +214,7 @@ Converting PDFs to plain text, batch renaming, extracting text from HTML, removi
 - **R** users can do the same with `pdftools`, `rvest`, and `readtext`.
 - **Command-line tools** such as `pdftotext`, `pandoc`, and standard Unix utilities (`rename`, `sed`, `awk`) work well for batch operations.
 
-If you use any code or tool assistance for these procedural steps, test the result on a small sample first, and disclose the use under the [Ethics &amp; AI generative-AI policy]({{ '/ethics/#generative-ai-policy' | relative_url }}).
+If you use any code or tool assistance for these procedural steps, test the result on a small sample first, and disclose the use under the [Faculty GenAI guidelines]({{ '/ethics/#generative-ai-policy' | relative_url }}).
 
 ### What not to automate
 

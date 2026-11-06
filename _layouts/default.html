@@ -98,10 +98,10 @@
                     </div>
                     <div class="methods-menu-group">
                       <p>Computational</p>
-                      <a href="{{ '/methods/quantitative/preprocessing' | relative_url }}"{% if page.url contains '/methods/quantitative/preprocessing' %} aria-current="page"{% endif %}>Preprocessing</a>
-                      <a href="{{ '/methods/quantitative/topic-analysis' | relative_url }}"{% if page.url contains '/methods/quantitative/topic-analysis' %} aria-current="page"{% endif %}>Topic Analysis</a>
-                      <a href="{{ '/methods/quantitative/sentiment-analysis' | relative_url }}"{% if page.url contains '/methods/quantitative/sentiment-analysis' %} aria-current="page"{% endif %}>Sentiment Analysis</a>
-                      <a href="{{ '/methods/quantitative/word-embeddings' | relative_url }}"{% if page.url contains '/methods/quantitative/word-embeddings' %} aria-current="page"{% endif %}>Word Embeddings</a>
+                      <a href="{{ '/methods/quantitative/#preprocessing' | relative_url }}">Preprocessing</a>
+                      <a href="{{ '/methods/quantitative/#topic-analysis' | relative_url }}">Topic Analysis</a>
+                      <a href="{{ '/methods/quantitative/#sentiment-analysis' | relative_url }}">Sentiment Analysis</a>
+                      <a href="{{ '/methods/quantitative/#word-embeddings' | relative_url }}">Word Embeddings</a>
                     </div>
                     <div class="methods-menu-group">
                       <p>Corpus</p>
@@ -113,7 +113,7 @@
             </details>
             <a href="{{ '/assessment-standards/' | relative_url }}"{% if is_assessment %} class="is-active" aria-current="page"{% endif %}>Assessment</a>
             <a href="{{ '/ethics/' | relative_url }}"{% if is_ethics %} class="is-active" aria-current="page"{% endif %}>Ethics</a>
-            <a href="{{ '/ai-policy/' | relative_url }}"{% if is_ai_policy %} class="is-active" aria-current="page"{% endif %}>AI Policy</a>
+            <a href="{{ '/ai-policy/' | relative_url }}"{% if is_ai_policy %} class="is-active" aria-current="page"{% endif %}>Working with AI</a>
           </nav>
         </div>
       </div>
@@ -134,29 +134,6 @@
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>
         {% elsif is_ai_policy %}
-          <span class="crumb-sep">/</span>
-          <span class="crumb-current">{{ page.title }}</span>
-        {% elsif page.url contains '/methods/building-a-corpus' %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/' | relative_url }}">Methods</a>
-          <span class="crumb-sep">/</span>
-          <span class="crumb-current">{{ page.title }}</span>
-        {% elsif page.url contains '/methods/qualitative/' %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/' | relative_url }}">Methods</a>
-          {% if page.title != 'Qualitative Approaches' %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/qualitative/' | relative_url }}">Qualitative Approaches</a>
-          {% endif %}
-          <span class="crumb-sep">/</span>
-          <span class="crumb-current">{{ page.title }}</span>
-        {% elsif page.url contains '/methods/quantitative/' %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/' | relative_url }}">Methods</a>
-          {% if page.title != 'Computational Approaches' %}
-          <span class="crumb-sep">/</span>
-          <a href="{{ '/methods/quantitative/' | relative_url }}">Computational</a>
-          {% endif %}
           <span class="crumb-sep">/</span>
           <span class="crumb-current">{{ page.title }}</span>
         {% elsif page.title == 'Methods Guide' %}

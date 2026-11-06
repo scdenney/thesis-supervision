@@ -44,7 +44,7 @@ This page is adapted from the MAIR thesis supervision guidelines. Confirm detail
 
 <div class="info-box" markdown="1">
 
-**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics & AI]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or computational methods.
+**Your next step:** Confirm the rules below, then draft a one-page working plan that names your research question, likely sources, method, timeline, and questions for supervision. Start with the [Getting Started Guide]({{ '/getting-started/' | relative_url }}) and [Templates & Checklists]({{ '/templates/' | relative_url }}). Use the [Methods Guide]({{ '/methods/' | relative_url }}) and [Ethics]({{ '/ethics/' | relative_url }}) if your project involves data, participants, sensitive material, or computational methods.
 
 </div>
 
@@ -110,7 +110,7 @@ Discuss the ethical implications of your research with your supervisor at your f
 - Use identifying information only with the person's express agreement
 - Respect each person's right to refuse or to withdraw at any stage
 
-Take particular care with vulnerable groups, such as asylum seekers or citizens of authoritarian regimes. The program will not allow research that could endanger you or your participants. The [Ethics & AI]({{ '/ethics/' | relative_url }}) page has consent form templates, the Code of Ethics, and the university's ethics guidelines.
+Take particular care with vulnerable groups, such as asylum seekers or citizens of authoritarian regimes. The program will not allow research that could endanger you or your participants. The [Ethics]({{ '/ethics/' | relative_url }}) page has consent form templates, the Code of Ethics, and the university's ethics guidelines.
 
 ---
 
@@ -183,7 +183,7 @@ The retake, too, cannot be written entirely over a break (see [Supervision](#sup
 - MA Thesis Prospectus entries by track: [Global Order in Historical Perspective](https://studiegids.universiteitleiden.nl/modules/5184VGO01Y?tab=info&year=2261), [Culture and Politics](https://studiegids.universiteitleiden.nl/modules/5184VCP01Y?tab=info&year=2261), [Global Conflict in the Modern Era](https://studiegids.universiteitleiden.nl/modules/5184VGC01Y?tab=info&year=2261), [Global Political Economy](https://studiegids.universiteitleiden.nl/modules/5184VGP01Y?tab=info&year=2261), [European Union Studies](https://studiegids.universiteitleiden.nl/modules/5504VTH01Y?tab=info&year=2261)
 - [MA Course and Examination Regulations 2026–27](https://www.organisatiegids.universiteitleiden.nl/binaries/content/assets/geesteswetenschappen/oer/2026-2027/ma-oer-2026-27_eng_def.pdf) (thesis rules in Appendix A)
 - [Getting Started Guide]({{ '/getting-started/' | relative_url }}) (step-by-step research guide)
-- [Ethics & AI]({{ '/ethics/' | relative_url }}) (ethics review, consent forms, and GenAI policy)
+- [Ethics]({{ '/ethics/' | relative_url }}) (ethics review, consent forms, and GenAI policy)
 - [Writing a Thesis](https://www.library.universiteitleiden.nl/students/writing-a-thesis) (library resources)
 - [Student Thesis Repository](https://studenttheses.universiteitleiden.nl/) (browse past theses)
 - **Study coordinator:** [stucomair@hum.leidenuniv.nl](mailto:stucomair@hum.leidenuniv.nl)
