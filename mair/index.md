@@ -58,20 +58,18 @@ This page is adapted from the MAIR thesis supervision guidelines. Confirm detail
 | **Citation style** | {{ program.citation_long }} |
 | **Language** | English |
 | **Specialization fit** | Thesis must fit your MAIR specialization track |
-| **Next deadline** | December 2026 (date TBD) |
+| **Deadlines** | {{ program.fall_deadline }} (fall) and {{ program.deadline }} (spring) |
 
 ---
 
 ## Deadlines
 
-*This site will be updated as new AY2026-2027 deadlines are published. Dates not yet announced are marked TBD.*
-
 MAIR has one thesis deadline per semester. If you miss it, your next opportunity is the following semester.
 
-| Deadline | Date |
-|----------|------|
-| **June** | **{{ program.deadline }}** |
-| December | TBD (typically first Friday of December) |
+| Semester | Deadline |
+|----------|----------|
+| Fall 2026 | **Friday, {{ program.fall_deadline }}** |
+| Spring 2027 | **Friday, {{ program.deadline }}** |
 
 **Extensions.** Discuss an extension with **both** your supervisor and your second reader well before the deadline, since both must approve it. An extension may delay your graduation date and keep you out of the graduation ceremony. If it is not approved, contact [stucomair@hum.leidenuniv.nl](mailto:stucomair@hum.leidenuniv.nl) and consult the Board of Examiners.
 
@@ -150,6 +148,7 @@ Fraud and plagiarism are knockout criteria.
 
 ## Formatting
 
+- No more than 15,000 words, counting all elements (notes, bibliography, and appendices). This is a hard maximum with no 10% margin
 - Written in English, in Word format
 - 1.5 line spacing, standard margins, standard size 12 font
 - Title page with your name, email, student number, and word count (including all elements)
@@ -162,13 +161,15 @@ If writing in English is a struggle, contact the [Writing Lab](https://www.stude
 
 ## Submission
 
-Email your thesis to your supervisor and second reader, with a copy to [MAthesis@hum.leidenuniv.nl](mailto:MAthesis@hum.leidenuniv.nl) (MA Course and Examination Regulations, Appendix A, Art. 6.1). Ask for confirmation of receipt, and follow up if none arrives within a week.
+Email the final thesis to your supervisor, with your second reader and [MAthesis@hum.leidenuniv.nl](mailto:MAthesis@hum.leidenuniv.nl) in cc (MA Course and Examination Regulations, Appendix A, Art. 6.1). Submit a printed copy only if your supervisor asks for one. Your supervisor uploads the thesis to Turnitin. Ask for confirmation of receipt, and follow up if none arrives within a week.
+
+Grades are due within four weeks of receipt, so January 12, 2027 for the December round. Grading can take longer over the summer.
 
 ---
 
 ## Resubmission
 
-If you fail, you get one retake. To graduate in the same semester, meet these retake deadlines:
+If you fail, you get one retake, which you can submit at any time. To graduate in the same semester, submit the revised thesis by these dates:
 
 | Original deadline | Retake deadline |
 |-------------------|----------------|

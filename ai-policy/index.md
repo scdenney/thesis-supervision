@@ -36,7 +36,7 @@ description: "Where I stand on AI in research and writing, my policy for supervi
 
 # Working with AI
 
-<p class="page-version"><span class="page-version-number">Version 1</span><span class="page-version-date">October 2026</span><span class="page-version-note">The positions and policy on this page are subject to change.</span></p>
+<p class="page-version"><span class="page-version-number">Version 2</span><span class="page-version-date">November 2026</span><span class="page-version-note">The positions and policy on this page are subject to change.</span></p>
 
 This page sets out my position on AI in research and the evidence on AI and learning behind it. It also states my AI policy for written work I assess at Leiden University, theses included. It is written for students, but other faculty and administrators may remix and reuse it.
 
@@ -340,7 +340,7 @@ Students show the same pattern. In a preprint, [Eleftheriou et al. (2026)](#src-
 
 ## The policy {#the-policy}
 
-My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of GenAI in Assessment](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/guidelines-for-the-use-of-genai-in-assessment) (27 August 2025). In short, I hold that generative AI (including chatbots, AI agents, and other AI tools) may not be used in work that I assess unless I have explicitly permitted a specific use. This use must be pre-approved and formally disclosed. Records of prompts and outputs must be kept and handed over upon request. Below is more detail on my AI policy.
+My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of GenAI in Assessment](https://www.organisatiegids.universiteitleiden.nl/en/regulations/humanities/guidelines-for-the-use-of-genai-in-assessment) (27 August 2025). In short, general conversational use of generative AI, such as asking questions or brainstorming, needs no approval. Any significant use of AI (including chatbots, AI agents, and other AI tools) in work that I assess must be approved by me in advance and formally disclosed. Records of prompts and outputs must be kept and handed over upon request. Below is more detail on my AI policy.
 
 <section class="policy-card" aria-labelledby="policy-heading" markdown="0">
 <header class="policy-card-head">
@@ -351,8 +351,8 @@ My AI use policy builds on the Faculty of Humanities [Guidelines for the Use of 
 <li class="policy-rule">
 <span class="policy-rule-number" aria-hidden="true">1</span>
 <div>
-<h4>Agree on AI use in advance</h4>
-<p class="policy-rule-gloss">Before you accept AI into your research workflow -- whether a chatbot, an AI agent, or otherwise -- you need to discuss with me which tools you plan to use and for which tasks. I want you to show me that you understand what the tool does and demonstrate why you need to use it. We must agree on this use in writing. No agreement will cover having AI write the prose of your manuscript. For thesis research, the agreement can form a short section of your proposal. Without prior authorization, no AI use in the research and writing process is permitted, which is the baseline Faculty policy.</p>
+<h4>Agree on significant AI use in advance</h4>
+<p class="policy-rule-gloss">General, conversational use of AI is not regulated and needs no approval. This includes asking questions, talking through an idea, brainstorming, and checking your understanding. If AI will play a significant role in your thesis or other work I assess, you need my approval before you start. Examples are generating or rewriting text, writing code, classifying or analyzing data, translating sources, and synthesizing literature. Tell me which tools you plan to use and for which tasks, show me that you understand what each tool does, and explain why you need it. We must agree on this use in writing. For thesis research, the agreement can form a short section of your proposal. No agreement will cover having AI write the prose of your manuscript. Without prior approval, no significant AI use is permitted, which is the baseline Faculty policy.</p>
 </div>
 </li>
 

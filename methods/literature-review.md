@@ -129,7 +129,7 @@ These points follow van der Maat (2026) and apply to any part of a thesis.
 
 Give page numbers for your claims, and check that each cited page says what you claim. Some courses will not mark a citation without a page number, and a cited page that does not support the claim can be treated as suspected fraud. Even where this is not a rule, the habit makes you check your sources. [Working with AI]({{ '/ai-policy/#the-policy' | relative_url }}) explains how I check references and page citations.
 
-You do not need prior agreement to brainstorm with AI, but the text and claims must be yours. Do not paste copyrighted sources into AI tools, as the [Faculty guidelines]({{ '/ethics/#generative-ai-policy' | relative_url }}) prohibit this.
+You do not need my approval to brainstorm with AI or ask it questions, but the text and claims must be yours. Using AI to synthesize literature is a significant use and needs my approval first under [Working with AI]({{ '/ai-policy/' | relative_url }}). Do not paste copyrighted sources into AI tools, as the [Faculty guidelines]({{ '/ethics/#generative-ai-policy' | relative_url }}) prohibit this.
 
 ---
 

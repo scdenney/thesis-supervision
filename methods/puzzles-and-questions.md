@@ -176,7 +176,7 @@ Write your puzzle in two or three sentences and your research question in one. T
 
 <div class="tip-box" markdown="1">
 
-**AI and brainstorming.** You do not need prior agreement to brainstorm with AI. The text and claims must still be yours, and you must check every source yourself. Other uses fall under [Working with AI]({{ '/ai-policy/' | relative_url }}).
+**AI and brainstorming.** You do not need my approval to brainstorm with AI, ask it questions, or check your understanding. The text and claims must still be yours, and you must check every source yourself. Any significant use in your thesis, such as generating or rewriting text, coding, or synthesizing literature, needs my approval first under [Working with AI]({{ '/ai-policy/' | relative_url }}).
 
 </div>
 

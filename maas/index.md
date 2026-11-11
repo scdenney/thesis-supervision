@@ -56,33 +56,30 @@ This page is adapted from the MA Asian Studies thesis protocol. Confirm details 
 | **Citation style** | {{ program.citation_long }} |
 | **Language** | English |
 | **Asian-language sources** | Encouraged, and required for some specializations (see below) |
-| **Final deadline** | {{ program.deadline }} (fall entry) |
+| **Final deadline** | {{ program.deadline }} |
 
 ---
 
 ## Timeline and Deadlines
 
-*This site will be updated as new AY2026-2027 deadlines are published. Dates not yet announced are marked TBD.*
+Your supervisor is assigned on the basis of the thesis distribution form you submit in September. Contact your supervisor to set up the first meeting, and come prepared to each meeting.
 
-Your supervisor is assigned on the basis of the thesis distribution form you submit early in the program.
-
-| Milestone | Fall entry | Spring entry |
-|-----------|-----------|--------------|
-| Thesis distribution form due | September 24 | Mid-February |
-| Thesis methodology sessions | During Introduction to Asian Studies | First 3 weeks of the semester |
-| First meeting with supervisor | November | March |
-| Thesis proposal draft due | January 5 | June 1 |
-| Supervisor feedback on proposal | By January 20 | By June 20 |
-| Final thesis proposal due | January 31 | July 1 |
-| **First thesis submission** | **May 1, 2027** | **November 1, 2026** |
-| Supervisor feedback on draft | Within 10 working days | Within 10 working days |
-| **Final thesis deadline** | **{{ program.deadline }}** | **December 15, 2026** |
-
-The proposal-stage dates come from the 2025–26 protocol. Check the current protocol on Brightspace for this year's dates.
+| Milestone | Date |
+|-----------|------|
+| First meeting with supervisor | October–November 2026 |
+| **Thesis proposal** | **December 14, 2026** |
+| Supervisor written feedback on proposal | By the second week of January 2027 |
+| **Final thesis proposal** (by email) | **January 22, 2027** |
+| Second meeting: thesis outline and first chapter | February 2027 |
+| Third meeting: draft chapters | March–April 2027 |
+| **Thesis draft** | **May 1, 2027** |
+| Supervisor feedback on draft | Within 10 working days, followed by a final meeting |
+| **Final thesis** | **{{ program.deadline }}** |
+| Resit (after a failing grade) | August 15, 2027 |
 
 <div class="info-box" markdown="1">
 
-**Important:** By the first submission deadline (May 1 or November 1), hand in your thesis or part of it. You then have the right to feedback on your work within 10 working days. If you miss the first deadline, you lose the right to further feedback and will not be able to submit your thesis by the final deadline.
+**Important:** Submit a draft of your thesis by May 1, ideally the whole thesis. Your supervisor then gives written feedback within 10 working days. If you submit no draft by May 1, you lose the right to further feedback and may not be allowed to submit a final version on June 15.
 
 </div>
 
@@ -90,17 +87,23 @@ The proposal-stage dates come from the 2025–26 protocol. Check the current pro
 
 ## Thesis Proposal
 
-The proposal is a pass/fail component of the Introduction to Asian Studies course. It is about 1,500 words (including bibliography) and should outline your research question, the relevant literature, and your method. Email a draft to your supervisor by the draft deadline, then submit a final version, revised in light of your supervisor's written feedback, by the final deadline. If your proposal does not pass, you can resubmit a revised proposal from April 1 (if you submitted the original in January).
+The proposal is a required element of the course Asian Studies: Perspectives and Debates. It is up to 1,500 words, excluding bibliography. It should state your topic and research question, explain why the question matters in the field and how it relates to the existing literature, and describe your sources and method.
+
+Email the proposal to your supervisor by December 14. Your supervisor gives written feedback by the second week of January, and you email the revised version by January 22. The course grade is issued only once you have passed the exams and submitted the proposal. Without a proposal, you have not completed the course and must repeat it the following year.
 
 ---
 
 ## Writing and Submission
 
-Once your proposal is approved, you write draft chapters in consultation with your supervisor and meet at least twice during the writing phase. Ask your supervisor about their layout preferences (font, spacing, footnotes or endnotes).
+After the proposal, you meet your supervisor in February to discuss the chapter outline, and again in March or April to discuss draft chapters. Ask your supervisor about their layout and citation preferences (font, spacing, footnotes or endnotes).
 
-**Submission procedure.** Email the final thesis to your supervisor, your second reader, and [MAthesis@hum.leidenuniv.nl](mailto:MAthesis@hum.leidenuniv.nl) by the final deadline.
+Track your progress with the **MAAS thesis progress overview and checklist 2026-27**, available on Brightspace. It lists what the title page must include.
 
-**Extensions.** Supervisors cannot grant extensions. If you face extenuating circumstances, submit your request to the Board of Examiners.
+**AI disclosure.** Every thesis file must include the MAAS AI disclosure statement, placed after the title page. The form is on Brightspace. My own rules on AI use are on [Working with AI]({{ '/ai-policy/' | relative_url }}).
+
+**Submission procedure.** Email the final thesis as a PDF to your supervisor, with your second reader and [MAthesis@hum.leidenuniv.nl](mailto:MAthesis@hum.leidenuniv.nl) in cc, on or before June 15. Name the file with your student number and surname (for example, `s1234567surname.pdf`).
+
+**Extensions.** Supervisors cannot grant extensions. Any extension must be approved by the Board of Examiners.
 
 ---
 
@@ -108,7 +111,7 @@ Once your proposal is approved, you write draft chapters in consultation with yo
 
 Your supervisor (first reader) and a second reader assess the thesis independently and then agree on a joint grade. They grade the five Faculty criteria of knowledge and insight, application of knowledge, reaching conclusions, communication, and learning skills (the research process, which only your supervisor grades). [Assessment Standards]({{ '/assessment-standards/' | relative_url }}) explains each criterion and gives the grade descriptors.
 
-A thesis must be graded within four weeks of submission, or within six weeks between July 1 and August 31 (MA Course and Examination Regulations, Appendix A, Art. 6.3).
+Your supervisor and second reader have four weeks from submission to complete and register the assessment, so grades for the June 15 deadline are due by July 13. For a resit submitted between July 1 and August 31, the period is six weeks (MA Course and Examination Regulations, Appendix A, Art. 6.3).
 
 ---
 
@@ -119,7 +122,7 @@ Every specialization expects broad knowledge of its region or field, including i
 - **East Asian Studies (MA60)**: the ability to locate, assess, and use original sources in modern or classical Chinese, Japanese, or Korean.
 - **South Asian Studies (MA60)**: if you took intermediate or advanced language electives, the ability to use original sources in Hindi, Sanskrit, or Classical Tibetan.
 - **Southeast Asian Studies (MA60)**: if you took intermediate or advanced language electives, the ability to use original sources in Malay/Indonesian.
-- **Global Asian Studies (MA60)**: this specialization replaces History, Arts and Culture and Politics, Society, and Economy from September 2026. Its thesis requirements are TBD. Check the 2026-27 protocol on Brightspace.
+- **Global Asian Studies (MA60)**: this specialization replaces History, Arts and Culture and Politics, Society, and Economy from September 2026. It asks for knowledge of one or more Asian regions and their internal and external dynamics, of current trends in Asia (particularly what connects the region), and of the theories and methods used to study Asia in the humanities and social sciences.
 - **History, Arts and Culture (MA60)** and **Politics, Society, and Economy (MA60)**, for students who entered before September 2026: knowledge of one or more Asian regions and familiarity with the relevant disciplinary theories and methods.
 - **Chinese, Japanese, or Korean Studies (MA120)**: all of the above for your region, plus a command of the language good enough for academic and professional use, and the ability to design, conduct, and complete original research independently.
 
@@ -131,7 +134,7 @@ If you do not pass, or do not submit by the final deadline, you can resubmit und
 
 | Original deadline | Resit |
 |---|---|
-| June 15, 2027 | August 15, 2027, or the fall round (draft November 1, final December 15, 2027) |
+| June 15, 2027 | August 15, 2027, or the fall resubmission round (draft November 1, final December 15, 2027) |
 | December 15, 2026 | June 15, 2027 |
 
 ---

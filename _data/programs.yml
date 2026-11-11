@@ -30,8 +30,8 @@ programs:
     name: Asian Studies
     level: MA
     url: /maas/
-    words: "15,000 max"
-    words_plain: "Up to 15,000 words, excluding footnotes and bibliography"
+    words: "12,000&ndash;15,000"
+    words_plain: "12,000 to 15,000 words, excluding footnotes, references, and appendices"
     citation: "Consistent, recognized style"
     citation_long: "A consistent, recognized citation style appropriate to the discipline (for example, *Journal of Asian Studies* for social science or *American Historical Review* for history)"
     deadline: "June 15, 2027"
@@ -45,5 +45,6 @@ programs:
     words_plain: "15,000 words maximum &mdash; a hard cap including all elements (notes, bibliography, and appendices), with no 10% margin"
     citation: "Consistent, recognized style"
     citation_long: "One consistent, recognized reference style applied throughout"
-    deadline: "June 2027 (date TBD)"
+    deadline: "June 4, 2027"
+    fall_deadline: "December 4, 2026"
     language: "English"
